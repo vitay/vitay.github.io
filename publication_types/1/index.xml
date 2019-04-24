@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>1 on Julien Vitay</title>
+    <link>https://julien-vitay.net/publication_types/1/</link>
+    <description>Recent content in 1 on Julien Vitay</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 01 Feb 2019 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://julien-vitay.net/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Feature Map Transformation for Fusion of Multi-Sensor Object Detection Networks for Autonomous Driving</title>
+      <link>https://julien-vitay.net/publication/schroeder2019/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/schroeder2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recurrent Spatial Attention for Facial Emotion Recognition</title>
+      <link>https://julien-vitay.net/publication/forch2019/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/forch2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fusion of Camera and Lidar Data for Object Detection using Neural Networks</title>
+      <link>https://julien-vitay.net/publication/schroeder2018/</link>
+      <pubDate>Wed, 26 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/schroeder2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Training a deep policy gradient-based neural network with asynchronous learners on a simulated robotic problem</title>
+      <link>https://julien-vitay.net/publication/loetzsch2017/</link>
+      <pubDate>Fri, 15 Sep 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/loetzsch2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

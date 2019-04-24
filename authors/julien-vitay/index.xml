@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Julien Vitay</title>
+    <link>https://julien-vitay.net/authors/julien-vitay/</link>
+    <description>Recent content on Julien Vitay</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Mar 2019 12:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://julien-vitay.net/authors/julien-vitay/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deep Learning and Intelligence: the right approach?</title>
+      <link>https://julien-vitay.net/talk/clt2019/</link>
+      <pubDate>Sat, 16 Mar 2019 12:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/talk/clt2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feature Map Transformation for Fusion of Multi-Sensor Object Detection Networks for Autonomous Driving</title>
+      <link>https://julien-vitay.net/publication/schroeder2019/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/schroeder2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recurrent Spatial Attention for Facial Emotion Recognition</title>
+      <link>https://julien-vitay.net/publication/forch2019/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/forch2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fusion of Camera and Lidar Data for Object Detection using Neural Networks</title>
+      <link>https://julien-vitay.net/publication/schroeder2018/</link>
+      <pubDate>Wed, 26 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/schroeder2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the role of cortex-basal ganglia interactions for category learning: A neuro-computational approach</title>
+      <link>https://julien-vitay.net/publication/villagrasa2018/</link>
+      <pubDate>Tue, 18 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/villagrasa2018/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>Sustainable computational science: the ReScience initiative</title>
+      <link>https://julien-vitay.net/publication/rougier2017/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/rougier2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive Place-Cell Sequences for Goal-Finding Emerge from Goal Memory and the Cognitive Map: A Computational Model</title>
+      <link>https://julien-vitay.net/publication/goenner2017/</link>
+      <pubDate>Thu, 12 Oct 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/goenner2017/</guid>
+      <description>   </description>
+    </item>
+    
+    <item>
+      <title>Training a deep policy gradient-based neural network with asynchronous learners on a simulated robotic problem</title>
+      <link>https://julien-vitay.net/publication/loetzsch2017/</link>
+      <pubDate>Fri, 15 Sep 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/loetzsch2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the role of dopamine in motivated behavior: a neuro-computational approach</title>
+      <link>https://julien-vitay.net/publication/habilitation/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/habilitation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Re] Robust timing and motor patterns by taming chaos in recurrent neural networks</title>
+      <link>https://julien-vitay.net/publication/vitay2016/</link>
+      <pubDate>Fri, 07 Oct 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/vitay2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ANNarchy: a code generation approach to neural simulations on parallel hardware</title>
+      <link>https://julien-vitay.net/publication/vitay2015/</link>
+      <pubDate>Fri, 31 Jul 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/vitay2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Timing and expectation of reward: a neuro-computational model of the afferents to the ventral tegmental area</title>
+      <link>https://julien-vitay.net/publication/vitay2014/</link>
+      <pubDate>Fri, 31 Jan 2014 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/vitay2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dysfunctional and compensatory synaptic plasticity in Parkinson&#39;s disease</title>
+      <link>https://julien-vitay.net/publication/schroll2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/schroll2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparison of GPU- and CPU-implementations of mean-firing rate neural networks on parallel hardware</title>
+      <link>https://julien-vitay.net/publication/dinkelbach2012/</link>
+      <pubDate>Fri, 09 Nov 2012 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/dinkelbach2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Basal Ganglia learning</title>
+      <link>https://julien-vitay.net/publication/vitay2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/vitay2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Working memory and response selection: A computational account of interactions among cortico-basalganglio-thalamic loops</title>
+      <link>https://julien-vitay.net/publication/schroll2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/schroll2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Neuroscientific View on the Role of Emotions in Behaving Cognitive Agents</title>
+      <link>https://julien-vitay.net/publication/vitay2011/</link>
+      <pubDate>Mon, 01 Aug 2011 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/vitay2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A computational model of basal ganglia and its role in memory retrieval in rewarded visual memory tasks</title>
+      <link>https://julien-vitay.net/publication/vitay2010/</link>
+      <pubDate>Fri, 28 May 2010 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/vitay2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biological Models of Reinforcement Learning</title>
+      <link>https://julien-vitay.net/publication/vitay2009/</link>
+      <pubDate>Tue, 01 Sep 2009 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/vitay2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sustained Activities and Retrieval in a Computational Model of the Perirhinal Cortex</title>
+      <link>https://julien-vitay.net/publication/vitay2008/</link>
+      <pubDate>Tue, 14 Oct 2008 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/vitay2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the role of dopamine in cognitive vision</title>
+      <link>https://julien-vitay.net/publication/vitay2007/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/vitay2007/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emergence of sensorimotor functions on a numerical distributed neural substrate</title>
+      <link>https://julien-vitay.net/publication/phd/</link>
+      <pubDate>Fri, 23 Jun 2006 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A computational model of spatial memory anticipation during visual search</title>
+      <link>https://julien-vitay.net/publication/fix2006/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/fix2006/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emergence of attention within a neural population</title>
+      <link>https://julien-vitay.net/publication/rougier2005/</link>
+      <pubDate>Wed, 01 Jun 2005 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/rougier2005/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A distributed model of spatial visual attention</title>
+      <link>https://julien-vitay.net/publication/vitay2005/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/vitay2005/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Introduction to ANNarchy</title>
+      <link>https://julien-vitay.net/slides/annarchy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://julien-vitay.net/slides/annarchy/</guid>
+      <description>ANNarchy (Artificial Neural Networks architect) Julien Vitay ANNarchy (Artificial Neural Networks architect)  Source code:  https://bitbucket.org/annarchy/annarchy
+ Documentation:  https://annarchy.readthedocs.io/en/stable/
+ Forum:  https://groups.google.com/forum/#!forum/annarchy
+ Notebooks used in this tutorial:  https://github.com/vitay/ANNarchy-notebooks
+Installation Installation guide: https://annarchy.readthedocs.io/en/stable/intro/Installation.html
+ From pip:  pip install ANNarchy   From source:  git clone https://bitbucket.org/annarchy/annarchy.git cd annarchy python setup.py install   Requirements (Linux and MacOS):
+ g++/clang++, python 2.7 or 3.5+, numpy, scipy, matplotlib, sympy, cython   Features  Simulation of both rate-coded and spiking neural networks.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,1242 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Julien Vitay</title>
+    <link>https://julien-vitay.net/</link>
+    <description>Recent content on Julien Vitay</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Mar 2019 12:00:00 +0100</lastBuildDate>
+    
+	    <atom:link href="https://julien-vitay.net/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Deep Learning and Intelligence: the right approach?</title>
+      <link>https://julien-vitay.net/talk/clt2019/</link>
+      <pubDate>Sat, 16 Mar 2019 12:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/talk/clt2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Feature Map Transformation for Fusion of Multi-Sensor Object Detection Networks for Autonomous Driving</title>
+      <link>https://julien-vitay.net/publication/schroeder2019/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/schroeder2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recurrent Spatial Attention for Facial Emotion Recognition</title>
+      <link>https://julien-vitay.net/publication/forch2019/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/forch2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fusion of Camera and Lidar Data for Object Detection using Neural Networks</title>
+      <link>https://julien-vitay.net/publication/schroeder2018/</link>
+      <pubDate>Wed, 26 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/schroeder2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the role of cortex-basal ganglia interactions for category learning: A neuro-computational approach</title>
+      <link>https://julien-vitay.net/publication/villagrasa2018/</link>
+      <pubDate>Tue, 18 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/villagrasa2018/</guid>
+      <description>
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;model.png&#34; /&gt;
+
+
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Sustainable computational science: the ReScience initiative</title>
+      <link>https://julien-vitay.net/publication/rougier2017/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/rougier2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive Place-Cell Sequences for Goal-Finding Emerge from Goal Memory and the Cognitive Map: A Computational Model</title>
+      <link>https://julien-vitay.net/publication/goenner2017/</link>
+      <pubDate>Thu, 12 Oct 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/goenner2017/</guid>
+      <description>
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;model.png&#34; /&gt;
+
+
+&lt;/figure&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Training a deep policy gradient-based neural network with asynchronous learners on a simulated robotic problem</title>
+      <link>https://julien-vitay.net/publication/loetzsch2017/</link>
+      <pubDate>Fri, 15 Sep 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/loetzsch2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the role of dopamine in motivated behavior: a neuro-computational approach</title>
+      <link>https://julien-vitay.net/publication/habilitation/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/habilitation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Re] Robust timing and motor patterns by taming chaos in recurrent neural networks</title>
+      <link>https://julien-vitay.net/publication/vitay2016/</link>
+      <pubDate>Fri, 07 Oct 2016 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/vitay2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ANNarchy: a code generation approach to neural simulations on parallel hardware</title>
+      <link>https://julien-vitay.net/publication/vitay2015/</link>
+      <pubDate>Fri, 31 Jul 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/vitay2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Timing and expectation of reward: a neuro-computational model of the afferents to the ventral tegmental area</title>
+      <link>https://julien-vitay.net/publication/vitay2014/</link>
+      <pubDate>Fri, 31 Jan 2014 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/vitay2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dysfunctional and compensatory synaptic plasticity in Parkinson&#39;s disease</title>
+      <link>https://julien-vitay.net/publication/schroll2014/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/schroll2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparison of GPU- and CPU-implementations of mean-firing rate neural networks on parallel hardware</title>
+      <link>https://julien-vitay.net/publication/dinkelbach2012/</link>
+      <pubDate>Fri, 09 Nov 2012 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/dinkelbach2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Basal Ganglia learning</title>
+      <link>https://julien-vitay.net/publication/vitay2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/vitay2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Working memory and response selection: A computational account of interactions among cortico-basalganglio-thalamic loops</title>
+      <link>https://julien-vitay.net/publication/schroll2012/</link>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/schroll2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Neuroscientific View on the Role of Emotions in Behaving Cognitive Agents</title>
+      <link>https://julien-vitay.net/publication/vitay2011/</link>
+      <pubDate>Mon, 01 Aug 2011 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/vitay2011/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A computational model of basal ganglia and its role in memory retrieval in rewarded visual memory tasks</title>
+      <link>https://julien-vitay.net/publication/vitay2010/</link>
+      <pubDate>Fri, 28 May 2010 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/vitay2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Biological Models of Reinforcement Learning</title>
+      <link>https://julien-vitay.net/publication/vitay2009/</link>
+      <pubDate>Tue, 01 Sep 2009 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/vitay2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sustained Activities and Retrieval in a Computational Model of the Perirhinal Cortex</title>
+      <link>https://julien-vitay.net/publication/vitay2008/</link>
+      <pubDate>Tue, 14 Oct 2008 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/vitay2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the role of dopamine in cognitive vision</title>
+      <link>https://julien-vitay.net/publication/vitay2007/</link>
+      <pubDate>Mon, 01 Jan 2007 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/vitay2007/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emergence of sensorimotor functions on a numerical distributed neural substrate</title>
+      <link>https://julien-vitay.net/publication/phd/</link>
+      <pubDate>Fri, 23 Jun 2006 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A computational model of spatial memory anticipation during visual search</title>
+      <link>https://julien-vitay.net/publication/fix2006/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/fix2006/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emergence of attention within a neural population</title>
+      <link>https://julien-vitay.net/publication/rougier2005/</link>
+      <pubDate>Wed, 01 Jun 2005 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/rougier2005/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A distributed model of spatial visual attention</title>
+      <link>https://julien-vitay.net/publication/vitay2005/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/vitay2005/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ANNarchy</title>
+      <link>https://julien-vitay.net/project/annarchy/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/project/annarchy/</guid>
+      <description>
+
+&lt;p&gt;Neuro-computational models are different from classical neural networks (deep learning) in many aspects:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The complexity of the neurons, whose activity is governed by one or several differential equations instead of a simple weighted sum.&lt;/li&gt;
+&lt;li&gt;The complexity and diversity of the learning rules (synaptic plasticity), compared to gradient descent.&lt;/li&gt;
+&lt;li&gt;The size of the networks needed to simulate significant parts of the brain.&lt;/li&gt;
+&lt;li&gt;The huge diversity of models, architectures, frameworks used by researchers in computational neuroscience.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The increasing size of such networks asks for efficient parallel simulations, using distributed systems (OpenMP, MPI) or GPUs (CUDA). However, computational neuroscientists cannot be expected to be also experts in parallel computing. There is a need for a general-purpose neuro-simulator, with an easy but flexible interface allowing to define a huge variety of models, but which is internally efficient and allows for fast parallel simulations on various hardwares.&lt;/p&gt;
+
+&lt;p&gt;Over many years, we have developed &lt;strong&gt;ANNarchy&lt;/strong&gt; (Artificial Neural Networks architect), a parallel simulator for distributed rate-coded or spiking neural networks. The definition of the models is made in Python, but the library generates optimized C++ code to actually run the simulation on parallel hardware, using either openMP or CUDA. The current stable version is 4.6 and is released under the GNU GPL v2 or later.&lt;/p&gt;
+
+&lt;p&gt;The code is available at:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://bitbucket.org/annarchy/annarchy&#34; target=&#34;_blank&#34;&gt;https://bitbucket.org/annarchy/annarchy&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The documentation is available at:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://annarchy.readthedocs.org&#34; target=&#34;_blank&#34;&gt;https://annarchy.readthedocs.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;core-principles&#34;&gt;Core principles&lt;/h3&gt;
+
+&lt;p&gt;ANNarchy separates the description of a neural network from its simulation. The description is declared in a Python script, offering high flexibility and readability of the code, and allowing to use the huge ecosystem of scientific libraries available with Python (Numpy, Scipy, Matplotlib&amp;hellip;). Using Python furthermore reduces the programming effort to a minimum, letting the modeller concentrate on network design and data analysis.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:60%; min-width:320px&#34; src=&#34;annarchy.svg&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;A neural network is defined as a collection of interconnected populations of neurons. Each population comprises a set of similar artificial neurons (rate-coded or spiking point-neurons), whose activity is ruled by one or many ordinary differential equations. The activity of a neuron depends on the activity of other neurons through synapses, whose strength can evolve with time depending on pre- or post-synaptic activities (synaptic plasticity). Populations are interconnected with each other through projections, which contain synapses between two populations.&lt;/p&gt;
+
+&lt;p&gt;ANNarchy provides a set of classical neuron or synapse models, but also allows the definition of specific models. The ordinary differential equations (ODE) governing neural or synaptic dynamics have to be specified by the modeler. Contrary to other simulators (except Brian) which require to code these modules in a low-level language, ANNarchy provides a mathematical equation parser which can generate optimized C++ code depending on the chosen parallel framework. Bindings from C++ to Python are generated thanks to Cython (C-extensions to Python), which is a static compiler for Python. These bindings allow the Python script to access all data generated by the simulation (neuronal activity, connection weights) as if they were simple Python attributes. However, the simulation itself is independent from Python and its relatively low performance.&lt;/p&gt;
+
+&lt;h3 id=&#34;example-of-a-pulse-coupled-network-of-izhikevich-neurons&#34;&gt;Example of a pulse-coupled network of Izhikevich neurons&lt;/h3&gt;
+
+&lt;p&gt;To demonstrate the simplicity of ANNarchy&amp;rsquo;s interface, let&amp;rsquo;s focus on the &amp;ldquo;Hello, World!&amp;rdquo; of spiking networks: the pulse-coupled network of Izhikevich neurons (Izhikevich, 2003). It can be defined in ANNarchy as:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from ANNarchy import *
+
+# Create the excitatory and inhibitory population
+pop = Population(geometry=1000, neuron=Izhikevich)
+Exc = pop[:800]                 ; Inh = pop[800:]
+
+# Set the population parameters
+re = np.random.random(800)      ; ri = np.random.random(200)
+Exc.noise = 5.0                 ; Inh.noise = 2.0
+Exc.a = 0.02                    ; Inh.a = 0.02 + 0.08 * ri
+Exc.b = 0.2                     ; Inh.b = 0.25 - 0.05 * ri
+Exc.c = -65.0 + 15.0 * re**2    ; Inh.c = -65.0
+Exc.d = 8.0 - 6.0 * re**2       ; Inh.d = 2.0
+Exc.v = -65.0                   ; Inh.v = -65.0
+Exc.u = Exc.v * Exc.b           ; Inh.u = Inh.v * Inh.b
+
+# Create the projections
+exc_proj = Projection(pre=Exc, post=pop, target=&#39;exc&#39;)
+exc_proj.connect_all_to_all(weights=Uniform(0.0, 0.5))
+
+inh_proj = Projection(pre=Inh, post=pop, target=&#39;inh&#39;)
+inh_proj.connect_all_to_all(weights=Uniform(0.0, 1.0))
+
+# Compile
+compile()
+
+# Start recording the spikes in the network to produce the plots
+M = Monitor(pop, [&#39;spike&#39;, &#39;v&#39;])
+
+# Simulate 1 second
+simulate(1000.0, measure_time=True)
+
+# Retrieve the spike recordings and the membrane potential
+spikes = M.get(&#39;spike&#39;)
+v = M.get(&#39;v&#39;)
+
+# Compute the raster plot
+t, n = M.raster_plot(spikes)
+
+# Compute the population firing rate
+fr = M.histogram(spikes)
+
+# Plot the results
+import matplotlib.pyplot as plt
+ax = plt.subplot(3,1,1)
+ax.plot(t, n, &#39;b.&#39;, markersize=1.0)
+ax = plt.subplot(3,1,2)
+ax.plot(v[:, 15])
+ax = plt.subplot(3,1,3)
+ax.plot(fr)
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/annarchy/izhikevich.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;publications&#34;&gt;Publications&lt;/h3&gt;
+
+&lt;p&gt;Julien Vitay, Helge Ü. Dinkelbach, Fred H. Hamker (2015). &lt;a href=&#34;../../publication/vitay2015/&#34;&gt;ANNarchy: a code generation approach to neural simulations on parallel hardware&lt;/a&gt;. Front. Neuroinform. 9:19. doi: 10.3389/fninf.2015.00019.&lt;/p&gt;
+
+&lt;p&gt;Helge Ü. Dinkelbach, Julien Vitay, Fred H. Hamker (2012). &lt;a href=&#34;../../publication/dinkelbach2012/&#34;&gt;Comparison of GPU- and CPU-implementations of mean-firing rate neural networks on parallel hardware&lt;/a&gt;. Network: Computation in Neural Systems 23(4). doi:10.3109/0954898X.2012.739292.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep Learning</title>
+      <link>https://julien-vitay.net/project/deeplearning/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/project/deeplearning/</guid>
+      <description>
+
+&lt;p&gt;The recent hype on &lt;strong&gt;deep learning&lt;/strong&gt; has revived the interest for artificial neural networks and their applications. Here are some projects done lately.&lt;/p&gt;
+
+&lt;h2 id=&#34;project-1-facial-emotion-recognition&#34;&gt;Project 1 : Facial emotion recognition&lt;/h2&gt;
+
+&lt;p&gt;Facial expression recognition is an important research field in computer vision. Although detecting facial features is an easy task for a human, computers still have a hard time doing it. Factors such as interpersonal variation (gender, skin color), intrapersonal variation (pose, expression) and different recording conditions (image resolution, lighting) add to the complexity of the problem. This is particularly relevant in the context of emotion recognition, where systems should be able to automatically recognize in which emotional state humans are.&lt;/p&gt;
+
+&lt;p&gt;On human faces, emotional expression heavily relies on the activation of individual facial muscles. A classical approach to describe facial expressions at the muscular level is the Facial Action Coding System (FACS) proposed by Ekman (1978). In this framework, movement of specific facial regions are described as Actions Units (AU), which basically describe deviations from a neutral expression. AUs are specific to facial regions (corner of the mouth or the eye, etc.). Although there are 69 AUs in the FACS theory, 28 of them are mostly useful for emotion recognition. We have focused on 12 of them: 1 (Inner Brow Raiser), 2 (Outer Brow Raiser), 4 (Brow Lowerer), 6 (Cheek Raiser), 7 (Lid Tightener), 10 (Upper Lip Raiser), 12 (Lip Corner Puller), 14 (Dimpler), 15 (Lip Corner Depressor), 17 (Chin Raiser), 23 (Lip Tightener), 24 (Lip Pressor).&lt;/p&gt;
+
+&lt;p&gt;There are different training sets generally available to the community containing various number of FACS-annotated images, with different numbers of annotated AUs: CCK+, MMI, UNBC-McMaster PAIN, DUSFA, BP4D, SEMAINE, etc. The 12 selected AUs correspond to the annotated AUs in BP4D, which is the most massive dataset. The main interest of these AUs is that they are mostly sufficient to predict the occurence of the 6 basic emotions using the EMFACS correspondance table:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Emotion&lt;/th&gt;
+&lt;th&gt;Action Units&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Happiness&lt;/td&gt;
+&lt;td&gt;6, 12&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Sadness&lt;/td&gt;
+&lt;td&gt;1, 4, 15&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Surprise&lt;/td&gt;
+&lt;td&gt;1, 2, 5B, 26&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Fear&lt;/td&gt;
+&lt;td&gt;1, 2, 4, 5, 7, 20, 26&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Anger&lt;/td&gt;
+&lt;td&gt;4, 5, 7, 23&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Disgust&lt;/td&gt;
+&lt;td&gt;9, 15, 16&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;After investigating various architectures to automatically predict AU occurence on faces, we converged towards a neural network architecture inspired from VGG-16:&lt;/p&gt;
+
+
+
+
+&lt;figure&gt;
+
+&lt;img src=&#34;model.png&#34; /&gt;
+
+
+
+&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+  &lt;h4&gt;Convolutional Neural Network for FACS recognition.&lt;/h4&gt;
+  
+&lt;/figcaption&gt;
+
+&lt;/figure&gt;
+
+&lt;p&gt;It consists of 4 convolutional blocks, each composed of 2 convolutional layers (kernel size 3x3, ReLU activation function) and a max-pooling layers (2x2). A dropout layer with p=0.2 is added after the max-pooling. After 4 such convolutional blocks with increasing numbers of features (32, 64, 126 and 256), the last tensor (6x6x256) is flattened into a vector of 9216 elements and projected on a fully connected layer of 500 neurons. The output layer has 12 neurons using the sigmoid activation function, each representing one of the 12 AUs present in the combined dataset. The network has a total of 5.786.192 trainable parameters (weights and biases), what makes it a middle-sized deep network that can fit into the available GPUs at the lab. The model was trained over 120 epochs using Stochastic Gradient Descent (SGD) on minibatches of 128 samples, with a learning rate of 0.01 and a Nesterov momentum of 0.9. The network has successfully learned the training data (final loss of 0.02) and has only very slightly overfitted. F1 scores for each AU on the test set are well over 0.9.&lt;/p&gt;
+
+&lt;p&gt;The video below shows the performance of the network in real conditions. The detected AUs are in the top-left corner, the recognized emotion in the bottom-left one.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;demo.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+
+&lt;h2 id=&#34;project-2-scene-understanding&#34;&gt;Project 2 : Scene understanding&lt;/h2&gt;
+
+&lt;p&gt;Recurrent neural networks coupled with attentional mechanisms have the ability to sequentially focus of the relevant parts of a visual scene. Coupled with a language production network, scene understanding abilities can be improved by finding the spatial location of the important objects in a scene while describing it.&lt;/p&gt;
+
+&lt;p&gt;The idea of the work done by Saransh Vora during his Master thesis in 2018 at the professorship was to study and reimplement the Show, attend and tell model of (Xu et al 2015, arXiv:1502.03044). The attentional signal is used to locate the most important objects of the sentence in the image, and have a Nao point at them while pronouncing the sentence.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/dupgWkoA78c&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;publications&#34;&gt;Publications&lt;/h3&gt;
+
+&lt;p&gt;Enrico Schröder, Mirko Mählisch, Julien Vitay, Fred H. Hamker (2018). &lt;a href=&#34;../../publication/schroeder2018&#34;&gt;Fusion of Camera and Lidar Data for Object Detection using Neural Networks&lt;/a&gt;. In Proceedings of 12. Workshop Fahrerassistenzsysteme und automatisiertes Fahren FAS 2018, 26-28.09.2018, Walting im Altmühltal (Germany). pp138-146. Darmstadt:Uni-DAS e.V..&lt;/p&gt;
+
+&lt;p&gt;Enrico Schröder, Sascha Braun, Mirko Mählisch, Julien Vitay, Fred H. Hamker (2019). &lt;a href=&#34;../../publication/schroeder2019&#34;&gt;Feature Map Transformation for Fusion of Multi-Sensor Object Detection Networks for Autonomous Driving&lt;/a&gt;. In Computer Vision Conference (CVC), Las Vegas (Nevada).&lt;/p&gt;
+
+&lt;p&gt;Valentin Forch, Julien Vitay, Fred H. Hamker (2019). &lt;a href=&#34;../../publication/forch2019&#34;&gt;Recurrent Spatial Attention for Facial Emotion Recognition&lt;/a&gt;. In Proceedings of Workshop Localize IT, Chemnitz Linux-Tage, Chemnitz (Germany).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Dopaminergic system</title>
+      <link>https://julien-vitay.net/project/dopamine/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/project/dopamine/</guid>
+      <description>
+
+&lt;p&gt;The dopaminergic system is composed of the &lt;em&gt;ventral tegmental area&lt;/em&gt; (VTA) and the &lt;em&gt;substantia nigra pars compacta&lt;/em&gt; (SNc). The neurotransmitter &lt;strong&gt;dopamine&lt;/strong&gt; (DA) released by neurons in these two small areas exerts a strong influence on neural excitability and plasticity in many brain areas: mostly the basal ganglia (BG), but also the prefrontal cortex, the hippocampus or the amygdala.&lt;/p&gt;
+
+&lt;p&gt;A striking feature of VTA cells is their response during classical (or Pavlovian) conditioning, as observed by Schultz et al (1998).  Early on, VTA cells respond phasically (a burst) to unconditioned stimuli (US, or rewards in operant conditioning). Gradually during learning, the amplitude of this response decreases, replaced by a response to the conditioned stimuli (CS) which are predictive of reward delivery. Moreover, if a reward is predicted by the CS but omitted, VTA cells show a brief depression of activity (a dip) at the time where the US was expected. This pattern resembles the temporal difference (TD) error signal used in reinforcement learning, what generated  multitudes of models based on that analogy.&lt;/p&gt;
+
+&lt;p&gt;What remains unclear is how VTA cells access information about the US, the CS and more importantly the time elapsed since CS onset. The goal of this research project is to investigate the mechanisms by which VTA is able to exhibit these properties, by looking at the afferent system to VTA. VTa indeed receives information from many brain areas, either directly as the rostromedial tegmental area (RMTg), the pedunculopontine nucleus (PPTN) or the nucleus accumbens (NAcc), or indirectly as the amygdala, the lateral habenula (LHb), the ventral pallidum (VP) or the ventromedial prefrontal cortex (vmPFC).&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/dopamine/dopamine.jpg&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;publications&#34;&gt;Publications&lt;/h3&gt;
+
+&lt;p&gt;Julien Vitay (2017). &lt;a href=&#34;../../publication/habilitation&#34;&gt;On the role of dopamine in motivated behavior: a neuro-computational approach&lt;/a&gt;. Habilitation (TU Chemnitz).&lt;/p&gt;
+
+&lt;p&gt;Julien Vitay, Fred H. Hamker (2014). &lt;a href=&#34;../../publication/vitay2014&#34;&gt;Timing and expectation of reward: a neuro-computational model of the afferents to the ventral tegmental area&lt;/a&gt;. Front. Neurorobot. 8:4. doi:10.3389/fnbot.2014.00004.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Introduction to ANNarchy</title>
+      <link>https://julien-vitay.net/slides/annarchy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://julien-vitay.net/slides/annarchy/</guid>
+      <description>
+
+&lt;p&gt;&lt;img style=&#34;width:40%; min-width:320px&#34; src=&#34;img/tuc.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&#34;annarchy-artificial-neural-networks-architect&#34;&gt;ANNarchy (Artificial Neural Networks architect)&lt;/h1&gt;
+
+&lt;h1 id=&#34;julien-vitay&#34;&gt;Julien Vitay&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;annarchy-artificial-neural-networks-architect-1&#34;&gt;ANNarchy (Artificial Neural Networks architect)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Source code:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://bitbucket.org/annarchy/annarchy&#34; target=&#34;_blank&#34;&gt;https://bitbucket.org/annarchy/annarchy&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Documentation:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/&#34; target=&#34;_blank&#34;&gt;https://annarchy.readthedocs.io/en/stable/&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Forum:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://groups.google.com/forum/#!forum/annarchy&#34; target=&#34;_blank&#34;&gt;https://groups.google.com/forum/#!forum/annarchy&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Notebooks used in this tutorial:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/vitay/ANNarchy-notebooks&#34; target=&#34;_blank&#34;&gt;https://github.com/vitay/ANNarchy-notebooks&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+
+&lt;p&gt;Installation guide: &lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/intro/Installation.html&#34; target=&#34;_blank&#34;&gt;https://annarchy.readthedocs.io/en/stable/intro/Installation.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;From pip:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install ANNarchy
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;From source:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone https://bitbucket.org/annarchy/annarchy.git
+cd annarchy
+python setup.py install
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Requirements (Linux and MacOS):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;g++/clang++, python 2.7 or 3.5+, numpy, scipy, matplotlib, sympy, cython&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Simulation of both &lt;strong&gt;rate-coded&lt;/strong&gt; and &lt;strong&gt;spiking&lt;/strong&gt; neural networks.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Only local biologically realistic mechanisms are possible (no backpropagation).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Equation-oriented&lt;/strong&gt; description of neural/synaptic dynamics (à la Brian).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Code generation&lt;/strong&gt; in C++, parallelized using OpenMP on CPU and CUDA on GPU (MPI is coming).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Synaptic, intrinsic and structural plasticity mechanisms.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:40%; min-width:320px&#34; src=&#34;img/annarchy.svg&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;img/annarchy.svg&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;structure-of-a-script&#34;&gt;Structure of a script&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from ANNarchy import *
+setup(dt=1.0)
+
+neuron = Neuron(...) # Create neuron types
+
+stdp = Synapse(...) # Create synapse types for transmission and/or plasticity
+
+pop = Population(1000, neuron) # Create populations of neurons
+
+proj = Projection(pop, pop, &#39;exc&#39;, stdp) # Connect the populations
+proj.connect_fixed_probability(weights=0.0, probability=0.1)
+
+compile() # Generate and compile the code
+
+m = Monitor(pop, [&#39;spike&#39;]) # Record spikes
+
+simulate(1000.) # Simulate for 1 second
+
+data = m.get(&#39;spike&#39;) # Retrieve the data and plot it
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;1-rate-coded-networks&#34;&gt;1 - Rate-coded networks&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;example-1-echo-state-network&#34;&gt;Example 1 : Echo-State Network&lt;/h2&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;img/rc.jpg&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;echo-state-network&#34;&gt;Echo-State Network&lt;/h2&gt;
+
+&lt;p&gt;ESN rate-coded neurons typically follow first-order ODEs:&lt;/p&gt;
+
+&lt;p&gt;$$
+    \tau \frac{dx(t)}{dt} + x(t) = \sum w^\text{in} \, r^\text{in}(t) + g \, \sum w^\text{rec} \, r(t) + \xi(t)
+$$&lt;/p&gt;
+
+&lt;p&gt;$$
+    r(t) = \tanh(x(t))
+$$&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from ANNarchy import *
+
+ESN_Neuron = Neuron(
+    parameters = &amp;quot;&amp;quot;&amp;quot;
+        tau = 30.0                 # Time constant
+        g = 1.0 : population       # Scaling
+        noise = 0.01 : population  # Noise amplitude
+    &amp;quot;&amp;quot;&amp;quot;,
+    equations=&amp;quot;&amp;quot;&amp;quot;
+        tau * dx/dt + x = sum(in) + g * sum(exc) + noise * Uniform(-1, 1) : init=0.0
+
+        r = tanh(x)
+    &amp;quot;&amp;quot;&amp;quot;
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;parameters&#34;&gt;Parameters&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;    parameters = &amp;quot;&amp;quot;&amp;quot;
+        tau = 30.0 # Time constant
+        g = 1.0 : population # Scaling
+        noise = 0.01 : population # Noise amplitude
+    &amp;quot;&amp;quot;&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;All parameters used in the equations must be declared in the &lt;strong&gt;Neuron&lt;/strong&gt; definition.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Parameters can have one value per neuron in the population (default) or be common to all neurons (flag &lt;code&gt;population&lt;/code&gt; or &lt;code&gt;projection&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Parameters and variables are double floats by default, but the type can be specified (&lt;code&gt;int&lt;/code&gt;, &lt;code&gt;bool&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;variables&#34;&gt;Variables&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;    equations=&amp;quot;&amp;quot;&amp;quot;
+        tau * dx/dt + x = sum(in) + g * sum(exc) + noise * Uniform(-1, 1) : init=0.0
+
+        r = tanh(x)
+    &amp;quot;&amp;quot;&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Variables are evaluated at each time step &lt;em&gt;in the order of their declaration&lt;/em&gt;, except for coupled ODEs.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Variables can be updated with assignments (&lt;code&gt;=&lt;/code&gt;, &lt;code&gt;+=&lt;/code&gt;, etc) or by defining first order ODEs.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The math C library symbols can be used (&lt;code&gt;tanh&lt;/code&gt;, &lt;code&gt;cos&lt;/code&gt;, &lt;code&gt;exp&lt;/code&gt;, etc).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Initial values at $t=0$ can be specified with &lt;code&gt;init&lt;/code&gt; (default: 0.0).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Lower/higher bounds on the values of the variables can be set with the &lt;code&gt;min&lt;/code&gt;/&lt;code&gt;max&lt;/code&gt; flags:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;r = x : min=0.0 # ReLU
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Additive noise can be drawn from several distributions, including &lt;code&gt;Uniform&lt;/code&gt;, &lt;code&gt;Normal&lt;/code&gt;, &lt;code&gt;LogNormal&lt;/code&gt;, &lt;code&gt;Exponential&lt;/code&gt;, &lt;code&gt;Gamma&lt;/code&gt;&amp;hellip;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The output variable of a rate-coded neuron &lt;strong&gt;must&lt;/strong&gt; be &lt;code&gt;r&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;odes&#34;&gt;ODEs&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;First-order ODEs are parsed and manipulated using &lt;code&gt;sympy&lt;/code&gt;:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;    # All equivalent:
+    tau * dx/dt + x = 0.0
+    tau * dx/dt = - x
+    dx/dt = (-x)/tau
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Several numerical methods are available (&lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/manual/NumericalMethods.html&#34; target=&#34;_blank&#34;&gt;https://annarchy.readthedocs.io/en/stable/manual/NumericalMethods.html&lt;/a&gt;):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Explicit (forward) Euler (default): &lt;code&gt;tau * dx/dt + x = 0.0 : init=0.0, explicit&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Implicit (backward) Euler: &lt;code&gt;tau * dx/dt + x = 0.0 : init=0.0, implicit&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Exponential Euler (exact for linear ODE): &lt;code&gt;tau * dx/dt + x = 0.0 : init=0.0, exponential&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Midpoint (RK2): &lt;code&gt;tau * dx/dt + x = 0.0 : init=0.0, midpoint&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Event-driven (spiking synapses): &lt;code&gt;tau * dx/dt + x = 0.0 : init=0.0, event-driven&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;coupled-odes&#34;&gt;Coupled ODEs&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ODEs are solved concurrently, instead of sequentially for assignments:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# I is updated
+I = sum(exc) - sum(inh) + b
+
+# u and v are solved concurrently using the current of I
+tau * dv/dt + v = I - u
+tau * du/dt + u = v
+
+# r uses the updated value of v
+r = tanh(v)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The order of the equations therefore matters a lot.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A single variable can only be updated once in the &lt;code&gt;equations&lt;/code&gt; field.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;populations&#34;&gt;Populations&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Populations are creating by specifying a number of neurons and a neuron type:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;pop = Population(1000, ESN_Neuron)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;For visualization purposes or when using convolutional layers, a tuple geometry can be passed instead of the size:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;pop = Population((100, 100), ESN_Neuron)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;All parameters and variables become attributes of the population (read and write) as numpy arrays:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;pop.tau = np.linspace(20.0, 40.0, 1000)
+pop.r = np.tanh(pop.v)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Single neurons can be individually modified, if the &lt;code&gt;population&lt;/code&gt; flag was not set:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;pop[10].r = 1.0
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Slices of populations are called &lt;code&gt;PopulationView&lt;/code&gt; and can be addressed separately:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;pop = Population(1000, ESN_Neuron)
+E = pop[:800]
+I = pop[800:]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;projections&#34;&gt;Projections&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Projections link two populations (or views) in a uni-directional way.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;proj_exc = Projection(E, pop, &#39;exc&#39;)
+proj_inh = Projection(I, pop, &#39;inh&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Each target (&lt;code&gt;&#39;exc&#39;, &#39;inh&#39;, &#39;AMPA&#39;, &#39;NMDA&#39;, &#39;GABA&#39;&lt;/code&gt;) can be defined as needed and will be treated differently by the post-synaptic neurons.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The weighted sum of inputs for a specific target is accessed in the equations by &lt;code&gt;sum(target)&lt;/code&gt;:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;    equations=&amp;quot;&amp;quot;&amp;quot;
+        tau * dx/dt + x = sum(exc) - sum(inh)
+
+        r = tanh(x)
+    &amp;quot;&amp;quot;&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;It is therefore possible to model modulatory effects, divisive inhibition, etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;connection-methods&#34;&gt;Connection methods&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Projections must be populated with a connectivity matrix (who is connected to who), a weight &lt;code&gt;w&lt;/code&gt; and optionally a delay &lt;code&gt;d&lt;/code&gt; (uniform or variable).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Several patterns are predefined:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;proj.connect_all_to_all(weights=Normal(0.0, 1.0), delays=2.0, allow_self_connections=False)
+proj.connect_one_to_one(weights=1.0, delays=Uniform(1.0, 10.0))
+proj.connect_fixed_number_pre(number=20, weights=1.0)
+proj.connect_fixed_number_post(number=20, weights=1.0)
+proj.connect_fixed_probability(probability=0.2, weights=1.0)
+proj.connect_gaussian(amp=1.0, sigma=0.2, limit=0.001)
+proj.connect_dog(amp_pos=1.0, sigma_pos=0.2, amp_neg=0.3, sigma_neg=0.7, limit=0.001)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;But you can also load Numpy arrays or Scipy sparse matrices. Example for synfire chains:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;w = np.array([[None]*pre.size]*post.size)
+for i in range(post.size):
+    w[i, (i-1)%pre.size] = 1.0
+proj.connect_from_matrix(w)
+
+w = lil_matrix((pre.size, post.size))
+for i in range(pre.size):
+    w[pre.size, (i+1)%post.size] = 1.0
+proj.connect_from_sparse(w)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;compiling-and-running-the-simulation&#34;&gt;Compiling and running the simulation&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Once all populations and projections are created, you have to generate to the C++ code and compile it:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;compile()
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;You can now manipulate all parameters/variables from Python thanks to the Cython bindings.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A simulation is simply run for a fixed duration with:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;simulate(1000.) # 1 second
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;You can also run a simulation until a criteria is filled, check:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/manual/Simulation.html#early-stopping&#34; target=&#34;_blank&#34;&gt;https://annarchy.readthedocs.io/en/stable/manual/Simulation.html#early-stopping&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;monitoring&#34;&gt;Monitoring&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;By default, a simulation is run in C++ without interaction with Python.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;You may want to record some variables (neural or synaptic) during the simulation with a &lt;code&gt;Monitor&lt;/code&gt;:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;m = Monitor(pop, [&#39;v&#39;, &#39;r&#39;])
+n = Monitor(proj, [&#39;w&#39;])
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;After the simulation, you can retrieve the recordings with:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;recorded_v = m.get(&#39;v&#39;)
+recorded_r = m.get(&#39;r&#39;)
+recorded_w = n.get(&#39;w&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Warning: calling &lt;code&gt;get()&lt;/code&gt; flushes the array.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Warning: recording projections can quickly fill up the RAM (see Dendrites).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;example-1-echo-state-network-1&#34;&gt;Example 1: Echo-State Network&lt;/h1&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Link to the Jupyter notebook on github: &lt;a href=&#34;https://github.com/vitay/ANNarchy-notebooks/blob/master/notebooks/RC.ipynb&#34; target=&#34;_blank&#34;&gt;RC.ipynb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;img/rc.jpg&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;2-spiking-networks&#34;&gt;2 - Spiking networks&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;spiking-neurons&#34;&gt;Spiking neurons&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Spiking neurons must also define two additional fields:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;spike&lt;/code&gt;: condition for emitting a spike.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;reset&lt;/code&gt;: what happens after a spike is emitted (at the start of the refractory period).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;A refractory period in ms can also be specified.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Example of the Leaky Integrate-and-Fire:&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;LIF = Neuron(
+    parameters=&amp;quot;&amp;quot;&amp;quot;
+        tau = 20.
+        E_L = -70.
+        v_T = 0.
+        v_r = -58.
+        I = 50.0
+    &amp;quot;&amp;quot;&amp;quot;,
+    equations=&amp;quot;&amp;quot;&amp;quot;
+        tau * dv/dt = (E_L - v) + I : init=E_L     
+    &amp;quot;&amp;quot;&amp;quot;,
+    spike=&amp;quot; v &amp;gt;= v_T &amp;quot;,
+    reset=&amp;quot; v = v_r &amp;quot;,
+    refractory = 2.0
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;conductances-currents&#34;&gt;Conductances / currents&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;A pre-synaptic spike arriving to a spiking neuron increase the conductance &lt;code&gt;g_target&lt;/code&gt; (e.g. &lt;code&gt;g_exc&lt;/code&gt; or &lt;code&gt;g_inh&lt;/code&gt;, depending on the projection).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;LIF = Neuron(
+    parameters=&amp;quot;...&amp;quot;,
+    equations=&amp;quot;&amp;quot;&amp;quot;
+        tau * dv/dt = (E_L - v) + g_exc - g_inh   
+    &amp;quot;&amp;quot;&amp;quot;,
+    spike=&amp;quot; v &amp;gt;= v_T &amp;quot;,
+    reset=&amp;quot; v = v_r &amp;quot;,
+    refractory = 2.0
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Each spike increments &lt;code&gt;g_target&lt;/code&gt; from the synaptic efficiency &lt;code&gt;w&lt;/code&gt; of the corresponding synapse.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code&gt;g_target += w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This defines an instantaneous model of synaptic transmission.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;conductances-currents-1&#34;&gt;Conductances / currents&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;For &lt;strong&gt;exponentially-decreasing&lt;/strong&gt; or &lt;strong&gt;alpha-shaped&lt;/strong&gt; synapses, ODEs have to be introduced for the conductance/current.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The exponential numerical method should be preferred, as integration is exact.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;LIF = Neuron(
+    parameters=&amp;quot;...&amp;quot;,
+    equations=&amp;quot;&amp;quot;&amp;quot;
+        tau * dv/dt = (E_L - v) + g_exc + alpha_exc # exponential or alpha
+
+        tau_exc * dg_exc/dt = - g_exc : exponential
+
+        tau_exc * dalpha_exc/dt = exp((tau_exc - dt/2.0)/tau_exc) * g_exc
+                                                        - alpha_exc  : exponential
+    &amp;quot;&amp;quot;&amp;quot;,
+    spike=&amp;quot; v &amp;gt;= v_T &amp;quot;,
+    reset=&amp;quot; v = v_r &amp;quot;,
+    refractory = 2.0
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;conductances-currents-2&#34;&gt;Conductances / currents&lt;/h2&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:50%; min-width:320px&#34; src=&#34;img/synaptictransmission.png&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;example-2-adex-adaptive-exponential-neuron&#34;&gt;Example 2: AdEx - Adaptive exponential neuron&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Link to the Jupyter notebook on github: &lt;a href=&#34;https://github.com/vitay/ANNarchy-notebooks/blob/master/notebooks/AdEx.ipynb&#34; target=&#34;_blank&#34;&gt;AdEx.ipynb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;$$
+    \tau \, \frac{dv}{dt} = (E_L - v) + \delta_T \, \exp \frac{v-v_T}{\delta_T} + I - w
+$$
+$$
+    \tau_w \, \frac{dw}{dt} =  a \, (v - E_L) - w
+$$&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;AdEx = Neuron(
+    parameters=&amp;quot;&amp;quot;&amp;quot;
+        tau = 20.
+        E_L = -70.
+        v_T = -50. ; v_r = -58.
+        delta_T = 2.0
+        a = 0.2 ; b = 0.
+        tau_w = 30.
+        I = 50.0
+    &amp;quot;&amp;quot;&amp;quot;,
+    equations=&amp;quot;&amp;quot;&amp;quot;
+        tau * dv/dt = (E_L - v) + delta_T * exp((v-v_T)/delta_T) + I - w : init=E_L     
+        tau_w * dw/dt = a * (v - E_L) - w  : init=0.0
+    &amp;quot;&amp;quot;&amp;quot;,
+    spike=&amp;quot; v &amp;gt;= 0.0 &amp;quot;,
+    reset=&amp;quot; v = v_r ; w += b &amp;quot;,
+    refractory = 2.0
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;3-synaptic-plasticity&#34;&gt;3 - Synaptic plasticity&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;rate-coded-synapses-intrator-cooper-bcm-learning-rule&#34;&gt;Rate-coded synapses : Intrator &amp;amp; Cooper BCM learning rule&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Synapses can also implement equations that will be evaluated after each neural update.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;IBCM = Synapse(
+    parameters = &amp;quot;&amp;quot;&amp;quot;
+        eta = 0.01 : projectionAdEx
+        tau = 2000.0 : projection
+    &amp;quot;&amp;quot;&amp;quot;,
+    equations = &amp;quot;&amp;quot;&amp;quot;
+        tau * dtheta/dt + theta = post.r^2 : postsynaptic, exponential
+
+        dw/dt = eta * post.r * (post.r - theta) * pre.r : min=0.0, explicit
+    &amp;quot;&amp;quot;&amp;quot;,
+    psp = &amp;quot; w * pre.r&amp;quot;
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The synaptic efficiency (weight) must be &lt;code&gt;w&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Each synapse can access pre- and post-synaptic variables with &lt;code&gt;pre.&lt;/code&gt; and &lt;code&gt;post.&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The &lt;code&gt;postsynaptic&lt;/code&gt; flag allows to do computations only once per post-synaptic neurons.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;psp&lt;/code&gt; optionally defines what will be summed by the post-synaptic neuron (e.g. &lt;code&gt;psp = &amp;quot;w * log(pre.r)&amp;quot;&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;plastic-projections&#34;&gt;Plastic projections&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;The synapse type just has to be passed to the Projection:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;proj = Projection(inp, pop, &#39;exc&#39;, IBCM)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Synaptic variables can be accessed as lists of lists for the whole projection:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;proj.w
+proj.theta
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;or for a single post-synaptic neuron (&lt;code&gt;Dendrite&lt;/code&gt;):&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;proj[10].w
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;example-3-miconi-s-reward-modulated-rc-network&#34;&gt;Example 3: Miconi&amp;rsquo;s reward modulated RC network&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Link to the Jupyter notebook on github: &lt;a href=&#34;https://github.com/vitay/ANNarchy-notebooks/blob/master/notebooks/Miconi.ipynb&#34; target=&#34;_blank&#34;&gt;Miconi.ipynb&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:70%; min-width:320px&#34; src=&#34;img/miconi.png&#34; /&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;spiking-synapses-example-of-short-term-plasticity-stp&#34;&gt;Spiking synapses : Example of Short-term plasticity (STP)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Spiking synapses can define a &lt;code&gt;pre_spike&lt;/code&gt; field, defining what happens when a pre-synaptic spike arrives at the synapse.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;g_target&lt;/code&gt; is an alias for the corresponding post-synaptic conductance: it will be replaced by &lt;code&gt;g_exc&lt;/code&gt; or &lt;code&gt;g_inh&lt;/code&gt; depending on how the synapse is used.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;By default, a pre-synaptic spike increments the post-synaptic conductance from &lt;code&gt;w&lt;/code&gt;: &lt;code&gt;g_target += w&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;STP = Synapse(
+    parameters = &amp;quot;&amp;quot;&amp;quot;
+        tau_rec = 100.0 : projection
+        tau_facil = 0.01 : projection
+        U = 0.5
+    &amp;quot;&amp;quot;&amp;quot;,
+    equations = &amp;quot;&amp;quot;&amp;quot;
+        dx/dt = (1 - x)/tau_rec : init = 1.0, event-driven
+        du/dt = (U - u)/tau_facil : init = 0.5, event-driven
+    &amp;quot;&amp;quot;&amp;quot;,
+    pre_spike=&amp;quot;&amp;quot;&amp;quot;
+        g_target += w * u * x
+        x *= (1 - u)
+        u += U * (1 - u)
+    &amp;quot;&amp;quot;&amp;quot;
+)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;spiking-synapses-example-of-spike-timing-dependent-plasticity-stdp&#34;&gt;Spiking synapses : Example of Spike-Timing Dependent plasticity (STDP)&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;post_spike&lt;/code&gt; similarly defines what happens when a post-synaptic spike is emitted.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;STDP = Synapse(
+    parameters = &amp;quot;&amp;quot;&amp;quot;
+        tau_plus = 20.0 : projection ; tau_minus = 20.0 : projection
+        A_plus = 0.01 : projection   ; A_minus = 0.01 : projection
+        w_min = 0.0 : projection     ; w_max = 1.0 : projection
+    &amp;quot;&amp;quot;&amp;quot;,
+    equations = &amp;quot;&amp;quot;&amp;quot;
+        tau_plus  * dx/dt = -x : event-driven # pre-synaptic trace
+        tau_minus * dy/dt = -y : event-driven # post-synaptic trace
+    &amp;quot;&amp;quot;&amp;quot;,
+    pre_spike=&amp;quot;&amp;quot;&amp;quot;
+        g_target += w
+        x += A_plus * w_max
+        w = clip(w + y, w_min , w_max)
+    &amp;quot;&amp;quot;&amp;quot;,
+    post_spike=&amp;quot;&amp;quot;&amp;quot;
+        y -= A_minus * w_max
+        w = clip(w + x, w_min , w_max)
+    &amp;quot;&amp;quot;&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;and-much-more&#34;&gt;And much more&amp;hellip;&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Standard populations (&lt;code&gt;SpikeSourceArray&lt;/code&gt;, &lt;code&gt;TimedArray&lt;/code&gt;, &lt;code&gt;PoissonPopulation&lt;/code&gt;, &lt;code&gt;HomogeneousCorrelatedSpikeTrains&lt;/code&gt;), OpenCV bindings.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Standard neurons:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;LeakyIntegrator, Izhikevich, IF_curr_exp, IF_cond_exp, IF_curr_alpha, IF_cond_alpha, HH_cond_exp, EIF_cond_exp_isfa_ista, EIF_cond_alpha_isfa_ista&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Standard synapses:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Hebb, Oja, IBCM, STP, STDP&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Parallel simulations with &lt;code&gt;parallel_run&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Convolutional and pooling layers.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Hybrid rate-coded / spiking networks.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Structural plasticity.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;RTFD: &lt;a href=&#34;https://annarchy.readthedocs.io&#34; target=&#34;_blank&#34;&gt;https://annarchy.readthedocs.io&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

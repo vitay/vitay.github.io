@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors on Julien Vitay</title>
+    <link>https://julien-vitay.net/authors/</link>
+    <description>Recent content in Authors on Julien Vitay</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 16 Mar 2019 12:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://julien-vitay.net/authors/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Julien Vitay</title>
+      <link>https://julien-vitay.net/authors/julien-vitay/</link>
+      <pubDate>Sat, 16 Mar 2019 12:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/julien-vitay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Enrico Schröder</title>
+      <link>https://julien-vitay.net/authors/enrico-schr%C3%B6der/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/enrico-schr%C3%B6der/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fred H. Hamker</title>
+      <link>https://julien-vitay.net/authors/fred-h.-hamker/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/fred-h.-hamker/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mirko Mählisch</title>
+      <link>https://julien-vitay.net/authors/mirko-m%C3%A4hlisch/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/mirko-m%C3%A4hlisch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sascha Braun</title>
+      <link>https://julien-vitay.net/authors/sascha-braun/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/sascha-braun/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Valentin Forch</title>
+      <link>https://julien-vitay.net/authors/valentin-forch/</link>
+      <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/valentin-forch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Earl K. Miller</title>
+      <link>https://julien-vitay.net/authors/earl-k.-miller/</link>
+      <pubDate>Tue, 18 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/earl-k.-miller/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evan G. Antzoulatos</title>
+      <link>https://julien-vitay.net/authors/evan-g.-antzoulatos/</link>
+      <pubDate>Tue, 18 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/evan-g.-antzoulatos/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Francesc Villagrasa</title>
+      <link>https://julien-vitay.net/authors/francesc-villagrasa/</link>
+      <pubDate>Tue, 18 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/francesc-villagrasa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Henning Schroll</title>
+      <link>https://julien-vitay.net/authors/henning-schroll/</link>
+      <pubDate>Tue, 18 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/henning-schroll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Javier Baladron</title>
+      <link>https://julien-vitay.net/authors/javier-baladron/</link>
+      <pubDate>Tue, 18 Sep 2018 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/javier-baladron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aaron Shifman</title>
+      <link>https://julien-vitay.net/authors/aaron-shifman/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/aaron-shifman/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Alexandra K. Diem</title>
+      <link>https://julien-vitay.net/authors/alexandra-k.-diem/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/alexandra-k.-diem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Almar Klein</title>
+      <link>https://julien-vitay.net/authors/almar-klein/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/almar-klein/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Andrew P. Davison</title>
+      <link>https://julien-vitay.net/authors/andrew-p.-davison/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/andrew-p.-davison/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Anya E. Vostinar</title>
+      <link>https://julien-vitay.net/authors/anya-e.-vostinar/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/anya-e.-vostinar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Benoît Girard</title>
+      <link>https://julien-vitay.net/authors/beno%C3%AEt-girard/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/beno%C3%AEt-girard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>C. Titus Brown</title>
+      <link>https://julien-vitay.net/authors/c.-titus-brown/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/c.-titus-brown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Christoph Metzner</title>
+      <link>https://julien-vitay.net/authors/christoph-metzner/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/christoph-metzner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cyrille Rossant</title>
+      <link>https://julien-vitay.net/authors/cyrille-rossant/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/cyrille-rossant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Damien Drix</title>
+      <link>https://julien-vitay.net/authors/damien-drix/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/damien-drix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Daniel McGlinn</title>
+      <link>https://julien-vitay.net/authors/daniel-mcglinn/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/daniel-mcglinn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Etienne Roesch</title>
+      <link>https://julien-vitay.net/authors/etienne-roesch/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/etienne-roesch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fabien C.Y. Benureau</title>
+      <link>https://julien-vitay.net/authors/fabien-c.y.-benureau/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/fabien-c.y.-benureau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Federico Vaggi</title>
+      <link>https://julien-vitay.net/authors/federico-vaggi/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/federico-vaggi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frank Stollmeier</title>
+      <link>https://julien-vitay.net/authors/frank-stollmeier/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/frank-stollmeier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frédéric Alexandre</title>
+      <link>https://julien-vitay.net/authors/fr%C3%A9d%C3%A9ric-alexandre/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/fr%C3%A9d%C3%A9ric-alexandre/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Georgios Detorakis</title>
+      <link>https://julien-vitay.net/authors/georgios-detorakis/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/georgios-detorakis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guillaume Viejo</title>
+      <link>https://julien-vitay.net/authors/guillaume-viejo/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/guillaume-viejo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hans Ekkehard Plesser</title>
+      <link>https://julien-vitay.net/authors/hans-ekkehard-plesser/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/hans-ekkehard-plesser/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joseph Stachelek</title>
+      <link>https://julien-vitay.net/authors/joseph-stachelek/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/joseph-stachelek/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kamil S. Jaron</title>
+      <link>https://julien-vitay.net/authors/kamil-s.-jaron/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/kamil-s.-jaron/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Karthik Ram</title>
+      <link>https://julien-vitay.net/authors/karthik-ram/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/karthik-ram/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Konrad Hinsen</title>
+      <link>https://julien-vitay.net/authors/konrad-hinsen/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/konrad-hinsen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lorena A. Barba</title>
+      <link>https://julien-vitay.net/authors/lorena-a.-barba/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/lorena-a.-barba/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marc-André Delsuc</title>
+      <link>https://julien-vitay.net/authors/marc-andr%C3%A9-delsuc/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/marc-andr%C3%A9-delsuc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Marcel Stimberg</title>
+      <link>https://julien-vitay.net/authors/marcel-stimberg/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/marcel-stimberg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Matt G. Hall</title>
+      <link>https://julien-vitay.net/authors/matt-g.-hall/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/matt-g.-hall/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mehdi Khamassi</title>
+      <link>https://julien-vitay.net/authors/mehdi-khamassi/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/mehdi-khamassi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nicolas P. Rougier​</title>
+      <link>https://julien-vitay.net/authors/nicolas-p.-rougier/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/nicolas-p.-rougier/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Olivia Guest</title>
+      <link>https://julien-vitay.net/authors/olivia-guest/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/olivia-guest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Owen Petchey</title>
+      <link>https://julien-vitay.net/authors/owen-petchey/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/owen-petchey/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ozan Caglayan</title>
+      <link>https://julien-vitay.net/authors/ozan-caglayan/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/ozan-caglayan/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pierre Enel</title>
+      <link>https://julien-vitay.net/authors/pierre-enel/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/pierre-enel/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pierre de Buyl</title>
+      <link>https://julien-vitay.net/authors/pierre-de-buyl/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/pierre-de-buyl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pietro Marchesi</title>
+      <link>https://julien-vitay.net/authors/pietro-marchesi/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/pietro-marchesi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rafael N. Henriques</title>
+      <link>https://julien-vitay.net/authors/rafael-n.-henriques/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/rafael-n.-henriques/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Roman Yurchak</title>
+      <link>https://julien-vitay.net/authors/roman-yurchak/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/roman-yurchak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thomas Arildsen</title>
+      <link>https://julien-vitay.net/authors/thomas-arildsen/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/thomas-arildsen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tiina Manninen</title>
+      <link>https://julien-vitay.net/authors/tiina-manninen/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/tiina-manninen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Timothée Poisot</title>
+      <link>https://julien-vitay.net/authors/timoth%C3%A9e-poisot/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/timoth%C3%A9e-poisot/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tiziano Zito</title>
+      <link>https://julien-vitay.net/authors/tiziano-zito/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/tiziano-zito/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vahid Rostami</title>
+      <link>https://julien-vitay.net/authors/vahid-rostami/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/vahid-rostami/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xavier Hinau</title>
+      <link>https://julien-vitay.net/authors/xavier-hinau/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/xavier-hinau/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yoav Ram</title>
+      <link>https://julien-vitay.net/authors/yoav-ram/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/yoav-ram/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lorenz Gönner</title>
+      <link>https://julien-vitay.net/authors/lorenz-g%C3%B6nner/</link>
+      <pubDate>Thu, 12 Oct 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/lorenz-g%C3%B6nner/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Winfried Lötzsch</title>
+      <link>https://julien-vitay.net/authors/winfried-l%C3%B6tzsch/</link>
+      <pubDate>Fri, 15 Sep 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/winfried-l%C3%B6tzsch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Helge Ü. Dinkelbach</title>
+      <link>https://julien-vitay.net/authors/helge-%C3%BC.-dinkelbach/</link>
+      <pubDate>Fri, 31 Jul 2015 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/helge-%C3%BC.-dinkelbach/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Frederik Beuth</title>
+      <link>https://julien-vitay.net/authors/frederik-beuth/</link>
+      <pubDate>Tue, 01 Sep 2009 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/frederik-beuth/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Jérémy Fix</title>
+      <link>https://julien-vitay.net/authors/j%C3%A9r%C3%A9my-fix/</link>
+      <pubDate>Tue, 01 Sep 2009 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/j%C3%A9r%C3%A9my-fix/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>admin</title>
+      <link>https://julien-vitay.net/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://julien-vitay.net/authors/admin/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Roman Yurchak on Julien Vitay</title>
+    <link>https://julien-vitay.net/authors/roman-yurchak/</link>
+    <description>Recent content in Roman Yurchak on Julien Vitay</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Dec 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://julien-vitay.net/authors/roman-yurchak/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sustainable computational science: the ReScience initiative</title>
+      <link>https://julien-vitay.net/publication/rougier2017/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/rougier2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frederik Beuth on Julien Vitay</title>
+    <link>https://julien-vitay.net/authors/frederik-beuth/</link>
+    <description>Recent content in Frederik Beuth on Julien Vitay</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 01 Sep 2009 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://julien-vitay.net/authors/frederik-beuth/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Biological Models of Reinforcement Learning</title>
+      <link>https://julien-vitay.net/publication/vitay2009/</link>
+      <pubDate>Tue, 01 Sep 2009 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/vitay2009/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

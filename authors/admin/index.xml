@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>admin on Julien Vitay</title>
+    <link>https://julien-vitay.net/authors/admin/</link>
+    <description>Recent content in admin on Julien Vitay</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://julien-vitay.net/authors/admin/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://julien-vitay.net/author/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://julien-vitay.net/author/admin/</guid>
+      <description>I am researcher and lecturer at the TU Chemnitz, in the lab of Artificial Intelligence of the Faculty of Computer Science.
+I was previously postdoc in the Psychology Department of the University of Münster (Germany), under the supervision of Prof. Dr. Fred Hamker and a PhD student at Inria Nancy (France), in the Cortex lab headed by Dr. Frédéric Alexandre.
+My research interests focus on computational neuroscience (basal ganglia, hippocampus, dopaminergic system) and neuro-informatics (neuro-simulator ANNarchy).</description>
+    </item>
+    
+  </channel>
+</rss>

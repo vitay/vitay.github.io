@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Slides on Julien Vitay</title>
+    <link>https://julien-vitay.net/slides/</link>
+    <description>Recent content in Slides on Julien Vitay</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://julien-vitay.net/slides/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Introduction to ANNarchy</title>
+      <link>https://julien-vitay.net/slides/annarchy/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://julien-vitay.net/slides/annarchy/</guid>
+      <description>ANNarchy (Artificial Neural Networks architect) Julien Vitay ANNarchy (Artificial Neural Networks architect)  Source code:  https://bitbucket.org/annarchy/annarchy
+ Documentation:  https://annarchy.readthedocs.io/en/stable/
+ Forum:  https://groups.google.com/forum/#!forum/annarchy
+ Notebooks used in this tutorial:  https://github.com/vitay/ANNarchy-notebooks
+Installation Installation guide: https://annarchy.readthedocs.io/en/stable/intro/Installation.html
+ From pip:  pip install ANNarchy   From source:  git clone https://bitbucket.org/annarchy/annarchy.git cd annarchy python setup.py install   Requirements (Linux and MacOS):
+ g++/clang++, python 2.7 or 3.5+, numpy, scipy, matplotlib, sympy, cython   Features  Simulation of both rate-coded and spiking neural networks.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nicolas P. Rougier​ on Julien Vitay</title>
+    <link>https://julien-vitay.net/authors/nicolas-p.-rougier/</link>
+    <description>Recent content in Nicolas P. Rougier​ on Julien Vitay</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Dec 2017 00:00:00 +0100</lastBuildDate>
+    
+	<atom:link href="https://julien-vitay.net/authors/nicolas-p.-rougier/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Sustainable computational science: the ReScience initiative</title>
+      <link>https://julien-vitay.net/publication/rougier2017/</link>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/rougier2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A computational model of spatial memory anticipation during visual search</title>
+      <link>https://julien-vitay.net/publication/fix2006/</link>
+      <pubDate>Sun, 01 Jan 2006 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/fix2006/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emergence of attention within a neural population</title>
+      <link>https://julien-vitay.net/publication/rougier2005/</link>
+      <pubDate>Wed, 01 Jun 2005 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/rougier2005/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A distributed model of spatial visual attention</title>
+      <link>https://julien-vitay.net/publication/vitay2005/</link>
+      <pubDate>Sat, 01 Jan 2005 00:00:00 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/vitay2005/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
