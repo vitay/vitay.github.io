@@ -394,7 +394,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    23 min read
+    24 min read
   </span>
   
 
@@ -564,7 +564,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    23 min read
+    24 min read
   </span>
   
 
@@ -740,11 +740,11 @@ $$
 
 <h3 id="1-2-goal-directed-behavior-vs-habits">1.2 - Goal-directed behavior vs. habits</h3>
 
-<p>The model-free RPE has become a very influential model of dopaminergic (DA) activation in the ventral tegmental area (VTA) and substantia nigra pars compacta (SNc). At the beginning of classical Pavlovian conditioning, DA cells react phasically to unconditioned stimuli (US, rewards). After enough conditioning trials, DA cells only react to conditioned stimuli (CS), i.e. stimuli which predict the delivery of a reward. Moreover, if the reward is omitted, DA cells exhibit a pause in firing. This pattern of activation corresponds to the RPE: DA cells respond to unexpected reward event, either positively when more reward than expected is received, or negatively when less reward is delivered. The simplicity of this model has made RPE a successful model of DA activity (but see Vitay and Hamker, 2014).</p>
+<p>The model-free RPE has become a very influential model of dopaminergic (DA) activation in the ventral tegmental area (VTA) and substantia nigra pars compacta (SNc). At the beginning of classical Pavlovian conditioning, DA cells react phasically to unconditioned stimuli (US, rewards). After enough conditioning trials, DA cells only react to conditioned stimuli (CS), i.e. stimuli which predict the delivery of a reward. Moreover, if the reward is omitted, DA cells exhibit a pause in firing. This pattern of activation corresponds to the RPE: DA cells respond to unexpected reward events, either positively when more reward than expected is received, or negatively when less reward is delivered. The simplicity of this model has made RPE a successful model of DA activity (but see Vitay and Hamker, 2014 for a more detailed model).</p>
 
-<p>A similar but not identical functional dichotomy as MF/MB opposes deliberative <strong>goal-directed</strong> behavior and inflexible stimulus-response <strong>habits</strong> (Dickinson and Balleine, 2002). Goal-directed behavior is sensitive to reward devaluation (distal reward change in the RL literature): if an outcome was previously rewarding but ceases to be (for example, a poisonous product is injected into some food reward, even outside the conditioning phase), goal-directed behavior would quickly learn to avoid that outcome, while habitual behavior will continue to seek for it. Over-training can transform goal-directed behavior into habits (Corbit and Balleine, 2011). Habits are usually considered as a model-free learning behavior, while goal-directed behavior implies the use of a world model. The <em>dual system theory</em> discusses the arbitration mechanisms necessary to coordinate these two learning frameworks (Lee, Shimojo and O&rsquo;Doherty, 2014).</p>
+<p>A similar but not identical functional dichotomy as MF/MB opposes deliberative <strong>goal-directed</strong> behavior and inflexible stimulus-response associations called <strong>habits</strong> (Dickinson and Balleine, 2002). Goal-directed behavior is sensitive to reward devaluation: if an outcome was previously rewarding but ceases to be (for example, a poisonous product is injected into some food reward, even outside the conditioning phase), goal-directed behavior would quickly learn to avoid that outcome, while habitual behavior will continue to seek for it. Over-training can transform goal-directed behavior into habits (Corbit and Balleine, 2011). Habits are usually considered as a model-free learning behavior, while goal-directed behavior implies the use of a world model. The <em>dual system theory</em> discusses the arbitration mechanisms necessary to coordinate these two learning frameworks (Lee, Shimojo and O&rsquo;Doherty, 2014).</p>
 
-<p>Both forms of behavior are thought to happen concurrently in the brain, with model-based / goal-directed behavior classically assigned to the prefrontal cortex and the hippocampus and model-free / habitual behavior mapped to the ventral basal ganglia and the dopaminergic system.  However, recent results and theories suggest that these two functional systems are largely overlapping and that even dopamine firing might reflect model-based processes (Doll, Simon and Daw, 2012; Miller et al., 2018). It is yet to be understood how these two extreme mechanisms of the RL spectrum might coexist in the brain and be coordinated: successor representations might provide us with useful insights into the functioning of the brain.</p>
+<p>Both forms of behavior are thought to happen concurrently in the brain, with model-based / goal-directed behavior classically assigned to the prefrontal cortex and the hippocampus and model-free / habitual behavior mapped to the ventral basal ganglia and the dopaminergic system.  However, recent results and theories suggest that these two functional systems are largely overlapping and that even dopamine firing might reflect model-based processes (Doll, Simon and Daw, 2012; Miller et al., 2018). It is yet to be understood how these two extreme mechanisms of the RL spectrum might coexist in the brain and be coordinated: successor representations might provide us with additional useful insights into the functioning of the brain.</p>
 
 <h2 id="2-successor-representations-in-reinforcement-learning">2 - Successor representations in reinforcement learning</h2>
 
@@ -817,11 +817,11 @@ $$
     \Delta r(s) = \alpha \, (r_{t+1} - r(s))
 $$</div>
 
-<p>However, the SR $M(s, s&rsquo;)$ uses other estimates for its update (bootstrapping), so changes in the transition structure may take more time to propagate to all state-state discounted occupancies (Gershman, 2018). We will discuss the implications of this fact on the biological plausibility of the SR algorithm in a later section.</p>
+<p>However, the SR $M(s, s&rsquo;)$ uses other estimates for its update (bootstrapping), so changes in the transition structure may take more time to propagate to all state-state discounted occupancies (Gershman, 2018).</p>
 
 <h3 id="2-2-linear-function-approximation">2.2 - Linear function approximation</h3>
 
-<p>But before, we need to deal with the <strong>curse of dimensionality</strong>. The SR $M(s, s&rsquo;)$ is a matrix associating each state of the system to all other states. This is of course impracticable for most problems and we need to rely on function approximation. The simplest solution is to represent each state $s$ by a set of $d$ features $[f_i(s)]_{i=1}^d$. Each feature can for example be the presence of an object in the scene, some encoding of the position of the agent in the world, etc. The SR for a state $s$ only needs to predict the expected discounted probability that a feature $f_j$ will be observed in the future, not the complete state representation. This should ensure generalization across states, as only the presence of relevant features is needed. The SR can be linearly approximated by:</p>
+<p>Before looking at the biological plausibility of this algorithm, we need to deal with the <strong>curse of dimensionality</strong>. The SR $M(s, s&rsquo;)$ is a matrix associating each state of the system to all other states (size $|\mathcal{S}| \times |\mathcal{S}|$). This is of course impracticable for most problems and we need to rely on function approximation. The simplest solution is to represent each state $s$ by a set of $d$ features $[f_i(s)]_{i=1}^d$. Each feature can for example be the presence of an object in the scene, some encoding of the position of the agent in the world, etc. The SR for a state $s$ only needs to predict the expected discounted probability that a feature $f_j$ will be observed in the future, not the complete state representation. This should ensure generalization across states, as only the presence of relevant features is needed. The SR can be linearly approximated by:</p>
 
 <div>$$
     M_j(s) = \sum_{i=1}^d w_{i, j} \, f_i(s)
@@ -845,7 +845,7 @@ $$</div>
     \Delta w_{i, j} = \alpha \, \delta^\text{SR}_t(f_j) \, f_i(s_t)
 $$</div>
 
-<p>The SPE tells us how surprising is each feature $f_j$ when being in the state $s_t$. This explains the term <em>sensory prediction error</em>: we are now not learning based on how surprising rewards are anymore, but on how surprising sensory features are. Did I expect that door to open at some point? Should this event happen soon? What kind of outcome is likely to happen? As the SPE is now a vector for all sensory features, we see why successor representation have a great potential: instead of a single scalar RPE dealing only with reward magnitudes, we now can learn from very diverse representations describing the various relevant dimensions of the task. It can furthermore deal with different rewards: food and monetary rewards are treated the same by RPEs, while we can distinguish them with SPEs.</p>
+<p>The SPE tells us how surprising is each feature $f_j$ when being in the state $s_t$. This explains the term <em>sensory prediction error</em>: we are now not learning based on how surprising rewards are anymore, but on how surprising the sensory features of the outcome are. Did I expect that door to open at some point? Should this event happen soon? What kind of outcome is likely to happen? As the SPE is now a vector for all sensory features, we see why successor representation have a great potential: instead of a single scalar RPE dealing only with reward magnitudes, we now can learn from very diverse representations describing the various relevant dimensions of the task. It can then deal with different rewards: food and monetary rewards are treated the same by RPEs, while we can distinguish them with SPEs.</p>
 
 <p>The main potential problem is of course to extract the relevant features for the task, either by hand-engineering them or through learning (one could work in the latent space of a variational autoencoder, for example). Feature-based state representations still have to be Markovian for SR to work. It is also possible to use non-linear function approximators such as deep networks (Kulkarni et al., 2016, Baretto et al., 2016, Zhang et al., 2016, Machado et al., 2018, Ma et al., 2018), but this is out of the scope of this post.</p>
 
@@ -901,7 +901,7 @@ $$
 <p>What would the different ML methods predict?</p>
 
 <ul>
-<li><p>Model-free methods would not change their preference in both conditions. The value of the $3 \rightarrow 5$ and $4 \rightarrow 6$ transitions (reward revaluation) or $3 \rightarrow 6$ and $4 \rightarrow 5$ (transition revaluation) would change during the re-learning phase, but the transitions $1 \rightarrow 3$ and $2 \rightarrow 4$ are never experienced, so the value of the states $1$ and $2$ can only stay the same, even with eligibility traces.</p></li>
+<li><p>Model-free methods would not change their preference in both conditions. The value of the $3 \rightarrow 5$ and $4 \rightarrow 6$ transitions (reward revaluation) or $3 \rightarrow 6$ and $4 \rightarrow 5$ (transition revaluation) would change during the re-learning phase, but the transitions $1 \rightarrow 3$ and $2 \rightarrow 4$ are never experienced again, so the value of the states $1$ and $2$ can only stay the same, even with eligibility traces.</p></li>
 
 <li><p>Model-based methods would change their preference in both conditions. The reward and transition probabilities would both be re-learned completely to reflect the change, so the new value of $1$ and $2$ can be computed correctly using dynamic programming.</p></li>
 
@@ -928,7 +928,7 @@ $$
 
 <p>Human participants show a revaluation behavior in the two conditions (reward and transition) somehow in between the model-based and successor representation algorithms. The difference between the reward and transition conditions is statistically significant, so unlike MB, but not as dramatic as for SR. The authors propose a hybrid SR-MB model, linearly combining the outputs of the MB and SR algorithms, and fit it to the human data to obtain a satisfying match. A second task requiring the model to actually take actions confirms this observation.</p>
 
-<p>It is hard to conclude anything definitive from this model and the somehow artificial fit to the data. Reward revaluation was the typical test to distinguish between MB and MF, or between goal-directed behavior and habits. This paper suggests that transition revaluation (and policy revaluation, investigated in the second experiment) might allow distinguishing between MB and SR mechanisms, supporting the existence of SR mechanisms in the brain. How MB and SR might interact in the brain and whether there is an arbitration mechanism between the two is still an open issue. (Russek et al., 2017) has a very interesting discussion on the link between MF and MB processes in the brain, based on different versions of the SR.</p>
+<p>It is hard to conclude anything definitive from this model and the somehow artificial fit to the data. Reward revaluation was the typical test to distinguish between MB and MF processes, or between goal-directed behavior and habits. This paper suggests that transition revaluation (and policy revaluation, investigated in the second experiment) might allow distinguishing between MB and SR mechanisms, supporting the existence of SR mechanisms in the brain. How MB and SR might interact in the brain and whether there is an arbitration mechanism between the two is still an open issue. (Russek et al., 2017) has a very interesting discussion on the link between MF and MB processes in the brain, based on different versions of the SR.</p>
 
 <h3 id="3-2-neural-substrates-of-successor-representations">3.2 - Neural substrates of successor representations</h3>
 
@@ -977,6 +977,7 @@ $$
 <ul>
 <li>What is the relationship between the RPE and the SPE? Does VTA compute the SPE (still to be proven) and send it directly to the hippocampus through dopaminergic projections? Or does the RPE VTA somehow &ldquo;train&rdquo; ACC and PFC to compute the SPE, what is then sent to the hippocampus to update the SR representation? How?</li>
 <li>How does the hippocampus learn from SPE signals? The SR hypothesis still has to be linked with evidence on plasticity in the hippocampus.</li>
+<li>If dopamine does not carry the SPE, what is the role of the dopaminergic innervation of the hippocampus? The SR representation is in principle independent from rewards (except that animals may spend more time around reward location).</li>
 <li>How is the value of a state / action computed based on the SR representation in the hippocampus? Do sharp wave ripples (SWR, also called forward/inverse replays) actually sample the SR matrix (a list of achievable states from the current one), what is then integrated elsewhere (ventral striatum?) to guide behavior?</li>
 </ul>
 
