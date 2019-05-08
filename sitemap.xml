@@ -4,25 +4,59 @@
   
   <url>
     <loc>https://julien-vitay.net/authors/</loc>
-    <lastmod>2019-03-16T12:00:00+01:00</lastmod>
+    <lastmod>2019-05-08T07:32:46+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/tags/dopamine/</loc>
+    <lastmod>2019-05-08T07:32:46+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/authors/julien-vitay/</loc>
+    <lastmod>2019-05-08T07:32:46+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/</loc>
+    <lastmod>2019-05-08T07:32:46+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/tags/machine-learning/</loc>
+    <lastmod>2019-05-08T07:32:46+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/post/</loc>
+    <lastmod>2019-05-08T07:32:46+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/tags/reinforcement-learning/</loc>
+    <lastmod>2019-05-08T07:32:46+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/2019/05/successor-representations/</loc>
+    <lastmod>2019-05-08T07:32:46+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/tags/</loc>
+    <lastmod>2019-05-08T07:32:46+01:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://julien-vitay.net/talk/clt2019/</loc>
     <lastmod>2019-03-16T12:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/authors/julien-vitay/</loc>
-    <lastmod>2019-03-16T12:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/</loc>
-    <lastmod>2019-03-16T12:00:00+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -137,12 +171,6 @@
   <url>
     <loc>https://julien-vitay.net/publication/villagrasa2018/</loc>
     <lastmod>2018-09-18T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/tags/</loc>
-    <lastmod>2018-09-18T00:00:00+02:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -591,12 +619,6 @@
   </url>
   
   <url>
-    <loc>https://julien-vitay.net/tags/machine-learning/</loc>
-    <lastmod>1970-01-01T01:33:39+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://julien-vitay.net/tags/parallel-computing/</loc>
     <lastmod>1970-01-01T01:33:39+01:00</lastmod>
     <priority>0</priority>
@@ -618,10 +640,6 @@
   
   <url>
     <loc>https://julien-vitay.net/slides/annarchy/</loc>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/post/</loc>
   </url>
   
   <url>
