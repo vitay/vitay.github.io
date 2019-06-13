@@ -27,12 +27,6 @@
   </url>
   
   <url>
-    <loc>https://julien-vitay.net/tags/machine-learning/</loc>
-    <lastmod>2019-05-08T07:32:46+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://julien-vitay.net/post/</loc>
     <lastmod>2019-05-08T07:32:46+01:00</lastmod>
   </url>
@@ -50,6 +44,12 @@
   
   <url>
     <loc>https://julien-vitay.net/tags/</loc>
+    <lastmod>2019-05-08T07:32:46+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/tags/machine-learning/</loc>
     <lastmod>2019-05-08T07:32:46+01:00</lastmod>
     <priority>0</priority>
   </url>

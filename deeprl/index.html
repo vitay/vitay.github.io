@@ -92,7 +92,8 @@
 </ul></li>
 <li><a href="./OtherPolicyGradient.html#sec:maximum-entropy-rl"><span class="toc-section-number">4.6</span> Maximum Entropy RL</a><ul>
 <li><a href="#sec:entropy-regularization-1"><span class="toc-section-number">4.6.1</span> Entropy regularization</a></li>
-<li><a href="./OtherPolicyGradient.html#sec:soft-actor-critic-sac"><span class="toc-section-number">4.6.2</span> Soft Actor-Critic (SAC)</a></li>
+<li><a href="./OtherPolicyGradient.html#sec:soft-q-learning"><span class="toc-section-number">4.6.2</span> Soft Q-learning</a></li>
+<li><a href="./OtherPolicyGradient.html#sec:soft-actor-critic-sac"><span class="toc-section-number">4.6.3</span> Soft Actor-Critic (SAC)</a></li>
 </ul></li>
 <li><a href="./OtherPolicyGradient.html#sec:distributional-learning"><span class="toc-section-number">4.7</span> Distributional learning</a><ul>
 <li><a href="./OtherPolicyGradient.html#sec:the-reactor"><span class="toc-section-number">4.7.1</span> The Reactor</a></li>
@@ -109,11 +110,18 @@
 <li><a href="./OtherPolicyGradient.html#sec:evolutionary-search-es"><span class="toc-section-number">4.10.2</span> Evolutionary Search (ES)</a></li>
 </ul></li>
 </ul></li>
-<li><a href="./Practice.html#sec:deep-rl-in-practice"><span class="toc-section-number">5</span> Deep RL in practice</a><ul>
-<li><a href="./Practice.html#sec:limitations"><span class="toc-section-number">5.1</span> Limitations</a></li>
-<li><a href="./Practice.html#sec:reward-shaping"><span class="toc-section-number">5.2</span> Reward shaping</a></li>
-<li><a href="./Practice.html#sec:simulation-environments"><span class="toc-section-number">5.3</span> Simulation environments</a></li>
-<li><a href="./Practice.html#sec:algorithm-implementations"><span class="toc-section-number">5.4</span> Algorithm implementations</a></li>
+<li><a href="./RAM.html#sec:recurrent-attention-models"><span class="toc-section-number">5</span> Recurrent Attention Models</a></li>
+<li><a href="./ModelBased.html#sec:model-based-rl"><span class="toc-section-number">6</span> Model-based RL</a><ul>
+<li><a href="./ModelBased.html#sec:dyna-q"><span class="toc-section-number">6.1</span> Dyna-Q</a></li>
+<li><a href="./ModelBased.html#sec:unsorted-references"><span class="toc-section-number">6.2</span> Unsorted references</a></li>
+</ul></li>
+<li><a href="./Hierarchical.html#sec:hierarchical-reinforcement-learning"><span class="toc-section-number">7</span> Hierarchical Reinforcement Learning</a></li>
+<li><a href="./Inverse.html#sec:inverse-reinforcement-learning"><span class="toc-section-number">8</span> Inverse Reinforcement Learning</a></li>
+<li><a href="./Robotics.html#sec:deep-rl-for-robotics"><span class="toc-section-number">9</span> Deep RL for robotics</a></li>
+<li><a href="./Practice.html#sec:deep-rl-in-practice"><span class="toc-section-number">10</span> Deep RL in practice</a><ul>
+<li><a href="./Practice.html#sec:limitations"><span class="toc-section-number">10.1</span> Limitations</a></li>
+<li><a href="./Practice.html#sec:simulation-environments"><span class="toc-section-number">10.2</span> Simulation environments</a></li>
+<li><a href="./Practice.html#sec:algorithm-implementations"><span class="toc-section-number">10.3</span> Algorithm implementations</a></li>
 </ul></li>
 <li><a href="./References.html#sec:references">References</a></li>
 </ul>
@@ -136,7 +144,7 @@
 </ol>
 <p>One could extend the list and talk about hierarchical RL, inverse RL, imitation-based RL, etc…</p>
 <p><strong>Additional resources</strong></p>
-<p>See <span class="citation" data-cites="Li2017">Li (<a href="References.html#ref-Li2017" role="doc-biblioref">2017</a>)</span>, <span class="citation" data-cites="Arulkumaran2017">Arulkumaran et al. (<a href="References.html#ref-Arulkumaran2017" role="doc-biblioref">2017</a>)</span> and <span class="citation" data-cites="Mousavi2018">Mousavi, Schukat, and Howley (<a href="References.html#ref-Mousavi2018" role="doc-biblioref">2018</a>)</span> for recent overviews of deep RL.</p>
+<p>See <span class="citation" data-cites="Li2017">Li (<a href="References.html#ref-Li2017" role="doc-biblioref">2017</a>)</span>, <span class="citation" data-cites="Arulkumaran2017">Arulkumaran et al. (<a href="References.html#ref-Arulkumaran2017" role="doc-biblioref">2017</a>)</span> and <span class="citation" data-cites="Mousavi2018">Mousavi et al. (<a href="References.html#ref-Mousavi2018" role="doc-biblioref">2018</a>)</span> for recent overviews of deep RL.</p>
 <p>The CS294 course of Sergey Levine at Berkeley is incredibly complete: <a href="http://rll.berkeley.edu/deeprlcourse/" class="uri">http://rll.berkeley.edu/deeprlcourse/</a>. The Reinforcement Learning course by David Silver at UCL covers also the whole field: <a href="http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html" class="uri">http://www0.cs.ucl.ac.uk/staff/d.silver/web/Teaching.html</a>.</p>
 <p>This series of posts from Arthur Juliani <a href="https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0" class="uri">https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0</a> also provide a very good introduction to deep RL, associated to code samples using tensorflow.</p>
 <p><strong>Notes</strong></p>

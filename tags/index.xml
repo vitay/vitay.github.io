@@ -21,20 +21,20 @@
     </item>
     
     <item>
-      <title>Machine Learning</title>
-      <link>https://julien-vitay.net/tags/machine-learning/</link>
-      <pubDate>Wed, 08 May 2019 07:32:46 +0100</pubDate>
-      
-      <guid>https://julien-vitay.net/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Reinforcement Learning</title>
       <link>https://julien-vitay.net/tags/reinforcement-learning/</link>
       <pubDate>Wed, 08 May 2019 07:32:46 +0100</pubDate>
       
       <guid>https://julien-vitay.net/tags/reinforcement-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine-learning</title>
+      <link>https://julien-vitay.net/tags/machine-learning/</link>
+      <pubDate>Wed, 08 May 2019 07:32:46 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/tags/machine-learning/</guid>
       <description></description>
     </item>
     
@@ -57,7 +57,7 @@
     </item>
     
     <item>
-      <title>computational neuroscience</title>
+      <title>computational-neuroscience</title>
       <link>https://julien-vitay.net/tags/computational-neuroscience/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
       
