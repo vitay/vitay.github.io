@@ -55,6 +55,52 @@
   </url>
   
   <url>
+    <loc>https://julien-vitay.net/publication_types/1/</loc>
+    <lastmod>2019-04-24T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/authors/enrico-schr%C3%B6der/</loc>
+    <lastmod>2019-04-24T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/publication/schroeder2019/</loc>
+    <lastmod>2019-04-24T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/authors/fred-h.-hamker/</loc>
+    <lastmod>2019-04-24T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/authors/mirko-m%C3%A4hlisch/</loc>
+    <lastmod>2019-04-24T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/publication_types/</loc>
+    <lastmod>2019-04-24T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/publication/</loc>
+    <lastmod>2019-04-24T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/authors/sascha-braun/</loc>
+    <lastmod>2019-04-24T00:00:00+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://julien-vitay.net/talk/clt2019/</loc>
     <lastmod>2019-03-16T12:00:00+01:00</lastmod>
   </url>
@@ -65,54 +111,8 @@
   </url>
   
   <url>
-    <loc>https://julien-vitay.net/publication_types/1/</loc>
-    <lastmod>2019-02-01T00:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/authors/enrico-schr%C3%B6der/</loc>
-    <lastmod>2019-02-01T00:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/publication/schroeder2019/</loc>
-    <lastmod>2019-02-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/authors/fred-h.-hamker/</loc>
-    <lastmod>2019-02-01T00:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/authors/mirko-m%C3%A4hlisch/</loc>
-    <lastmod>2019-02-01T00:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/publication_types/</loc>
-    <lastmod>2019-02-01T00:00:00+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/publication/</loc>
-    <lastmod>2019-02-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://julien-vitay.net/publication/forch2019/</loc>
     <lastmod>2019-02-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/authors/sascha-braun/</loc>
-    <lastmod>2019-02-01T00:00:00+01:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -477,7 +477,7 @@
   </url>
   
   <url>
-    <loc>https://julien-vitay.net/publication/habilitation/</loc>
+    <loc>https://julien-vitay.net/publication/vitay2017/</loc>
     <lastmod>2017-01-01T00:00:00+01:00</lastmod>
   </url>
   

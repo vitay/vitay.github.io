@@ -1,0 +1,18 @@
+
+@article{Dinkelbach2012,
+  title = {Comparison of {{GPU}}- and {{CPU}}-Implementations of Mean-Firing Rate Neural Networks on Parallel Hardware},
+  volume = {23},
+  copyright = {All rights reserved},
+  issn = {0954-898X},
+  abstract = {Modern parallel hardware such as multi-core processors (CPUs) and graphics processing units (GPUs) have a high computational power which can be greatly beneficial to the simulation of large-scale neural networks. Over the past years, a number of efforts have focused on developing parallel algorithms and simulators best suited for the simulation of spiking neural models. In this article, we aim at investigating the advantages and drawbacks of the CPU and GPU parallelization of mean-firing rate neurons, widely used in systems-level computational neuroscience. By comparing OpenMP, CUDA and OpenCL implementations towards a serial CPU implementation, we show that GPUs are better suited than CPUs for the simulation of very large networks, but that smaller networks would benefit more from an OpenMP implementation. As this performance strongly depends on data organization, we analyze the impact of various factors such as data structure, memory alignment and floating precision. We then discuss the suitability of the different hardware depending on the networks' size and connectivity, as random or sparse connectivities in mean-firing rate networks tend to break parallel performance on GPUs due to the violation of coalescence.},
+  number = {4},
+  urldate = {2019-06-14},
+  journal = {Network: Computation in Neural Systems},
+  doi = {10.3109/0954898X.2012.739292},
+  url = {https://doi.org/10.3109/0954898X.2012.739292},
+  author = {Dinkelbach, Helge {\"U}lo and Vitay, Julien and Beuth, Frederik and Hamker, Fred H.},
+  month = dec,
+  year = {2012},
+  keywords = {neural simulator,parallel computing,GPU,CUDA,Neural computation,OpenCL,OpenMP},
+  pages = {212-236}
+}

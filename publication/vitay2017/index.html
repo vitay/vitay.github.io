@@ -27,10 +27,10 @@
   
     
   
-  <meta name="description" content="Recent advances in deep reinforcement learning methods have attracted a lot of attention, because of their ability to use raw signals such as video streams as inputs, instead of pre-processed state variables. However, the most popular methods (value-based methods, e.g. deep Q-networks) focus on discrete action spaces (e.g. the left/right buttons), while realistic robotic applications usually require a continuous action space (for example the joint space). Policy gradient methods, such as stochastic policy gradient or deep deterministic policy gradient, propose to overcome this problem by allowing continuous action spaces. Despite their promises, they suffer from long training times as they need huge numbers of interactions to converge. In this paper, we investigate in how far a recent asynchronously parallel actor-critic approach, initially proposed to speed up discrete RL algorithms, could be used for the continuous control of robotic arms. We demonstrate the capabilities of this end-to-end learning algorithm on a simulated 2 degrees-of-freedom robotic arm and discuss its applications to more realistic scenarios.">
+  <meta name="description" content="Neuro-computational models allow to study the brain mechanisms involved in intelligent behavior and extract essential computational principles which can be implemented in cognitive systems. They are a promising solution to achieve a brain-like artificial intelligence that can compete with natural intelligence on realistic behaviors. A crucial property of intelligent behavior is motivation, defined as the incentive to interact with the world in order to achieve specific goals, either extrinsic (obtaining rewards such as food or money, or avoiding pain) or intrinsic (satisfying one&#39;s curiosity, fun). In the human brain, motivated or goal-directed behavior depends on a network of different structures, including the prefrontal cortex, the basal ganglia and the limbic system. Dopamine, a neuro-transmitter associated with reward processing, plays a central role in coordinating the activity of this network. It structures processing in high-level cognitive areas along a limbic-associative-motor gradient and impacts the learning capabilities of the whole system. In this habilitation thesis, I present biologically-constrained neuro-computational models which investigate the role of dopamine in visual object categorization and memory retrieval (Vitay and Hamker, 2008), reinforcement learning and action selection (Vitay and Hamker, 2010), the updating, learning and maintenance of working memory (Schroll, Vitay and Hamker, 2012) and timing processes (Vitay and Hamker, 2014). These models outline the many mechanisms by which the dopaminergic system regulates cognitive and emotional behavior: bistable processing modes in the cerebral cortex, modulation of synaptic transmission and plasticity, allocation of cognitive resources and signaling of relevant events. Finally, I present a neural simulator able to simulate a variety of neuro-computational models efficiently on parallel architectures (Vitay, Dinkelbach and Hamker, 2015).">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://julien-vitay.net/publication/loetzsch2017/">
+  <link rel="alternate" hreflang="en-us" href="https://julien-vitay.net/publication/vitay2017/">
 
   
 
@@ -69,12 +69,6 @@
       
     
     
-      
-      
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
-      
-    
 
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
@@ -112,7 +106,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://julien-vitay.net/publication/loetzsch2017/">
+  <link rel="canonical" href="https://julien-vitay.net/publication/vitay2017/">
 
   
   
@@ -124,21 +118,21 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Julien Vitay">
-  <meta property="og:url" content="https://julien-vitay.net/publication/loetzsch2017/">
-  <meta property="og:title" content="Training a deep policy gradient-based neural network with asynchronous learners on a simulated robotic problem | Julien Vitay">
-  <meta property="og:description" content="Recent advances in deep reinforcement learning methods have attracted a lot of attention, because of their ability to use raw signals such as video streams as inputs, instead of pre-processed state variables. However, the most popular methods (value-based methods, e.g. deep Q-networks) focus on discrete action spaces (e.g. the left/right buttons), while realistic robotic applications usually require a continuous action space (for example the joint space). Policy gradient methods, such as stochastic policy gradient or deep deterministic policy gradient, propose to overcome this problem by allowing continuous action spaces. Despite their promises, they suffer from long training times as they need huge numbers of interactions to converge. In this paper, we investigate in how far a recent asynchronously parallel actor-critic approach, initially proposed to speed up discrete RL algorithms, could be used for the continuous control of robotic arms. We demonstrate the capabilities of this end-to-end learning algorithm on a simulated 2 degrees-of-freedom robotic arm and discuss its applications to more realistic scenarios."><meta property="og:image" content="https://julien-vitay.net/img/icon-192.png">
+  <meta property="og:url" content="https://julien-vitay.net/publication/vitay2017/">
+  <meta property="og:title" content="On the role of dopamine in motivated behavior: a neuro-computational approach | Julien Vitay">
+  <meta property="og:description" content="Neuro-computational models allow to study the brain mechanisms involved in intelligent behavior and extract essential computational principles which can be implemented in cognitive systems. They are a promising solution to achieve a brain-like artificial intelligence that can compete with natural intelligence on realistic behaviors. A crucial property of intelligent behavior is motivation, defined as the incentive to interact with the world in order to achieve specific goals, either extrinsic (obtaining rewards such as food or money, or avoiding pain) or intrinsic (satisfying one&#39;s curiosity, fun). In the human brain, motivated or goal-directed behavior depends on a network of different structures, including the prefrontal cortex, the basal ganglia and the limbic system. Dopamine, a neuro-transmitter associated with reward processing, plays a central role in coordinating the activity of this network. It structures processing in high-level cognitive areas along a limbic-associative-motor gradient and impacts the learning capabilities of the whole system. In this habilitation thesis, I present biologically-constrained neuro-computational models which investigate the role of dopamine in visual object categorization and memory retrieval (Vitay and Hamker, 2008), reinforcement learning and action selection (Vitay and Hamker, 2010), the updating, learning and maintenance of working memory (Schroll, Vitay and Hamker, 2012) and timing processes (Vitay and Hamker, 2014). These models outline the many mechanisms by which the dopaminergic system regulates cognitive and emotional behavior: bistable processing modes in the cerebral cortex, modulation of synaptic transmission and plasticity, allocation of cognitive resources and signaling of relevant events. Finally, I present a neural simulator able to simulate a variety of neuro-computational models efficiently on parallel architectures (Vitay, Dinkelbach and Hamker, 2015)."><meta property="og:image" content="https://julien-vitay.net/img/icon-192.png">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2017-09-15T00:00:00&#43;02:00">
+  <meta property="article:published_time" content="2017-01-01T00:00:00&#43;01:00">
   
-  <meta property="article:modified_time" content="2017-09-15T00:00:00&#43;02:00">
-  
-
+  <meta property="article:modified_time" content="2017-01-01T00:00:00&#43;01:00">
   
 
   
 
-  <title>Training a deep policy gradient-based neural network with asynchronous learners on a simulated robotic problem | Julien Vitay</title>
+  
+
+  <title>On the role of dopamine in motivated behavior: a neuro-computational approach | Julien Vitay</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -349,7 +343,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Training a deep policy gradient-based neural network with asynchronous learners on a simulated robotic problem</h1>
+  <h1 itemprop="name">On the role of dopamine in motivated behavior: a neuro-computational approach</h1>
 
   
 
@@ -358,8 +352,8 @@
 
 
 
-<meta content="2017-09-15 00:00:00 &#43;0200 CEST" itemprop="datePublished">
-<meta content="2017-09-15 00:00:00 &#43;0200 CEST" itemprop="dateModified">
+<meta content="2017-01-01 00:00:00 &#43;0100 CET" itemprop="datePublished">
+<meta content="2017-01-01 00:00:00 &#43;0100 CET" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -381,7 +375,7 @@
     
       
     
-    <time>September 2017</time>
+    <time>January 2017</time>
   </span>
   
 
@@ -438,20 +432,26 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="/pdf/Loetzsch2017.pdf" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="/pdf/Vitay2017.pdf" target="_blank" rel="noopener">
   PDF
 </a>
 
 
 
 <button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/loetzsch2017/cite.bib">
+        data-filename="/publication/vitay2017/cite.bib">
   Cite
 </button>
 
 
 
 
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/project/dopamine/">
+    Project
+  </a>
+  
 
 
 
@@ -482,28 +482,14 @@
 
       
       
-      <a href="">Winfried Lötzsch</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/authors/julien-vitay/">Julien Vitay</a></span></span>, 
-  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
-      <span itemprop="name">
-        
-
-      
-      
-      <a href="/authors/fred-h.-hamker/">Fred H. Hamker</a></span></span>
+      <a href="/authors/julien-vitay/">Julien Vitay</a></span></span>
   
 
 
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract" itemprop="text">Recent advances in deep reinforcement learning methods have attracted a lot of attention, because of their ability to use raw signals such as video streams as inputs, instead of pre-processed state variables. However, the most popular methods (value-based methods, e.g. deep Q-networks) focus on discrete action spaces (e.g. the left/right buttons), while realistic robotic applications usually require a continuous action space (for example the joint space). Policy gradient methods, such as stochastic policy gradient or deep deterministic policy gradient, propose to overcome this problem by allowing continuous action spaces. Despite their promises, they suffer from long training times as they need huge numbers of interactions to converge. In this paper, we investigate in how far a recent asynchronously parallel actor-critic approach, initially proposed to speed up discrete RL algorithms, could be used for the continuous control of robotic arms. We demonstrate the capabilities of this end-to-end learning algorithm on a simulated 2 degrees-of-freedom robotic arm and discuss its applications to more realistic scenarios.</p>
+    <p class="pub-abstract" itemprop="text">Neuro-computational models allow to study the brain mechanisms involved in intelligent behavior and extract essential computational principles which can be implemented in cognitive systems. They are a promising solution to achieve a brain-like artificial intelligence that can compete with natural intelligence on realistic behaviors. A crucial property of intelligent behavior is motivation, defined as the incentive to interact with the world in order to achieve specific goals, either extrinsic (obtaining rewards such as food or money, or avoiding pain) or intrinsic (satisfying one&rsquo;s curiosity, fun). In the human brain, motivated or goal-directed behavior depends on a network of different structures, including the prefrontal cortex, the basal ganglia and the limbic system. Dopamine, a neuro-transmitter associated with reward processing, plays a central role in coordinating the activity of this network. It structures processing in high-level cognitive areas along a limbic-associative-motor gradient and impacts the learning capabilities of the whole system. In this habilitation thesis, I present biologically-constrained neuro-computational models which investigate the role of dopamine in visual object categorization and memory retrieval (Vitay and Hamker, 2008), reinforcement learning and action selection (Vitay and Hamker, 2010), the updating, learning and maintenance of working memory (Schroll, Vitay and Hamker, 2012) and timing processes (Vitay and Hamker, 2014). These models outline the many mechanisms by which the dopaminergic system regulates cognitive and emotional behavior: bistable processing modes in the cerebral cortex, modulation of synaptic transmission and plasticity, allocation of cognitive resources and signaling of relevant events. Finally, I present a neural simulator able to simulate a variety of neuro-computational models efficiently on parallel architectures (Vitay, Dinkelbach and Hamker, 2015).</p>
     
 
     
@@ -517,8 +503,8 @@
 
             
             
-            <a href="/publication/#1">
-              Conference paper
+            <a href="/publication/#4">
+              Report
             </a>
             
           </div>
@@ -535,7 +521,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">In 47. Jahrestagung der Gesellschaft für Informatik e.V. (GI), Chemnitz (Germany)</div>
+          <div class="col-12 col-md-9">Habilitation (TU Chemnitz)</div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -646,12 +632,6 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
 
       
-        
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
-        
-        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/python.min.js"></script>
-        
-      
 
       
       
@@ -669,8 +649,6 @@
     
 
     
-    
-    <script>hljs.initHighlightingOnLoad();</script>
     
 
     
