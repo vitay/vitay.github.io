@@ -6,10 +6,28 @@
     <description>Recent content in Publications on Julien Vitay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Apr 2019 00:00:00 +0200</lastBuildDate>
+    <lastBuildDate>Sat, 14 Sep 2019 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://julien-vitay.net/publication/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Scalable simulation of rate-coded and spiking neural networks on shared memory systems</title>
+      <link>https://julien-vitay.net/publication/dinkelbach2019/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/dinkelbach2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Forward Models in the Cerebellum using Reservoirs and Perturbation Learning</title>
+      <link>https://julien-vitay.net/publication/schmid2019/</link>
+      <pubDate>Fri, 13 Sep 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/schmid2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Feature Map Transformation for Fusion of Multi-Sensor Object Detection Networks for Autonomous Driving</title>

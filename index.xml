@@ -6,10 +6,28 @@
     <description>Recent content on Julien Vitay</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 08 May 2019 07:32:46 +0100</lastBuildDate>
+    <lastBuildDate>Sat, 14 Sep 2019 00:00:00 +0200</lastBuildDate>
     
 	    <atom:link href="https://julien-vitay.net/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Scalable simulation of rate-coded and spiking neural networks on shared memory systems</title>
+      <link>https://julien-vitay.net/publication/dinkelbach2019/</link>
+      <pubDate>Sat, 14 Sep 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/dinkelbach2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Forward Models in the Cerebellum using Reservoirs and Perturbation Learning</title>
+      <link>https://julien-vitay.net/publication/schmid2019/</link>
+      <pubDate>Fri, 13 Sep 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/schmid2019/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Successor Representations</title>
@@ -715,12 +733,6 @@ plt.show()
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/annarchy/izhikevich.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;publications&#34;&gt;Publications&lt;/h3&gt;
-
-&lt;p&gt;Julien Vitay, Helge Ü. Dinkelbach, Fred H. Hamker (2015). &lt;a href=&#34;../../publication/vitay2015/&#34;&gt;ANNarchy: a code generation approach to neural simulations on parallel hardware&lt;/a&gt;. Front. Neuroinform. 9:19. doi: 10.3389/fninf.2015.00019.&lt;/p&gt;
-
-&lt;p&gt;Helge Ü. Dinkelbach, Julien Vitay, Fred H. Hamker (2012). &lt;a href=&#34;../../publication/dinkelbach2012/&#34;&gt;Comparison of GPU- and CPU-implementations of mean-firing rate neural networks on parallel hardware&lt;/a&gt;. Network: Computation in Neural Systems 23(4). doi:10.3109/0954898X.2012.739292.&lt;/p&gt;
 </description>
     </item>
     
@@ -835,14 +847,6 @@ plt.show()
   &lt;iframe src=&#34;//www.youtube.com/embed/dupgWkoA78c&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
-
-&lt;h3 id=&#34;publications&#34;&gt;Publications&lt;/h3&gt;
-
-&lt;p&gt;Enrico Schröder, Mirko Mählisch, Julien Vitay, Fred H. Hamker (2018). &lt;a href=&#34;../../publication/schroeder2018&#34;&gt;Fusion of Camera and Lidar Data for Object Detection using Neural Networks&lt;/a&gt;. In Proceedings of 12. Workshop Fahrerassistenzsysteme und automatisiertes Fahren FAS 2018, 26-28.09.2018, Walting im Altmühltal (Germany). pp138-146. Darmstadt:Uni-DAS e.V..&lt;/p&gt;
-
-&lt;p&gt;Enrico Schröder, Sascha Braun, Mirko Mählisch, Julien Vitay, Fred H. Hamker (2019). &lt;a href=&#34;../../publication/schroeder2019&#34;&gt;Feature Map Transformation for Fusion of Multi-Sensor Object Detection Networks for Autonomous Driving&lt;/a&gt;. In Computer Vision Conference (CVC), Las Vegas (Nevada).&lt;/p&gt;
-
-&lt;p&gt;Valentin Forch, Julien Vitay, Fred H. Hamker (2019). &lt;a href=&#34;../../publication/forch2019&#34;&gt;Recurrent Spatial Attention for Facial Emotion Recognition&lt;/a&gt;. In Proceedings of Workshop Localize IT, Chemnitz Linux-Tage, Chemnitz (Germany).&lt;/p&gt;
 </description>
     </item>
     
@@ -852,21 +856,13 @@ plt.show()
       <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
       
       <guid>https://julien-vitay.net/project/dopamine/</guid>
-      <description>
-
-&lt;p&gt;The dopaminergic system is composed of the &lt;em&gt;ventral tegmental area&lt;/em&gt; (VTA) and the &lt;em&gt;substantia nigra pars compacta&lt;/em&gt; (SNc). The neurotransmitter &lt;strong&gt;dopamine&lt;/strong&gt; (DA) released by neurons in these two small areas exerts a strong influence on neural excitability and plasticity in many brain areas: mostly the basal ganglia (BG), but also the prefrontal cortex, the hippocampus or the amygdala.&lt;/p&gt;
+      <description>&lt;p&gt;The dopaminergic system is composed of the &lt;em&gt;ventral tegmental area&lt;/em&gt; (VTA) and the &lt;em&gt;substantia nigra pars compacta&lt;/em&gt; (SNc). The neurotransmitter &lt;strong&gt;dopamine&lt;/strong&gt; (DA) released by neurons in these two small areas exerts a strong influence on neural excitability and plasticity in many brain areas: mostly the basal ganglia (BG), but also the prefrontal cortex, the hippocampus or the amygdala.&lt;/p&gt;
 
 &lt;p&gt;A striking feature of VTA cells is their response during classical (or Pavlovian) conditioning, as observed by Schultz et al (1998).  Early on, VTA cells respond phasically (a burst) to unconditioned stimuli (US, or rewards in operant conditioning). Gradually during learning, the amplitude of this response decreases, replaced by a response to the conditioned stimuli (CS) which are predictive of reward delivery. Moreover, if a reward is predicted by the CS but omitted, VTA cells show a brief depression of activity (a dip) at the time where the US was expected. This pattern resembles the temporal difference (TD) error signal used in reinforcement learning, what generated  multitudes of models based on that analogy.&lt;/p&gt;
 
 &lt;p&gt;What remains unclear is how VTA cells access information about the US, the CS and more importantly the time elapsed since CS onset. The goal of this research project is to investigate the mechanisms by which VTA is able to exhibit these properties, by looking at the afferent system to VTA. VTa indeed receives information from many brain areas, either directly as the rostromedial tegmental area (RMTg), the pedunculopontine nucleus (PPTN) or the nucleus accumbens (NAcc), or indirectly as the amygdala, the lateral habenula (LHb), the ventral pallidum (VP) or the ventromedial prefrontal cortex (vmPFC).&lt;/p&gt;
 
 &lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/dopamine/dopamine.jpg&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;publications&#34;&gt;Publications&lt;/h3&gt;
-
-&lt;p&gt;Julien Vitay (2017). &lt;a href=&#34;../../publication/habilitation&#34;&gt;On the role of dopamine in motivated behavior: a neuro-computational approach&lt;/a&gt;. Habilitation (TU Chemnitz).&lt;/p&gt;
-
-&lt;p&gt;Julien Vitay, Fred H. Hamker (2014). &lt;a href=&#34;../../publication/vitay2014&#34;&gt;Timing and expectation of reward: a neuro-computational model of the afferents to the ventral tegmental area&lt;/a&gt;. Front. Neurorobot. 8:4. doi:10.3389/fnbot.2014.00004.&lt;/p&gt;
 </description>
     </item>
     
