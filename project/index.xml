@@ -6,6 +6,7 @@
     <description>Recent content in Projects on Julien Vitay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright Julien Vitay</copyright>
     <lastBuildDate>Thu, 01 Jan 1970 01:33:39 +0100</lastBuildDate>
     
 	<atom:link href="https://julien-vitay.net/project/index.xml" rel="self" type="application/rss+xml" />
@@ -21,9 +22,18 @@
     </item>
     
     <item>
+      <title>Basal Ganglia</title>
+      <link>https://julien-vitay.net/project/basalganglia/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:38 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/project/basalganglia/</guid>
+      <description>The Basal Ganglia (BG) are the main nuclei involved in reinforcement learning processes in the brain and allow a variety of cognitive functions such as working memory, decision making and action selection.</description>
+    </item>
+    
+    <item>
       <title>Deep Learning</title>
       <link>https://julien-vitay.net/project/deeplearning/</link>
-      <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
+      <pubDate>Thu, 01 Jan 1970 01:33:37 +0100</pubDate>
       
       <guid>https://julien-vitay.net/project/deeplearning/</guid>
       <description>Deep neural networks and their applications to emotion recognition, attention, sensor fusion&amp;hellip;</description>
@@ -32,10 +42,37 @@
     <item>
       <title>Dopaminergic system</title>
       <link>https://julien-vitay.net/project/dopamine/</link>
-      <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
+      <pubDate>Thu, 01 Jan 1970 01:33:36 +0100</pubDate>
       
       <guid>https://julien-vitay.net/project/dopamine/</guid>
-      <description>Modeling the dopaminergic system (VTA, SNc), its afferences and its influence on the basal ganglia, prefrontal cortex and hippocampus.</description>
+      <description>Modeling the dopaminergic system (VTA, SNc), its afferent system and its influence on the basal ganglia, prefrontal cortex and hippocampus.</description>
+    </item>
+    
+    <item>
+      <title>Hippocampus</title>
+      <link>https://julien-vitay.net/project/hippocampus/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:35 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/project/hippocampus/</guid>
+      <description>The hippocampus is a key structure for mnemonic processes (episodic memory) and spatial navigation. Its importance in model-based behavior is increasingly recognized.</description>
+    </item>
+    
+    <item>
+      <title>Deep Reinforcement Learning</title>
+      <link>https://julien-vitay.net/project/reinforcementlearning/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:34 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/project/reinforcementlearning/</guid>
+      <description>Reinforcement Learning (RL) is a machine learning framework studying how to derive optimal policies from reward signals. Coupled with deep neural networks, it became the most promising approach to artificial intelligence.</description>
+    </item>
+    
+    <item>
+      <title>Reservoir Computing</title>
+      <link>https://julien-vitay.net/project/reservoircomputing/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:33 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/project/reservoircomputing/</guid>
+      <description>Reservoir computing studies the dynamical properties of recurrently connected populations of neurons. Their rich dynamics allow to represent and learn complex tasks currently out of reach of the classical machine learning methods, but also allow to better understand brain activities.</description>
     </item>
     
   </channel>

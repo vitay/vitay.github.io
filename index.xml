@@ -6,6 +6,7 @@
     <description>Recent content on Julien Vitay</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
+    <copyright>Copyright Julien Vitay</copyright>
     <lastBuildDate>Sat, 14 Sep 2019 00:00:00 +0200</lastBuildDate>
     
 	    <atom:link href="https://julien-vitay.net/index.xml" rel="self" type="application/rss+xml" />
@@ -737,9 +738,29 @@ plt.show()
     </item>
     
     <item>
+      <title>Basal Ganglia</title>
+      <link>https://julien-vitay.net/project/basalganglia/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:38 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/project/basalganglia/</guid>
+      <description>&lt;p&gt;The Basal Ganglia (BG) are a set of nuclei located in the basal forebrain, receiving inputs mostly from the cerebral cortex (especially the frontal lobe) and projecting on various motor centers, as well as back to the cortex through the thalamus, forming a closed-loop.&lt;/p&gt;
+
+&lt;p&gt;The main input station is the striatum, which can be anatomically divided into three parts: the nucleus accumbens (NAcc), the caudate nucleus (CN) and the putamen (PUT). Striatal neurons are excited by cortical activity and inhibit in turn the tonically active neurons of the output nuclei of the BG: the substantia nigra pars reticulata (SNr) and the internal segment of the globus pallidus (GPi). These output structures further inhibit some motor centers and thalamic nuclei.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/basalganglia/basalganglia.png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;This double inhibition allows to selectively open some recurrent loops between the thalamus and the cortex, increasing the signal-to-noise ratio in the cortex and triggering movements or cognitive functions.&lt;/p&gt;
+
+&lt;p&gt;Other nuclei in the BG, such as the subthalamic nucleus (STN) and the external part of the globus pallidus (GPe), create functionally different pathways to allow for a more complex role of BG in adapting behavior.&lt;/p&gt;
+
+&lt;p&gt;The main characteristic of the BG is its dense innervation by dopaminergic (DA) cells in the substantia nigra pars compacta (SNc) and ventral tegmental area (VTA), whose firing is related to reward delivery and prediction. DA can modulate the activation and learning of most cells in the BG, placing it as a core structure in reinforcement learning processes.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Deep Learning</title>
       <link>https://julien-vitay.net/project/deeplearning/</link>
-      <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
+      <pubDate>Thu, 01 Jan 1970 01:33:37 +0100</pubDate>
       
       <guid>https://julien-vitay.net/project/deeplearning/</guid>
       <description>
@@ -853,7 +874,7 @@ plt.show()
     <item>
       <title>Dopaminergic system</title>
       <link>https://julien-vitay.net/project/dopamine/</link>
-      <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
+      <pubDate>Thu, 01 Jan 1970 01:33:36 +0100</pubDate>
       
       <guid>https://julien-vitay.net/project/dopamine/</guid>
       <description>&lt;p&gt;The dopaminergic system is composed of the &lt;em&gt;ventral tegmental area&lt;/em&gt; (VTA) and the &lt;em&gt;substantia nigra pars compacta&lt;/em&gt; (SNc). The neurotransmitter &lt;strong&gt;dopamine&lt;/strong&gt; (DA) released by neurons in these two small areas exerts a strong influence on neural excitability and plasticity in many brain areas: mostly the basal ganglia (BG), but also the prefrontal cortex, the hippocampus or the amygdala.&lt;/p&gt;
@@ -863,6 +884,52 @@ plt.show()
 &lt;p&gt;What remains unclear is how VTA cells access information about the US, the CS and more importantly the time elapsed since CS onset. The goal of this research project is to investigate the mechanisms by which VTA is able to exhibit these properties, by looking at the afferent system to VTA. VTa indeed receives information from many brain areas, either directly as the rostromedial tegmental area (RMTg), the pedunculopontine nucleus (PPTN) or the nucleus accumbens (NAcc), or indirectly as the amygdala, the lateral habenula (LHb), the ventral pallidum (VP) or the ventromedial prefrontal cortex (vmPFC).&lt;/p&gt;
 
 &lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/dopamine/dopamine.jpg&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Hippocampus</title>
+      <link>https://julien-vitay.net/project/hippocampus/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:35 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/project/hippocampus/</guid>
+      <description>&lt;p&gt;The hippocampus is a key structure for episodic memory and spatial navigation. A fundamental step in hippocampus research was the discovery of &lt;strong&gt;place cells&lt;/strong&gt;, which fire whenever an animal traverses a certain location known as the place field (O&amp;rsquo;Keefe and Nadel, 1978). At rest, place cells exhibit brief periods of fast oscillations termed sharp wave-ripples. During these events, place cell activity shows sequential patterns called forward replay and reverse replay: time-compressed, and sometimes time-reversed, reproductions of previously experienced sequences. Spatial experiences stored in the hippocampus can therefore be recalled at will during behavior.&lt;/p&gt;
+
+&lt;p&gt;Our modeling work focuses on understanding how these replay patterns are learned and used for high-level cognitive processes such as decision-making and model-based reinforcement learning.&lt;/p&gt;
+
+&lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/hippocampus/model.png&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep Reinforcement Learning</title>
+      <link>https://julien-vitay.net/project/reinforcementlearning/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:34 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/project/reinforcementlearning/</guid>
+      <description>&lt;p&gt;Deep reinforcement learning (deep RL) is the integration of deep learning methods, classically used in supervised or unsupervised learning contexts, with reinforcement learning (RL), a well-studied adaptive control method used in problems with delayed and partial feedback.&lt;/p&gt;
+
+&lt;p&gt;Home-made textbook on deep RL:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://julien-vitay.net/deeprl&#34; target=&#34;_blank&#34;&gt;https://julien-vitay.net/deeprl&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reservoir Computing</title>
+      <link>https://julien-vitay.net/project/reservoircomputing/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:33 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/project/reservoircomputing/</guid>
+      <description>&lt;p&gt;The field of &lt;strong&gt;reservoir computing&lt;/strong&gt;, covering Echo-State Networks (ESN; Jaeger, 2000) and Liquid State Machines (Maas, 2001), studies the dynamical properties of recurrent neural networks. Depending on the strength of the recurrent connections, the reservoirs can exhibit either deterministic or chaotic trajectories following a stimulation.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;result.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;These trajectories can serve as a complex temporal basis to represent events. In their early formulation, reservoirs were fixed and read-out neurons used this basis to mimic specific target signals using supervised learning.&lt;/p&gt;
+
+&lt;p&gt;In the recent years, methods have been developed to train the connections inside the reservoir too, either using supervised learning (e.g. Laje and Buonomano 2013) or reinforcement learning (Miconi, 2017). This unleashes the potential of reservoirs for both machine learning applications and computational neuroscience.&lt;/p&gt;
+
+&lt;p&gt;We study the properties of reservoir computing at the neuroscientific level, with an emphasis on reinforcement learning, forward models in the cerebellum (Schmid et al, 2019) or interval timing.&lt;/p&gt;
 </description>
     </item>
     

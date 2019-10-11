@@ -6,6 +6,7 @@
     <description>Recent content in Tags on Julien Vitay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright Julien Vitay</copyright>
     <lastBuildDate>Wed, 08 May 2019 07:32:46 +0100</lastBuildDate>
     
 	<atom:link href="https://julien-vitay.net/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -48,29 +49,11 @@
     </item>
     
     <item>
-      <title>Hippocampus</title>
-      <link>https://julien-vitay.net/tags/hippocampus/</link>
-      <pubDate>Thu, 12 Oct 2017 00:00:00 +0200</pubDate>
-      
-      <guid>https://julien-vitay.net/tags/hippocampus/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>computational neuroscience</title>
       <link>https://julien-vitay.net/tags/computational-neuroscience/</link>
-      <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
+      <pubDate>Thu, 12 Oct 2017 00:00:00 +0200</pubDate>
       
       <guid>https://julien-vitay.net/tags/computational-neuroscience/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>deep-learning</title>
-      <link>https://julien-vitay.net/tags/deep-learning/</link>
-      <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
-      
-      <guid>https://julien-vitay.net/tags/deep-learning/</guid>
       <description></description>
     </item>
     
@@ -80,6 +63,15 @@
       <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
       
       <guid>https://julien-vitay.net/tags/parallel-computing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>deep-learning</title>
+      <link>https://julien-vitay.net/tags/deep-learning/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:37 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/tags/deep-learning/</guid>
       <description></description>
     </item>
     

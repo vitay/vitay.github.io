@@ -6,7 +6,8 @@
     <description>Recent content in deep-learning on Julien Vitay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jan 1970 01:33:39 +0100</lastBuildDate>
+    <copyright>Copyright Julien Vitay</copyright>
+    <lastBuildDate>Thu, 01 Jan 1970 01:33:37 +0100</lastBuildDate>
     
 	<atom:link href="https://julien-vitay.net/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +15,7 @@
     <item>
       <title>Deep Learning</title>
       <link>https://julien-vitay.net/project/deeplearning/</link>
-      <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
+      <pubDate>Thu, 01 Jan 1970 01:33:37 +0100</pubDate>
       
       <guid>https://julien-vitay.net/project/deeplearning/</guid>
       <description>Deep neural networks and their applications to emotion recognition, attention, sensor fusion&amp;hellip;</description>

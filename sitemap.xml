@@ -465,12 +465,6 @@
   </url>
   
   <url>
-    <loc>https://julien-vitay.net/tags/hippocampus/</loc>
-    <lastmod>2017-10-12T00:00:00+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://julien-vitay.net/authors/lorenz-g%C3%B6nner/</loc>
     <lastmod>2017-10-12T00:00:00+02:00</lastmod>
     <priority>0</priority>
@@ -479,6 +473,12 @@
   <url>
     <loc>https://julien-vitay.net/publication/goenner2017/</loc>
     <lastmod>2017-10-12T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/tags/computational-neuroscience/</loc>
+    <lastmod>2017-10-12T00:00:00+02:00</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -613,29 +613,7 @@
   </url>
   
   <url>
-    <loc>https://julien-vitay.net/project/deeplearning/</loc>
-    <lastmod>1970-01-01T01:33:39+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/project/dopamine/</loc>
-    <lastmod>1970-01-01T01:33:39+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://julien-vitay.net/project/</loc>
-    <lastmod>1970-01-01T01:33:39+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/tags/computational-neuroscience/</loc>
-    <lastmod>1970-01-01T01:33:39+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/tags/deep-learning/</loc>
     <lastmod>1970-01-01T01:33:39+01:00</lastmod>
     <priority>0</priority>
   </url>
@@ -644,6 +622,42 @@
     <loc>https://julien-vitay.net/tags/parallel-computing/</loc>
     <lastmod>1970-01-01T01:33:39+01:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/project/basalganglia/</loc>
+    <lastmod>1970-01-01T01:33:38+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/project/deeplearning/</loc>
+    <lastmod>1970-01-01T01:33:37+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/tags/deep-learning/</loc>
+    <lastmod>1970-01-01T01:33:37+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/project/dopamine/</loc>
+    <lastmod>1970-01-01T01:33:36+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/project/hippocampus/</loc>
+    <lastmod>1970-01-01T01:33:35+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/project/reinforcementlearning/</loc>
+    <lastmod>1970-01-01T01:33:34+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/project/reservoircomputing/</loc>
+    <lastmod>1970-01-01T01:33:33+01:00</lastmod>
   </url>
   
   <url>

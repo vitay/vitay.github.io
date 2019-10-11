@@ -6,10 +6,20 @@
     <description>Recent content in computational neuroscience on Julien Vitay</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Jan 1970 01:33:39 +0100</lastBuildDate>
+    <copyright>Copyright Julien Vitay</copyright>
+    <lastBuildDate>Thu, 12 Oct 2017 00:00:00 +0200</lastBuildDate>
     
 	<atom:link href="https://julien-vitay.net/tags/computational-neuroscience/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Predictive Place-Cell Sequences for Goal-Finding Emerge from Goal Memory and the Cognitive Map: A Computational Model</title>
+      <link>https://julien-vitay.net/publication/goenner2017/</link>
+      <pubDate>Thu, 12 Oct 2017 00:00:00 +0200</pubDate>
+      
+      <guid>https://julien-vitay.net/publication/goenner2017/</guid>
+      <description>   </description>
+    </item>
     
     <item>
       <title>ANNarchy</title>
@@ -21,12 +31,21 @@
     </item>
     
     <item>
+      <title>Basal Ganglia</title>
+      <link>https://julien-vitay.net/project/basalganglia/</link>
+      <pubDate>Thu, 01 Jan 1970 01:33:38 +0100</pubDate>
+      
+      <guid>https://julien-vitay.net/project/basalganglia/</guid>
+      <description>The Basal Ganglia (BG) are the main nuclei involved in reinforcement learning processes in the brain and allow a variety of cognitive functions such as working memory, decision making and action selection.</description>
+    </item>
+    
+    <item>
       <title>Dopaminergic system</title>
       <link>https://julien-vitay.net/project/dopamine/</link>
-      <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
+      <pubDate>Thu, 01 Jan 1970 01:33:36 +0100</pubDate>
       
       <guid>https://julien-vitay.net/project/dopamine/</guid>
-      <description>Modeling the dopaminergic system (VTA, SNc), its afferences and its influence on the basal ganglia, prefrontal cortex and hippocampus.</description>
+      <description>Modeling the dopaminergic system (VTA, SNc), its afferent system and its influence on the basal ganglia, prefrontal cortex and hippocampus.</description>
     </item>
     
   </channel>
