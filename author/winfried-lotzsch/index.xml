@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Winfried Lötzsch | Julien Vitay</title>
+    <link>https://julien-vitay.net/author/winfried-lotzsch/</link>
+      <atom:link href="https://julien-vitay.net/author/winfried-lotzsch/index.xml" rel="self" type="application/rss+xml" />
+    <description>Winfried Lötzsch</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 15 Sep 2017 00:00:00 +0200</lastBuildDate>
+    <image>
+      <url>https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Winfried Lötzsch</title>
+      <link>https://julien-vitay.net/author/winfried-lotzsch/</link>
+    </image>
+    
+    <item>
+      <title>Training a deep policy gradient-based neural network with asynchronous learners on a simulated robotic problem</title>
+      <link>https://julien-vitay.net/publication/loetzsch2017/</link>
+      <pubDate>Fri, 15 Sep 2017 00:00:00 +0200</pubDate>
+      <guid>https://julien-vitay.net/publication/loetzsch2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

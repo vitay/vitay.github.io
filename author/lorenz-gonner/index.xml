@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lorenz Gönner | Julien Vitay</title>
+    <link>https://julien-vitay.net/author/lorenz-gonner/</link>
+      <atom:link href="https://julien-vitay.net/author/lorenz-gonner/index.xml" rel="self" type="application/rss+xml" />
+    <description>Lorenz Gönner</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 12 Oct 2017 00:00:00 +0200</lastBuildDate>
+    <image>
+      <url>https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Lorenz Gönner</title>
+      <link>https://julien-vitay.net/author/lorenz-gonner/</link>
+    </image>
+    
+    <item>
+      <title>Predictive Place-Cell Sequences for Goal-Finding Emerge from Goal Memory and the Cognitive Map: A Computational Model</title>
+      <link>https://julien-vitay.net/publication/goenner2017/</link>
+      <pubDate>Thu, 12 Oct 2017 00:00:00 +0200</pubDate>
+      <guid>https://julien-vitay.net/publication/goenner2017/</guid>
+      <description>
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/publication/goenner2017/model_hua752f27e9743bc39ddb864b399f3604d_201823_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://julien-vitay.net/publication/goenner2017/model_hua752f27e9743bc39ddb864b399f3604d_201823_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;641&#34; height=&#34;667&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

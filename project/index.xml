@@ -1,78 +1,277 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Julien Vitay</title>
+    <title>Projects | Julien Vitay</title>
     <link>https://julien-vitay.net/project/</link>
-    <description>Recent content in Projects on Julien Vitay</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Copyright Julien Vitay</copyright>
-    <lastBuildDate>Thu, 01 Jan 1970 01:33:39 +0100</lastBuildDate>
-    
-	<atom:link href="https://julien-vitay.net/project/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://julien-vitay.net/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 1970 01:33:39 +0100</lastBuildDate>
+    <image>
+      <url>https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>https://julien-vitay.net/project/</link>
+    </image>
     
     <item>
       <title>ANNarchy</title>
       <link>https://julien-vitay.net/project/annarchy/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/project/annarchy/</guid>
-      <description>ANNarchy (Artificial Neural Networks architect) is a general-purpose parallel neuro-simulator for rate-coded or spiking neural networks.</description>
+      <description>&lt;p&gt;Neuro-computational models are different from classical neural networks (deep learning) in many aspects:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The complexity of the neurons, whose activity is governed by one or several differential equations instead of a simple weighted sum.&lt;/li&gt;
+&lt;li&gt;The complexity and diversity of the learning rules (synaptic plasticity), compared to gradient descent.&lt;/li&gt;
+&lt;li&gt;The size of the networks needed to simulate significant parts of the brain.&lt;/li&gt;
+&lt;li&gt;The huge diversity of models, architectures, frameworks used by researchers in computational neuroscience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The increasing size of such networks asks for efficient parallel simulations, using distributed systems (OpenMP, MPI) or GPUs (CUDA). However, computational neuroscientists cannot be expected to be also experts in parallel computing. There is a need for a general-purpose neuro-simulator, with an easy but flexible interface allowing to define a huge variety of models, but which is internally efficient and allows for fast parallel simulations on various hardwares.&lt;/p&gt;
+&lt;p&gt;Over many years, we have developed &lt;strong&gt;ANNarchy&lt;/strong&gt; (Artificial Neural Networks architect), a parallel simulator for distributed rate-coded or spiking neural networks. The definition of the models is made in Python, but the library generates optimized C++ code to actually run the simulation on parallel hardware, using either openMP or CUDA. The current stable version is 4.6 and is released under the GNU GPL v2 or later.&lt;/p&gt;
+&lt;p&gt;The code is available at:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bitbucket.org/annarchy/annarchy&#34;&gt;https://bitbucket.org/annarchy/annarchy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The documentation is available at:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://annarchy.readthedocs.org&#34;&gt;https://annarchy.readthedocs.org&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;core-principles&#34;&gt;Core principles&lt;/h3&gt;
+&lt;p&gt;ANNarchy separates the description of a neural network from its simulation. The description is declared in a Python script, offering high flexibility and readability of the code, and allowing to use the huge ecosystem of scientific libraries available with Python (Numpy, Scipy, Matplotlib&amp;hellip;). Using Python furthermore reduces the programming effort to a minimum, letting the modeller concentrate on network design and data analysis.&lt;/p&gt;
+&lt;p&gt;&lt;img style=&#34;width:60%; min-width:320px&#34; src=&#34;annarchy.svg&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;A neural network is defined as a collection of interconnected populations of neurons. Each population comprises a set of similar artificial neurons (rate-coded or spiking point-neurons), whose activity is ruled by one or many ordinary differential equations. The activity of a neuron depends on the activity of other neurons through synapses, whose strength can evolve with time depending on pre- or post-synaptic activities (synaptic plasticity). Populations are interconnected with each other through projections, which contain synapses between two populations.&lt;/p&gt;
+&lt;p&gt;ANNarchy provides a set of classical neuron or synapse models, but also allows the definition of specific models. The ordinary differential equations (ODE) governing neural or synaptic dynamics have to be specified by the modeler. Contrary to other simulators (except Brian) which require to code these modules in a low-level language, ANNarchy provides a mathematical equation parser which can generate optimized C++ code depending on the chosen parallel framework. Bindings from C++ to Python are generated thanks to Cython (C-extensions to Python), which is a static compiler for Python. These bindings allow the Python script to access all data generated by the simulation (neuronal activity, connection weights) as if they were simple Python attributes. However, the simulation itself is independent from Python and its relatively low performance.&lt;/p&gt;
+&lt;h3 id=&#34;example-of-a-pulse-coupled-network-of-izhikevich-neurons&#34;&gt;Example of a pulse-coupled network of Izhikevich neurons&lt;/h3&gt;
+&lt;p&gt;To demonstrate the simplicity of ANNarchy&amp;rsquo;s interface, let&amp;rsquo;s focus on the &amp;ldquo;Hello, World!&amp;rdquo; of spiking networks: the pulse-coupled network of Izhikevich neurons (Izhikevich, 2003). It can be defined in ANNarchy as:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from ANNarchy import *
+
+# Create the excitatory and inhibitory population
+pop = Population(geometry=1000, neuron=Izhikevich)
+Exc = pop[:800]                 ; Inh = pop[800:]
+
+# Set the population parameters
+re = np.random.random(800)      ; ri = np.random.random(200)
+Exc.noise = 5.0                 ; Inh.noise = 2.0
+Exc.a = 0.02                    ; Inh.a = 0.02 + 0.08 * ri
+Exc.b = 0.2                     ; Inh.b = 0.25 - 0.05 * ri
+Exc.c = -65.0 + 15.0 * re**2    ; Inh.c = -65.0
+Exc.d = 8.0 - 6.0 * re**2       ; Inh.d = 2.0
+Exc.v = -65.0                   ; Inh.v = -65.0
+Exc.u = Exc.v * Exc.b           ; Inh.u = Inh.v * Inh.b
+
+# Create the projections
+exc_proj = Projection(pre=Exc, post=pop, target=&#39;exc&#39;)
+exc_proj.connect_all_to_all(weights=Uniform(0.0, 0.5))
+
+inh_proj = Projection(pre=Inh, post=pop, target=&#39;inh&#39;)
+inh_proj.connect_all_to_all(weights=Uniform(0.0, 1.0))
+
+# Compile
+compile()
+
+# Start recording the spikes in the network to produce the plots
+M = Monitor(pop, [&#39;spike&#39;, &#39;v&#39;])
+
+# Simulate 1 second
+simulate(1000.0, measure_time=True)
+
+# Retrieve the spike recordings and the membrane potential
+spikes = M.get(&#39;spike&#39;)
+v = M.get(&#39;v&#39;)
+
+# Compute the raster plot
+t, n = M.raster_plot(spikes)
+
+# Compute the population firing rate
+fr = M.histogram(spikes)
+
+# Plot the results
+import matplotlib.pyplot as plt
+ax = plt.subplot(3,1,1)
+ax.plot(t, n, &#39;b.&#39;, markersize=1.0)
+ax = plt.subplot(3,1,2)
+ax.plot(v[:, 15])
+ax = plt.subplot(3,1,3)
+ax.plot(fr)
+plt.show()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/annarchy/izhikevich.png&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Basal Ganglia</title>
       <link>https://julien-vitay.net/project/basalganglia/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:38 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/project/basalganglia/</guid>
-      <description>The Basal Ganglia (BG) are the main nuclei involved in reinforcement learning processes in the brain and allow a variety of cognitive functions such as working memory, decision making and action selection.</description>
+      <description>&lt;p&gt;The Basal Ganglia (BG) are a set of nuclei located in the basal forebrain, receiving inputs mostly from the cerebral cortex (especially the frontal lobe) and projecting on various motor centers, as well as back to the cortex through the thalamus, forming a closed-loop.&lt;/p&gt;
+&lt;p&gt;The main input station is the striatum, which can be anatomically divided into three parts: the nucleus accumbens (NAcc), the caudate nucleus (CN) and the putamen (PUT). Striatal neurons are excited by cortical activity and inhibit in turn the tonically active neurons of the output nuclei of the BG: the substantia nigra pars reticulata (SNr) and the internal segment of the globus pallidus (GPi). These output structures further inhibit some motor centers and thalamic nuclei.&lt;/p&gt;
+&lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/basalganglia/basalganglia.png&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;This double inhibition allows to selectively open some recurrent loops between the thalamus and the cortex, increasing the signal-to-noise ratio in the cortex and triggering movements or cognitive functions.&lt;/p&gt;
+&lt;p&gt;Other nuclei in the BG, such as the subthalamic nucleus (STN) and the external part of the globus pallidus (GPe), create functionally different pathways to allow for a more complex role of BG in adapting behavior.&lt;/p&gt;
+&lt;p&gt;The main characteristic of the BG is its dense innervation by dopaminergic (DA) cells in the substantia nigra pars compacta (SNc) and ventral tegmental area (VTA), whose firing is related to reward delivery and prediction. DA can modulate the activation and learning of most cells in the BG, placing it as a core structure in reinforcement learning processes.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Deep Learning</title>
       <link>https://julien-vitay.net/project/deeplearning/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:37 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/project/deeplearning/</guid>
-      <description>Deep neural networks and their applications to emotion recognition, attention, sensor fusion&amp;hellip;</description>
+      <description>&lt;p&gt;The recent hype on &lt;strong&gt;deep learning&lt;/strong&gt; has revived the interest for artificial neural networks and their applications. Here are some projects done lately.&lt;/p&gt;
+&lt;h2 id=&#34;project-1--facial-emotion-recognition&#34;&gt;Project 1 : Facial emotion recognition&lt;/h2&gt;
+&lt;p&gt;Facial expression recognition is an important research field in computer vision. Although detecting facial features is an easy task for a human, computers still have a hard time doing it. Factors such as interpersonal variation (gender, skin color), intrapersonal variation (pose, expression) and different recording conditions (image resolution, lighting) add to the complexity of the problem. This is particularly relevant in the context of emotion recognition, where systems should be able to automatically recognize in which emotional state humans are.&lt;/p&gt;
+&lt;p&gt;On human faces, emotional expression heavily relies on the activation of individual facial muscles. A classical approach to describe facial expressions at the muscular level is the Facial Action Coding System (FACS) proposed by Ekman (1978). In this framework, movement of specific facial regions are described as Actions Units (AU), which basically describe deviations from a neutral expression. AUs are specific to facial regions (corner of the mouth or the eye, etc.). Although there are 69 AUs in the FACS theory, 28 of them are mostly useful for emotion recognition. We have focused on 12 of them: 1 (Inner Brow Raiser), 2 (Outer Brow Raiser), 4 (Brow Lowerer), 6 (Cheek Raiser), 7 (Lid Tightener), 10 (Upper Lip Raiser), 12 (Lip Corner Puller), 14 (Dimpler), 15 (Lip Corner Depressor), 17 (Chin Raiser), 23 (Lip Tightener), 24 (Lip Pressor).&lt;/p&gt;
+&lt;p&gt;There are different training sets generally available to the community containing various number of FACS-annotated images, with different numbers of annotated AUs: CCK+, MMI, UNBC-McMaster PAIN, DUSFA, BP4D, SEMAINE, etc. The 12 selected AUs correspond to the annotated AUs in BP4D, which is the most massive dataset. The main interest of these AUs is that they are mostly sufficient to predict the occurence of the 6 basic emotions using the EMFACS correspondance table:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Emotion&lt;/th&gt;
+&lt;th&gt;Action Units&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Happiness&lt;/td&gt;
+&lt;td&gt;6, 12&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Sadness&lt;/td&gt;
+&lt;td&gt;1, 4, 15&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Surprise&lt;/td&gt;
+&lt;td&gt;1, 2, 5B, 26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Fear&lt;/td&gt;
+&lt;td&gt;1, 2, 4, 5, 7, 20, 26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Anger&lt;/td&gt;
+&lt;td&gt;4, 5, 7, 23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Disgust&lt;/td&gt;
+&lt;td&gt;9, 15, 16&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;After investigating various architectures to automatically predict AU occurence on faces, we converged towards a neural network architecture inspired from VGG-16:&lt;/p&gt;
+
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-convolutional-neural-network-for-facs-recognition&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/project/deeplearning/model_hufd6724ac2b696e61ce0911e529a47b91_57163_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Convolutional Neural Network for FACS recognition.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://julien-vitay.net/project/deeplearning/model_hufd6724ac2b696e61ce0911e529a47b91_57163_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1350&#34; height=&#34;339&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Convolutional Neural Network for FACS recognition.
+  &lt;/figcaption&gt;
+
+
+&lt;/figure&gt;
+
+&lt;p&gt;It consists of 4 convolutional blocks, each composed of 2 convolutional layers (kernel size 3x3, ReLU activation function) and a max-pooling layers (2x2). A dropout layer with p=0.2 is added after the max-pooling. After 4 such convolutional blocks with increasing numbers of features (32, 64, 126 and 256), the last tensor (6x6x256) is flattened into a vector of 9216 elements and projected on a fully connected layer of 500 neurons. The output layer has 12 neurons using the sigmoid activation function, each representing one of the 12 AUs present in the combined dataset. The network has a total of 5.786.192 trainable parameters (weights and biases), what makes it a middle-sized deep network that can fit into the available GPUs at the lab. The model was trained over 120 epochs using Stochastic Gradient Descent (SGD) on minibatches of 128 samples, with a learning rate of 0.01 and a Nesterov momentum of 0.9. The network has successfully learned the training data (final loss of 0.02) and has only very slightly overfitted. F1 scores for each AU on the test set are well over 0.9.&lt;/p&gt;
+&lt;p&gt;The video below shows the performance of the network in real conditions. The detected AUs are in the top-left corner, the recognized emotion in the bottom-left one.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+&lt;video controls &gt;
+  &lt;source src=&#34;demo.mp4&#34; type=&#34;video/mp4&#34;&gt;
+&lt;/video&gt;
+&lt;h2 id=&#34;project-2--scene-understanding&#34;&gt;Project 2 : Scene understanding&lt;/h2&gt;
+&lt;p&gt;Recurrent neural networks coupled with attentional mechanisms have the ability to sequentially focus of the relevant parts of a visual scene. Coupled with a language production network, scene understanding abilities can be improved by finding the spatial location of the important objects in a scene while describing it.&lt;/p&gt;
+&lt;p&gt;The idea of the work done by Saransh Vora during his Master thesis in 2018 at the professorship was to study and reimplement the Show, attend and tell model of (Xu et al 2015, arXiv:1502.03044). The attentional signal is used to locate the most important objects of the sentence in the image, and have a Nao point at them while pronouncing the sentence.&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/dupgWkoA78c&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
     </item>
     
     <item>
       <title>Dopaminergic system</title>
       <link>https://julien-vitay.net/project/dopamine/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:36 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/project/dopamine/</guid>
-      <description>Modeling the dopaminergic system (VTA, SNc), its afferent system and its influence on the basal ganglia, prefrontal cortex and hippocampus.</description>
+      <description>&lt;p&gt;The dopaminergic system is composed of the &lt;em&gt;ventral tegmental area&lt;/em&gt; (VTA) and the &lt;em&gt;substantia nigra pars compacta&lt;/em&gt; (SNc). The neurotransmitter &lt;strong&gt;dopamine&lt;/strong&gt; (DA) released by neurons in these two small areas exerts a strong influence on neural excitability and plasticity in many brain areas: mostly the basal ganglia (BG), but also the prefrontal cortex, the hippocampus or the amygdala.&lt;/p&gt;
+&lt;p&gt;A striking feature of VTA cells is their response during classical (or Pavlovian) conditioning, as observed by Schultz et al (1998).  Early on, VTA cells respond phasically (a burst) to unconditioned stimuli (US, or rewards in operant conditioning). Gradually during learning, the amplitude of this response decreases, replaced by a response to the conditioned stimuli (CS) which are predictive of reward delivery. Moreover, if a reward is predicted by the CS but omitted, VTA cells show a brief depression of activity (a dip) at the time where the US was expected. This pattern resembles the temporal difference (TD) error signal used in reinforcement learning, what generated  multitudes of models based on that analogy.&lt;/p&gt;
+&lt;p&gt;What remains unclear is how VTA cells access information about the US, the CS and more importantly the time elapsed since CS onset. The goal of this research project is to investigate the mechanisms by which VTA is able to exhibit these properties, by looking at the afferent system to VTA. VTa indeed receives information from many brain areas, either directly as the rostromedial tegmental area (RMTg), the pedunculopontine nucleus (PPTN) or the nucleus accumbens (NAcc), or indirectly as the amygdala, the lateral habenula (LHb), the ventral pallidum (VP) or the ventromedial prefrontal cortex (vmPFC).&lt;/p&gt;
+&lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/dopamine/dopamine.jpg&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Hippocampus</title>
       <link>https://julien-vitay.net/project/hippocampus/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:35 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/project/hippocampus/</guid>
-      <description>The hippocampus is a key structure for mnemonic processes (episodic memory) and spatial navigation. Its importance in model-based behavior is increasingly recognized.</description>
+      <description>&lt;p&gt;The hippocampus is a key structure for episodic memory and spatial navigation. A fundamental step in hippocampus research was the discovery of &lt;strong&gt;place cells&lt;/strong&gt;, which fire whenever an animal traverses a certain location known as the place field (O&amp;rsquo;Keefe and Nadel, 1978). At rest, place cells exhibit brief periods of fast oscillations termed sharp wave-ripples. During these events, place cell activity shows sequential patterns called forward replay and reverse replay: time-compressed, and sometimes time-reversed, reproductions of previously experienced sequences. Spatial experiences stored in the hippocampus can therefore be recalled at will during behavior.&lt;/p&gt;
+&lt;p&gt;Our modeling work focuses on understanding how these replay patterns are learned and used for high-level cognitive processes such as decision-making and model-based reinforcement learning.&lt;/p&gt;
+&lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/hippocampus/model.png&#34; /&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Deep Reinforcement Learning</title>
       <link>https://julien-vitay.net/project/reinforcementlearning/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:34 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/project/reinforcementlearning/</guid>
-      <description>Reinforcement Learning (RL) is a machine learning framework studying how to derive optimal policies from reward signals. Coupled with deep neural networks, it became the most promising approach to artificial intelligence.</description>
+      <description>&lt;p&gt;Deep reinforcement learning (deep RL) is the integration of deep learning methods, classically used in supervised or unsupervised learning contexts, with reinforcement learning (RL), a well-studied adaptive control method used in problems with delayed and partial feedback.&lt;/p&gt;
+&lt;p&gt;Home-made textbook on deep RL:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://julien-vitay.net/deeprl&#34;&gt;https://julien-vitay.net/deeprl&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Reservoir Computing</title>
       <link>https://julien-vitay.net/project/reservoircomputing/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:33 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/project/reservoircomputing/</guid>
-      <description>Reservoir computing studies the dynamical properties of recurrently connected populations of neurons. Their rich dynamics allow to represent and learn complex tasks currently out of reach of the classical machine learning methods, but also allow to better understand brain activities.</description>
+      <description>&lt;p&gt;The field of &lt;strong&gt;reservoir computing&lt;/strong&gt;, covering Echo-State Networks (ESN; Jaeger, 2000) and Liquid State Machines (Maas, 2001), studies the dynamical properties of recurrent neural networks. Depending on the strength of the recurrent connections, the reservoirs can exhibit either deterministic or chaotic trajectories following a stimulation.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;result.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;These trajectories can serve as a complex temporal basis to represent events. In their early formulation, reservoirs were fixed and read-out neurons used this basis to mimic specific target signals using supervised learning.&lt;/p&gt;
+&lt;p&gt;In the recent years, methods have been developed to train the connections inside the reservoir too, either using supervised learning (e.g. Laje and Buonomano 2013) or reinforcement learning (Miconi, 2017). This unleashes the potential of reservoirs for both machine learning applications and computational neuroscience.&lt;/p&gt;
+&lt;p&gt;We study the properties of reservoir computing at the neuroscientific level, with an emphasis on reinforcement learning, forward models in the cerebellum (Schmid et al, 2019) or interval timing.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

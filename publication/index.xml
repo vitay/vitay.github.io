@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications on Julien Vitay</title>
+    <title>Publications | Julien Vitay</title>
     <link>https://julien-vitay.net/publication/</link>
-    <description>Recent content in Publications on Julien Vitay</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Copyright Julien Vitay</copyright>
-    <lastBuildDate>Sat, 14 Sep 2019 00:00:00 +0200</lastBuildDate>
-    
-	<atom:link href="https://julien-vitay.net/publication/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://julien-vitay.net/publication/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publications</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 14 Sep 2019 00:00:00 +0200</lastBuildDate>
+    <image>
+      <url>https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Publications</title>
+      <link>https://julien-vitay.net/publication/</link>
+    </image>
     
     <item>
       <title>Scalable simulation of rate-coded and spiking neural networks on shared memory systems</title>
       <link>https://julien-vitay.net/publication/dinkelbach2019/</link>
       <pubDate>Sat, 14 Sep 2019 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/dinkelbach2019/</guid>
       <description></description>
     </item>
@@ -25,7 +24,6 @@
       <title>Forward Models in the Cerebellum using Reservoirs and Perturbation Learning</title>
       <link>https://julien-vitay.net/publication/schmid2019/</link>
       <pubDate>Fri, 13 Sep 2019 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/schmid2019/</guid>
       <description></description>
     </item>
@@ -34,7 +32,6 @@
       <title>Feature Map Transformation for Fusion of Multi-Sensor Object Detection Networks for Autonomous Driving</title>
       <link>https://julien-vitay.net/publication/schroeder2019/</link>
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/schroeder2019/</guid>
       <description></description>
     </item>
@@ -43,7 +40,6 @@
       <title>Recurrent Spatial Attention for Facial Emotion Recognition</title>
       <link>https://julien-vitay.net/publication/forch2019/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/publication/forch2019/</guid>
       <description></description>
     </item>
@@ -52,7 +48,6 @@
       <title>Fusion of Camera and Lidar Data for Object Detection using Neural Networks</title>
       <link>https://julien-vitay.net/publication/schroeder2018/</link>
       <pubDate>Wed, 26 Sep 2018 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/schroeder2018/</guid>
       <description></description>
     </item>
@@ -61,16 +56,50 @@
       <title>On the role of cortex-basal ganglia interactions for category learning: A neuro-computational approach</title>
       <link>https://julien-vitay.net/publication/villagrasa2018/</link>
       <pubDate>Tue, 18 Sep 2018 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/villagrasa2018/</guid>
-      <description>   </description>
+      <description>
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/publication/villagrasa2018/model_hu27b7eb85285c90ba4989189366f2107c_298376_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://julien-vitay.net/publication/villagrasa2018/model_hu27b7eb85285c90ba4989189366f2107c_298376_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;998&#34; height=&#34;698&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+</description>
     </item>
     
     <item>
       <title>Sustainable computational science: the ReScience initiative</title>
       <link>https://julien-vitay.net/publication/rougier2017/</link>
       <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/publication/rougier2017/</guid>
       <description></description>
     </item>
@@ -79,16 +108,50 @@
       <title>Predictive Place-Cell Sequences for Goal-Finding Emerge from Goal Memory and the Cognitive Map: A Computational Model</title>
       <link>https://julien-vitay.net/publication/goenner2017/</link>
       <pubDate>Thu, 12 Oct 2017 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/goenner2017/</guid>
-      <description>   </description>
+      <description>
+
+
+
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/publication/goenner2017/model_hua752f27e9743bc39ddb864b399f3604d_201823_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://julien-vitay.net/publication/goenner2017/model_hua752f27e9743bc39ddb864b399f3604d_201823_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;641&#34; height=&#34;667&#34;&gt;
+&lt;/a&gt;
+
+
+
+&lt;/figure&gt;
+
+</description>
     </item>
     
     <item>
       <title>Training a deep policy gradient-based neural network with asynchronous learners on a simulated robotic problem</title>
       <link>https://julien-vitay.net/publication/loetzsch2017/</link>
       <pubDate>Fri, 15 Sep 2017 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/loetzsch2017/</guid>
       <description></description>
     </item>
@@ -97,7 +160,6 @@
       <title>On the role of dopamine in motivated behavior: a neuro-computational approach</title>
       <link>https://julien-vitay.net/publication/vitay2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/publication/vitay2017/</guid>
       <description></description>
     </item>
@@ -106,7 +168,6 @@
       <title>[Re] Robust timing and motor patterns by taming chaos in recurrent neural networks</title>
       <link>https://julien-vitay.net/publication/vitay2016/</link>
       <pubDate>Fri, 07 Oct 2016 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/vitay2016/</guid>
       <description></description>
     </item>
@@ -115,7 +176,6 @@
       <title>ANNarchy: a code generation approach to neural simulations on parallel hardware</title>
       <link>https://julien-vitay.net/publication/vitay2015/</link>
       <pubDate>Fri, 31 Jul 2015 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/vitay2015/</guid>
       <description></description>
     </item>
@@ -124,7 +184,6 @@
       <title>Timing and expectation of reward: a neuro-computational model of the afferents to the ventral tegmental area</title>
       <link>https://julien-vitay.net/publication/vitay2014/</link>
       <pubDate>Fri, 31 Jan 2014 00:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/publication/vitay2014/</guid>
       <description></description>
     </item>
@@ -133,7 +192,6 @@
       <title>Dysfunctional and compensatory synaptic plasticity in Parkinson&#39;s disease</title>
       <link>https://julien-vitay.net/publication/schroll2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/publication/schroll2014/</guid>
       <description></description>
     </item>
@@ -142,7 +200,6 @@
       <title>Comparison of GPU- and CPU-implementations of mean-firing rate neural networks on parallel hardware</title>
       <link>https://julien-vitay.net/publication/dinkelbach2012/</link>
       <pubDate>Fri, 09 Nov 2012 00:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/publication/dinkelbach2012/</guid>
       <description></description>
     </item>
@@ -151,7 +208,6 @@
       <title>Basal Ganglia learning</title>
       <link>https://julien-vitay.net/publication/vitay2012/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/publication/vitay2012/</guid>
       <description></description>
     </item>
@@ -160,7 +216,6 @@
       <title>Working memory and response selection: A computational account of interactions among cortico-basalganglio-thalamic loops</title>
       <link>https://julien-vitay.net/publication/schroll2012/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/publication/schroll2012/</guid>
       <description></description>
     </item>
@@ -169,7 +224,6 @@
       <title>A Neuroscientific View on the Role of Emotions in Behaving Cognitive Agents</title>
       <link>https://julien-vitay.net/publication/vitay2011/</link>
       <pubDate>Mon, 01 Aug 2011 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/vitay2011/</guid>
       <description></description>
     </item>
@@ -178,7 +232,6 @@
       <title>A computational model of basal ganglia and its role in memory retrieval in rewarded visual memory tasks</title>
       <link>https://julien-vitay.net/publication/vitay2010/</link>
       <pubDate>Fri, 28 May 2010 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/vitay2010/</guid>
       <description></description>
     </item>
@@ -187,7 +240,6 @@
       <title>Biological Models of Reinforcement Learning</title>
       <link>https://julien-vitay.net/publication/vitay2009/</link>
       <pubDate>Tue, 01 Sep 2009 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/vitay2009/</guid>
       <description></description>
     </item>
@@ -196,7 +248,6 @@
       <title>Sustained Activities and Retrieval in a Computational Model of the Perirhinal Cortex</title>
       <link>https://julien-vitay.net/publication/vitay2008/</link>
       <pubDate>Tue, 14 Oct 2008 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/vitay2008/</guid>
       <description></description>
     </item>
@@ -205,7 +256,6 @@
       <title>On the role of dopamine in cognitive vision</title>
       <link>https://julien-vitay.net/publication/vitay2007/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/publication/vitay2007/</guid>
       <description></description>
     </item>
@@ -214,7 +264,6 @@
       <title>Emergence of sensorimotor functions on a numerical distributed neural substrate</title>
       <link>https://julien-vitay.net/publication/phd/</link>
       <pubDate>Fri, 23 Jun 2006 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/phd/</guid>
       <description></description>
     </item>
@@ -223,7 +272,6 @@
       <title>A computational model of spatial memory anticipation during visual search</title>
       <link>https://julien-vitay.net/publication/fix2006/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/publication/fix2006/</guid>
       <description></description>
     </item>
@@ -232,7 +280,6 @@
       <title>Emergence of attention within a neural population</title>
       <link>https://julien-vitay.net/publication/rougier2005/</link>
       <pubDate>Wed, 01 Jun 2005 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/rougier2005/</guid>
       <description></description>
     </item>
@@ -241,7 +288,6 @@
       <title>A distributed model of spatial visual attention</title>
       <link>https://julien-vitay.net/publication/vitay2005/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/publication/vitay2005/</guid>
       <description></description>
     </item>

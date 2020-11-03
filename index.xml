@@ -3,20 +3,19 @@
   <channel>
     <title>Julien Vitay</title>
     <link>https://julien-vitay.net/</link>
-    <description>Recent content on Julien Vitay</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-us</language>
-    <copyright>Copyright Julien Vitay</copyright>
-    <lastBuildDate>Sat, 14 Sep 2019 00:00:00 +0200</lastBuildDate>
-    
-	    <atom:link href="https://julien-vitay.net/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://julien-vitay.net/index.xml" rel="self" type="application/rss+xml" />
+    <description>Julien Vitay</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 14 Sep 2019 00:00:00 +0200</lastBuildDate>
+    <image>
+      <url>https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Julien Vitay</title>
+      <link>https://julien-vitay.net/</link>
+    </image>
     
     <item>
       <title>Scalable simulation of rate-coded and spiking neural networks on shared memory systems</title>
       <link>https://julien-vitay.net/publication/dinkelbach2019/</link>
       <pubDate>Sat, 14 Sep 2019 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/dinkelbach2019/</guid>
       <description></description>
     </item>
@@ -25,372 +24,356 @@
       <title>Forward Models in the Cerebellum using Reservoirs and Perturbation Learning</title>
       <link>https://julien-vitay.net/publication/schmid2019/</link>
       <pubDate>Fri, 13 Sep 2019 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/schmid2019/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Successor Representations</title>
-      <link>https://julien-vitay.net/2019/05/successor-representations/</link>
+      <link>https://julien-vitay.net/post/successor_representations/</link>
       <pubDate>Wed, 08 May 2019 07:32:46 +0100</pubDate>
-      
-      <guid>https://julien-vitay.net/2019/05/successor-representations/</guid>
-      <description>
-
-&lt;p&gt;Successor representations (SR) attract a lot of attention these days, both in the neuroscientific and machine learning / deep RL communities. This post is intended to explain the main difference between SR and model-free / model-based RL algorithms and to point out its usefulness to understand goal-directed behavior.&lt;/p&gt;
-
-&lt;p&gt;&lt;h2&gt;Table of Contents&lt;/h2&gt;
-&lt;/p&gt;
-
-&lt;h2 id=&#34;1-motivation&#34;&gt;1 - Motivation&lt;/h2&gt;
-
-&lt;h3 id=&#34;1-1-model-free-vs-model-based-rl&#34;&gt;1.1 - Model-free vs. model-based RL&lt;/h3&gt;
-
+      <guid>https://julien-vitay.net/post/successor_representations/</guid>
+      <description>&lt;p&gt;Successor representations (SR) attract a lot of attention these days, both in the neuroscientific and machine learning / deep RL communities. This post is intended to explain the main difference between SR and model-free / model-based RL algorithms and to point out its usefulness to understand goal-directed behavior.&lt;/p&gt;
+&lt;h2&gt;Table of Contents&lt;/h2&gt;
+&lt;nav id=&#34;TableOfContents&#34;&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href=&#34;#1---motivation&#34;&gt;1 - Motivation&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#11---model-free-vs-model-based-rl&#34;&gt;1.1 - Model-free vs. model-based RL&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#12---goal-directed-behavior-vs-habits&#34;&gt;1.2 - Goal-directed behavior vs. habits&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#2---successor-representations-in-reinforcement-learning&#34;&gt;2 - Successor representations in reinforcement learning&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#21---main-idea&#34;&gt;2.1 - Main idea&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#22---linear-function-approximation&#34;&gt;2.2 - Linear function approximation&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#23---successor-representations-of-actions&#34;&gt;2.3 - Successor representations of actions&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#3---successor-representations-in-neuroscience&#34;&gt;3 - Successor representations in neuroscience&lt;/a&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href=&#34;#31---human-goal-directed-behavior&#34;&gt;3.1 - Human goal-directed behavior&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href=&#34;#32---neural-substrates-of-successor-representations&#34;&gt;3.2 - Neural substrates of successor representations&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#discussion&#34;&gt;Discussion&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href=&#34;#references&#34;&gt;References&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/nav&gt;
+&lt;h2 id=&#34;1---motivation&#34;&gt;1 - Motivation&lt;/h2&gt;
+&lt;h3 id=&#34;11---model-free-vs-model-based-rl&#34;&gt;1.1 - Model-free vs. model-based RL&lt;/h3&gt;
 &lt;p&gt;There are two main families of &lt;strong&gt;reinforcement learning&lt;/strong&gt; (RL; Sutton and Barto, 2017) algorithms:&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Model-free&lt;/strong&gt; (MF) methods estimate the value of a state $V^\pi(s)$ or of a state-action pair $Q^\pi(s, a)$ by sampling trajectories and averaging the obtained returns (Monte-Carlo control), or by estimating the Bellman equations (Temporal difference - TD):&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;div&gt;
 $$V^\pi(s) = \mathbb{E}_{\pi} [\sum_{k=0} \gamma^k \, r_{t+k+1}  | s_t = s] = \mathbb{E}_{\pi} [r_{t+1} + \gamma \, V^\pi(s_{t+1})  | s_t = s]$$
 &lt;/div&gt;
-
 &lt;div&gt;
 $$Q^\pi(s, a) = \mathbb{E}_{\pi} [\sum_{k=0} \gamma^k \, r_{t+k+1}  | s_t = s, a_t = a] = \mathbb{E}_{\pi} [r_{t+1} + \gamma \, Q^\pi(s_{t+1}, a_{t+1})  | s_t = s, a_t = a]$$
 &lt;/div&gt;
-
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Model-based&lt;/strong&gt; (MB) methods use (or learn) a model of the environment - transition probabilities $p(s_{t+1} | s_t, a_t)$ and reward probabilities $r(s_t, a_t, s_{t+1})$ - and use it to plan trajectories maximizing the theoretical return, either through some form of forward planning (search tree) or using dynamic programming (solving the Bellman equations directly).&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;div&gt;
 $$\pi^* = \text{argmax}_{\pi} \; p(s_0) \, \sum_{t=0}^\infty \gamma^t \, p(s_{t+1} | s_t, a_t) \, \pi(s_t, a_t) \, r(s_t, a_t, s_{t+1})$$
 &lt;/div&gt;
-
 &lt;div&gt;
 $$V^*(s) = \max_a \sum_{s&#39;} p(s&#39; | s, a) \, (r(s_t, a, s&#39;)+ \gamma \, V^*(s&#39;))$$
 &lt;/div&gt;
-
 &lt;p&gt;The main advantage of model-free methods is their speed: they &lt;em&gt;cache&lt;/em&gt; the future of the system into value functions. When having to take a decision at time $t$, we only need to look at the action with the highest Q-value in the state $s_t$ and take it. If the Q-values are optimal, this is the optimal policy. Oppositely, model-based algorithms have to plan sequentially in the state-action space, which can be very long if the problem has a long temporal horizon.&lt;/p&gt;
-
 &lt;p&gt;The main drawback of MF methods is their &lt;em&gt;inflexibility&lt;/em&gt; when the reward distribution changes. When the reward associated with a transition changes (the source of reward has vanished, its nature has changed, the rules of the game have changed, etc), each action leading to that transition has to be experienced multiple times before the corresponding values reflect that change. This is due to the use of the &lt;strong&gt;temporal difference&lt;/strong&gt; (TD) algorithm, where the &lt;strong&gt;reward prediction error&lt;/strong&gt; (RPE) is used to update values:&lt;/p&gt;
-
 &lt;div&gt;$$\delta_t = r_{t+1} + \gamma \, V^\pi(s_{t+1}) - V^\pi(s_t)$$&lt;/div&gt;
-
 &lt;div&gt;$$\Delta V^\pi(s_t) = \alpha \, \delta_t$$&lt;/div&gt;
-
 &lt;p&gt;When the reward associated to a transition changes drastically, only the last state (or action) is updated after that experience (unless we use eligibility traces). Only multiple repetitions of the same trajectory would allow changing the initial decisions. This is opposite to MB methods, where a change in the reward distribution would very quickly influence the planning of the optimal trajectory. In MB, the reward probabilities can be estimated with:&lt;/p&gt;
-
 &lt;div&gt;$$
     \Delta r(s_t, a_t, s_{t+1}) = \alpha \, (r_{t+1} - r(s_t, a_t, s_{t+1}))
 $$
 &lt;/div&gt;
-
 &lt;p&gt;with $r_{t+1}$ being the reward obtained during one sampled transition. The transition probabilities can also be learned from experience using:&lt;/p&gt;
-
 &lt;div&gt;$$
     \Delta p(s&#39; | s_t, a_t) = \alpha \, (\mathbb{I}(s_{t+1} = s&#39;) - p(s&#39; | s_t, a_t))
 $$
 &lt;/div&gt;
-
 &lt;p&gt;where $\mathbb{I}(b)$ is 1 when $b$ is true, 0 otherwise. Depending on the learning rate, changes in the environment dynamics can be very quickly learned by MB methods, as updates do not depend on other estimates (there is no bootstrapping contrary to TD).&lt;/p&gt;
-
-&lt;h3 id=&#34;1-2-goal-directed-behavior-vs-habits&#34;&gt;1.2 - Goal-directed behavior vs. habits&lt;/h3&gt;
-
+&lt;h3 id=&#34;12---goal-directed-behavior-vs-habits&#34;&gt;1.2 - Goal-directed behavior vs. habits&lt;/h3&gt;
 &lt;p&gt;The model-free RPE has become a very influential model of dopaminergic (DA) activation in the ventral tegmental area (VTA) and substantia nigra pars compacta (SNc). At the beginning of classical Pavlovian conditioning, DA cells react phasically to unconditioned stimuli (US, rewards). After enough conditioning trials, DA cells only react to conditioned stimuli (CS), i.e. stimuli which predict the delivery of a reward. Moreover, if the reward is omitted, DA cells exhibit a pause in firing. This pattern of activation corresponds to the RPE: DA cells respond to unexpected reward events, either positively when more reward than expected is received, or negatively when less reward is delivered. The simplicity of this model has made RPE a successful model of DA activity (but see Vitay and Hamker, 2014 for a more detailed model).&lt;/p&gt;
-
 &lt;p&gt;A similar but not identical functional dichotomy as MF/MB opposes deliberative &lt;strong&gt;goal-directed&lt;/strong&gt; behavior and inflexible stimulus-response associations called &lt;strong&gt;habits&lt;/strong&gt; (Dickinson and Balleine, 2002). Goal-directed behavior is sensitive to reward devaluation: if an outcome was previously rewarding but ceases to be (for example, a poisonous product is injected into some food reward, even outside the conditioning phase), goal-directed behavior would quickly learn to avoid that outcome, while habitual behavior will continue to seek for it. Over-training can transform goal-directed behavior into habits (Corbit and Balleine, 2011). Habits are usually considered as a model-free learning behavior, while goal-directed behavior implies the use of a world model. The &lt;em&gt;dual system theory&lt;/em&gt; discusses the arbitration mechanisms necessary to coordinate these two learning frameworks (Lee, Shimojo and O&amp;rsquo;Doherty, 2014).&lt;/p&gt;
-
 &lt;p&gt;Both forms of behavior are thought to happen concurrently in the brain, with model-based / goal-directed behavior classically assigned to the prefrontal cortex and the hippocampus and model-free / habitual behavior mapped to the ventral basal ganglia and the dopaminergic system.  However, recent results and theories suggest that these two functional systems are largely overlapping and that even dopamine firing might reflect model-based processes (Doll, Simon and Daw, 2012; Miller et al., 2018). It is yet to be understood how these two extreme mechanisms of the RL spectrum might coexist in the brain and be coordinated: successor representations might provide us with additional useful insights into the functioning of the brain.&lt;/p&gt;
-
-&lt;h2 id=&#34;2-successor-representations-in-reinforcement-learning&#34;&gt;2 - Successor representations in reinforcement learning&lt;/h2&gt;
-
-&lt;h3 id=&#34;2-1-main-idea&#34;&gt;2.1 - Main idea&lt;/h3&gt;
-
+&lt;h2 id=&#34;2---successor-representations-in-reinforcement-learning&#34;&gt;2 - Successor representations in reinforcement learning&lt;/h2&gt;
+&lt;h3 id=&#34;21---main-idea&#34;&gt;2.1 - Main idea&lt;/h3&gt;
 &lt;p&gt;The original formulation of &lt;strong&gt;successor representations&lt;/strong&gt; (SR) is actually not recent (Dayan, 1993), but it is subject to a revival since a couple of years with the work of Samuel J. Gershman (e.g. Gershman et al., 2012, 2018, Momennejad et al., 2017, Stachenfeld et al., 2017, Gardner et al, 2018).&lt;/p&gt;
-
 &lt;p&gt;The SR algorithm learns two quantities:&lt;/p&gt;
-
 &lt;ol&gt;
 &lt;li&gt;The expected immediate reward received after each state:&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;div&gt;$$
     r(s) = \mathbb{E}_{\pi} [r_{t+1} | s_t = s]
 $$
 &lt;/div&gt;
-
-&lt;ol&gt;
+&lt;ol start=&#34;2&#34;&gt;
 &lt;li&gt;The expected discounted future state occupancy (the &lt;strong&gt;SR&lt;/strong&gt; itself):&lt;/li&gt;
 &lt;/ol&gt;
-
 &lt;div&gt;$$
     M(s, s&#39;) = \mathbb{E}_{\pi} [\sum_{k=0}^\infty \gamma^k \, \mathbb{I}(s_{t+k+1} = s&#39;) | s_t = s]
 $$
 &lt;/div&gt;
-
 &lt;p&gt;I omit here the dependency of $r$ and $M$ on the policy itself in the notation, but it is of course implicitly there.&lt;/p&gt;
-
-&lt;p&gt;The SR represents the fact that a state $s&amp;rsquo;$ can be reached after $s$, with a value decreasing with the temporal gap between the two states: states occurring in rapid succession will have a high SR, very distant states will have a low SR. If $s&amp;rsquo;$ happens consistently before $s$, the SR should be 0 (causality principle). This is in principle similar to model-based RL, but without an explicit representation of the transition structure: it only represents how states are temporally correlated, not which action leads to which state.&lt;/p&gt;
-
+&lt;p&gt;The SR represents the fact that a state $s&#39;$ can be reached after $s$, with a value decreasing with the temporal gap between the two states: states occurring in rapid succession will have a high SR, very distant states will have a low SR. If $s&#39;$ happens consistently before $s$, the SR should be 0 (causality principle). This is in principle similar to model-based RL, but without an explicit representation of the transition structure: it only represents how states are temporally correlated, not which action leads to which state.&lt;/p&gt;
 &lt;p&gt;The value of a state $s$ is then defined by:&lt;/p&gt;
-
 &lt;div&gt;$$
     V^\pi(s) = \sum_{s&#39;} M(s, s&#39;) \, r(s&#39;)
 $$
 &lt;/div&gt;
-
-&lt;p&gt;The value of a state $s$ depends on which states $s&amp;rsquo;$ can be visited after it (following the current policy, implicitly), how far in the future they will happen (discount factor in $M(s, s&amp;rsquo;)$) and how much reward can be obtained immediately in those states ($r(s&amp;rsquo;)$). Note that it is merely a rewriting of the definition of the value of a state, with rewards explicitly separated from state visitation and time replaced by succession probabilities:&lt;/p&gt;
-
+&lt;p&gt;The value of a state $s$ depends on which states $s&#39;$ can be visited after it (following the current policy, implicitly), how far in the future they will happen (discount factor in $M(s, s&#39;)$) and how much reward can be obtained immediately in those states ($r(s&#39;)$). Note that it is merely a rewriting of the definition of the value of a state, with rewards explicitly separated from state visitation and time replaced by succession probabilities:&lt;/p&gt;
 &lt;div&gt;$$V^\pi(s_t) = \mathbb{E}_{\pi} [\sum_{k=0} \gamma^k \, r_{t+k+1}] = \mathbb{E}_{\pi} [\sum_{k=0} r(s_{t+k+1}) \times (\gamma^k \, \mathbb{I}(s_{t+k+1}))]$$&lt;/div&gt;
-
 &lt;p&gt;The SR also obeys a recursive relationship similar to the Bellman equation, as it is based on a discounted sum:&lt;/p&gt;
-
 &lt;div&gt;$$
     M(s_t, s&#39;) = \mathbb{I}(s_t = s&#39;) + \gamma \, M(s_{t+1}, s&#39;)
 $$
 &lt;/div&gt;
-
-&lt;p&gt;The discounted probability of arriving in $s&amp;rsquo;$ after being in $s_t$ is one if we are already in $s&amp;rsquo;$, and gamma times the discounted probability of arriving in $s&amp;rsquo;$ after being in the next state $s_{t+1}$ otherwise.&lt;/p&gt;
-
-&lt;p&gt;This recursive relationship implies that we are going to be able to estimate the SR $M(s, s&amp;rsquo;)$ using a &lt;strong&gt;sensory prediction error&lt;/strong&gt; (SPE) similar to the TD RPE (Gershman et al., 2012):&lt;/p&gt;
-
+&lt;p&gt;The discounted probability of arriving in $s&#39;$ after being in $s_t$ is one if we are already in $s&#39;$, and gamma times the discounted probability of arriving in $s&#39;$ after being in the next state $s_{t+1}$ otherwise.&lt;/p&gt;
+&lt;p&gt;This recursive relationship implies that we are going to be able to estimate the SR $M(s, s&#39;)$ using a &lt;strong&gt;sensory prediction error&lt;/strong&gt; (SPE) similar to the TD RPE (Gershman et al., 2012):&lt;/p&gt;
 &lt;div&gt;$$
     \delta^\text{SR}_t = \mathbb{I}(s_t = s&#39;) + \gamma \, M(s_{t+1}, s&#39;) - M(s_t, s&#39;)
 $$
 &lt;/div&gt;
-
 &lt;div&gt;
 $$
     \Delta M(s_t, s&#39;) = \alpha \, \delta^\text{SR}_t
 $$
 &lt;/div&gt;
-
-&lt;p&gt;The SPE states that the expected occupancy for states that are visited more frequently than expected (positive sensory prediction error) should be increased, while the expected occupancy for states that are visited less frequently than expected (negative sensory prediction error) should be decreased. In short: is arriving in this new state surprising? It should be noted that the SPE is defined over all possible successor states $s&amp;rsquo;$, so the SPE is actually a vector.&lt;/p&gt;
-
+&lt;p&gt;The SPE states that the expected occupancy for states that are visited more frequently than expected (positive sensory prediction error) should be increased, while the expected occupancy for states that are visited less frequently than expected (negative sensory prediction error) should be decreased. In short: is arriving in this new state surprising? It should be noted that the SPE is defined over all possible successor states $s&#39;$, so the SPE is actually a vector.&lt;/p&gt;
 &lt;p&gt;We can already observe that SR is a trade-off between MF and MB methods. A change in the reward distribution can be quickly tracked by SR algorithms, as the immediate reward $r(s)$ can be updated with:&lt;/p&gt;
-
 &lt;div&gt;$$
     \Delta r(s) = \alpha \, (r_{t+1} - r(s))
 $$&lt;/div&gt;
-
-&lt;p&gt;However, the SR $M(s, s&amp;rsquo;)$ uses other estimates for its update (bootstrapping), so changes in the transition structure may take more time to propagate to all state-state discounted occupancies (Gershman, 2018).&lt;/p&gt;
-
-&lt;h3 id=&#34;2-2-linear-function-approximation&#34;&gt;2.2 - Linear function approximation&lt;/h3&gt;
-
-&lt;p&gt;Before looking at the biological plausibility of this algorithm, we need to deal with the &lt;strong&gt;curse of dimensionality&lt;/strong&gt;. The SR $M(s, s&amp;rsquo;)$ is a matrix associating each state of the system to all other states (size $|\mathcal{S}| \times |\mathcal{S}|$). This is of course impracticable for most problems and we need to rely on function approximation. The simplest solution is to represent each state $s$ by a set of $d$ features $[f_i(s)]_{i=1}^d$. Each feature can for example be the presence of an object in the scene, some encoding of the position of the agent in the world, etc. The SR for a state $s$ only needs to predict the expected discounted probability that a feature $f_j$ will be observed in the future, not the complete state representation. This should ensure generalization across states, as only the presence of relevant features is needed. The SR can be linearly approximated by:&lt;/p&gt;
-
+&lt;p&gt;However, the SR $M(s, s&#39;)$ uses other estimates for its update (bootstrapping), so changes in the transition structure may take more time to propagate to all state-state discounted occupancies (Gershman, 2018).&lt;/p&gt;
+&lt;h3 id=&#34;22---linear-function-approximation&#34;&gt;2.2 - Linear function approximation&lt;/h3&gt;
+&lt;p&gt;Before looking at the biological plausibility of this algorithm, we need to deal with the &lt;strong&gt;curse of dimensionality&lt;/strong&gt;. The SR $M(s, s&#39;)$ is a matrix associating each state of the system to all other states (size $|\mathcal{S}| \times |\mathcal{S}|$). This is of course impracticable for most problems and we need to rely on function approximation. The simplest solution is to represent each state $s$ by a set of $d$ features $[f_i(s)]_{i=1}^d$. Each feature can for example be the presence of an object in the scene, some encoding of the position of the agent in the world, etc. The SR for a state $s$ only needs to predict the expected discounted probability that a feature $f_j$ will be observed in the future, not the complete state representation. This should ensure generalization across states, as only the presence of relevant features is needed. The SR can be linearly approximated by:&lt;/p&gt;
 &lt;div&gt;$$
     M_j(s) = \sum_{i=1}^d w_{i, j} \, f_i(s)
 $$&lt;/div&gt;
-
 &lt;p&gt;The expected discounted probability of observing the feature $f_j$ in the future is defined as a weighted sum of the features of the state $s$. The value of a state is now defined as:&lt;/p&gt;
-
 &lt;div&gt;$$
     V^\pi(s) = \sum_{j=1}^d M_j(s) \, r(f_j) = \sum_{j=1}^d r(f_j) \, \sum_{i=1}^d w_{i, j} \, f_i(s)
 $$&lt;/div&gt;
-
 &lt;p&gt;where $r(f_j)$ is the expected immediate reward when observing the feature $f_j$, what can be easily tracked as before. Computing the value of a state based on the SR now involves a double sum over a $d \times d$ matrix, $d$ being the number of features, what should generally be much more tractable than over the total number of states squared.&lt;/p&gt;
-
 &lt;p&gt;As we use linear approximation, the learning rule for the weights $w_{i, j}$ becomes linearly dependent on the SPE:&lt;/p&gt;
-
 &lt;div&gt;$$
     \delta^\text{SR}_t(f_j) = f_j(s_t) + \gamma \, M_j(s_{t+1}) - M_j(s)
 $$&lt;/div&gt;
-
 &lt;div&gt;$$
     \Delta w_{i, j} = \alpha \, \delta^\text{SR}_t(f_j) \, f_i(s_t)
 $$&lt;/div&gt;
-
 &lt;p&gt;The SPE tells us how surprising is each feature $f_j$ when being in the state $s_t$. This explains the term &lt;em&gt;sensory prediction error&lt;/em&gt;: we are now not learning based on how surprising rewards are anymore, but on how surprising the sensory features of the outcome are. Did I expect that door to open at some point? Should this event happen soon? What kind of outcome is likely to happen? As the SPE is now a vector for all sensory features, we see why successor representation have a great potential: instead of a single scalar RPE dealing only with reward magnitudes, we now can learn from very diverse representations describing the various relevant dimensions of the task. It can then deal with different rewards: food and monetary rewards are treated the same by RPEs, while we can distinguish them with SPEs.&lt;/p&gt;
-
 &lt;p&gt;The main potential problem is of course to extract the relevant features for the task, either by hand-engineering them or through learning (one could work in the latent space of a variational autoencoder, for example). Feature-based state representations still have to be Markovian for SR to work. It is also possible to use non-linear function approximators such as deep networks (Kulkarni et al., 2016, Baretto et al., 2016, Zhang et al., 2016, Machado et al., 2018, Ma et al., 2018), but this is out of the scope of this post.&lt;/p&gt;
-
-&lt;h3 id=&#34;2-3-successor-representations-of-actions&#34;&gt;2.3 - Successor representations of actions&lt;/h3&gt;
-
+&lt;h3 id=&#34;23---successor-representations-of-actions&#34;&gt;2.3 - Successor representations of actions&lt;/h3&gt;
 &lt;p&gt;The previous sections focused on the successor representation of states to obtain the value function $V^\pi(s)$. The same idea can be applied to state-action pairs and their $Q^\pi(s, a)$ values. The Q-value of a state action pair can be defined as:&lt;/p&gt;
-
 &lt;div&gt;$$
     Q^\pi(s, a) = \sum_{s&#39;, a&#39;} M(s, a, s&#39;, a&#39;) \, r(s&#39;, a&#39;)
 $$&lt;/div&gt;
-
-&lt;p&gt;where $r(s&amp;rsquo;, a&amp;rsquo;)$ is the expected immediate reward obtained after $(s&amp;rsquo;, a&amp;rsquo;)$ and $M(s, a, s&amp;rsquo;, a&amp;rsquo;)$ is the SR between the pairs $(s, a)$ and $(s&amp;rsquo;, a&amp;rsquo;)$ as in (Momennejad et al., 2017). Ducarouge and Sigaud (2017) use a SR representation between a state-action pair $(s, a)$ and a successor state $s&amp;rsquo;$:&lt;/p&gt;
-
+&lt;p&gt;where $r(s&#39;, a&#39;)$ is the expected immediate reward obtained after $(s&#39;, a&#39;)$ and $M(s, a, s&#39;, a&#39;)$ is the SR between the pairs $(s, a)$ and $(s&#39;, a&#39;)$ as in (Momennejad et al., 2017). Ducarouge and Sigaud (2017) use a SR representation between a state-action pair $(s, a)$ and a successor state $s&#39;$:&lt;/p&gt;
 &lt;div&gt;$$
     Q^\pi(s, a) = \sum_{s&#39;} M(s, a, s&#39;) \, r(s&#39;)
 $$&lt;/div&gt;
-
 &lt;p&gt;In both cases, the SR can be learned using a sensory prediction error, such as:&lt;/p&gt;
-
 &lt;div&gt;$$
     \delta^\text{SR}_{s_t, a_t} = \mathbb{I}(s_t = s&#39;) + \gamma \, M(s_{t+1}, a_{t+1}, s&#39;) - M(s_t, a_t, s&#39;)
 $$
 &lt;/div&gt;
-
 &lt;p&gt;Note that eligibility traces can be used in SR learning as easily as in TD methods.&lt;/p&gt;
-
-&lt;h2 id=&#34;3-successor-representations-in-neuroscience&#34;&gt;3 - Successor representations in neuroscience&lt;/h2&gt;
-
-&lt;h3 id=&#34;3-1-human-goal-directed-behavior&#34;&gt;3.1 - Human goal-directed behavior&lt;/h3&gt;
-
+&lt;h2 id=&#34;3---successor-representations-in-neuroscience&#34;&gt;3 - Successor representations in neuroscience&lt;/h2&gt;
+&lt;h3 id=&#34;31---human-goal-directed-behavior&#34;&gt;3.1 - Human goal-directed behavior&lt;/h3&gt;
 &lt;p&gt;So great, we now have a third form of reinforcement learning. Could it be the missing theory to explain human reinforcement learning and the dichotomy goal-directed behavior / habits?&lt;/p&gt;
-
 &lt;p&gt;Momennejad et al. (2017) designed a two-steps sequential learning task with reward and transition revaluations. In the first learning phase, the subjects are presented with sequences of images (the states) and obtain different rewards (Fig. 1). The sequence $1 \rightarrow 3 \rightarrow 5$ is rewarded with 10 dollars while the sequence $2 \rightarrow 4 \rightarrow 6$ is rewarded with 1 dollar only. Successful learning is tested by asking the participant whether he/she prefers the states 1 or 2 (the answer is obviously 1).&lt;/p&gt;
 
 
 
 
-&lt;figure&gt;
-
-&lt;img src=&#34;sr_momennejad.svg&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-  &lt;h4&gt;Two-steps sequential learning task of Momennejad et al. (2017).&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+    
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-two-steps-sequential-learning-task-of-momennejad-et-al-2017&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;sr_momennejad.svg&#34; data-caption=&#34;Two-steps sequential learning task of Momennejad et al. (2017).&#34;&gt;
+
+
+  &lt;img src=&#34;sr_momennejad.svg&#34; alt=&#34;&#34;  &gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Two-steps sequential learning task of Momennejad et al. (2017).
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
 &lt;p&gt;In the reward revaluation task, the transitions $3 \rightarrow 5$ and $4 \rightarrow 6$ are experienced again in the re-learning phase, but this time with reversed rewards (1 and 10 dollars respectively). In the transition revaluation task, the transitions $3 \rightarrow 6$ and $4 \rightarrow 5$ are now experienced, but the states $5$ and $6$ still receive the same amount of reward. The preference for $1$ or $2$ is again tested at the end of the re-learning phase ($2$ should now be preferred in both tasks) and a revaluation score is computed (how much the subject changes his preference between the two phases).&lt;/p&gt;
-
 &lt;p&gt;What would the different ML methods predict?&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Model-free methods would not change their preference in both conditions. The value of the $3 \rightarrow 5$ and $4 \rightarrow 6$ transitions (reward revaluation) or $3 \rightarrow 6$ and $4 \rightarrow 5$ (transition revaluation) would change during the re-learning phase, but the transitions $1 \rightarrow 3$ and $2 \rightarrow 4$ are never experienced again, so the value of the states $1$ and $2$ can only stay the same, even with eligibility traces.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Model-based methods would change their preference in both conditions. The reward and transition probabilities would both be re-learned completely to reflect the change, so the new value of $1$ and $2$ can be computed correctly using dynamic programming.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Successor representation methods would adapt to the reward revaluation ($r(s)$ will quickly fit the new reward distribution for the states $5$ and $6$), but not to the transition revaluation: $6$ is never a successor state of $1$ in the re-learning phase, so the SR matrix will not be updated for the states $1$ and $2$.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Model-free methods would not change their preference in both conditions. The value of the $3 \rightarrow 5$ and $4 \rightarrow 6$ transitions (reward revaluation) or $3 \rightarrow 6$ and $4 \rightarrow 5$ (transition revaluation) would change during the re-learning phase, but the transitions $1 \rightarrow 3$ and $2 \rightarrow 4$ are never experienced again, so the value of the states $1$ and $2$ can only stay the same, even with eligibility traces.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Model-based methods would change their preference in both conditions. The reward and transition probabilities would both be re-learned completely to reflect the change, so the new value of $1$ and $2$ can be computed correctly using dynamic programming.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Successor representation methods would adapt to the reward revaluation ($r(s)$ will quickly fit the new reward distribution for the states $5$ and $6$), but not to the transition revaluation: $6$ is never a successor state of $1$ in the re-learning phase, so the SR matrix will not be updated for the states $1$ and $2$.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;We have three different mechanisms with testable predictions on these two tasks: the human experiments should tell us which method is the best model of human RL. Well&amp;hellip; Not really.&lt;/p&gt;
 
 
 
 
-&lt;figure&gt;
-
-&lt;img src=&#34;sr_results.png&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-  &lt;h4&gt;Revaluation score in the reward (red) and transition (blue) revaluation conditions for the model-free (MF), model-based (MB), successor representation (SR) and human data as reported in Momennejad et al. (2017).&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-revaluation-score-in-the-reward-red-and-transition-blue-revaluation-conditions-for-the-model-free-mf-model-based-mb-successor-representation-sr-and-human-data-as-reported-in-momennejad-et-al-2017&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/post/successor_representations/sr_results_hu65846b00af6b77ff966d080c8d312ec7_27961_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Revaluation score in the reward (red) and transition (blue) revaluation conditions for the model-free (MF), model-based (MB), successor representation (SR) and human data as reported in Momennejad et al. (2017).&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://julien-vitay.net/post/successor_representations/sr_results_hu65846b00af6b77ff966d080c8d312ec7_27961_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1500&#34; height=&#34;750&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Revaluation score in the reward (red) and transition (blue) revaluation conditions for the model-free (MF), model-based (MB), successor representation (SR) and human data as reported in Momennejad et al. (2017).
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
 &lt;p&gt;Human participants show a revaluation behavior in the two conditions (reward and transition) somehow in between the model-based and successor representation algorithms. The difference between the reward and transition conditions is statistically significant, so unlike MB, but not as dramatic as for SR. The authors propose a hybrid SR-MB model, linearly combining the outputs of the MB and SR algorithms, and fit it to the human data to obtain a satisfying match. A second task requiring the model to actually take actions confirms this observation.&lt;/p&gt;
-
 &lt;p&gt;It is hard to conclude anything definitive from this model and the somehow artificial fit to the data. Reward revaluation was the typical test to distinguish between MB and MF processes, or between goal-directed behavior and habits. This paper suggests that transition revaluation (and policy revaluation, investigated in the second experiment) might allow distinguishing between MB and SR mechanisms, supporting the existence of SR mechanisms in the brain. How MB and SR might interact in the brain and whether there is an arbitration mechanism between the two is still an open issue. (Russek et al., 2017) has a very interesting discussion on the link between MF and MB processes in the brain, based on different versions of the SR.&lt;/p&gt;
-
-&lt;h3 id=&#34;3-2-neural-substrates-of-successor-representations&#34;&gt;3.2 - Neural substrates of successor representations&lt;/h3&gt;
-
-&lt;p&gt;In addition to describing human behavior at the functional level, the SR might also allow to better understand the computations made by the areas involved in goal-directed behavior, in particular the prefrontal cortex, the basal ganglia, the dopaminergic system, and the hippocampus. The key idea of Gershman and colleagues is that the SR $M(s, s&amp;rsquo;)$ might be encoded in the place cells of the hippocampus (Stachenfeld et al., 2017), which are known to be critical for reward-based navigation. The sensory prediction error (SPE $\delta^\text{SR}_t$) might be encoded in the activation of the dopaminergic cells in VTA (or in a fronto-striatal network), driving learning of the SR in the hippocampus (Gardner et al., 2018), while the value of a state $V^\pi(s) = \sum_{s&amp;rsquo;} M(s, s&amp;rsquo;) \, r(s&amp;rsquo;)$ could be computed either in the prefrontal cortex (ventromedial or orbitofrontal) or in the ventral striatum (nucleus accumbens in rats), ultimately allowing action selection in the dorsal BG.&lt;/p&gt;
-
+&lt;h3 id=&#34;32---neural-substrates-of-successor-representations&#34;&gt;3.2 - Neural substrates of successor representations&lt;/h3&gt;
+&lt;p&gt;In addition to describing human behavior at the functional level, the SR might also allow to better understand the computations made by the areas involved in goal-directed behavior, in particular the prefrontal cortex, the basal ganglia, the dopaminergic system, and the hippocampus. The key idea of Gershman and colleagues is that the SR $M(s, s&#39;)$ might be encoded in the place cells of the hippocampus (Stachenfeld et al., 2017), which are known to be critical for reward-based navigation. The sensory prediction error (SPE $\delta^\text{SR}_t$) might be encoded in the activation of the dopaminergic cells in VTA (or in a fronto-striatal network), driving learning of the SR in the hippocampus (Gardner et al., 2018), while the value of a state $V^\pi(s) = \sum_{s&#39;} M(s, s&#39;) , r(s&#39;)$ could be computed either in the prefrontal cortex (ventromedial or orbitofrontal) or in the ventral striatum (nucleus accumbens in rats), ultimately allowing action selection in the dorsal BG.&lt;/p&gt;
 &lt;h4 id=&#34;dopamine-as-a-spe&#34;&gt;Dopamine as a SPE&lt;/h4&gt;
-
 &lt;p&gt;The most striking prediction of the SR hypothesis is that the SPE is a vector of prediction errors, with one element per state (in the original formulation) or per reward feature (using linear function approximation, section 2.2). This contrasts with the classical RPE formulation, where dopaminergic activation is a single scalar signal driving reinforcement learning in the BG and prefrontal cortex. Although this would certainly be an advantage in terms of functionality and flexible learning, it remains to be shown whether VTA actually encodes such a feature-specific signal.&lt;/p&gt;
-
 &lt;p&gt;Neurons in VTA have a rather uniform response to rewards or reward-predicting cues, encoding mostly the value of the outcome regardless its sensory features, except for those projecting to the tail of the striatum which mostly respond to threats and punishments (Watabe-Uchida and Uchida, 2019). The current state of knowledge seems to rule out VTA as a direct source of SPE signals.&lt;/p&gt;
-
 &lt;p&gt;Interestingly, Oemisch et al. (2019) showed that feature-specific prediction errors signals (analogous to the SPE with linear approximation) are detected in the fronto-striatal network including the anterior cingulate area (ACC), dorsolateral prefrontal cortex (dlPFC), dorsal striatum and ventral striatum (VS) / nucleus accumbens (NAcc). These SPE-like signals appear shortly after non-specific RPE signals, first in ACC and then in the rest of the network. This suggests that SPE would actually be the result of a more complex calculation than proposed in the SR hypothesis, involving a network of interconnected areas. A detailed neuro-computational model of this network still has to be proposed.&lt;/p&gt;
-
 &lt;h4 id=&#34;hippocampus-as-a-predictive-map&#34;&gt;Hippocampus as a predictive map&lt;/h4&gt;
-
-&lt;p&gt;Another interesting prediction of the SR hypothesis is that the hippocampus might be the site where the SR matrix is represented (Stachenfeld et al., 2017). In navigation tasks, the so-called &lt;strong&gt;place cells&lt;/strong&gt; in the hippocampus exhibit roughly circular receptive fields centered on different locations in the environment (O&amp;rsquo;Keefe and Nadel, 1978). Altogether, place cells are thought to provide a sparse code of the animal&amp;rsquo;s location. Strikingly, place fields change with the environment: moving the animal from a circular to a rectangular environment, or introducing barriers, modifies the distribution of place fields. Additionally, &lt;strong&gt;grid cells&lt;/strong&gt; in the entorhinal cortex (reciprocally connected to the hippocampus) show a hexagonal grid pattern of receptive fields, i.e. a single grid cell responds for several positions of the animal inside the environment (Hafting et al., 2005). Grid cells&amp;rsquo; receptive fields also depend on the environment and have been shown to depend on place cells, not the other way around. The mechanism behind the flexibility of place and grid fields is still to be understood.&lt;/p&gt;
-
-&lt;p&gt;Stachenfeld et al. (2017) propose that place cells actually encode the SR $M(s, s&amp;rsquo;)$ between the current location $s$ and their preferred location $s&amp;rsquo;$, rather than simply an Euclidian distance between $s$ and $s&amp;rsquo;$ as classically used in hippocampal models. Because of the discount rate in the SR and its dependency on the animal&amp;rsquo;s policy, place fields are then roughly circular (exponentially decreasing) in an open environment, where the animal can theoretically reach any neighboring location from its current position. When constraints are added to the environment, such as walls and barriers, certain transitions are not possible anymore, which will modify the shape of the place fields. This fits with experimental observations, contrary to most models of place field formation using Gaussian receptive fields around fixed locations. Additionally, the SR hypothesis is in agreement with the observation that rewarded locations are represented by a higher number of place cells, as the animal spends more time around them.&lt;/p&gt;
+&lt;p&gt;Another interesting prediction of the SR hypothesis is that the hippocampus might be the site where the SR matrix is represented (Stachenfeld et al., 2017). In navigation tasks, the so-called &lt;strong&gt;place cells&lt;/strong&gt; in the hippocampus exhibit roughly circular receptive fields centered on different locations in the environment (O&amp;rsquo;Keefe and Nadel, 1978). Altogether, place cells are thought to provide a sparse code of the animal&amp;rsquo;s location. Strikingly, place fields change with the environment: moving the animal from a circular to a rectangular environment, or introducing barriers, modifies the distribution of place fields. Additionally, &lt;strong&gt;grid cells&lt;/strong&gt; in the entorhinal cortex (reciprocally connected to the hippocampus) show a hexagonal grid pattern of receptive fields, i.e. a single grid cell responds for several positions of the animal inside the environment (Hafting et al., 2005). Grid cells&#39; receptive fields also depend on the environment and have been shown to depend on place cells, not the other way around. The mechanism behind the flexibility of place and grid fields is still to be understood.&lt;/p&gt;
+&lt;p&gt;Stachenfeld et al. (2017) propose that place cells actually encode the SR $M(s, s&#39;)$ between the current location $s$ and their preferred location $s&#39;$, rather than simply an Euclidian distance between $s$ and $s&#39;$ as classically used in hippocampal models. Because of the discount rate in the SR and its dependency on the animal&amp;rsquo;s policy, place fields are then roughly circular (exponentially decreasing) in an open environment, where the animal can theoretically reach any neighboring location from its current position. When constraints are added to the environment, such as walls and barriers, certain transitions are not possible anymore, which will modify the shape of the place fields. This fits with experimental observations, contrary to most models of place field formation using Gaussian receptive fields around fixed locations. Additionally, the SR hypothesis is in agreement with the observation that rewarded locations are represented by a higher number of place cells, as the animal spends more time around them.&lt;/p&gt;
 
 
 
 
-&lt;figure&gt;
-
-&lt;img src=&#34;sr_track.png&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-  &lt;h4&gt;Place field on a linear track with an obstacle at x=1, using a Euclidian model (left) and the SR hypothesis (right). Adapted from Fig. 2 of (Stachenfeld et al., 2017).&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-place-field-on-a-linear-track-with-an-obstacle-at-x1-using-a-euclidian-model-left-and-the-sr-hypothesis-right-adapted-from-fig-2-of-stachenfeld-et-al-2017&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/post/successor_representations/sr_track_hu1f2516095a6aa51f59ace368fe696c1a_31468_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Place field on a linear track with an obstacle at x=1, using a Euclidian model (left) and the SR hypothesis (right). Adapted from Fig. 2 of (Stachenfeld et al., 2017).&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://julien-vitay.net/post/successor_representations/sr_track_hu1f2516095a6aa51f59ace368fe696c1a_31468_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1180&#34; height=&#34;611&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Place field on a linear track with an obstacle at x=1, using a Euclidian model (left) and the SR hypothesis (right). Adapted from Fig. 2 of (Stachenfeld et al., 2017).
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
 &lt;p&gt;Fig. 3 illustrates this prediction: if a rat is placed on a linear track with an obstacle, the place cell whose RF is centered on the obstacle would react identically on both sides of the obstacle using a Euclidian model, while it would only respond on the side it has explored using the SR. When the rat is put on the other side, the SRs would initially be 0 for that cell (but would grow with more exploration).&lt;/p&gt;
-
 &lt;p&gt;Stachenfeld et al. (2017) also propose a mechanism for grid cell formation in the entorhinal cortex. Grid cells are understood as a low-dimensional eigendecomposition of the SR place cells (dimensionality reduction, as in principal component analysis). This allows to explain why grid cells change in different environments (circular, rectangular or triangular), as experimentally observed. They also propose a mechanism for sub-goal formation using grid cells, but using the normalized min-cut algorithm, so quite far from being biologically realistic.&lt;/p&gt;
-
 &lt;h2 id=&#34;discussion&#34;&gt;Discussion&lt;/h2&gt;
-
 &lt;p&gt;Successor representations are an interesting trade-off between model-free and model-based RL algorithms, explicitly separating state transitions from reward estimation. It allows reacting quickly to distal reward changes without the computational burden of completely model-based planning. Deep RL variants of SR (Kulkarni et al., 2016) obtain satisfying results on classical RL tasks such as Atari games and simulated robots, but are still outperformed by modern model-free algorithms. Similar to human behavior, hybrid architectures using both SR and MF methods might be able to combine the optimality of MF methods with the flexibility of the SR.&lt;/p&gt;
-
 &lt;p&gt;At the neuroscientific level, the SR hypothesis raises a lot of interesting questions, especially regarding the interplay between the prefrontal cortex, the hippocampus, and the basal ganglia during goal-directed behavior. Here are just a few aspects that need to be investigated both experimentally and theoretically:&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;What is the relationship between the RPE and the SPE? Does VTA compute the SPE (still to be proven) and send it directly to the hippocampus through dopaminergic projections? Or does the RPE VTA somehow &amp;ldquo;train&amp;rdquo; ACC and PFC to compute the SPE, what is then sent to the hippocampus to update the SR representation? How?&lt;/li&gt;
 &lt;li&gt;How does the hippocampus learn from SPE signals? The SR hypothesis still has to be linked with evidence on plasticity in the hippocampus.&lt;/li&gt;
 &lt;li&gt;If dopamine does not carry the SPE, what is the role of the dopaminergic innervation of the hippocampus? The SR representation is in principle independent from rewards (except that animals may spend more time around reward location).&lt;/li&gt;
 &lt;li&gt;How is the value of a state / action computed based on the SR representation in the hippocampus? Do sharp wave ripples (SWR, also called forward/inverse replays) actually sample the SR matrix (a list of achievable states from the current one), what is then integrated elsewhere (ventral striatum?) to guide behavior?&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-
-&lt;p&gt;Barreto, A., Dabney, W., Munos, R., Hunt, J. J., Schaul, T., van Hasselt, H., et al. (2016). Successor Features for Transfer in Reinforcement Learning. arXiv:1606.05312. Available at: &lt;a href=&#34;http://arxiv.org/abs/1606.05312&#34; target=&#34;_blank&#34;&gt;http://arxiv.org/abs/1606.05312&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;Barreto, A., Dabney, W., Munos, R., Hunt, J. J., Schaul, T., van Hasselt, H., et al. (2016). Successor Features for Transfer in Reinforcement Learning. arXiv:1606.05312. Available at: &lt;a href=&#34;http://arxiv.org/abs/1606.05312&#34;&gt;http://arxiv.org/abs/1606.05312&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Corbit, L. H., and Balleine, B. W. (2011). The general and outcome-specific forms of Pavlovian-instrumental transfer are differentially mediated by the nucleus accumbens core and shell. The Journal of neuroscience 31, 11786–94. doi:10.1523/JNEUROSCI.2711-11.2011.&lt;/p&gt;
-
 &lt;p&gt;Dayan, P. (1993). Improving Generalization for Temporal Difference Learning: The Successor Representation. Neural Computation 5, 613–624. doi:10.1162/neco.1993.5.4.613.&lt;/p&gt;
-
 &lt;p&gt;Dickinson, A., and Balleine, B. (2002). The role of learning in the operation of motivational systems. In: Gallistel CR, editor. Steven’s handbook of experimental psychology: learning, motivation and emotion . 3rd ed.New York: John Wiley &amp;amp; Sons, 497–534.&lt;/p&gt;
-
 &lt;p&gt;Doll, B. B., Simon, D. A., and Daw, N. D. (2012). The ubiquity of model-based reinforcement learning. Current Opinion in Neurobiology 22, 1075–1081. doi:10.1016/j.conb.2012.08.003.&lt;/p&gt;
-
-&lt;p&gt;Ducarouge, A., and Sigaud, O. (2017). The Successor Representation as a model of behavioural flexibility. In Journées Francophones sur la Planification, la Décision et l’Apprentissage pour la conduite de systèmes (JFPDA 2017). Caen, France. Available at: &lt;a href=&#34;https://hal.archives-ouvertes.fr/hal-01576352&#34; target=&#34;_blank&#34;&gt;https://hal.archives-ouvertes.fr/hal-01576352&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;Ducarouge, A., and Sigaud, O. (2017). The Successor Representation as a model of behavioural flexibility. In Journées Francophones sur la Planification, la Décision et l’Apprentissage pour la conduite de systèmes (JFPDA 2017). Caen, France. Available at: &lt;a href=&#34;https://hal.archives-ouvertes.fr/hal-01576352&#34;&gt;https://hal.archives-ouvertes.fr/hal-01576352&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Gardner, M. P. H., Schoenbaum, G., and Gershman, S. J. (2018). Rethinking dopamine as generalized prediction error. Proceedings of the Royal Society B: Biological Sciences 285, 20181645. doi:10.1098/rspb.2018.1645.&lt;/p&gt;
-
 &lt;p&gt;Gershman, S.J., Moore, C.D:, Todd, M.T., Norman, K.A., and Sederberg, P.B. (2012). The successor representation and temporal context. Neural Computation, 24(6):1553–1568, 2012.&lt;/p&gt;
-
 &lt;p&gt;Gershman, S. J. (2018). The Successor Representation: Its Computational Logic and Neural Substrates. The Journal of neuroscience : the official journal of the Society for Neuroscience 38, 7193–7200. doi:10.1523/JNEUROSCI.0151-18.2018.&lt;/p&gt;
-
 &lt;p&gt;Hafting, T., Fyhn, M., Molden, S., Moser, M.-B., and Moser, E. I. (2005). Microstructure of a spatial map in the entorhinal cortex. Nature 436, 801. doi:10.1038/nature03721.&lt;/p&gt;
-
-&lt;p&gt;Kulkarni, T. D., Saeedi, A., Gautam, S., and Gershman, S. J. (2016). Deep Successor Reinforcement Learning. arXiv:1606.02396. Available at: &lt;a href=&#34;http://arxiv.org/abs/1606.02396&#34; target=&#34;_blank&#34;&gt;http://arxiv.org/abs/1606.02396&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;Kulkarni, T. D., Saeedi, A., Gautam, S., and Gershman, S. J. (2016). Deep Successor Reinforcement Learning. arXiv:1606.02396. Available at: &lt;a href=&#34;http://arxiv.org/abs/1606.02396&#34;&gt;http://arxiv.org/abs/1606.02396&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Lee, S. W., Shimojo, S., and O&amp;rsquo;Doherty J. P. (2014). Neural computations underlying arbitration between model-based and model-free learning. Neuron, 81(3), 687–699. doi:10.1016/j.neuron.2013.11.028.&lt;/p&gt;
-
-&lt;p&gt;Ma, C., Wen, J., and Bengio, Y. (2018). Universal Successor Representations for Transfer Reinforcement Learning. arXiv:1804.03758. Available at: &lt;a href=&#34;http://arxiv.org/abs/1804.03758&#34; target=&#34;_blank&#34;&gt;http://arxiv.org/abs/1804.03758&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Machado, M. C., Bellemare, M. G., and Bowling, M. (2018). Count-Based Exploration with the Successor Representation. arXiv:1807.11622. Available at: &lt;a href=&#34;http://arxiv.org/abs/1807.11622&#34; target=&#34;_blank&#34;&gt;http://arxiv.org/abs/1807.11622&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Miller, K., Ludvig, E. A., Pezzulo, G., and Shenhav, A. (2018). Re-aligning models of habitual and goal-directed decision-making. In Goal-Directed Decision Making : Computations and Neural Circuits, eds. A. Bornstein, R. W. Morris, and A. Shenhav (Academic Press). Available at: &lt;a href=&#34;https://www.elsevier.com/books/goal-directed-decision-making/morris/978-0-12-812098-9&#34; target=&#34;_blank&#34;&gt;https://www.elsevier.com/books/goal-directed-decision-making/morris/978-0-12-812098-9&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;Ma, C., Wen, J., and Bengio, Y. (2018). Universal Successor Representations for Transfer Reinforcement Learning. arXiv:1804.03758. Available at: &lt;a href=&#34;http://arxiv.org/abs/1804.03758&#34;&gt;http://arxiv.org/abs/1804.03758&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Machado, M. C., Bellemare, M. G., and Bowling, M. (2018). Count-Based Exploration with the Successor Representation. arXiv:1807.11622. Available at: &lt;a href=&#34;http://arxiv.org/abs/1807.11622&#34;&gt;http://arxiv.org/abs/1807.11622&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Miller, K., Ludvig, E. A., Pezzulo, G., and Shenhav, A. (2018). Re-aligning models of habitual and goal-directed decision-making. In Goal-Directed Decision Making : Computations and Neural Circuits, eds. A. Bornstein, R. W. Morris, and A. Shenhav (Academic Press). Available at: &lt;a href=&#34;https://www.elsevier.com/books/goal-directed-decision-making/morris/978-0-12-812098-9&#34;&gt;https://www.elsevier.com/books/goal-directed-decision-making/morris/978-0-12-812098-9&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Momennejad, I., Russek, E. M., Cheong, J. H., Botvinick, M. M., Daw, N. D., and Gershman, S. J. (2017). The successor representation in human reinforcement learning. Nature Human Behaviour 1, 680–692. doi:10.1038/s41562-017-0180-8.&lt;/p&gt;
-
 &lt;p&gt;Oemisch, M., Westendorff, S., Azimi, M., Hassani, S. A., Ardid, S., Tiesinga, P., et al. (2019). Feature-specific prediction errors and surprise across macaque fronto-striatal circuits. Nature Communications 10, 176. doi:10.1038/s41467-018-08184-9.&lt;/p&gt;
-
 &lt;p&gt;O&amp;rsquo;Keefe, J., and Nadel, L. (1978). The hippocampus as a cognitive map. Oxford : New York: Clarendon Press ; Oxford University Press.&lt;/p&gt;
-
 &lt;p&gt;Russek, E. M., Momennejad, I., Botvinick, M. M., Gershman, S. J., and Daw, N. D. (2017). Predictive representations can link model-based reinforcement learning to model-free mechanisms. PLoS Computational Biology, 13, e1005768. doi:10.1371/journal.pcbi.1005768&lt;/p&gt;
-
 &lt;p&gt;Schultz, W. (1998). Predictive reward signal of dopamine neurons. J Neurophysiol 80, 1–27.&lt;/p&gt;
-
 &lt;p&gt;Stachenfeld, K. L., Botvinick, M. M., and Gershman, S. J. (2017). The hippocampus as a predictive map. Nature Neuroscience 20, 1643–1653. doi:10.1038/nn.4650.&lt;/p&gt;
-
-&lt;p&gt;Sutton, R. S., and Barto, A. G. (2017). Reinforcement Learning: An Introduction. 2nd ed. Cambridge, MA: MIT Press. Available at: &lt;a href=&#34;http://incompleteideas.net/book/the-book-2nd.html&#34; target=&#34;_blank&#34;&gt;http://incompleteideas.net/book/the-book-2nd.html&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;Sutton, R. S., and Barto, A. G. (2017). Reinforcement Learning: An Introduction. 2nd ed. Cambridge, MA: MIT Press. Available at: &lt;a href=&#34;http://incompleteideas.net/book/the-book-2nd.html&#34;&gt;http://incompleteideas.net/book/the-book-2nd.html&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Vitay, J., and Hamker, F. H. (2014). Timing and expectation of reward: A neuro-computational model of the afferents to the ventral tegmental area. Frontiers in Neurorobotics 8. doi:10.3389/fnbot.2014.00004.&lt;/p&gt;
-
 &lt;p&gt;Watabe-Uchida, M., and Uchida, N. (2019). Multiple Dopamine Systems: Weal and Woe of Dopamine. Cold Spring Harb Symp Quant Biol, 037648. doi:10.1101/sqb.2018.83.037648.&lt;/p&gt;
-
-&lt;p&gt;Zhang, J., Springenberg, J. T., Boedecker, J., and Burgard, W. (2016). Deep Reinforcement Learning with Successor Features for Navigation across Similar Environments. arXiv:1612.05533. Available at: &lt;a href=&#34;http://arxiv.org/abs/1612.05533&#34; target=&#34;_blank&#34;&gt;http://arxiv.org/abs/1612.05533&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Zhang, J., Springenberg, J. T., Boedecker, J., and Burgard, W. (2016). Deep Reinforcement Learning with Successor Features for Navigation across Similar Environments. arXiv:1612.05533. Available at: &lt;a href=&#34;http://arxiv.org/abs/1612.05533&#34;&gt;http://arxiv.org/abs/1612.05533&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -398,7 +381,6 @@ $$
       <title>Feature Map Transformation for Fusion of Multi-Sensor Object Detection Networks for Autonomous Driving</title>
       <link>https://julien-vitay.net/publication/schroeder2019/</link>
       <pubDate>Wed, 24 Apr 2019 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/schroeder2019/</guid>
       <description></description>
     </item>
@@ -407,7 +389,6 @@ $$
       <title>Deep Learning and Intelligence: the right approach?</title>
       <link>https://julien-vitay.net/talk/clt2019/</link>
       <pubDate>Sat, 16 Mar 2019 12:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/talk/clt2019/</guid>
       <description></description>
     </item>
@@ -416,7 +397,6 @@ $$
       <title>Recurrent Spatial Attention for Facial Emotion Recognition</title>
       <link>https://julien-vitay.net/publication/forch2019/</link>
       <pubDate>Fri, 01 Feb 2019 00:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/publication/forch2019/</guid>
       <description></description>
     </item>
@@ -425,7 +405,6 @@ $$
       <title>Fusion of Camera and Lidar Data for Object Detection using Neural Networks</title>
       <link>https://julien-vitay.net/publication/schroeder2018/</link>
       <pubDate>Wed, 26 Sep 2018 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/schroeder2018/</guid>
       <description></description>
     </item>
@@ -434,17 +413,43 @@ $$
       <title>On the role of cortex-basal ganglia interactions for category learning: A neuro-computational approach</title>
       <link>https://julien-vitay.net/publication/villagrasa2018/</link>
       <pubDate>Tue, 18 Sep 2018 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/villagrasa2018/</guid>
       <description>
 
 
-&lt;figure&gt;
 
-&lt;img src=&#34;model.png&#34; /&gt;
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/publication/villagrasa2018/model_hu27b7eb85285c90ba4989189366f2107c_298376_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://julien-vitay.net/publication/villagrasa2018/model_hu27b7eb85285c90ba4989189366f2107c_298376_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;998&#34; height=&#34;698&#34;&gt;
+&lt;/a&gt;
+
 
 
 &lt;/figure&gt;
+
 </description>
     </item>
     
@@ -452,7 +457,6 @@ $$
       <title>Sustainable computational science: the ReScience initiative</title>
       <link>https://julien-vitay.net/publication/rougier2017/</link>
       <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/publication/rougier2017/</guid>
       <description></description>
     </item>
@@ -461,17 +465,43 @@ $$
       <title>Predictive Place-Cell Sequences for Goal-Finding Emerge from Goal Memory and the Cognitive Map: A Computational Model</title>
       <link>https://julien-vitay.net/publication/goenner2017/</link>
       <pubDate>Thu, 12 Oct 2017 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/goenner2017/</guid>
       <description>
 
 
-&lt;figure&gt;
 
-&lt;img src=&#34;model.png&#34; /&gt;
+
+
+  
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure &gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/publication/goenner2017/model_hua752f27e9743bc39ddb864b399f3604d_201823_2000x2000_fit_lanczos_2.png&#34; &gt;
+
+
+  &lt;img data-src=&#34;https://julien-vitay.net/publication/goenner2017/model_hua752f27e9743bc39ddb864b399f3604d_201823_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;641&#34; height=&#34;667&#34;&gt;
+&lt;/a&gt;
+
 
 
 &lt;/figure&gt;
+
 </description>
     </item>
     
@@ -479,7 +509,6 @@ $$
       <title>Training a deep policy gradient-based neural network with asynchronous learners on a simulated robotic problem</title>
       <link>https://julien-vitay.net/publication/loetzsch2017/</link>
       <pubDate>Fri, 15 Sep 2017 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/loetzsch2017/</guid>
       <description></description>
     </item>
@@ -488,7 +517,6 @@ $$
       <title>On the role of dopamine in motivated behavior: a neuro-computational approach</title>
       <link>https://julien-vitay.net/publication/vitay2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/publication/vitay2017/</guid>
       <description></description>
     </item>
@@ -497,7 +525,6 @@ $$
       <title>[Re] Robust timing and motor patterns by taming chaos in recurrent neural networks</title>
       <link>https://julien-vitay.net/publication/vitay2016/</link>
       <pubDate>Fri, 07 Oct 2016 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/vitay2016/</guid>
       <description></description>
     </item>
@@ -506,7 +533,6 @@ $$
       <title>ANNarchy: a code generation approach to neural simulations on parallel hardware</title>
       <link>https://julien-vitay.net/publication/vitay2015/</link>
       <pubDate>Fri, 31 Jul 2015 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/vitay2015/</guid>
       <description></description>
     </item>
@@ -515,7 +541,6 @@ $$
       <title>Timing and expectation of reward: a neuro-computational model of the afferents to the ventral tegmental area</title>
       <link>https://julien-vitay.net/publication/vitay2014/</link>
       <pubDate>Fri, 31 Jan 2014 00:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/publication/vitay2014/</guid>
       <description></description>
     </item>
@@ -524,7 +549,6 @@ $$
       <title>Dysfunctional and compensatory synaptic plasticity in Parkinson&#39;s disease</title>
       <link>https://julien-vitay.net/publication/schroll2014/</link>
       <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/publication/schroll2014/</guid>
       <description></description>
     </item>
@@ -533,7 +557,6 @@ $$
       <title>Comparison of GPU- and CPU-implementations of mean-firing rate neural networks on parallel hardware</title>
       <link>https://julien-vitay.net/publication/dinkelbach2012/</link>
       <pubDate>Fri, 09 Nov 2012 00:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/publication/dinkelbach2012/</guid>
       <description></description>
     </item>
@@ -542,7 +565,6 @@ $$
       <title>Basal Ganglia learning</title>
       <link>https://julien-vitay.net/publication/vitay2012/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/publication/vitay2012/</guid>
       <description></description>
     </item>
@@ -551,7 +573,6 @@ $$
       <title>Working memory and response selection: A computational account of interactions among cortico-basalganglio-thalamic loops</title>
       <link>https://julien-vitay.net/publication/schroll2012/</link>
       <pubDate>Sun, 01 Jan 2012 00:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/publication/schroll2012/</guid>
       <description></description>
     </item>
@@ -560,7 +581,6 @@ $$
       <title>A Neuroscientific View on the Role of Emotions in Behaving Cognitive Agents</title>
       <link>https://julien-vitay.net/publication/vitay2011/</link>
       <pubDate>Mon, 01 Aug 2011 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/vitay2011/</guid>
       <description></description>
     </item>
@@ -569,7 +589,6 @@ $$
       <title>A computational model of basal ganglia and its role in memory retrieval in rewarded visual memory tasks</title>
       <link>https://julien-vitay.net/publication/vitay2010/</link>
       <pubDate>Fri, 28 May 2010 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/vitay2010/</guid>
       <description></description>
     </item>
@@ -578,7 +597,6 @@ $$
       <title>Biological Models of Reinforcement Learning</title>
       <link>https://julien-vitay.net/publication/vitay2009/</link>
       <pubDate>Tue, 01 Sep 2009 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/vitay2009/</guid>
       <description></description>
     </item>
@@ -587,7 +605,6 @@ $$
       <title>Sustained Activities and Retrieval in a Computational Model of the Perirhinal Cortex</title>
       <link>https://julien-vitay.net/publication/vitay2008/</link>
       <pubDate>Tue, 14 Oct 2008 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/vitay2008/</guid>
       <description></description>
     </item>
@@ -596,7 +613,6 @@ $$
       <title>On the role of dopamine in cognitive vision</title>
       <link>https://julien-vitay.net/publication/vitay2007/</link>
       <pubDate>Mon, 01 Jan 2007 00:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/publication/vitay2007/</guid>
       <description></description>
     </item>
@@ -605,7 +621,6 @@ $$
       <title>Emergence of sensorimotor functions on a numerical distributed neural substrate</title>
       <link>https://julien-vitay.net/publication/phd/</link>
       <pubDate>Fri, 23 Jun 2006 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/phd/</guid>
       <description></description>
     </item>
@@ -614,7 +629,6 @@ $$
       <title>A computational model of spatial memory anticipation during visual search</title>
       <link>https://julien-vitay.net/publication/fix2006/</link>
       <pubDate>Sun, 01 Jan 2006 00:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/publication/fix2006/</guid>
       <description></description>
     </item>
@@ -623,7 +637,6 @@ $$
       <title>Emergence of attention within a neural population</title>
       <link>https://julien-vitay.net/publication/rougier2005/</link>
       <pubDate>Wed, 01 Jun 2005 00:00:00 +0200</pubDate>
-      
       <guid>https://julien-vitay.net/publication/rougier2005/</guid>
       <description></description>
     </item>
@@ -632,7 +645,6 @@ $$
       <title>A distributed model of spatial visual attention</title>
       <link>https://julien-vitay.net/publication/vitay2005/</link>
       <pubDate>Sat, 01 Jan 2005 00:00:00 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/publication/vitay2005/</guid>
       <description></description>
     </item>
@@ -641,45 +653,27 @@ $$
       <title>ANNarchy</title>
       <link>https://julien-vitay.net/project/annarchy/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/project/annarchy/</guid>
-      <description>
-
-&lt;p&gt;Neuro-computational models are different from classical neural networks (deep learning) in many aspects:&lt;/p&gt;
-
+      <description>&lt;p&gt;Neuro-computational models are different from classical neural networks (deep learning) in many aspects:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;The complexity of the neurons, whose activity is governed by one or several differential equations instead of a simple weighted sum.&lt;/li&gt;
 &lt;li&gt;The complexity and diversity of the learning rules (synaptic plasticity), compared to gradient descent.&lt;/li&gt;
 &lt;li&gt;The size of the networks needed to simulate significant parts of the brain.&lt;/li&gt;
 &lt;li&gt;The huge diversity of models, architectures, frameworks used by researchers in computational neuroscience.&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;The increasing size of such networks asks for efficient parallel simulations, using distributed systems (OpenMP, MPI) or GPUs (CUDA). However, computational neuroscientists cannot be expected to be also experts in parallel computing. There is a need for a general-purpose neuro-simulator, with an easy but flexible interface allowing to define a huge variety of models, but which is internally efficient and allows for fast parallel simulations on various hardwares.&lt;/p&gt;
-
 &lt;p&gt;Over many years, we have developed &lt;strong&gt;ANNarchy&lt;/strong&gt; (Artificial Neural Networks architect), a parallel simulator for distributed rate-coded or spiking neural networks. The definition of the models is made in Python, but the library generates optimized C++ code to actually run the simulation on parallel hardware, using either openMP or CUDA. The current stable version is 4.6 and is released under the GNU GPL v2 or later.&lt;/p&gt;
-
 &lt;p&gt;The code is available at:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://bitbucket.org/annarchy/annarchy&#34; target=&#34;_blank&#34;&gt;https://bitbucket.org/annarchy/annarchy&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;a href=&#34;https://bitbucket.org/annarchy/annarchy&#34;&gt;https://bitbucket.org/annarchy/annarchy&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The documentation is available at:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://annarchy.readthedocs.org&#34; target=&#34;_blank&#34;&gt;https://annarchy.readthedocs.org&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;a href=&#34;https://annarchy.readthedocs.org&#34;&gt;https://annarchy.readthedocs.org&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;core-principles&#34;&gt;Core principles&lt;/h3&gt;
-
 &lt;p&gt;ANNarchy separates the description of a neural network from its simulation. The description is declared in a Python script, offering high flexibility and readability of the code, and allowing to use the huge ecosystem of scientific libraries available with Python (Numpy, Scipy, Matplotlib&amp;hellip;). Using Python furthermore reduces the programming effort to a minimum, letting the modeller concentrate on network design and data analysis.&lt;/p&gt;
-
 &lt;p&gt;&lt;img style=&#34;width:60%; min-width:320px&#34; src=&#34;annarchy.svg&#34; /&gt;&lt;/p&gt;
-
 &lt;p&gt;A neural network is defined as a collection of interconnected populations of neurons. Each population comprises a set of similar artificial neurons (rate-coded or spiking point-neurons), whose activity is ruled by one or many ordinary differential equations. The activity of a neuron depends on the activity of other neurons through synapses, whose strength can evolve with time depending on pre- or post-synaptic activities (synaptic plasticity). Populations are interconnected with each other through projections, which contain synapses between two populations.&lt;/p&gt;
-
 &lt;p&gt;ANNarchy provides a set of classical neuron or synapse models, but also allows the definition of specific models. The ordinary differential equations (ODE) governing neural or synaptic dynamics have to be specified by the modeler. Contrary to other simulators (except Brian) which require to code these modules in a low-level language, ANNarchy provides a mathematical equation parser which can generate optimized C++ code depending on the chosen parallel framework. Bindings from C++ to Python are generated thanks to Cython (C-extensions to Python), which is a static compiler for Python. These bindings allow the Python script to access all data generated by the simulation (neuronal activity, connection weights) as if they were simple Python attributes. However, the simulation itself is independent from Python and its relatively low performance.&lt;/p&gt;
-
 &lt;h3 id=&#34;example-of-a-pulse-coupled-network-of-izhikevich-neurons&#34;&gt;Example of a pulse-coupled network of Izhikevich neurons&lt;/h3&gt;
-
 &lt;p&gt;To demonstrate the simplicity of ANNarchy&amp;rsquo;s interface, let&amp;rsquo;s focus on the &amp;ldquo;Hello, World!&amp;rdquo; of spiking networks: the pulse-coupled network of Izhikevich neurons (Izhikevich, 2003). It can be defined in ANNarchy as:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from ANNarchy import *
 
 # Create the excitatory and inhibitory population
@@ -732,7 +726,6 @@ ax = plt.subplot(3,1,3)
 ax.plot(fr)
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/annarchy/izhikevich.png&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
@@ -741,18 +734,12 @@ plt.show()
       <title>Basal Ganglia</title>
       <link>https://julien-vitay.net/project/basalganglia/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:38 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/project/basalganglia/</guid>
       <description>&lt;p&gt;The Basal Ganglia (BG) are a set of nuclei located in the basal forebrain, receiving inputs mostly from the cerebral cortex (especially the frontal lobe) and projecting on various motor centers, as well as back to the cortex through the thalamus, forming a closed-loop.&lt;/p&gt;
-
 &lt;p&gt;The main input station is the striatum, which can be anatomically divided into three parts: the nucleus accumbens (NAcc), the caudate nucleus (CN) and the putamen (PUT). Striatal neurons are excited by cortical activity and inhibit in turn the tonically active neurons of the output nuclei of the BG: the substantia nigra pars reticulata (SNr) and the internal segment of the globus pallidus (GPi). These output structures further inhibit some motor centers and thalamic nuclei.&lt;/p&gt;
-
 &lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/basalganglia/basalganglia.png&#34; /&gt;&lt;/p&gt;
-
 &lt;p&gt;This double inhibition allows to selectively open some recurrent loops between the thalamus and the cortex, increasing the signal-to-noise ratio in the cortex and triggering movements or cognitive functions.&lt;/p&gt;
-
 &lt;p&gt;Other nuclei in the BG, such as the subthalamic nucleus (STN) and the external part of the globus pallidus (GPe), create functionally different pathways to allow for a more complex role of BG in adapting behavior.&lt;/p&gt;
-
 &lt;p&gt;The main characteristic of the BG is its dense innervation by dopaminergic (DA) cells in the substantia nigra pars compacta (SNc) and ventral tegmental area (VTA), whose firing is related to reward delivery and prediction. DA can modulate the activation and learning of most cells in the BG, placing it as a core structure in reinforcement learning processes.&lt;/p&gt;
 </description>
     </item>
@@ -761,20 +748,12 @@ plt.show()
       <title>Deep Learning</title>
       <link>https://julien-vitay.net/project/deeplearning/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:37 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/project/deeplearning/</guid>
-      <description>
-
-&lt;p&gt;The recent hype on &lt;strong&gt;deep learning&lt;/strong&gt; has revived the interest for artificial neural networks and their applications. Here are some projects done lately.&lt;/p&gt;
-
-&lt;h2 id=&#34;project-1-facial-emotion-recognition&#34;&gt;Project 1 : Facial emotion recognition&lt;/h2&gt;
-
+      <description>&lt;p&gt;The recent hype on &lt;strong&gt;deep learning&lt;/strong&gt; has revived the interest for artificial neural networks and their applications. Here are some projects done lately.&lt;/p&gt;
+&lt;h2 id=&#34;project-1--facial-emotion-recognition&#34;&gt;Project 1 : Facial emotion recognition&lt;/h2&gt;
 &lt;p&gt;Facial expression recognition is an important research field in computer vision. Although detecting facial features is an easy task for a human, computers still have a hard time doing it. Factors such as interpersonal variation (gender, skin color), intrapersonal variation (pose, expression) and different recording conditions (image resolution, lighting) add to the complexity of the problem. This is particularly relevant in the context of emotion recognition, where systems should be able to automatically recognize in which emotional state humans are.&lt;/p&gt;
-
 &lt;p&gt;On human faces, emotional expression heavily relies on the activation of individual facial muscles. A classical approach to describe facial expressions at the muscular level is the Facial Action Coding System (FACS) proposed by Ekman (1978). In this framework, movement of specific facial regions are described as Actions Units (AU), which basically describe deviations from a neutral expression. AUs are specific to facial regions (corner of the mouth or the eye, etc.). Although there are 69 AUs in the FACS theory, 28 of them are mostly useful for emotion recognition. We have focused on 12 of them: 1 (Inner Brow Raiser), 2 (Outer Brow Raiser), 4 (Brow Lowerer), 6 (Cheek Raiser), 7 (Lid Tightener), 10 (Upper Lip Raiser), 12 (Lip Corner Puller), 14 (Dimpler), 15 (Lip Corner Depressor), 17 (Chin Raiser), 23 (Lip Tightener), 24 (Lip Pressor).&lt;/p&gt;
-
 &lt;p&gt;There are different training sets generally available to the community containing various number of FACS-annotated images, with different numbers of annotated AUs: CCK+, MMI, UNBC-McMaster PAIN, DUSFA, BP4D, SEMAINE, etc. The 12 selected AUs correspond to the annotated AUs in BP4D, which is the most massive dataset. The main interest of these AUs is that they are mostly sufficient to predict the occurence of the 6 basic emotions using the EMFACS correspondance table:&lt;/p&gt;
-
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
@@ -782,61 +761,79 @@ plt.show()
 &lt;th&gt;Action Units&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
-
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;Happiness&lt;/td&gt;
 &lt;td&gt;6, 12&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;Sadness&lt;/td&gt;
 &lt;td&gt;1, 4, 15&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;Surprise&lt;/td&gt;
 &lt;td&gt;1, 2, 5B, 26&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;Fear&lt;/td&gt;
 &lt;td&gt;1, 2, 4, 5, 7, 20, 26&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;Anger&lt;/td&gt;
 &lt;td&gt;4, 5, 7, 23&lt;/td&gt;
 &lt;/tr&gt;
-
 &lt;tr&gt;
 &lt;td&gt;Disgust&lt;/td&gt;
 &lt;td&gt;9, 15, 16&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-
 &lt;p&gt;After investigating various architectures to automatically predict AU occurence on faces, we converged towards a neural network architecture inspired from VGG-16:&lt;/p&gt;
 
 
 
 
-&lt;figure&gt;
-
-&lt;img src=&#34;model.png&#34; /&gt;
 
 
-
-&lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
-  &lt;h4&gt;Convolutional Neural Network for FACS recognition.&lt;/h4&gt;
   
-&lt;/figcaption&gt;
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure id=&#34;figure-convolutional-neural-network-for-facs-recognition&#34;&gt;
+
+
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/project/deeplearning/model_hufd6724ac2b696e61ce0911e529a47b91_57163_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Convolutional Neural Network for FACS recognition.&#34;&gt;
+
+
+  &lt;img data-src=&#34;https://julien-vitay.net/project/deeplearning/model_hufd6724ac2b696e61ce0911e529a47b91_57163_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1350&#34; height=&#34;339&#34;&gt;
+&lt;/a&gt;
+
+
+  
+  
+  &lt;figcaption data-pre=&#34;Figure &#34; data-post=&#34;:&#34; class=&#34;numbered&#34;&gt;
+    Convolutional Neural Network for FACS recognition.
+  &lt;/figcaption&gt;
+
 
 &lt;/figure&gt;
 
 &lt;p&gt;It consists of 4 convolutional blocks, each composed of 2 convolutional layers (kernel size 3x3, ReLU activation function) and a max-pooling layers (2x2). A dropout layer with p=0.2 is added after the max-pooling. After 4 such convolutional blocks with increasing numbers of features (32, 64, 126 and 256), the last tensor (6x6x256) is flattened into a vector of 9216 elements and projected on a fully connected layer of 500 neurons. The output layer has 12 neurons using the sigmoid activation function, each representing one of the 12 AUs present in the combined dataset. The network has a total of 5.786.192 trainable parameters (weights and biases), what makes it a middle-sized deep network that can fit into the available GPUs at the lab. The model was trained over 120 epochs using Stochastic Gradient Descent (SGD) on minibatches of 128 samples, with a learning rate of 0.01 and a Nesterov momentum of 0.9. The network has successfully learned the training data (final loss of 0.02) and has only very slightly overfitted. F1 scores for each AU on the test set are well over 0.9.&lt;/p&gt;
-
 &lt;p&gt;The video below shows the performance of the network in real conditions. The detected AUs are in the top-left corner, the recognized emotion in the bottom-left one.&lt;/p&gt;
+
 
 
 
@@ -856,16 +853,12 @@ plt.show()
 &lt;video controls &gt;
   &lt;source src=&#34;demo.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
-
-&lt;h2 id=&#34;project-2-scene-understanding&#34;&gt;Project 2 : Scene understanding&lt;/h2&gt;
-
+&lt;h2 id=&#34;project-2--scene-understanding&#34;&gt;Project 2 : Scene understanding&lt;/h2&gt;
 &lt;p&gt;Recurrent neural networks coupled with attentional mechanisms have the ability to sequentially focus of the relevant parts of a visual scene. Coupled with a language production network, scene understanding abilities can be improved by finding the spatial location of the important objects in a scene while describing it.&lt;/p&gt;
-
 &lt;p&gt;The idea of the work done by Saransh Vora during his Master thesis in 2018 at the professorship was to study and reimplement the Show, attend and tell model of (Xu et al 2015, arXiv:1502.03044). The attentional signal is used to locate the most important objects of the sentence in the image, and have a Nao point at them while pronouncing the sentence.&lt;/p&gt;
 
-
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/dupgWkoA78c&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/dupgWkoA78c&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
 </description>
@@ -875,14 +868,10 @@ plt.show()
       <title>Dopaminergic system</title>
       <link>https://julien-vitay.net/project/dopamine/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:36 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/project/dopamine/</guid>
       <description>&lt;p&gt;The dopaminergic system is composed of the &lt;em&gt;ventral tegmental area&lt;/em&gt; (VTA) and the &lt;em&gt;substantia nigra pars compacta&lt;/em&gt; (SNc). The neurotransmitter &lt;strong&gt;dopamine&lt;/strong&gt; (DA) released by neurons in these two small areas exerts a strong influence on neural excitability and plasticity in many brain areas: mostly the basal ganglia (BG), but also the prefrontal cortex, the hippocampus or the amygdala.&lt;/p&gt;
-
 &lt;p&gt;A striking feature of VTA cells is their response during classical (or Pavlovian) conditioning, as observed by Schultz et al (1998).  Early on, VTA cells respond phasically (a burst) to unconditioned stimuli (US, or rewards in operant conditioning). Gradually during learning, the amplitude of this response decreases, replaced by a response to the conditioned stimuli (CS) which are predictive of reward delivery. Moreover, if a reward is predicted by the CS but omitted, VTA cells show a brief depression of activity (a dip) at the time where the US was expected. This pattern resembles the temporal difference (TD) error signal used in reinforcement learning, what generated  multitudes of models based on that analogy.&lt;/p&gt;
-
 &lt;p&gt;What remains unclear is how VTA cells access information about the US, the CS and more importantly the time elapsed since CS onset. The goal of this research project is to investigate the mechanisms by which VTA is able to exhibit these properties, by looking at the afferent system to VTA. VTa indeed receives information from many brain areas, either directly as the rostromedial tegmental area (RMTg), the pedunculopontine nucleus (PPTN) or the nucleus accumbens (NAcc), or indirectly as the amygdala, the lateral habenula (LHb), the ventral pallidum (VP) or the ventromedial prefrontal cortex (vmPFC).&lt;/p&gt;
-
 &lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/dopamine/dopamine.jpg&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
@@ -891,12 +880,9 @@ plt.show()
       <title>Hippocampus</title>
       <link>https://julien-vitay.net/project/hippocampus/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:35 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/project/hippocampus/</guid>
       <description>&lt;p&gt;The hippocampus is a key structure for episodic memory and spatial navigation. A fundamental step in hippocampus research was the discovery of &lt;strong&gt;place cells&lt;/strong&gt;, which fire whenever an animal traverses a certain location known as the place field (O&amp;rsquo;Keefe and Nadel, 1978). At rest, place cells exhibit brief periods of fast oscillations termed sharp wave-ripples. During these events, place cell activity shows sequential patterns called forward replay and reverse replay: time-compressed, and sometimes time-reversed, reproductions of previously experienced sequences. Spatial experiences stored in the hippocampus can therefore be recalled at will during behavior.&lt;/p&gt;
-
 &lt;p&gt;Our modeling work focuses on understanding how these replay patterns are learned and used for high-level cognitive processes such as decision-making and model-based reinforcement learning.&lt;/p&gt;
-
 &lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/hippocampus/model.png&#34; /&gt;&lt;/p&gt;
 </description>
     </item>
@@ -905,13 +891,10 @@ plt.show()
       <title>Deep Reinforcement Learning</title>
       <link>https://julien-vitay.net/project/reinforcementlearning/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:34 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/project/reinforcementlearning/</guid>
       <description>&lt;p&gt;Deep reinforcement learning (deep RL) is the integration of deep learning methods, classically used in supervised or unsupervised learning contexts, with reinforcement learning (RL), a well-studied adaptive control method used in problems with delayed and partial feedback.&lt;/p&gt;
-
 &lt;p&gt;Home-made textbook on deep RL:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://julien-vitay.net/deeprl&#34; target=&#34;_blank&#34;&gt;https://julien-vitay.net/deeprl&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://julien-vitay.net/deeprl&#34;&gt;https://julien-vitay.net/deeprl&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -919,16 +902,11 @@ plt.show()
       <title>Reservoir Computing</title>
       <link>https://julien-vitay.net/project/reservoircomputing/</link>
       <pubDate>Thu, 01 Jan 1970 01:33:33 +0100</pubDate>
-      
       <guid>https://julien-vitay.net/project/reservoircomputing/</guid>
       <description>&lt;p&gt;The field of &lt;strong&gt;reservoir computing&lt;/strong&gt;, covering Echo-State Networks (ESN; Jaeger, 2000) and Liquid State Machines (Maas, 2001), studies the dynamical properties of recurrent neural networks. Depending on the strength of the recurrent connections, the reservoirs can exhibit either deterministic or chaotic trajectories following a stimulation.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;result.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;img src=&#34;result.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;p&gt;These trajectories can serve as a complex temporal basis to represent events. In their early formulation, reservoirs were fixed and read-out neurons used this basis to mimic specific target signals using supervised learning.&lt;/p&gt;
-
 &lt;p&gt;In the recent years, methods have been developed to train the connections inside the reservoir too, either using supervised learning (e.g. Laje and Buonomano 2013) or reinforcement learning (Miconi, 2017). This unleashes the potential of reservoirs for both machine learning applications and computational neuroscience.&lt;/p&gt;
-
 &lt;p&gt;We study the properties of reservoir computing at the neuroscientific level, with an emphasis on reinforcement learning, forward models in the cerebellum (Schmid et al, 2019) or interval timing.&lt;/p&gt;
 </description>
     </item>
@@ -937,86 +915,59 @@ plt.show()
       <title>Introduction to ANNarchy</title>
       <link>https://julien-vitay.net/slides/annarchy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://julien-vitay.net/slides/annarchy/</guid>
-      <description>
-
-&lt;p&gt;&lt;img style=&#34;width:40%; min-width:320px&#34; src=&#34;img/tuc.png&#34; /&gt;&lt;/p&gt;
-
+      <description>&lt;p&gt;&lt;img style=&#34;width:40%; min-width:320px&#34; src=&#34;img/tuc.png&#34; /&gt;&lt;/p&gt;
 &lt;h1 id=&#34;annarchy-artificial-neural-networks-architect&#34;&gt;ANNarchy (Artificial Neural Networks architect)&lt;/h1&gt;
-
 &lt;h1 id=&#34;julien-vitay&#34;&gt;Julien Vitay&lt;/h1&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;h2 id=&#34;annarchy-artificial-neural-networks-architect-1&#34;&gt;ANNarchy (Artificial Neural Networks architect)&lt;/h2&gt;
-
 &lt;p&gt;Source code:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://bitbucket.org/annarchy/annarchy&#34; target=&#34;_blank&#34;&gt;https://bitbucket.org/annarchy/annarchy&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;a href=&#34;https://bitbucket.org/annarchy/annarchy&#34;&gt;https://bitbucket.org/annarchy/annarchy&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Documentation:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/&#34; target=&#34;_blank&#34;&gt;https://annarchy.readthedocs.io/en/stable/&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/&#34;&gt;https://annarchy.readthedocs.io/en/stable/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Forum:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://groups.google.com/forum/#!forum/annarchy&#34; target=&#34;_blank&#34;&gt;https://groups.google.com/forum/#!forum/annarchy&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;a href=&#34;https://groups.google.com/forum/#!forum/annarchy&#34;&gt;https://groups.google.com/forum/#!forum/annarchy&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Notebooks used in this tutorial:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/vitay/ANNarchy-notebooks&#34; target=&#34;_blank&#34;&gt;https://github.com/vitay/ANNarchy-notebooks&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
+&lt;p&gt;&lt;a href=&#34;https://github.com/vitay/ANNarchy-notebooks&#34;&gt;https://github.com/vitay/ANNarchy-notebooks&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
-
-&lt;p&gt;Installation guide: &lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/intro/Installation.html&#34; target=&#34;_blank&#34;&gt;https://annarchy.readthedocs.io/en/stable/intro/Installation.html&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;Installation guide: &lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/intro/Installation.html&#34;&gt;https://annarchy.readthedocs.io/en/stable/intro/Installation.html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;From pip:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install ANNarchy
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;From source:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone https://bitbucket.org/annarchy/annarchy.git
 cd annarchy
 python setup.py install
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Requirements (Linux and MacOS):&lt;/p&gt;
-
 &lt;ul&gt;
 &lt;li&gt;g++/clang++, python 2.7 or 3.5+, numpy, scipy, matplotlib, sympy, cython&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Simulation of both &lt;strong&gt;rate-coded&lt;/strong&gt; and &lt;strong&gt;spiking&lt;/strong&gt; neural networks.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Only local biologically realistic mechanisms are possible (no backpropagation).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Equation-oriented&lt;/strong&gt; description of neural/synaptic dynamics (à la Brian).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;strong&gt;Code generation&lt;/strong&gt; in C++, parallelized using OpenMP on CPU and CUDA on GPU (MPI is coming).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Synaptic, intrinsic and structural plasticity mechanisms.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Simulation of both &lt;strong&gt;rate-coded&lt;/strong&gt; and &lt;strong&gt;spiking&lt;/strong&gt; neural networks.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Only local biologically realistic mechanisms are possible (no backpropagation).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Equation-oriented&lt;/strong&gt; description of neural/synaptic dynamics (à la Brian).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Code generation&lt;/strong&gt; in C++, parallelized using OpenMP on CPU and CUDA on GPU (MPI is coming).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Synaptic, intrinsic and structural plasticity mechanisms.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;&lt;img style=&#34;width:40%; min-width:320px&#34; src=&#34;img/annarchy.svg&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;img/annarchy.svg&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;h2 id=&#34;structure-of-a-script&#34;&gt;Structure of a script&lt;/h2&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from ANNarchy import *
 setup(dt=1.0)
 
@@ -1037,31 +988,20 @@ simulate(1000.) # Simulate for 1 second
 
 data = m.get(&#39;spike&#39;) # Retrieve the data and plot it
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;1-rate-coded-networks&#34;&gt;1 - Rate-coded networks&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;example-1-echo-state-network&#34;&gt;Example 1 : Echo-State Network&lt;/h2&gt;
-
+&lt;hr&gt;
+&lt;h1 id=&#34;1---rate-coded-networks&#34;&gt;1 - Rate-coded networks&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;example-1--echo-state-network&#34;&gt;Example 1 : Echo-State Network&lt;/h2&gt;
 &lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;img/rc.jpg&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;h2 id=&#34;echo-state-network&#34;&gt;Echo-State Network&lt;/h2&gt;
-
 &lt;p&gt;ESN rate-coded neurons typically follow first-order ODEs:&lt;/p&gt;
-
 &lt;p&gt;$$
-    \tau \frac{dx(t)}{dt} + x(t) = \sum w^\text{in} \, r^\text{in}(t) + g \, \sum w^\text{rec} \, r(t) + \xi(t)
+\tau \frac{dx(t)}{dt} + x(t) = \sum w^\text{in} , r^\text{in}(t) + g , \sum w^\text{rec} , r(t) + \xi(t)
 $$&lt;/p&gt;
-
 &lt;p&gt;$$
-    r(t) = \tanh(x(t))
+r(t) = \tanh(x(t))
 $$&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from ANNarchy import *
 
 ESN_Neuron = Neuron(
@@ -1077,84 +1017,63 @@ ESN_Neuron = Neuron(
     &amp;quot;&amp;quot;&amp;quot;
 )
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;h2 id=&#34;parameters&#34;&gt;Parameters&lt;/h2&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;    parameters = &amp;quot;&amp;quot;&amp;quot;
         tau = 30.0 # Time constant
         g = 1.0 : population # Scaling
         noise = 0.01 : population # Noise amplitude
     &amp;quot;&amp;quot;&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;All parameters used in the equations must be declared in the &lt;strong&gt;Neuron&lt;/strong&gt; definition.&lt;/p&gt;
-
 &lt;p&gt;Parameters can have one value per neuron in the population (default) or be common to all neurons (flag &lt;code&gt;population&lt;/code&gt; or &lt;code&gt;projection&lt;/code&gt;).&lt;/p&gt;
-
 &lt;p&gt;Parameters and variables are double floats by default, but the type can be specified (&lt;code&gt;int&lt;/code&gt;, &lt;code&gt;bool&lt;/code&gt;).&lt;/p&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;h2 id=&#34;variables&#34;&gt;Variables&lt;/h2&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;    equations=&amp;quot;&amp;quot;&amp;quot;
         tau * dx/dt + x = sum(in) + g * sum(exc) + noise * Uniform(-1, 1) : init=0.0
 
         r = tanh(x)
     &amp;quot;&amp;quot;&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Variables are evaluated at each time step &lt;em&gt;in the order of their declaration&lt;/em&gt;, except for coupled ODEs.&lt;/p&gt;
-
 &lt;p&gt;Variables can be updated with assignments (&lt;code&gt;=&lt;/code&gt;, &lt;code&gt;+=&lt;/code&gt;, etc) or by defining first order ODEs.&lt;/p&gt;
-
 &lt;p&gt;The math C library symbols can be used (&lt;code&gt;tanh&lt;/code&gt;, &lt;code&gt;cos&lt;/code&gt;, &lt;code&gt;exp&lt;/code&gt;, etc).&lt;/p&gt;
-
 &lt;p&gt;Initial values at $t=0$ can be specified with &lt;code&gt;init&lt;/code&gt; (default: 0.0).&lt;/p&gt;
-
 &lt;p&gt;Lower/higher bounds on the values of the variables can be set with the &lt;code&gt;min&lt;/code&gt;/&lt;code&gt;max&lt;/code&gt; flags:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code&gt;r = x : min=0.0 # ReLU
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Additive noise can be drawn from several distributions, including &lt;code&gt;Uniform&lt;/code&gt;, &lt;code&gt;Normal&lt;/code&gt;, &lt;code&gt;LogNormal&lt;/code&gt;, &lt;code&gt;Exponential&lt;/code&gt;, &lt;code&gt;Gamma&lt;/code&gt;&amp;hellip;&lt;/p&gt;
-
 &lt;p&gt;The output variable of a rate-coded neuron &lt;strong&gt;must&lt;/strong&gt; be &lt;code&gt;r&lt;/code&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;h2 id=&#34;odes&#34;&gt;ODEs&lt;/h2&gt;
-
 &lt;p&gt;First-order ODEs are parsed and manipulated using &lt;code&gt;sympy&lt;/code&gt;:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;    # All equivalent:
     tau * dx/dt + x = 0.0
     tau * dx/dt = - x
     dx/dt = (-x)/tau
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Several numerical methods are available (&lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/manual/NumericalMethods.html&#34; target=&#34;_blank&#34;&gt;https://annarchy.readthedocs.io/en/stable/manual/NumericalMethods.html&lt;/a&gt;):&lt;/p&gt;
-
+&lt;p&gt;Several numerical methods are available (&lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/manual/NumericalMethods.html&#34;&gt;https://annarchy.readthedocs.io/en/stable/manual/NumericalMethods.html&lt;/a&gt;):&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Explicit (forward) Euler (default): &lt;code&gt;tau * dx/dt + x = 0.0 : init=0.0, explicit&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Implicit (backward) Euler: &lt;code&gt;tau * dx/dt + x = 0.0 : init=0.0, implicit&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Exponential Euler (exact for linear ODE): &lt;code&gt;tau * dx/dt + x = 0.0 : init=0.0, exponential&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Midpoint (RK2): &lt;code&gt;tau * dx/dt + x = 0.0 : init=0.0, midpoint&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Event-driven (spiking synapses): &lt;code&gt;tau * dx/dt + x = 0.0 : init=0.0, event-driven&lt;/code&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Explicit (forward) Euler (default): &lt;code&gt;tau * dx/dt + x = 0.0 : init=0.0, explicit&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Implicit (backward) Euler: &lt;code&gt;tau * dx/dt + x = 0.0 : init=0.0, implicit&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Exponential Euler (exact for linear ODE): &lt;code&gt;tau * dx/dt + x = 0.0 : init=0.0, exponential&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Midpoint (RK2): &lt;code&gt;tau * dx/dt + x = 0.0 : init=0.0, midpoint&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Event-driven (spiking synapses): &lt;code&gt;tau * dx/dt + x = 0.0 : init=0.0, event-driven&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;h2 id=&#34;coupled-odes&#34;&gt;Coupled ODEs&lt;/h2&gt;
-
 &lt;p&gt;ODEs are solved concurrently, instead of sequentially for assignments:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# I is updated
 I = sum(exc) - sum(inh) + b
 
@@ -1165,74 +1084,47 @@ tau * du/dt + u = v
 # r uses the updated value of v
 r = tanh(v)
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;The order of the equations therefore matters a lot.&lt;/p&gt;
-
 &lt;p&gt;A single variable can only be updated once in the &lt;code&gt;equations&lt;/code&gt; field.&lt;/p&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;h2 id=&#34;populations&#34;&gt;Populations&lt;/h2&gt;
-
 &lt;p&gt;Populations are creating by specifying a number of neurons and a neuron type:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;pop = Population(1000, ESN_Neuron)
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;For visualization purposes or when using convolutional layers, a tuple geometry can be passed instead of the size:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;pop = Population((100, 100), ESN_Neuron)
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;All parameters and variables become attributes of the population (read and write) as numpy arrays:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;pop.tau = np.linspace(20.0, 40.0, 1000)
 pop.r = np.tanh(pop.v)
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Single neurons can be individually modified, if the &lt;code&gt;population&lt;/code&gt; flag was not set:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;pop[10].r = 1.0
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Slices of populations are called &lt;code&gt;PopulationView&lt;/code&gt; and can be addressed separately:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;pop = Population(1000, ESN_Neuron)
 E = pop[:800]
 I = pop[800:]
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;h2 id=&#34;projections&#34;&gt;Projections&lt;/h2&gt;
-
 &lt;p&gt;Projections link two populations (or views) in a uni-directional way.&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;proj_exc = Projection(E, pop, &#39;exc&#39;)
 proj_inh = Projection(I, pop, &#39;inh&#39;)
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Each target (&lt;code&gt;&#39;exc&#39;, &#39;inh&#39;, &#39;AMPA&#39;, &#39;NMDA&#39;, &#39;GABA&#39;&lt;/code&gt;) can be defined as needed and will be treated differently by the post-synaptic neurons.&lt;/p&gt;
-
 &lt;p&gt;The weighted sum of inputs for a specific target is accessed in the equations by &lt;code&gt;sum(target)&lt;/code&gt;:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;    equations=&amp;quot;&amp;quot;&amp;quot;
         tau * dx/dt + x = sum(exc) - sum(inh)
 
         r = tanh(x)
     &amp;quot;&amp;quot;&amp;quot;
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;It is therefore possible to model modulatory effects, divisive inhibition, etc.&lt;/p&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;h2 id=&#34;connection-methods&#34;&gt;Connection methods&lt;/h2&gt;
-
 &lt;p&gt;Projections must be populated with a connectivity matrix (who is connected to who), a weight &lt;code&gt;w&lt;/code&gt; and optionally a delay &lt;code&gt;d&lt;/code&gt; (uniform or variable).&lt;/p&gt;
-
 &lt;p&gt;Several patterns are predefined:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;proj.connect_all_to_all(weights=Normal(0.0, 1.0), delays=2.0, allow_self_connections=False)
 proj.connect_one_to_one(weights=1.0, delays=Uniform(1.0, 10.0))
 proj.connect_fixed_number_pre(number=20, weights=1.0)
@@ -1241,9 +1133,7 @@ proj.connect_fixed_probability(probability=0.2, weights=1.0)
 proj.connect_gaussian(amp=1.0, sigma=0.2, limit=0.001)
 proj.connect_dog(amp_pos=1.0, sigma_pos=0.2, amp_neg=0.3, sigma_neg=0.7, limit=0.001)
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;But you can also load Numpy arrays or Scipy sparse matrices. Example for synfire chains:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;w = np.array([[None]*pre.size]*post.size)
 for i in range(post.size):
     w[i, (i-1)%pre.size] = 1.0
@@ -1254,78 +1144,50 @@ for i in range(pre.size):
     w[pre.size, (i+1)%post.size] = 1.0
 proj.connect_from_sparse(w)
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;h2 id=&#34;compiling-and-running-the-simulation&#34;&gt;Compiling and running the simulation&lt;/h2&gt;
-
 &lt;p&gt;Once all populations and projections are created, you have to generate to the C++ code and compile it:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;compile()
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;You can now manipulate all parameters/variables from Python thanks to the Cython bindings.&lt;/p&gt;
-
 &lt;p&gt;A simulation is simply run for a fixed duration with:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;simulate(1000.) # 1 second
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;You can also run a simulation until a criteria is filled, check:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/manual/Simulation.html#early-stopping&#34; target=&#34;_blank&#34;&gt;https://annarchy.readthedocs.io/en/stable/manual/Simulation.html#early-stopping&lt;/a&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
+&lt;p&gt;&lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/manual/Simulation.html#early-stopping&#34;&gt;https://annarchy.readthedocs.io/en/stable/manual/Simulation.html#early-stopping&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;monitoring&#34;&gt;Monitoring&lt;/h2&gt;
-
 &lt;p&gt;By default, a simulation is run in C++ without interaction with Python.&lt;/p&gt;
-
 &lt;p&gt;You may want to record some variables (neural or synaptic) during the simulation with a &lt;code&gt;Monitor&lt;/code&gt;:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;m = Monitor(pop, [&#39;v&#39;, &#39;r&#39;])
 n = Monitor(proj, [&#39;w&#39;])
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;After the simulation, you can retrieve the recordings with:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;recorded_v = m.get(&#39;v&#39;)
 recorded_r = m.get(&#39;r&#39;)
 recorded_w = n.get(&#39;w&#39;)
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Warning: calling &lt;code&gt;get()&lt;/code&gt; flushes the array.&lt;/p&gt;
-
 &lt;p&gt;Warning: recording projections can quickly fill up the RAM (see Dendrites).&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;example-1-echo-state-network-1&#34;&gt;Example 1: Echo-State Network&lt;/h1&gt;
-
-&lt;p&gt;Link to the Jupyter notebook on github: &lt;a href=&#34;https://github.com/vitay/ANNarchy-notebooks/blob/master/notebooks/RC.ipynb&#34; target=&#34;_blank&#34;&gt;RC.ipynb&lt;/a&gt;&lt;/p&gt;
-
+&lt;hr&gt;
+&lt;h1 id=&#34;example-1-echo-state-network&#34;&gt;Example 1: Echo-State Network&lt;/h1&gt;
+&lt;p&gt;Link to the Jupyter notebook on github: &lt;a href=&#34;https://github.com/vitay/ANNarchy-notebooks/blob/master/notebooks/RC.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RC.ipynb&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;img/rc.jpg&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;2-spiking-networks&#34;&gt;2 - Spiking networks&lt;/h1&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
+&lt;h1 id=&#34;2---spiking-networks&#34;&gt;2 - Spiking networks&lt;/h1&gt;
+&lt;hr&gt;
 &lt;h2 id=&#34;spiking-neurons&#34;&gt;Spiking neurons&lt;/h2&gt;
-
 &lt;p&gt;Spiking neurons must also define two additional fields:&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;&lt;code&gt;spike&lt;/code&gt;: condition for emitting a spike.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;&lt;code&gt;reset&lt;/code&gt;: what happens after a spike is emitted (at the start of the refractory period).&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;spike&lt;/code&gt;: condition for emitting a spike.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;reset&lt;/code&gt;: what happens after a spike is emitted (at the start of the refractory period).&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;A refractory period in ms can also be specified.&lt;/p&gt;
-
 &lt;p&gt;Example of the Leaky Integrate-and-Fire:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;LIF = Neuron(
     parameters=&amp;quot;&amp;quot;&amp;quot;
         tau = 20.
@@ -1342,13 +1204,9 @@ recorded_w = n.get(&#39;w&#39;)
     refractory = 2.0
 )
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;conductances-currents&#34;&gt;Conductances / currents&lt;/h2&gt;
-
+&lt;hr&gt;
+&lt;h2 id=&#34;conductances--currents&#34;&gt;Conductances / currents&lt;/h2&gt;
 &lt;p&gt;A pre-synaptic spike arriving to a spiking neuron increase the conductance &lt;code&gt;g_target&lt;/code&gt; (e.g. &lt;code&gt;g_exc&lt;/code&gt; or &lt;code&gt;g_inh&lt;/code&gt;, depending on the projection).&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;LIF = Neuron(
     parameters=&amp;quot;...&amp;quot;,
     equations=&amp;quot;&amp;quot;&amp;quot;
@@ -1359,22 +1217,14 @@ recorded_w = n.get(&#39;w&#39;)
     refractory = 2.0
 )
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Each spike increments &lt;code&gt;g_target&lt;/code&gt; from the synaptic efficiency &lt;code&gt;w&lt;/code&gt; of the corresponding synapse.&lt;/p&gt;
-
 &lt;pre&gt;&lt;code&gt;g_target += w
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;This defines an instantaneous model of synaptic transmission.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;conductances-currents-1&#34;&gt;Conductances / currents&lt;/h2&gt;
-
+&lt;hr&gt;
+&lt;h2 id=&#34;conductances--currents-1&#34;&gt;Conductances / currents&lt;/h2&gt;
 &lt;p&gt;For &lt;strong&gt;exponentially-decreasing&lt;/strong&gt; or &lt;strong&gt;alpha-shaped&lt;/strong&gt; synapses, ODEs have to be introduced for the conductance/current.&lt;/p&gt;
-
 &lt;p&gt;The exponential numerical method should be preferred, as integration is exact.&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;LIF = Neuron(
     parameters=&amp;quot;...&amp;quot;,
     equations=&amp;quot;&amp;quot;&amp;quot;
@@ -1390,26 +1240,18 @@ recorded_w = n.get(&#39;w&#39;)
     refractory = 2.0
 )
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;conductances-currents-2&#34;&gt;Conductances / currents&lt;/h2&gt;
-
+&lt;hr&gt;
+&lt;h2 id=&#34;conductances--currents-2&#34;&gt;Conductances / currents&lt;/h2&gt;
 &lt;p&gt;&lt;img style=&#34;width:50%; min-width:320px&#34; src=&#34;img/synaptictransmission.png&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;example-2-adex-adaptive-exponential-neuron&#34;&gt;Example 2: AdEx - Adaptive exponential neuron&lt;/h2&gt;
-
-&lt;p&gt;Link to the Jupyter notebook on github: &lt;a href=&#34;https://github.com/vitay/ANNarchy-notebooks/blob/master/notebooks/AdEx.ipynb&#34; target=&#34;_blank&#34;&gt;AdEx.ipynb&lt;/a&gt;&lt;/p&gt;
-
+&lt;hr&gt;
+&lt;h2 id=&#34;example-2-adex---adaptive-exponential-neuron&#34;&gt;Example 2: AdEx - Adaptive exponential neuron&lt;/h2&gt;
+&lt;p&gt;Link to the Jupyter notebook on github: &lt;a href=&#34;https://github.com/vitay/ANNarchy-notebooks/blob/master/notebooks/AdEx.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AdEx.ipynb&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;$$
-    \tau \, \frac{dv}{dt} = (E_L - v) + \delta_T \, \exp \frac{v-v_T}{\delta_T} + I - w
+\tau , \frac{dv}{dt} = (E_L - v) + \delta_T , \exp \frac{v-v_T}{\delta_T} + I - w
 $$
 $$
-    \tau_w \, \frac{dw}{dt} =  a \, (v - E_L) - w
+\tau_w , \frac{dw}{dt} =  a , (v - E_L) - w
 $$&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;AdEx = Neuron(
     parameters=&amp;quot;&amp;quot;&amp;quot;
         tau = 20.
@@ -1429,17 +1271,11 @@ $$&lt;/p&gt;
     refractory = 2.0
 )
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h1 id=&#34;3-synaptic-plasticity&#34;&gt;3 - Synaptic plasticity&lt;/h1&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;rate-coded-synapses-intrator-cooper-bcm-learning-rule&#34;&gt;Rate-coded synapses : Intrator &amp;amp; Cooper BCM learning rule&lt;/h2&gt;
-
+&lt;hr&gt;
+&lt;h1 id=&#34;3---synaptic-plasticity&#34;&gt;3 - Synaptic plasticity&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;rate-coded-synapses--intrator--cooper-bcm-learning-rule&#34;&gt;Rate-coded synapses : Intrator &amp;amp; Cooper BCM learning rule&lt;/h2&gt;
 &lt;p&gt;Synapses can also implement equations that will be evaluated after each neural update.&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;IBCM = Synapse(
     parameters = &amp;quot;&amp;quot;&amp;quot;
         eta = 0.01 : projection
@@ -1453,53 +1289,31 @@ $$&lt;/p&gt;
     psp = &amp;quot; w * pre.r&amp;quot;
 )
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;The synaptic efficiency (weight) must be &lt;code&gt;w&lt;/code&gt;.&lt;/p&gt;
-
 &lt;p&gt;Each synapse can access pre- and post-synaptic variables with &lt;code&gt;pre.&lt;/code&gt; and &lt;code&gt;post.&lt;/code&gt;.&lt;/p&gt;
-
 &lt;p&gt;The &lt;code&gt;postsynaptic&lt;/code&gt; flag allows to do computations only once per post-synaptic neurons.&lt;/p&gt;
-
 &lt;p&gt;&lt;code&gt;psp&lt;/code&gt; optionally defines what will be summed by the post-synaptic neuron (e.g. &lt;code&gt;psp = &amp;quot;w * log(pre.r)&amp;quot;&lt;/code&gt;).&lt;/p&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;h2 id=&#34;plastic-projections&#34;&gt;Plastic projections&lt;/h2&gt;
-
 &lt;p&gt;The synapse type just has to be passed to the Projection:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;proj = Projection(inp, pop, &#39;exc&#39;, IBCM)
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;Synaptic variables can be accessed as lists of lists for the whole projection:&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;proj.w
 proj.theta
 &lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;or for a single post-synaptic neuron (&lt;code&gt;Dendrite&lt;/code&gt;):&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;proj[10].w
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;example-3-miconi-s-reward-modulated-rc-network&#34;&gt;Example 3: Miconi&amp;rsquo;s reward modulated RC network&lt;/h2&gt;
-
-&lt;p&gt;Link to the Jupyter notebook on github: &lt;a href=&#34;https://github.com/vitay/ANNarchy-notebooks/blob/master/notebooks/Miconi.ipynb&#34; target=&#34;_blank&#34;&gt;Miconi.ipynb&lt;/a&gt;&lt;/p&gt;
-
+&lt;hr&gt;
+&lt;h2 id=&#34;example-3-miconis-reward-modulated-rc-network&#34;&gt;Example 3: Miconi&amp;rsquo;s reward modulated RC network&lt;/h2&gt;
+&lt;p&gt;Link to the Jupyter notebook on github: &lt;a href=&#34;https://github.com/vitay/ANNarchy-notebooks/blob/master/notebooks/Miconi.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Miconi.ipynb&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;img style=&#34;width:70%; min-width:320px&#34; src=&#34;img/miconi.png&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;spiking-synapses-example-of-short-term-plasticity-stp&#34;&gt;Spiking synapses : Example of Short-term plasticity (STP)&lt;/h2&gt;
-
+&lt;hr&gt;
+&lt;h2 id=&#34;spiking-synapses--example-of-short-term-plasticity-stp&#34;&gt;Spiking synapses : Example of Short-term plasticity (STP)&lt;/h2&gt;
 &lt;p&gt;Spiking synapses can define a &lt;code&gt;pre_spike&lt;/code&gt; field, defining what happens when a pre-synaptic spike arrives at the synapse.&lt;/p&gt;
-
 &lt;p&gt;&lt;code&gt;g_target&lt;/code&gt; is an alias for the corresponding post-synaptic conductance: it will be replaced by &lt;code&gt;g_exc&lt;/code&gt; or &lt;code&gt;g_inh&lt;/code&gt; depending on how the synapse is used.&lt;/p&gt;
-
 &lt;p&gt;By default, a pre-synaptic spike increments the post-synaptic conductance from &lt;code&gt;w&lt;/code&gt;: &lt;code&gt;g_target += w&lt;/code&gt;&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;STP = Synapse(
     parameters = &amp;quot;&amp;quot;&amp;quot;
         tau_rec = 100.0 : projection
@@ -1517,13 +1331,9 @@ proj.theta
     &amp;quot;&amp;quot;&amp;quot;
 )
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;spiking-synapses-example-of-spike-timing-dependent-plasticity-stdp&#34;&gt;Spiking synapses : Example of Spike-Timing Dependent plasticity (STDP)&lt;/h2&gt;
-
+&lt;hr&gt;
+&lt;h2 id=&#34;spiking-synapses--example-of-spike-timing-dependent-plasticity-stdp&#34;&gt;Spiking synapses : Example of Spike-Timing Dependent plasticity (STDP)&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;post_spike&lt;/code&gt; similarly defines what happens when a post-synaptic spike is emitted.&lt;/p&gt;
-
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;STDP = Synapse(
     parameters = &amp;quot;&amp;quot;&amp;quot;
         tau_plus = 20.0 : projection ; tau_minus = 20.0 : projection
@@ -1544,42 +1354,41 @@ proj.theta
         w = clip(w + x, w_min , w_max)
     &amp;quot;&amp;quot;&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;spiking-synapses-example-of-spike-timing-dependent-plasticity-stdp-1&#34;&gt;Spiking synapses : Example of Spike-Timing Dependent plasticity (STDP)&lt;/h2&gt;
-
+&lt;hr&gt;
+&lt;h2 id=&#34;spiking-synapses--example-of-spike-timing-dependent-plasticity-stdp-1&#34;&gt;Spiking synapses : Example of Spike-Timing Dependent plasticity (STDP)&lt;/h2&gt;
 &lt;p&gt;&lt;img style=&#34;width:70%; min-width:320px&#34; src=&#34;img/stdp.png&#34; /&gt;&lt;/p&gt;
-
-&lt;hr /&gt;
-
+&lt;hr&gt;
 &lt;h2 id=&#34;and-much-more&#34;&gt;And much more&amp;hellip;&lt;/h2&gt;
-
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Standard populations (&lt;code&gt;SpikeSourceArray&lt;/code&gt;, &lt;code&gt;TimedArray&lt;/code&gt;, &lt;code&gt;PoissonPopulation&lt;/code&gt;, &lt;code&gt;HomogeneousCorrelatedSpikeTrains&lt;/code&gt;), OpenCV bindings.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Standard neurons:&lt;/p&gt;
-
+&lt;li&gt;
+&lt;p&gt;Standard populations (&lt;code&gt;SpikeSourceArray&lt;/code&gt;, &lt;code&gt;TimedArray&lt;/code&gt;, &lt;code&gt;PoissonPopulation&lt;/code&gt;, &lt;code&gt;HomogeneousCorrelatedSpikeTrains&lt;/code&gt;), OpenCV bindings.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Standard neurons:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;LeakyIntegrator, Izhikevich, IF_curr_exp, IF_cond_exp, IF_curr_alpha, IF_cond_alpha, HH_cond_exp, EIF_cond_exp_isfa_ista, EIF_cond_alpha_isfa_ista&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Standard synapses:&lt;/p&gt;
-
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Standard synapses:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Hebb, Oja, IBCM, STP, STDP&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Parallel simulations with &lt;code&gt;parallel_run&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Convolutional and pooling layers.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Hybrid rate-coded / spiking networks.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Structural plasticity.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;RTFD: &lt;a href=&#34;https://annarchy.readthedocs.io&#34; target=&#34;_blank&#34;&gt;https://annarchy.readthedocs.io&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Parallel simulations with &lt;code&gt;parallel_run&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Convolutional and pooling layers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hybrid rate-coded / spiking networks.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Structural plasticity.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;RTFD: &lt;a href=&#34;https://annarchy.readthedocs.io&#34;&gt;https://annarchy.readthedocs.io&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

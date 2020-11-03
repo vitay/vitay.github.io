@@ -1,35 +1,490 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Slides on Julien Vitay</title>
+    <title>Slides | Julien Vitay</title>
     <link>https://julien-vitay.net/slides/</link>
-    <description>Recent content in Slides on Julien Vitay</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Copyright Julien Vitay</copyright>
-    
-	<atom:link href="https://julien-vitay.net/slides/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+      <atom:link href="https://julien-vitay.net/slides/index.xml" rel="self" type="application/rss+xml" />
+    <description>Slides</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
     <item>
       <title>Introduction to ANNarchy</title>
       <link>https://julien-vitay.net/slides/annarchy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://julien-vitay.net/slides/annarchy/</guid>
-      <description>ANNarchy (Artificial Neural Networks architect) Julien Vitay ANNarchy (Artificial Neural Networks architect) Source code:
-https://bitbucket.org/annarchy/annarchy
-Documentation:
-https://annarchy.readthedocs.io/en/stable/
-Forum:
-https://groups.google.com/forum/#!forum/annarchy
-Notebooks used in this tutorial:
-https://github.com/vitay/ANNarchy-notebooks
-Installation Installation guide: https://annarchy.readthedocs.io/en/stable/intro/Installation.html
-From pip:
-pip install ANNarchy  From source:
-git clone https://bitbucket.org/annarchy/annarchy.git cd annarchy python setup.py install  Requirements (Linux and MacOS):
- g++/clang++, python 2.7 or 3.5+, numpy, scipy, matplotlib, sympy, cython  Features  Simulation of both rate-coded and spiking neural networks.</description>
+      <description>&lt;p&gt;&lt;img style=&#34;width:40%; min-width:320px&#34; src=&#34;img/tuc.png&#34; /&gt;&lt;/p&gt;
+&lt;h1 id=&#34;annarchy-artificial-neural-networks-architect&#34;&gt;ANNarchy (Artificial Neural Networks architect)&lt;/h1&gt;
+&lt;h1 id=&#34;julien-vitay&#34;&gt;Julien Vitay&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;annarchy-artificial-neural-networks-architect-1&#34;&gt;ANNarchy (Artificial Neural Networks architect)&lt;/h2&gt;
+&lt;p&gt;Source code:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bitbucket.org/annarchy/annarchy&#34;&gt;https://bitbucket.org/annarchy/annarchy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Documentation:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/&#34;&gt;https://annarchy.readthedocs.io/en/stable/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Forum:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://groups.google.com/forum/#!forum/annarchy&#34;&gt;https://groups.google.com/forum/#!forum/annarchy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Notebooks used in this tutorial:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/vitay/ANNarchy-notebooks&#34;&gt;https://github.com/vitay/ANNarchy-notebooks&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
+&lt;p&gt;Installation guide: &lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/intro/Installation.html&#34;&gt;https://annarchy.readthedocs.io/en/stable/intro/Installation.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;From pip:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install ANNarchy
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;From source:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;git clone https://bitbucket.org/annarchy/annarchy.git
+cd annarchy
+python setup.py install
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Requirements (Linux and MacOS):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;g++/clang++, python 2.7 or 3.5+, numpy, scipy, matplotlib, sympy, cython&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Simulation of both &lt;strong&gt;rate-coded&lt;/strong&gt; and &lt;strong&gt;spiking&lt;/strong&gt; neural networks.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Only local biologically realistic mechanisms are possible (no backpropagation).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Equation-oriented&lt;/strong&gt; description of neural/synaptic dynamics (à la Brian).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Code generation&lt;/strong&gt; in C++, parallelized using OpenMP on CPU and CUDA on GPU (MPI is coming).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Synaptic, intrinsic and structural plasticity mechanisms.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img style=&#34;width:40%; min-width:320px&#34; src=&#34;img/annarchy.svg&#34; /&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;img/annarchy.svg&#34; /&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;structure-of-a-script&#34;&gt;Structure of a script&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from ANNarchy import *
+setup(dt=1.0)
+
+neuron = Neuron(...) # Create neuron types
+
+stdp = Synapse(...) # Create synapse types for transmission and/or plasticity
+
+pop = Population(1000, neuron) # Create populations of neurons
+
+proj = Projection(pop, pop, &#39;exc&#39;, stdp) # Connect the populations
+proj.connect_fixed_probability(weights=0.0, probability=0.1)
+
+compile() # Generate and compile the code
+
+m = Monitor(pop, [&#39;spike&#39;]) # Record spikes
+
+simulate(1000.) # Simulate for 1 second
+
+data = m.get(&#39;spike&#39;) # Retrieve the data and plot it
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;1---rate-coded-networks&#34;&gt;1 - Rate-coded networks&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;example-1--echo-state-network&#34;&gt;Example 1 : Echo-State Network&lt;/h2&gt;
+&lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;img/rc.jpg&#34; /&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;echo-state-network&#34;&gt;Echo-State Network&lt;/h2&gt;
+&lt;p&gt;ESN rate-coded neurons typically follow first-order ODEs:&lt;/p&gt;
+&lt;p&gt;$$
+\tau \frac{dx(t)}{dt} + x(t) = \sum w^\text{in} , r^\text{in}(t) + g , \sum w^\text{rec} , r(t) + \xi(t)
+$$&lt;/p&gt;
+&lt;p&gt;$$
+r(t) = \tanh(x(t))
+$$&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from ANNarchy import *
+
+ESN_Neuron = Neuron(
+    parameters = &amp;quot;&amp;quot;&amp;quot;
+        tau = 30.0                 # Time constant
+        g = 1.0 : population       # Scaling
+        noise = 0.01 : population  # Noise amplitude
+    &amp;quot;&amp;quot;&amp;quot;,
+    equations=&amp;quot;&amp;quot;&amp;quot;
+        tau * dx/dt + x = sum(in) + g * sum(exc) + noise * Uniform(-1, 1) : init=0.0
+
+        r = tanh(x)
+    &amp;quot;&amp;quot;&amp;quot;
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;parameters&#34;&gt;Parameters&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;    parameters = &amp;quot;&amp;quot;&amp;quot;
+        tau = 30.0 # Time constant
+        g = 1.0 : population # Scaling
+        noise = 0.01 : population # Noise amplitude
+    &amp;quot;&amp;quot;&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;All parameters used in the equations must be declared in the &lt;strong&gt;Neuron&lt;/strong&gt; definition.&lt;/p&gt;
+&lt;p&gt;Parameters can have one value per neuron in the population (default) or be common to all neurons (flag &lt;code&gt;population&lt;/code&gt; or &lt;code&gt;projection&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;Parameters and variables are double floats by default, but the type can be specified (&lt;code&gt;int&lt;/code&gt;, &lt;code&gt;bool&lt;/code&gt;).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;variables&#34;&gt;Variables&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;    equations=&amp;quot;&amp;quot;&amp;quot;
+        tau * dx/dt + x = sum(in) + g * sum(exc) + noise * Uniform(-1, 1) : init=0.0
+
+        r = tanh(x)
+    &amp;quot;&amp;quot;&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Variables are evaluated at each time step &lt;em&gt;in the order of their declaration&lt;/em&gt;, except for coupled ODEs.&lt;/p&gt;
+&lt;p&gt;Variables can be updated with assignments (&lt;code&gt;=&lt;/code&gt;, &lt;code&gt;+=&lt;/code&gt;, etc) or by defining first order ODEs.&lt;/p&gt;
+&lt;p&gt;The math C library symbols can be used (&lt;code&gt;tanh&lt;/code&gt;, &lt;code&gt;cos&lt;/code&gt;, &lt;code&gt;exp&lt;/code&gt;, etc).&lt;/p&gt;
+&lt;p&gt;Initial values at $t=0$ can be specified with &lt;code&gt;init&lt;/code&gt; (default: 0.0).&lt;/p&gt;
+&lt;p&gt;Lower/higher bounds on the values of the variables can be set with the &lt;code&gt;min&lt;/code&gt;/&lt;code&gt;max&lt;/code&gt; flags:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;r = x : min=0.0 # ReLU
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Additive noise can be drawn from several distributions, including &lt;code&gt;Uniform&lt;/code&gt;, &lt;code&gt;Normal&lt;/code&gt;, &lt;code&gt;LogNormal&lt;/code&gt;, &lt;code&gt;Exponential&lt;/code&gt;, &lt;code&gt;Gamma&lt;/code&gt;&amp;hellip;&lt;/p&gt;
+&lt;p&gt;The output variable of a rate-coded neuron &lt;strong&gt;must&lt;/strong&gt; be &lt;code&gt;r&lt;/code&gt;.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;odes&#34;&gt;ODEs&lt;/h2&gt;
+&lt;p&gt;First-order ODEs are parsed and manipulated using &lt;code&gt;sympy&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;    # All equivalent:
+    tau * dx/dt + x = 0.0
+    tau * dx/dt = - x
+    dx/dt = (-x)/tau
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Several numerical methods are available (&lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/manual/NumericalMethods.html&#34;&gt;https://annarchy.readthedocs.io/en/stable/manual/NumericalMethods.html&lt;/a&gt;):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Explicit (forward) Euler (default): &lt;code&gt;tau * dx/dt + x = 0.0 : init=0.0, explicit&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Implicit (backward) Euler: &lt;code&gt;tau * dx/dt + x = 0.0 : init=0.0, implicit&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Exponential Euler (exact for linear ODE): &lt;code&gt;tau * dx/dt + x = 0.0 : init=0.0, exponential&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Midpoint (RK2): &lt;code&gt;tau * dx/dt + x = 0.0 : init=0.0, midpoint&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Event-driven (spiking synapses): &lt;code&gt;tau * dx/dt + x = 0.0 : init=0.0, event-driven&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;coupled-odes&#34;&gt;Coupled ODEs&lt;/h2&gt;
+&lt;p&gt;ODEs are solved concurrently, instead of sequentially for assignments:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# I is updated
+I = sum(exc) - sum(inh) + b
+
+# u and v are solved concurrently using the current of I
+tau * dv/dt + v = I - u
+tau * du/dt + u = v
+
+# r uses the updated value of v
+r = tanh(v)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The order of the equations therefore matters a lot.&lt;/p&gt;
+&lt;p&gt;A single variable can only be updated once in the &lt;code&gt;equations&lt;/code&gt; field.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;populations&#34;&gt;Populations&lt;/h2&gt;
+&lt;p&gt;Populations are creating by specifying a number of neurons and a neuron type:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;pop = Population(1000, ESN_Neuron)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;For visualization purposes or when using convolutional layers, a tuple geometry can be passed instead of the size:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;pop = Population((100, 100), ESN_Neuron)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;All parameters and variables become attributes of the population (read and write) as numpy arrays:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;pop.tau = np.linspace(20.0, 40.0, 1000)
+pop.r = np.tanh(pop.v)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Single neurons can be individually modified, if the &lt;code&gt;population&lt;/code&gt; flag was not set:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;pop[10].r = 1.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Slices of populations are called &lt;code&gt;PopulationView&lt;/code&gt; and can be addressed separately:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;pop = Population(1000, ESN_Neuron)
+E = pop[:800]
+I = pop[800:]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;projections&#34;&gt;Projections&lt;/h2&gt;
+&lt;p&gt;Projections link two populations (or views) in a uni-directional way.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;proj_exc = Projection(E, pop, &#39;exc&#39;)
+proj_inh = Projection(I, pop, &#39;inh&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Each target (&lt;code&gt;&#39;exc&#39;, &#39;inh&#39;, &#39;AMPA&#39;, &#39;NMDA&#39;, &#39;GABA&#39;&lt;/code&gt;) can be defined as needed and will be treated differently by the post-synaptic neurons.&lt;/p&gt;
+&lt;p&gt;The weighted sum of inputs for a specific target is accessed in the equations by &lt;code&gt;sum(target)&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;    equations=&amp;quot;&amp;quot;&amp;quot;
+        tau * dx/dt + x = sum(exc) - sum(inh)
+
+        r = tanh(x)
+    &amp;quot;&amp;quot;&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;It is therefore possible to model modulatory effects, divisive inhibition, etc.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;connection-methods&#34;&gt;Connection methods&lt;/h2&gt;
+&lt;p&gt;Projections must be populated with a connectivity matrix (who is connected to who), a weight &lt;code&gt;w&lt;/code&gt; and optionally a delay &lt;code&gt;d&lt;/code&gt; (uniform or variable).&lt;/p&gt;
+&lt;p&gt;Several patterns are predefined:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;proj.connect_all_to_all(weights=Normal(0.0, 1.0), delays=2.0, allow_self_connections=False)
+proj.connect_one_to_one(weights=1.0, delays=Uniform(1.0, 10.0))
+proj.connect_fixed_number_pre(number=20, weights=1.0)
+proj.connect_fixed_number_post(number=20, weights=1.0)
+proj.connect_fixed_probability(probability=0.2, weights=1.0)
+proj.connect_gaussian(amp=1.0, sigma=0.2, limit=0.001)
+proj.connect_dog(amp_pos=1.0, sigma_pos=0.2, amp_neg=0.3, sigma_neg=0.7, limit=0.001)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;But you can also load Numpy arrays or Scipy sparse matrices. Example for synfire chains:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;w = np.array([[None]*pre.size]*post.size)
+for i in range(post.size):
+    w[i, (i-1)%pre.size] = 1.0
+proj.connect_from_matrix(w)
+
+w = lil_matrix((pre.size, post.size))
+for i in range(pre.size):
+    w[pre.size, (i+1)%post.size] = 1.0
+proj.connect_from_sparse(w)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;compiling-and-running-the-simulation&#34;&gt;Compiling and running the simulation&lt;/h2&gt;
+&lt;p&gt;Once all populations and projections are created, you have to generate to the C++ code and compile it:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;compile()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can now manipulate all parameters/variables from Python thanks to the Cython bindings.&lt;/p&gt;
+&lt;p&gt;A simulation is simply run for a fixed duration with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;simulate(1000.) # 1 second
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;You can also run a simulation until a criteria is filled, check:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/manual/Simulation.html#early-stopping&#34;&gt;https://annarchy.readthedocs.io/en/stable/manual/Simulation.html#early-stopping&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;monitoring&#34;&gt;Monitoring&lt;/h2&gt;
+&lt;p&gt;By default, a simulation is run in C++ without interaction with Python.&lt;/p&gt;
+&lt;p&gt;You may want to record some variables (neural or synaptic) during the simulation with a &lt;code&gt;Monitor&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;m = Monitor(pop, [&#39;v&#39;, &#39;r&#39;])
+n = Monitor(proj, [&#39;w&#39;])
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;After the simulation, you can retrieve the recordings with:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;recorded_v = m.get(&#39;v&#39;)
+recorded_r = m.get(&#39;r&#39;)
+recorded_w = n.get(&#39;w&#39;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Warning: calling &lt;code&gt;get()&lt;/code&gt; flushes the array.&lt;/p&gt;
+&lt;p&gt;Warning: recording projections can quickly fill up the RAM (see Dendrites).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;example-1-echo-state-network&#34;&gt;Example 1: Echo-State Network&lt;/h1&gt;
+&lt;p&gt;Link to the Jupyter notebook on github: &lt;a href=&#34;https://github.com/vitay/ANNarchy-notebooks/blob/master/notebooks/RC.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RC.ipynb&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;img/rc.jpg&#34; /&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;2---spiking-networks&#34;&gt;2 - Spiking networks&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;spiking-neurons&#34;&gt;Spiking neurons&lt;/h2&gt;
+&lt;p&gt;Spiking neurons must also define two additional fields:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;spike&lt;/code&gt;: condition for emitting a spike.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;reset&lt;/code&gt;: what happens after a spike is emitted (at the start of the refractory period).&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;A refractory period in ms can also be specified.&lt;/p&gt;
+&lt;p&gt;Example of the Leaky Integrate-and-Fire:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;LIF = Neuron(
+    parameters=&amp;quot;&amp;quot;&amp;quot;
+        tau = 20.
+        E_L = -70.
+        v_T = 0.
+        v_r = -58.
+        I = 50.0
+    &amp;quot;&amp;quot;&amp;quot;,
+    equations=&amp;quot;&amp;quot;&amp;quot;
+        tau * dv/dt = (E_L - v) + I : init=E_L     
+    &amp;quot;&amp;quot;&amp;quot;,
+    spike=&amp;quot; v &amp;gt;= v_T &amp;quot;,
+    reset=&amp;quot; v = v_r &amp;quot;,
+    refractory = 2.0
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;conductances--currents&#34;&gt;Conductances / currents&lt;/h2&gt;
+&lt;p&gt;A pre-synaptic spike arriving to a spiking neuron increase the conductance &lt;code&gt;g_target&lt;/code&gt; (e.g. &lt;code&gt;g_exc&lt;/code&gt; or &lt;code&gt;g_inh&lt;/code&gt;, depending on the projection).&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;LIF = Neuron(
+    parameters=&amp;quot;...&amp;quot;,
+    equations=&amp;quot;&amp;quot;&amp;quot;
+        tau * dv/dt = (E_L - v) + g_exc - g_inh   
+    &amp;quot;&amp;quot;&amp;quot;,
+    spike=&amp;quot; v &amp;gt;= v_T &amp;quot;,
+    reset=&amp;quot; v = v_r &amp;quot;,
+    refractory = 2.0
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Each spike increments &lt;code&gt;g_target&lt;/code&gt; from the synaptic efficiency &lt;code&gt;w&lt;/code&gt; of the corresponding synapse.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;g_target += w
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This defines an instantaneous model of synaptic transmission.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;conductances--currents-1&#34;&gt;Conductances / currents&lt;/h2&gt;
+&lt;p&gt;For &lt;strong&gt;exponentially-decreasing&lt;/strong&gt; or &lt;strong&gt;alpha-shaped&lt;/strong&gt; synapses, ODEs have to be introduced for the conductance/current.&lt;/p&gt;
+&lt;p&gt;The exponential numerical method should be preferred, as integration is exact.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;LIF = Neuron(
+    parameters=&amp;quot;...&amp;quot;,
+    equations=&amp;quot;&amp;quot;&amp;quot;
+        tau * dv/dt = (E_L - v) + g_exc + alpha_exc # exponential or alpha
+
+        tau_exc * dg_exc/dt = - g_exc : exponential
+
+        tau_exc * dalpha_exc/dt = exp((tau_exc - dt/2.0)/tau_exc) * g_exc
+                                                        - alpha_exc  : exponential
+    &amp;quot;&amp;quot;&amp;quot;,
+    spike=&amp;quot; v &amp;gt;= v_T &amp;quot;,
+    reset=&amp;quot; v = v_r &amp;quot;,
+    refractory = 2.0
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;conductances--currents-2&#34;&gt;Conductances / currents&lt;/h2&gt;
+&lt;p&gt;&lt;img style=&#34;width:50%; min-width:320px&#34; src=&#34;img/synaptictransmission.png&#34; /&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;example-2-adex---adaptive-exponential-neuron&#34;&gt;Example 2: AdEx - Adaptive exponential neuron&lt;/h2&gt;
+&lt;p&gt;Link to the Jupyter notebook on github: &lt;a href=&#34;https://github.com/vitay/ANNarchy-notebooks/blob/master/notebooks/AdEx.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AdEx.ipynb&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;$$
+\tau , \frac{dv}{dt} = (E_L - v) + \delta_T , \exp \frac{v-v_T}{\delta_T} + I - w
+$$
+$$
+\tau_w , \frac{dw}{dt} =  a , (v - E_L) - w
+$$&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;AdEx = Neuron(
+    parameters=&amp;quot;&amp;quot;&amp;quot;
+        tau = 20.
+        E_L = -70.
+        v_T = -50. ; v_r = -58.
+        delta_T = 2.0
+        a = 0.2 ; b = 0.
+        tau_w = 30.
+        I = 50.0
+    &amp;quot;&amp;quot;&amp;quot;,
+    equations=&amp;quot;&amp;quot;&amp;quot;
+        tau * dv/dt = (E_L - v) + delta_T * exp((v-v_T)/delta_T) + I - w : init=E_L     
+        tau_w * dw/dt = a * (v - E_L) - w  : init=0.0
+    &amp;quot;&amp;quot;&amp;quot;,
+    spike=&amp;quot; v &amp;gt;= 0.0 &amp;quot;,
+    reset=&amp;quot; v = v_r ; w += b &amp;quot;,
+    refractory = 2.0
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;3---synaptic-plasticity&#34;&gt;3 - Synaptic plasticity&lt;/h1&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;rate-coded-synapses--intrator--cooper-bcm-learning-rule&#34;&gt;Rate-coded synapses : Intrator &amp;amp; Cooper BCM learning rule&lt;/h2&gt;
+&lt;p&gt;Synapses can also implement equations that will be evaluated after each neural update.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;IBCM = Synapse(
+    parameters = &amp;quot;&amp;quot;&amp;quot;
+        eta = 0.01 : projection
+        tau = 2000.0 : projection
+    &amp;quot;&amp;quot;&amp;quot;,
+    equations = &amp;quot;&amp;quot;&amp;quot;
+        tau * dtheta/dt + theta = post.r^2 : postsynaptic, exponential
+
+        dw/dt = eta * post.r * (post.r - theta) * pre.r : min=0.0, explicit
+    &amp;quot;&amp;quot;&amp;quot;,
+    psp = &amp;quot; w * pre.r&amp;quot;
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The synaptic efficiency (weight) must be &lt;code&gt;w&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Each synapse can access pre- and post-synaptic variables with &lt;code&gt;pre.&lt;/code&gt; and &lt;code&gt;post.&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;code&gt;postsynaptic&lt;/code&gt; flag allows to do computations only once per post-synaptic neurons.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;psp&lt;/code&gt; optionally defines what will be summed by the post-synaptic neuron (e.g. &lt;code&gt;psp = &amp;quot;w * log(pre.r)&amp;quot;&lt;/code&gt;).&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;plastic-projections&#34;&gt;Plastic projections&lt;/h2&gt;
+&lt;p&gt;The synapse type just has to be passed to the Projection:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;proj = Projection(inp, pop, &#39;exc&#39;, IBCM)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Synaptic variables can be accessed as lists of lists for the whole projection:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;proj.w
+proj.theta
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;or for a single post-synaptic neuron (&lt;code&gt;Dendrite&lt;/code&gt;):&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;proj[10].w
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;example-3-miconis-reward-modulated-rc-network&#34;&gt;Example 3: Miconi&amp;rsquo;s reward modulated RC network&lt;/h2&gt;
+&lt;p&gt;Link to the Jupyter notebook on github: &lt;a href=&#34;https://github.com/vitay/ANNarchy-notebooks/blob/master/notebooks/Miconi.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Miconi.ipynb&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img style=&#34;width:70%; min-width:320px&#34; src=&#34;img/miconi.png&#34; /&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;spiking-synapses--example-of-short-term-plasticity-stp&#34;&gt;Spiking synapses : Example of Short-term plasticity (STP)&lt;/h2&gt;
+&lt;p&gt;Spiking synapses can define a &lt;code&gt;pre_spike&lt;/code&gt; field, defining what happens when a pre-synaptic spike arrives at the synapse.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;g_target&lt;/code&gt; is an alias for the corresponding post-synaptic conductance: it will be replaced by &lt;code&gt;g_exc&lt;/code&gt; or &lt;code&gt;g_inh&lt;/code&gt; depending on how the synapse is used.&lt;/p&gt;
+&lt;p&gt;By default, a pre-synaptic spike increments the post-synaptic conductance from &lt;code&gt;w&lt;/code&gt;: &lt;code&gt;g_target += w&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;STP = Synapse(
+    parameters = &amp;quot;&amp;quot;&amp;quot;
+        tau_rec = 100.0 : projection
+        tau_facil = 0.01 : projection
+        U = 0.5
+    &amp;quot;&amp;quot;&amp;quot;,
+    equations = &amp;quot;&amp;quot;&amp;quot;
+        dx/dt = (1 - x)/tau_rec : init = 1.0, event-driven
+        du/dt = (U - u)/tau_facil : init = 0.5, event-driven
+    &amp;quot;&amp;quot;&amp;quot;,
+    pre_spike=&amp;quot;&amp;quot;&amp;quot;
+        g_target += w * u * x
+        x *= (1 - u)
+        u += U * (1 - u)
+    &amp;quot;&amp;quot;&amp;quot;
+)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;spiking-synapses--example-of-spike-timing-dependent-plasticity-stdp&#34;&gt;Spiking synapses : Example of Spike-Timing Dependent plasticity (STDP)&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;post_spike&lt;/code&gt; similarly defines what happens when a post-synaptic spike is emitted.&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;STDP = Synapse(
+    parameters = &amp;quot;&amp;quot;&amp;quot;
+        tau_plus = 20.0 : projection ; tau_minus = 20.0 : projection
+        A_plus = 0.01 : projection   ; A_minus = 0.01 : projection
+        w_min = 0.0 : projection     ; w_max = 1.0 : projection
+    &amp;quot;&amp;quot;&amp;quot;,
+    equations = &amp;quot;&amp;quot;&amp;quot;
+        tau_plus  * dx/dt = -x : event-driven # pre-synaptic trace
+        tau_minus * dy/dt = -y : event-driven # post-synaptic trace
+    &amp;quot;&amp;quot;&amp;quot;,
+    pre_spike=&amp;quot;&amp;quot;&amp;quot;
+        g_target += w
+        x += A_plus * w_max
+        w = clip(w + y, w_min , w_max)
+    &amp;quot;&amp;quot;&amp;quot;,
+    post_spike=&amp;quot;&amp;quot;&amp;quot;
+        y -= A_minus * w_max
+        w = clip(w + x, w_min , w_max)
+    &amp;quot;&amp;quot;&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;spiking-synapses--example-of-spike-timing-dependent-plasticity-stdp-1&#34;&gt;Spiking synapses : Example of Spike-Timing Dependent plasticity (STDP)&lt;/h2&gt;
+&lt;p&gt;&lt;img style=&#34;width:70%; min-width:320px&#34; src=&#34;img/stdp.png&#34; /&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;and-much-more&#34;&gt;And much more&amp;hellip;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Standard populations (&lt;code&gt;SpikeSourceArray&lt;/code&gt;, &lt;code&gt;TimedArray&lt;/code&gt;, &lt;code&gt;PoissonPopulation&lt;/code&gt;, &lt;code&gt;HomogeneousCorrelatedSpikeTrains&lt;/code&gt;), OpenCV bindings.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Standard neurons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;LeakyIntegrator, Izhikevich, IF_curr_exp, IF_cond_exp, IF_curr_alpha, IF_cond_alpha, HH_cond_exp, EIF_cond_exp_isfa_ista, EIF_cond_alpha_isfa_ista&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Standard synapses:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hebb, Oja, IBCM, STP, STDP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Parallel simulations with &lt;code&gt;parallel_run&lt;/code&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Convolutional and pooling layers.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Hybrid rate-coded / spiking networks.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Structural plasticity.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;RTFD: &lt;a href=&#34;https://annarchy.readthedocs.io&#34;&gt;https://annarchy.readthedocs.io&lt;/a&gt;&lt;/p&gt;
+</description>
     </item>
     
   </channel>

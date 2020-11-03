@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Julien Vitay</title>
+    <title>Categories | Julien Vitay</title>
     <link>https://julien-vitay.net/categories/</link>
-    <description>Recent content in Categories on Julien Vitay</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <copyright>Copyright Julien Vitay</copyright>
-    
-	<atom:link href="https://julien-vitay.net/categories/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://julien-vitay.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    <description>Categories</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <image>
+      <url>https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Categories</title>
+      <link>https://julien-vitay.net/categories/</link>
+    </image>
     
   </channel>
 </rss>
