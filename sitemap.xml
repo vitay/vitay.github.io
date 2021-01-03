@@ -4,41 +4,71 @@
   
   <url>
     <loc>https://julien-vitay.net/publication-type/1/</loc>
-    <lastmod>2019-09-14T00:00:00+02:00</lastmod>
+    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://julien-vitay.net/authors/</loc>
-    <lastmod>2019-09-14T00:00:00+02:00</lastmod>
+    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/categories/</loc>
+    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/category/deeplearning/</loc>
+    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/author/enrico-schroder/</loc>
+    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://julien-vitay.net/author/fred-h.-hamker/</loc>
-    <lastmod>2019-09-14T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/author/helge-u-dinkelbach/</loc>
-    <lastmod>2019-09-14T00:00:00+02:00</lastmod>
+    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://julien-vitay.net/author/julien-vitay/</loc>
-    <lastmod>2019-09-14T00:00:00+02:00</lastmod>
+    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://julien-vitay.net/</loc>
-    <lastmod>2019-09-14T00:00:00+02:00</lastmod>
+    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/author/mirko-mahlisch/</loc>
+    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/publication/schroeder2020/</loc>
+    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://julien-vitay.net/publication_types/</loc>
-    <lastmod>2019-09-14T00:00:00+02:00</lastmod>
+    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://julien-vitay.net/publication/</loc>
+    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/author/sascha-braun/</loc>
+    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/author/helge-u-dinkelbach/</loc>
     <lastmod>2019-09-14T00:00:00+02:00</lastmod>
   </url>
   
@@ -88,22 +118,7 @@
   </url>
   
   <url>
-    <loc>https://julien-vitay.net/author/enrico-schroder/</loc>
-    <lastmod>2019-04-24T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://julien-vitay.net/publication/schroeder2019/</loc>
-    <lastmod>2019-04-24T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/author/mirko-mahlisch/</loc>
-    <lastmod>2019-04-24T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/author/sascha-braun/</loc>
     <lastmod>2019-04-24T00:00:00+02:00</lastmod>
   </url>
   
@@ -580,10 +595,6 @@
   <url>
     <loc>https://julien-vitay.net/project/reservoircomputing/</loc>
     <lastmod>1970-01-01T01:33:33+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/categories/</loc>
   </url>
   
   <url>

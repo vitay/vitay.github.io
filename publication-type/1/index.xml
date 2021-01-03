@@ -5,12 +5,20 @@
     <link>https://julien-vitay.net/publication-type/1/</link>
       <atom:link href="https://julien-vitay.net/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 14 Sep 2019 00:00:00 +0200</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 09 Nov 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>1</title>
       <link>https://julien-vitay.net/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Monocular 3D Object Detection Using Feature Map Transformation: Towards Learning Perspective-Invariant Scene Representations</title>
+      <link>https://julien-vitay.net/publication/schroeder2020/</link>
+      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://julien-vitay.net/publication/schroeder2020/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Scalable simulation of rate-coded and spiking neural networks on shared memory systems</title>
