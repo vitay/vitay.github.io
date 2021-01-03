@@ -3,6 +3,36 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://julien-vitay.net/project/annarchy/</loc>
+    <lastmod>2020-12-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/tag/computational-neuroscience/</loc>
+    <lastmod>2020-12-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/</loc>
+    <lastmod>2020-12-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/tag/parallel-computing/</loc>
+    <lastmod>2020-12-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/project/</loc>
+    <lastmod>2020-12-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/tags/</loc>
+    <lastmod>2020-12-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://julien-vitay.net/publication-type/1/</loc>
     <lastmod>2020-11-09T00:00:00+00:00</lastmod>
   </url>
@@ -38,11 +68,6 @@
   </url>
   
   <url>
-    <loc>https://julien-vitay.net/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://julien-vitay.net/author/mirko-mahlisch/</loc>
     <lastmod>2020-11-09T00:00:00+00:00</lastmod>
   </url>
@@ -65,6 +90,46 @@
   <url>
     <loc>https://julien-vitay.net/author/sascha-braun/</loc>
     <lastmod>2020-11-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/project/basalganglia/</loc>
+    <lastmod>2020-11-01T00:00:00+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/project/deeplearning/</loc>
+    <lastmod>2020-10-20T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/tag/deep-learning/</loc>
+    <lastmod>2020-10-20T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/tag/machine-learning/</loc>
+    <lastmod>2020-10-20T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/project/dopamine/</loc>
+    <lastmod>2020-09-01T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/project/hippocampus/</loc>
+    <lastmod>2020-08-01T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/project/reinforcementlearning/</loc>
+    <lastmod>2020-07-01T00:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/project/reservoircomputing/</loc>
+    <lastmod>2020-06-01T00:00:00+02:00</lastmod>
   </url>
   
   <url>
@@ -93,11 +158,6 @@
   </url>
   
   <url>
-    <loc>https://julien-vitay.net/tag/machine-learning/</loc>
-    <lastmod>2019-05-08T07:32:46+01:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://julien-vitay.net/post/</loc>
     <lastmod>2019-05-08T07:32:46+01:00</lastmod>
   </url>
@@ -109,11 +169,6 @@
   
   <url>
     <loc>https://julien-vitay.net/post/successor_representations/</loc>
-    <lastmod>2019-05-08T07:32:46+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/tags/</loc>
     <lastmod>2019-05-08T07:32:46+01:00</lastmod>
   </url>
   
@@ -413,11 +468,6 @@
   </url>
   
   <url>
-    <loc>https://julien-vitay.net/tag/computational-neuroscience/</loc>
-    <lastmod>2017-10-12T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://julien-vitay.net/author/lorenz-gonner/</loc>
     <lastmod>2017-10-12T00:00:00+02:00</lastmod>
   </url>
@@ -545,56 +595,6 @@
   <url>
     <loc>https://julien-vitay.net/publication/vitay2005/</loc>
     <lastmod>2005-01-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/project/annarchy/</loc>
-    <lastmod>1970-01-01T01:33:39+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/tag/parallel-computing/</loc>
-    <lastmod>1970-01-01T01:33:39+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/project/</loc>
-    <lastmod>1970-01-01T01:33:39+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/project/basalganglia/</loc>
-    <lastmod>1970-01-01T01:33:38+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/project/deeplearning/</loc>
-    <lastmod>1970-01-01T01:33:37+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/tag/deep-learning/</loc>
-    <lastmod>1970-01-01T01:33:37+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/project/dopamine/</loc>
-    <lastmod>1970-01-01T01:33:36+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/project/hippocampus/</loc>
-    <lastmod>1970-01-01T01:33:35+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/project/reinforcementlearning/</loc>
-    <lastmod>1970-01-01T01:33:34+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/project/reservoircomputing/</loc>
-    <lastmod>1970-01-01T01:33:33+01:00</lastmod>
   </url>
   
   <url>

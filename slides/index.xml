@@ -5,7 +5,7 @@
     <link>https://julien-vitay.net/slides/</link>
       <atom:link href="https://julien-vitay.net/slides/index.xml" rel="self" type="application/rss+xml" />
     <description>Slides</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Julien Vitay 2021</copyright>
     <item>
       <title>Introduction to ANNarchy</title>
       <link>https://julien-vitay.net/slides/annarchy/</link>

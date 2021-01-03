@@ -5,7 +5,7 @@
     <link>https://julien-vitay.net/tag/parallel-computing/</link>
       <atom:link href="https://julien-vitay.net/tag/parallel-computing/index.xml" rel="self" type="application/rss+xml" />
     <description>parallel computing</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 1970 01:33:39 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Julien Vitay 2021</copyright><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0100</lastBuildDate>
     <image>
       <url>https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>parallel computing</title>
@@ -15,7 +15,7 @@
     <item>
       <title>ANNarchy</title>
       <link>https://julien-vitay.net/project/annarchy/</link>
-      <pubDate>Thu, 01 Jan 1970 01:33:39 +0100</pubDate>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0100</pubDate>
       <guid>https://julien-vitay.net/project/annarchy/</guid>
       <description>&lt;p&gt;Neuro-computational models are different from classical neural networks (deep learning) in many aspects:&lt;/p&gt;
 &lt;ul&gt;

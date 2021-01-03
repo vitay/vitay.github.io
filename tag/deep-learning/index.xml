@@ -5,7 +5,7 @@
     <link>https://julien-vitay.net/tag/deep-learning/</link>
       <atom:link href="https://julien-vitay.net/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>deep-learning</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 1970 01:33:37 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Julien Vitay 2021</copyright><lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0200</lastBuildDate>
     <image>
       <url>https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>deep-learning</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Deep Learning</title>
       <link>https://julien-vitay.net/project/deeplearning/</link>
-      <pubDate>Thu, 01 Jan 1970 01:33:37 +0100</pubDate>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0200</pubDate>
       <guid>https://julien-vitay.net/project/deeplearning/</guid>
       <description>&lt;p&gt;The recent hype on &lt;strong&gt;deep learning&lt;/strong&gt; has revived the interest for artificial neural networks and their applications. Here are some projects done lately.&lt;/p&gt;
 &lt;h2 id=&#34;project-1--facial-emotion-recognition&#34;&gt;Project 1 : Facial emotion recognition&lt;/h2&gt;
