@@ -34,10 +34,10 @@
   
     
   
-  <meta name="description" content="The size and complexity of the neural networks investigated in computational neuroscience are increasing, leading to a need for efficient neural simulation tools to support their development. Several neuro-simulators have been developed over the years by the community, all with different scopes (rate-coded, spiking, mean-field), target platforms (CPU, GPU, clusters) or modeling principles (fixed model library, code generation). We compare here the current version of the neuro-simulator ANNarchy against other state-of-the-art simulators on ratecoded and spiking benchmarks with a focus on their parallel performance.">
+  <meta name="description" content="Researcher in Computational Neuroscience and Artificial Intelligence">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://julien-vitay.net/publication/dinkelbach2019/">
+  <link rel="alternate" hreflang="en-us" href="https://julien-vitay.net/author/ranjitha-subramaniam/">
 
   
 
@@ -250,12 +250,14 @@
   
 
   
+  <link rel="alternate" href="/author/ranjitha-subramaniam/index.xml" type="application/rss+xml" title="Julien Vitay">
+  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://julien-vitay.net/publication/dinkelbach2019/">
+  <link rel="canonical" href="https://julien-vitay.net/author/ranjitha-subramaniam/">
 
   
   
@@ -271,63 +273,17 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Julien Vitay">
-  <meta property="og:url" content="https://julien-vitay.net/publication/dinkelbach2019/">
-  <meta property="og:title" content="Scalable simulation of rate-coded and spiking neural networks on shared memory systems | Julien Vitay">
-  <meta property="og:description" content="The size and complexity of the neural networks investigated in computational neuroscience are increasing, leading to a need for efficient neural simulation tools to support their development. Several neuro-simulators have been developed over the years by the community, all with different scopes (rate-coded, spiking, mean-field), target platforms (CPU, GPU, clusters) or modeling principles (fixed model library, code generation). We compare here the current version of the neuro-simulator ANNarchy against other state-of-the-art simulators on ratecoded and spiking benchmarks with a focus on their parallel performance."><meta property="og:image" content="https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://julien-vitay.net/author/ranjitha-subramaniam/">
+  <meta property="og:title" content="Ranjitha Subramaniam | Julien Vitay">
+  <meta property="og:description" content="Researcher in Computational Neuroscience and Artificial Intelligence"><meta property="og:image" content="https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
-    
-      <meta property="article:published_time" content="2019-09-14T00:00:00&#43;02:00">
-    
-    <meta property="article:modified_time" content="2019-09-14T00:00:00&#43;02:00">
+    <meta property="og:updated_time" content="2021-02-12T09:22:44&#43;01:00">
   
 
   
 
 
-    
-
-
-
-
-
-
-
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://julien-vitay.net/publication/dinkelbach2019/"
-  },
-  "headline": "Scalable simulation of rate-coded and spiking neural networks on shared memory systems",
-  
-  "datePublished": "2019-09-14T00:00:00+02:00",
-  "dateModified": "2019-09-14T00:00:00+02:00",
-  
-  "author": {
-    "@type": "Person",
-    "name": "Helge Ü Dinkelbach"
-  },
-  
-  "publisher": {
-    "@type": "Organization",
-    "name": "Julien Vitay",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
-    }
-  },
-  "description": "The size and complexity of the neural networks investigated in computational neuroscience are increasing, leading to a need for efficient neural simulation tools to support their development. Several neuro-simulators have been developed over the years by the community, all with different scopes (rate-coded, spiking, mean-field), target platforms (CPU, GPU, clusters) or modeling principles (fixed model library, code generation). We compare here the current version of the neuro-simulator ANNarchy against other state-of-the-art simulators on ratecoded and spiking benchmarks with a focus on their parallel performance."
-}
-</script>
-
-  
-
-  
 
 
   
@@ -339,7 +295,7 @@
 
 
 
-  <title>Scalable simulation of rate-coded and spiking neural networks on shared memory systems | Julien Vitay</title>
+  <title>Ranjitha Subramaniam | Julien Vitay</title>
 
 </head>
 
@@ -528,7 +484,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link  active" href="/publication"><span>Publications</span></a>
+          <a class="nav-link " href="/publication"><span>Publications</span></a>
         </li>
 
         
@@ -671,364 +627,36 @@
 
 
 
-  <div class="pub">
-
   
 
 
 
-
-
-
-
-
-
-
-
-
-  
-
-  
-  
-  
-<div class="article-container pt-3">
-  <h1>Scalable simulation of rate-coded and spiking neural networks on shared memory systems</h1>
-
-  
-
-  
-    
-
-
-<div class="article-metadata">
-
-  
-  
-  
-  
-  <div>
-    
-
-  
-  <span ><a href="/author/helge-u-dinkelbach/">Helge Ü Dinkelbach</a></span>, <span ><a href="/author/julien-vitay/">Julien Vitay</a></span>, <span ><a href="/author/fred-h.-hamker/">Fred H. Hamker</a></span>
-  </div>
-  
-  
-
-  
-  <span class="article-date">
-    
-    
-      
-    
-    2019
-  </span>
-  
-
-  
-
-  
-
-  
-  
-  
-
-  
-  
-
-</div>
-
-    
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="/pdf/Dinkelbach2019.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/dinkelbach2019/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1" href="/project/annarchy/">
-    Project
-  </a>
-  
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1" href="/pdf/Dinkelbach2019-poster.pdf" target="_blank" rel="noopener">
-  Poster
-</a>
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.32470/CCN.2019.1109-0" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
+<div class="universal-wrapper pt-3">
+  <h1>Ranjitha Subramaniam</h1>
 </div>
 
 
-  
-</div>
-
-
-
-  <div class="article-container">
-
+<section id="profile-page" class="pt-5">
+  <div class="container">
     
-    <h3>Abstract</h3>
-    <p class="pub-abstract">The size and complexity of the neural networks investigated in computational neuroscience are increasing, leading to a need for efficient neural simulation tools to support their development. Several neuro-simulators have been developed over the years by the community, all with different scopes (rate-coded, spiking, mean-field), target platforms (CPU, GPU, clusters) or modeling principles (fixed model library, code generation). We compare here the current version of the neuro-simulator ANNarchy against other state-of-the-art simulators on ratecoded and spiking benchmarks with a focus on their parallel performance.</p>
     
 
     
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Type</div>
-          <div class="col-12 col-md-9">
-            
-            
-            <a href="/publication/#1">
-              Conference paper
-            </a>
-            
-          </div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
+    
+    
+    <div class="article-widget content-widget-hr">
+      <h3>Latest</h3>
+      <ul>
+        
+        <li>
+          <a href="/publication/mummadi2021/">Does enhanced shape bias improve neural network robustness to common corruptions?</a>
+        </li>
+        
+      </ul>
     </div>
-    <div class="d-md-none space-below"></div>
     
-
-    
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
-        <div class="row">
-          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9">2019 Conference on Cognitive Computational Neuroscience, Berlin (Germany)</div>
-        </div>
-      </div>
-      <div class="col-md-1"></div>
-    </div>
-    <div class="d-md-none space-below"></div>
-    
-
-    <div class="space-below"></div>
-
-    <div class="article-style"></div>
-
-    
-
-
-
-
-
-
-
-
-<div class="share-box" aria-hidden="true">
-  <ul class="share">
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://twitter.com/intent/tweet?url=https://julien-vitay.net/publication/dinkelbach2019/&amp;text=Scalable%20simulation%20of%20rate-coded%20and%20spiking%20neural%20networks%20on%20shared%20memory%20systems" target="_blank" rel="noopener" class="share-btn-twitter">
-          <i class="fab fa-twitter"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://julien-vitay.net/publication/dinkelbach2019/&amp;t=Scalable%20simulation%20of%20rate-coded%20and%20spiking%20neural%20networks%20on%20shared%20memory%20systems" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="mailto:?subject=Scalable%20simulation%20of%20rate-coded%20and%20spiking%20neural%20networks%20on%20shared%20memory%20systems&amp;body=https://julien-vitay.net/publication/dinkelbach2019/" target="_blank" rel="noopener" class="share-btn-email">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://julien-vitay.net/publication/dinkelbach2019/&amp;title=Scalable%20simulation%20of%20rate-coded%20and%20spiking%20neural%20networks%20on%20shared%20memory%20systems" target="_blank" rel="noopener" class="share-btn-linkedin">
-          <i class="fab fa-linkedin-in"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="whatsapp://send?text=Scalable%20simulation%20of%20rate-coded%20and%20spiking%20neural%20networks%20on%20shared%20memory%20systems%20https://julien-vitay.net/publication/dinkelbach2019/" target="_blank" rel="noopener" class="share-btn-whatsapp">
-          <i class="fab fa-whatsapp"></i>
-        </a>
-      </li>
-    
-      
-      
-      
-        
-      
-      
-      
-      <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://julien-vitay.net/publication/dinkelbach2019/&amp;title=Scalable%20simulation%20of%20rate-coded%20and%20spiking%20neural%20networks%20on%20shared%20memory%20systems" target="_blank" rel="noopener" class="share-btn-weibo">
-          <i class="fab fa-weibo"></i>
-        </a>
-      </li>
-    
-  </ul>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-    
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  <div class="article-widget content-widget-hr">
-    <h3>Related</h3>
-    <ul>
-      
-      <li><a href="/publication/schroeder2020/">Monocular 3D Object Detection Using Feature Map Transformation: Towards Learning Perspective-Invariant Scene Representations</a></li>
-      
-      <li><a href="/publication/schmid2019/">Forward Models in the Cerebellum using Reservoirs and Perturbation Learning</a></li>
-      
-      <li><a href="/publication/villagrasa2018/">On the role of cortex-basal ganglia interactions for category learning: A neuro-computational approach</a></li>
-      
-      <li><a href="/publication/mummadi2021/">Does enhanced shape bias improve neural network robustness to common corruptions?</a></li>
-      
-      <li><a href="/talk/clt2019/">Deep Learning and Intelligence: the right approach?</a></li>
-      
-    </ul>
   </div>
-  
-
-
-
-
-
-  </div>
-</div>
+</section>
 
       
 

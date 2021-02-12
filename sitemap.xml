@@ -3,17 +3,82 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://julien-vitay.net/publication-type/1/</loc>
+    <lastmod>2021-02-12T09:22:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/authors/</loc>
+    <lastmod>2021-02-12T09:22:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/categories/</loc>
+    <lastmod>2021-02-12T09:22:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/author/chaithanya-kumar-mummadi/</loc>
+    <lastmod>2021-02-12T09:22:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/category/deeplearning/</loc>
+    <lastmod>2021-02-12T09:22:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/publication/mummadi2021/</loc>
+    <lastmod>2021-02-12T09:22:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/author/jan-hendrik-metzen/</loc>
+    <lastmod>2021-02-12T09:22:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/author/julien-vitay/</loc>
+    <lastmod>2021-02-12T09:22:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/</loc>
+    <lastmod>2021-02-12T09:22:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/publication_types/</loc>
+    <lastmod>2021-02-12T09:22:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/publication/</loc>
+    <lastmod>2021-02-12T09:22:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/author/ranjitha-subramaniam/</loc>
+    <lastmod>2021-02-12T09:22:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/author/robin-hutmacher/</loc>
+    <lastmod>2021-02-12T09:22:44+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://julien-vitay.net/author/volker-fischer/</loc>
+    <lastmod>2021-02-12T09:22:44+01:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://julien-vitay.net/project/annarchy/</loc>
     <lastmod>2020-12-01T00:00:00+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://julien-vitay.net/tag/computational-neuroscience/</loc>
-    <lastmod>2020-12-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/</loc>
     <lastmod>2020-12-01T00:00:00+01:00</lastmod>
   </url>
   
@@ -33,26 +98,6 @@
   </url>
   
   <url>
-    <loc>https://julien-vitay.net/publication-type/1/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/authors/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/categories/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/category/deeplearning/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://julien-vitay.net/author/enrico-schroder/</loc>
     <lastmod>2020-11-09T00:00:00+00:00</lastmod>
   </url>
@@ -63,27 +108,12 @@
   </url>
   
   <url>
-    <loc>https://julien-vitay.net/author/julien-vitay/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://julien-vitay.net/author/mirko-mahlisch/</loc>
     <lastmod>2020-11-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://julien-vitay.net/publication/schroeder2020/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/publication_types/</loc>
-    <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://julien-vitay.net/publication/</loc>
     <lastmod>2020-11-09T00:00:00+00:00</lastmod>
   </url>
   

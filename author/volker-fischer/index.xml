@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DeepLearning | Julien Vitay</title>
-    <link>https://julien-vitay.net/category/deeplearning/</link>
-      <atom:link href="https://julien-vitay.net/category/deeplearning/index.xml" rel="self" type="application/rss+xml" />
-    <description>DeepLearning</description>
+    <title>Volker Fischer | Julien Vitay</title>
+    <link>https://julien-vitay.net/author/volker-fischer/</link>
+      <atom:link href="https://julien-vitay.net/author/volker-fischer/index.xml" rel="self" type="application/rss+xml" />
+    <description>Volker Fischer</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Julien Vitay 2021</copyright><lastBuildDate>Fri, 12 Feb 2021 09:22:44 +0100</lastBuildDate>
     <image>
       <url>https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
-      <title>DeepLearning</title>
-      <link>https://julien-vitay.net/category/deeplearning/</link>
+      <title>Volker Fischer</title>
+      <link>https://julien-vitay.net/author/volker-fischer/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://julien-vitay.net/publication/mummadi2021/</link>
       <pubDate>Fri, 12 Feb 2021 09:22:44 +0100</pubDate>
       <guid>https://julien-vitay.net/publication/mummadi2021/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Monocular 3D Object Detection Using Feature Map Transformation: Towards Learning Perspective-Invariant Scene Representations</title>
-      <link>https://julien-vitay.net/publication/schroeder2020/</link>
-      <pubDate>Mon, 09 Nov 2020 00:00:00 +0000</pubDate>
-      <guid>https://julien-vitay.net/publication/schroeder2020/</guid>
       <description></description>
     </item>
     
