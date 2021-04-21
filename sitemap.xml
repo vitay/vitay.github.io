@@ -1,642 +1,386 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://julien-vitay.net/publication-type/1/</loc>
     <lastmod>2021-02-12T09:22:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/authors/</loc>
     <lastmod>2021-02-12T09:22:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/categories/</loc>
     <lastmod>2021-02-12T09:22:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/chaithanya-kumar-mummadi/</loc>
     <lastmod>2021-02-12T09:22:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/category/deeplearning/</loc>
     <lastmod>2021-02-12T09:22:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/mummadi2021/</loc>
     <lastmod>2021-02-12T09:22:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/jan-hendrik-metzen/</loc>
     <lastmod>2021-02-12T09:22:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/julien-vitay/</loc>
     <lastmod>2021-02-12T09:22:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/</loc>
     <lastmod>2021-02-12T09:22:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication_types/</loc>
     <lastmod>2021-02-12T09:22:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/</loc>
     <lastmod>2021-02-12T09:22:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/ranjitha-subramaniam/</loc>
     <lastmod>2021-02-12T09:22:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/robin-hutmacher/</loc>
     <lastmod>2021-02-12T09:22:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/volker-fischer/</loc>
     <lastmod>2021-02-12T09:22:44+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/project/annarchy/</loc>
     <lastmod>2020-12-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/tag/computational-neuroscience/</loc>
     <lastmod>2020-12-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/tag/parallel-computing/</loc>
     <lastmod>2020-12-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/project/</loc>
     <lastmod>2020-12-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/tags/</loc>
     <lastmod>2020-12-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/enrico-schroder/</loc>
     <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/fred-h.-hamker/</loc>
     <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/mirko-mahlisch/</loc>
     <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/schroeder2020/</loc>
     <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/sascha-braun/</loc>
     <lastmod>2020-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/project/basalganglia/</loc>
     <lastmod>2020-11-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/project/deeplearning/</loc>
     <lastmod>2020-10-20T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/tag/deep-learning/</loc>
     <lastmod>2020-10-20T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/tag/machine-learning/</loc>
     <lastmod>2020-10-20T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/project/dopamine/</loc>
     <lastmod>2020-09-01T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/project/hippocampus/</loc>
     <lastmod>2020-08-01T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/project/reinforcementlearning/</loc>
     <lastmod>2020-07-01T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/project/reservoircomputing/</loc>
     <lastmod>2020-06-01T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/helge-u-dinkelbach/</loc>
     <lastmod>2019-09-14T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/dinkelbach2019/</loc>
     <lastmod>2019-09-14T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/schmid2019/</loc>
     <lastmod>2019-09-13T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/katharina-schmid/</loc>
     <lastmod>2019-09-13T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/tag/dopamine/</loc>
     <lastmod>2019-05-08T07:32:46+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/post/</loc>
     <lastmod>2019-05-08T07:32:46+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/tag/reinforcement-learning/</loc>
     <lastmod>2019-05-08T07:32:46+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/post/successor_representations/</loc>
     <lastmod>2019-05-08T07:32:46+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/schroeder2019/</loc>
     <lastmod>2019-04-24T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/talk/clt2019/</loc>
     <lastmod>2019-03-16T12:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/talk/</loc>
     <lastmod>2019-03-16T12:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/forch2019/</loc>
     <lastmod>2019-02-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/valentin-forch/</loc>
     <lastmod>2019-02-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/schroeder2018/</loc>
     <lastmod>2018-09-26T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication-type/2/</loc>
     <lastmod>2018-09-18T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/tag/basal-ganglia/</loc>
     <lastmod>2018-09-18T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/earl-k.-miller/</loc>
     <lastmod>2018-09-18T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/evan-g.-antzoulatos/</loc>
     <lastmod>2018-09-18T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/francesc-villagrasa/</loc>
     <lastmod>2018-09-18T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/henning-schroll/</loc>
     <lastmod>2018-09-18T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/javier-baladron/</loc>
     <lastmod>2018-09-18T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/villagrasa2018/</loc>
     <lastmod>2018-09-18T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/aaron-shifman/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/alexandra-k.-diem/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/almar-klein/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/andrew-p.-davison/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/anya-e.-vostinar/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/benoit-girard/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/c.-titus-brown/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/christoph-metzner/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/cyrille-rossant/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/damien-drix/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/daniel-mcglinn/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/etienne-roesch/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/fabien-c.y.-benureau/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/federico-vaggi/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/frank-stollmeier/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/frederic-alexandre/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/georgios-detorakis/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/guillaume-viejo/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/hans-ekkehard-plesser/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/joseph-stachelek/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/kamil-s.-jaron/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/karthik-ram/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/konrad-hinsen/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/lorena-a.-barba/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/marc-andre-delsuc/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/marcel-stimberg/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/matt-g.-hall/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/mehdi-khamassi/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/nicolas-p.-rougier/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/olivia-guest/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/owen-petchey/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/ozan-caglayan/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/pierre-de-buyl/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/pierre-enel/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/pietro-marchesi/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/rafael-n.-henriques/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/roman-yurchak/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/rougier2017/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/thomas-arildsen/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/tiina-manninen/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/timothee-poisot/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/tiziano-zito/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/vahid-rostami/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/xavier-hinau/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/yoav-ram/</loc>
     <lastmod>2017-12-18T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/lorenz-gonner/</loc>
     <lastmod>2017-10-12T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/goenner2017/</loc>
     <lastmod>2017-10-12T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/loetzsch2017/</loc>
     <lastmod>2017-09-15T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/winfried-lotzsch/</loc>
     <lastmod>2017-09-15T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication-type/4/</loc>
     <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/vitay2017/</loc>
     <lastmod>2017-01-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/vitay2016/</loc>
     <lastmod>2016-10-07T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/vitay2015/</loc>
     <lastmod>2015-07-31T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/helge-u.-dinkelbach/</loc>
     <lastmod>2015-07-31T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/vitay2014/</loc>
     <lastmod>2014-01-31T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/schroll2014/</loc>
     <lastmod>2014-01-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/dinkelbach2012/</loc>
     <lastmod>2012-11-09T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication-type/6/</loc>
     <lastmod>2012-01-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/vitay2012/</loc>
     <lastmod>2012-01-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/schroll2012/</loc>
     <lastmod>2012-01-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/vitay2011/</loc>
     <lastmod>2011-08-01T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/vitay2010/</loc>
     <lastmod>2010-05-28T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/vitay2009/</loc>
     <lastmod>2009-09-01T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/frederik-beuth/</loc>
     <lastmod>2009-09-01T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/jeremy-fix/</loc>
     <lastmod>2009-09-01T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/vitay2008/</loc>
     <lastmod>2008-10-14T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/vitay2007/</loc>
     <lastmod>2007-01-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/phd/</loc>
     <lastmod>2006-06-23T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/fix2006/</loc>
     <lastmod>2006-01-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/rougier2005/</loc>
     <lastmod>2005-06-01T00:00:00+02:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/publication/vitay2005/</loc>
     <lastmod>2005-01-01T00:00:00+01:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/slides/annarchy/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/author/julien-vitay/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://julien-vitay.net/slides/</loc>
   </url>
-  
 </urlset>
