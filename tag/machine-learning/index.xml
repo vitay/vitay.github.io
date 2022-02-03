@@ -17,7 +17,12 @@
       <link>https://julien-vitay.net/project/deeplearning/</link>
       <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://julien-vitay.net/project/deeplearning/</guid>
-      <description>&lt;p&gt;The recent hype on &lt;strong&gt;deep learning&lt;/strong&gt; has revived the interest for artificial neural networks and their applications. I am involved in the co-supervision of PhD students working on this topic, but do not do active research on it.&lt;/p&gt;
+      <description>&lt;p&gt;The recent hype on &lt;strong&gt;deep learning&lt;/strong&gt; has revived the interest for artificial neural networks and their applications. I am involved in the co-supervision of PhD students working on this topic, but do not do active research on it. Current topics include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Geometric deep learning (graphs, meshes)&lt;/li&gt;
+&lt;li&gt;Time series transformer&lt;/li&gt;
+&lt;li&gt;Cyber-security&lt;/li&gt;
+&lt;/ul&gt;
 &lt;!--
 Here are some projects done lately.
 
