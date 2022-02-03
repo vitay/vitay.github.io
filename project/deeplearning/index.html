@@ -252,8 +252,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png">
 
   <link rel="canonical" href="https://julien-vitay.net/project/deeplearning/">
 
@@ -276,9 +276,9 @@
   <meta property="twitter:image" content="https://julien-vitay.net/project/deeplearning/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-10-20T00:00:00&#43;02:00">
+      <meta property="article:published_time" content="2020-10-20T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-10-20T00:00:00&#43;02:00">
+    <meta property="article:modified_time" content="2020-10-20T00:00:00&#43;00:00">
   
 
   
@@ -308,8 +308,8 @@
     "https://julien-vitay.net/project/deeplearning/featured.png"
   ],
   
-  "datePublished": "2020-10-20T00:00:00+02:00",
-  "dateModified": "2020-10-20T00:00:00+02:00",
+  "datePublished": "2020-10-20T00:00:00Z",
+  "dateModified": "2020-10-20T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -321,7 +321,7 @@
     "name": "Julien Vitay",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+      "url": "https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
   "description": "Deep neural networks and their applications to emotion recognition, attention, sensor fusion..."
@@ -754,46 +754,29 @@
   <div class="article-container">
 
     <div class="article-style">
-      <p>The recent hype on <strong>deep learning</strong> has revived the interest for artificial neural networks and their applications. Here are some projects done lately.</p>
-<h2 id="project-1--facial-emotion-recognition">Project 1 : Facial emotion recognition</h2>
-<p>Facial expression recognition is an important research field in computer vision. Although detecting facial features is an easy task for a human, computers still have a hard time doing it. Factors such as interpersonal variation (gender, skin color), intrapersonal variation (pose, expression) and different recording conditions (image resolution, lighting) add to the complexity of the problem. This is particularly relevant in the context of emotion recognition, where systems should be able to automatically recognize in which emotional state humans are.</p>
-<p>On human faces, emotional expression heavily relies on the activation of individual facial muscles. A classical approach to describe facial expressions at the muscular level is the Facial Action Coding System (FACS) proposed by Ekman (1978). In this framework, movement of specific facial regions are described as Actions Units (AU), which basically describe deviations from a neutral expression. AUs are specific to facial regions (corner of the mouth or the eye, etc.). Although there are 69 AUs in the FACS theory, 28 of them are mostly useful for emotion recognition. We have focused on 12 of them: 1 (Inner Brow Raiser), 2 (Outer Brow Raiser), 4 (Brow Lowerer), 6 (Cheek Raiser), 7 (Lid Tightener), 10 (Upper Lip Raiser), 12 (Lip Corner Puller), 14 (Dimpler), 15 (Lip Corner Depressor), 17 (Chin Raiser), 23 (Lip Tightener), 24 (Lip Pressor).</p>
-<p>There are different training sets generally available to the community containing various number of FACS-annotated images, with different numbers of annotated AUs: CCK+, MMI, UNBC-McMaster PAIN, DUSFA, BP4D, SEMAINE, etc. The 12 selected AUs correspond to the annotated AUs in BP4D, which is the most massive dataset. The main interest of these AUs is that they are mostly sufficient to predict the occurence of the 6 basic emotions using the EMFACS correspondance table:</p>
-<table>
-<thead>
-<tr>
-<th>Emotion</th>
-<th>Action Units</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Happiness</td>
-<td>6, 12</td>
-</tr>
-<tr>
-<td>Sadness</td>
-<td>1, 4, 15</td>
-</tr>
-<tr>
-<td>Surprise</td>
-<td>1, 2, 5B, 26</td>
-</tr>
-<tr>
-<td>Fear</td>
-<td>1, 2, 4, 5, 7, 20, 26</td>
-</tr>
-<tr>
-<td>Anger</td>
-<td>4, 5, 7, 23</td>
-</tr>
-<tr>
-<td>Disgust</td>
-<td>9, 15, 16</td>
-</tr>
-</tbody>
-</table>
-<p>After investigating various architectures to automatically predict AU occurence on faces, we converged towards a neural network architecture inspired from VGG-16:</p>
+      <p>The recent hype on <strong>deep learning</strong> has revived the interest for artificial neural networks and their applications. I am involved in the co-supervision of PhD students working on this topic, but do not do active research on it.</p>
+<!--
+Here are some projects done lately.
+
+## Project 1 : Facial emotion recognition
+
+Facial expression recognition is an important research field in computer vision. Although detecting facial features is an easy task for a human, computers still have a hard time doing it. Factors such as interpersonal variation (gender, skin color), intrapersonal variation (pose, expression) and different recording conditions (image resolution, lighting) add to the complexity of the problem. This is particularly relevant in the context of emotion recognition, where systems should be able to automatically recognize in which emotional state humans are.
+
+On human faces, emotional expression heavily relies on the activation of individual facial muscles. A classical approach to describe facial expressions at the muscular level is the Facial Action Coding System (FACS) proposed by Ekman (1978). In this framework, movement of specific facial regions are described as Actions Units (AU), which basically describe deviations from a neutral expression. AUs are specific to facial regions (corner of the mouth or the eye, etc.). Although there are 69 AUs in the FACS theory, 28 of them are mostly useful for emotion recognition. We have focused on 12 of them: 1 (Inner Brow Raiser), 2 (Outer Brow Raiser), 4 (Brow Lowerer), 6 (Cheek Raiser), 7 (Lid Tightener), 10 (Upper Lip Raiser), 12 (Lip Corner Puller), 14 (Dimpler), 15 (Lip Corner Depressor), 17 (Chin Raiser), 23 (Lip Tightener), 24 (Lip Pressor).
+
+There are different training sets generally available to the community containing various number of FACS-annotated images, with different numbers of annotated AUs: CCK+, MMI, UNBC-McMaster PAIN, DUSFA, BP4D, SEMAINE, etc. The 12 selected AUs correspond to the annotated AUs in BP4D, which is the most massive dataset. The main interest of these AUs is that they are mostly sufficient to predict the occurence of the 6 basic emotions using the EMFACS correspondance table:
+
+| Emotion   |  Action Units     |
+| --------  |  ---------------  |
+| Happiness |  6, 12            |
+| Sadness   |  1, 4, 15         |
+| Surprise  |  1, 2, 5B, 26     |
+| Fear      |  1, 2, 4, 5, 7, 20, 26 |
+| Anger     |  4, 5, 7, 23      |
+| Disgust   |  9, 15, 16        |
+
+After investigating various architectures to automatically predict AU occurence on faces, we converged towards a neural network architecture inspired from VGG-16:
+
 
 
 
@@ -820,10 +803,10 @@
 <figure id="figure-convolutional-neural-network-for-facs-recognition">
 
 
-  <a data-fancybox="" href="/project/deeplearning/model_hufd6724ac2b696e61ce0911e529a47b91_57163_2000x2000_fit_lanczos_2.png" data-caption="Convolutional Neural Network for FACS recognition.">
+  <a data-fancybox="" href="/project/deeplearning/model_hufd6724ac2b696e61ce0911e529a47b91_57163_2000x2000_fit_lanczos_3.png" data-caption="Convolutional Neural Network for FACS recognition.">
 
 
-  <img data-src="/project/deeplearning/model_hufd6724ac2b696e61ce0911e529a47b91_57163_2000x2000_fit_lanczos_2.png" class="lazyload" alt="" width="1350" height="339">
+  <img data-src="/project/deeplearning/model_hufd6724ac2b696e61ce0911e529a47b91_57163_2000x2000_fit_lanczos_3.png" class="lazyload" alt="" width="1350" height="339">
 </a>
 
 
@@ -836,8 +819,11 @@
 
 </figure>
 
-<p>It consists of 4 convolutional blocks, each composed of 2 convolutional layers (kernel size 3x3, ReLU activation function) and a max-pooling layers (2x2). A dropout layer with p=0.2 is added after the max-pooling. After 4 such convolutional blocks with increasing numbers of features (32, 64, 126 and 256), the last tensor (6x6x256) is flattened into a vector of 9216 elements and projected on a fully connected layer of 500 neurons. The output layer has 12 neurons using the sigmoid activation function, each representing one of the 12 AUs present in the combined dataset. The network has a total of 5.786.192 trainable parameters (weights and biases), what makes it a middle-sized deep network that can fit into the available GPUs at the lab. The model was trained over 120 epochs using Stochastic Gradient Descent (SGD) on minibatches of 128 samples, with a learning rate of 0.01 and a Nesterov momentum of 0.9. The network has successfully learned the training data (final loss of 0.02) and has only very slightly overfitted. F1 scores for each AU on the test set are well over 0.9.</p>
-<p>The video below shows the performance of the network in real conditions. The detected AUs are in the top-left corner, the recognized emotion in the bottom-left one.</p>
+
+It consists of 4 convolutional blocks, each composed of 2 convolutional layers (kernel size 3x3, ReLU activation function) and a max-pooling layers (2x2). A dropout layer with p=0.2 is added after the max-pooling. After 4 such convolutional blocks with increasing numbers of features (32, 64, 126 and 256), the last tensor (6x6x256) is flattened into a vector of 9216 elements and projected on a fully connected layer of 500 neurons. The output layer has 12 neurons using the sigmoid activation function, each representing one of the 12 AUs present in the combined dataset. The network has a total of 5.786.192 trainable parameters (weights and biases), what makes it a middle-sized deep network that can fit into the available GPUs at the lab. The model was trained over 120 epochs using Stochastic Gradient Descent (SGD) on minibatches of 128 samples, with a learning rate of 0.01 and a Nesterov momentum of 0.9. The network has successfully learned the training data (final loss of 0.02) and has only very slightly overfitted. F1 scores for each AU on the test set are well over 0.9.
+
+The video below shows the performance of the network in real conditions. The detected AUs are in the top-left corner, the recognized emotion in the bottom-left one.
+
 
 
 
@@ -858,14 +844,21 @@
 <video controls >
   <source src="demo.mp4" type="video/mp4">
 </video>
-<h2 id="project-2--scene-understanding">Project 2 : Scene understanding</h2>
-<p>Recurrent neural networks coupled with attentional mechanisms have the ability to sequentially focus of the relevant parts of a visual scene. Coupled with a language production network, scene understanding abilities can be improved by finding the spatial location of the important objects in a scene while describing it.</p>
-<p>The idea of the work done by Saransh Vora during his Master thesis in 2018 at the professorship was to study and reimplement the Show, attend and tell model of (Xu et al 2015, arXiv:1502.03044). The attentional signal is used to locate the most important objects of the sentence in the image, and have a Nao point at them while pronouncing the sentence.</p>
+
+
+## Project 2 : Scene understanding
+
+Recurrent neural networks coupled with attentional mechanisms have the ability to sequentially focus of the relevant parts of a visual scene. Coupled with a language production network, scene understanding abilities can be improved by finding the spatial location of the important objects in a scene while describing it.
+
+The idea of the work done by Saransh Vora during his Master thesis in 2018 at the professorship was to study and reimplement the Show, attend and tell model of (Xu et al 2015, arXiv:1502.03044). The attentional signal is used to locate the most important objects of the sentence in the image, and have a Nao point at them while pronouncing the sentence.
+
 
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
   <iframe src="https://www.youtube.com/embed/dupgWkoA78c" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
 </div>
 
+
+-->
 
     </div>
 
@@ -1770,7 +1763,7 @@
   
 
   <p class="powered-by">
-    © Julien Vitay 2021
+    © Julien Vitay 2022
   </p>
 
   

@@ -5,28 +5,28 @@
     <link>https://julien-vitay.net/slides/</link>
       <atom:link href="https://julien-vitay.net/slides/index.xml" rel="self" type="application/rss+xml" />
     <description>Slides</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Julien Vitay 2021</copyright>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Julien Vitay 2022</copyright>
     <item>
       <title>Introduction to ANNarchy</title>
       <link>https://julien-vitay.net/slides/annarchy/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://julien-vitay.net/slides/annarchy/</guid>
-      <description>&lt;p&gt;&lt;img style=&#34;width:40%; min-width:320px&#34; src=&#34;img/tuc.png&#34; /&gt;&lt;/p&gt;
+      <description>&lt;img style=&#34;width:40%; min-width:320px&#34; src=&#34;img/tuc.png&#34; /&gt;
 &lt;h1 id=&#34;annarchy-artificial-neural-networks-architect&#34;&gt;ANNarchy (Artificial Neural Networks architect)&lt;/h1&gt;
 &lt;h1 id=&#34;julien-vitay&#34;&gt;Julien Vitay&lt;/h1&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;annarchy-artificial-neural-networks-architect-1&#34;&gt;ANNarchy (Artificial Neural Networks architect)&lt;/h2&gt;
 &lt;p&gt;Source code:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://bitbucket.org/annarchy/annarchy&#34;&gt;https://bitbucket.org/annarchy/annarchy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bitbucket.org/annarchy/annarchy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bitbucket.org/annarchy/annarchy&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Documentation:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/&#34;&gt;https://annarchy.readthedocs.io/en/stable/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://annarchy.readthedocs.io/en/stable/&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Forum:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://groups.google.com/forum/#!forum/annarchy&#34;&gt;https://groups.google.com/forum/#!forum/annarchy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://groups.google.com/forum/#!forum/annarchy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://groups.google.com/forum/#!forum/annarchy&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Notebooks used in this tutorial:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/vitay/ANNarchy-notebooks&#34;&gt;https://github.com/vitay/ANNarchy-notebooks&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/vitay/ANNarchy-notebooks&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/vitay/ANNarchy-notebooks&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;installation&#34;&gt;Installation&lt;/h2&gt;
-&lt;p&gt;Installation guide: &lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/intro/Installation.html&#34;&gt;https://annarchy.readthedocs.io/en/stable/intro/Installation.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Installation guide: &lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/intro/Installation.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://annarchy.readthedocs.io/en/stable/intro/Installation.html&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;From pip:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;pip install ANNarchy
 &lt;/code&gt;&lt;/pre&gt;
@@ -58,9 +58,9 @@ python setup.py install
 &lt;p&gt;Synaptic, intrinsic and structural plasticity mechanisms.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;img style=&#34;width:40%; min-width:320px&#34; src=&#34;img/annarchy.svg&#34; /&gt;&lt;/p&gt;
+&lt;img style=&#34;width:40%; min-width:320px&#34; src=&#34;img/annarchy.svg&#34; /&gt;
 &lt;hr&gt;
-&lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;img/annarchy.svg&#34; /&gt;&lt;/p&gt;
+&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;img/annarchy.svg&#34; /&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;structure-of-a-script&#34;&gt;Structure of a script&lt;/h2&gt;
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;from ANNarchy import *
@@ -87,7 +87,7 @@ data = m.get(&#39;spike&#39;) # Retrieve the data and plot it
 &lt;h1 id=&#34;1---rate-coded-networks&#34;&gt;1 - Rate-coded networks&lt;/h1&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;example-1--echo-state-network&#34;&gt;Example 1 : Echo-State Network&lt;/h2&gt;
-&lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;img/rc.jpg&#34; /&gt;&lt;/p&gt;
+&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;img/rc.jpg&#34; /&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;echo-state-network&#34;&gt;Echo-State Network&lt;/h2&gt;
 &lt;p&gt;ESN rate-coded neurons typically follow first-order ODEs:&lt;/p&gt;
@@ -148,7 +148,7 @@ ESN_Neuron = Neuron(
     tau * dx/dt = - x
     dx/dt = (-x)/tau
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Several numerical methods are available (&lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/manual/NumericalMethods.html&#34;&gt;https://annarchy.readthedocs.io/en/stable/manual/NumericalMethods.html&lt;/a&gt;):&lt;/p&gt;
+&lt;p&gt;Several numerical methods are available (&lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/manual/NumericalMethods.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://annarchy.readthedocs.io/en/stable/manual/NumericalMethods.html&lt;/a&gt;):&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
 &lt;p&gt;Explicit (forward) Euler (default): &lt;code&gt;tau * dx/dt + x = 0.0 : init=0.0, explicit&lt;/code&gt;&lt;/p&gt;
@@ -249,7 +249,7 @@ proj.connect_from_sparse(w)
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;simulate(1000.) # 1 second
 &lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;You can also run a simulation until a criteria is filled, check:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/manual/Simulation.html#early-stopping&#34;&gt;https://annarchy.readthedocs.io/en/stable/manual/Simulation.html#early-stopping&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://annarchy.readthedocs.io/en/stable/manual/Simulation.html#early-stopping&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://annarchy.readthedocs.io/en/stable/manual/Simulation.html#early-stopping&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;monitoring&#34;&gt;Monitoring&lt;/h2&gt;
 &lt;p&gt;By default, a simulation is run in C++ without interaction with Python.&lt;/p&gt;
@@ -267,7 +267,7 @@ recorded_w = n.get(&#39;w&#39;)
 &lt;hr&gt;
 &lt;h1 id=&#34;example-1-echo-state-network&#34;&gt;Example 1: Echo-State Network&lt;/h1&gt;
 &lt;p&gt;Link to the Jupyter notebook on github: &lt;a href=&#34;https://github.com/vitay/ANNarchy-notebooks/blob/master/notebooks/RC.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;RC.ipynb&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;img/rc.jpg&#34; /&gt;&lt;/p&gt;
+&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;img/rc.jpg&#34; /&gt;
 &lt;hr&gt;
 &lt;h1 id=&#34;2---spiking-networks&#34;&gt;2 - Spiking networks&lt;/h1&gt;
 &lt;hr&gt;
@@ -337,7 +337,7 @@ recorded_w = n.get(&#39;w&#39;)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;conductances--currents-2&#34;&gt;Conductances / currents&lt;/h2&gt;
-&lt;p&gt;&lt;img style=&#34;width:50%; min-width:320px&#34; src=&#34;img/synaptictransmission.png&#34; /&gt;&lt;/p&gt;
+&lt;img style=&#34;width:50%; min-width:320px&#34; src=&#34;img/synaptictransmission.png&#34; /&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;example-2-adex---adaptive-exponential-neuron&#34;&gt;Example 2: AdEx - Adaptive exponential neuron&lt;/h2&gt;
 &lt;p&gt;Link to the Jupyter notebook on github: &lt;a href=&#34;https://github.com/vitay/ANNarchy-notebooks/blob/master/notebooks/AdEx.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AdEx.ipynb&lt;/a&gt;&lt;/p&gt;
@@ -403,7 +403,7 @@ proj.theta
 &lt;hr&gt;
 &lt;h2 id=&#34;example-3-miconis-reward-modulated-rc-network&#34;&gt;Example 3: Miconi&amp;rsquo;s reward modulated RC network&lt;/h2&gt;
 &lt;p&gt;Link to the Jupyter notebook on github: &lt;a href=&#34;https://github.com/vitay/ANNarchy-notebooks/blob/master/notebooks/Miconi.ipynb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Miconi.ipynb&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img style=&#34;width:70%; min-width:320px&#34; src=&#34;img/miconi.png&#34; /&gt;&lt;/p&gt;
+&lt;img style=&#34;width:70%; min-width:320px&#34; src=&#34;img/miconi.png&#34; /&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;spiking-synapses--example-of-short-term-plasticity-stp&#34;&gt;Spiking synapses : Example of Short-term plasticity (STP)&lt;/h2&gt;
 &lt;p&gt;Spiking synapses can define a &lt;code&gt;pre_spike&lt;/code&gt; field, defining what happens when a pre-synaptic spike arrives at the synapse.&lt;/p&gt;
@@ -451,7 +451,7 @@ proj.theta
 &lt;/code&gt;&lt;/pre&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;spiking-synapses--example-of-spike-timing-dependent-plasticity-stdp-1&#34;&gt;Spiking synapses : Example of Spike-Timing Dependent plasticity (STDP)&lt;/h2&gt;
-&lt;p&gt;&lt;img style=&#34;width:70%; min-width:320px&#34; src=&#34;img/stdp.png&#34; /&gt;&lt;/p&gt;
+&lt;img style=&#34;width:70%; min-width:320px&#34; src=&#34;img/stdp.png&#34; /&gt;
 &lt;hr&gt;
 &lt;h2 id=&#34;and-much-more&#34;&gt;And much more&amp;hellip;&lt;/h2&gt;
 &lt;ul&gt;
@@ -483,7 +483,7 @@ proj.theta
 &lt;p&gt;Structural plasticity.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;RTFD: &lt;a href=&#34;https://annarchy.readthedocs.io&#34;&gt;https://annarchy.readthedocs.io&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;RTFD: &lt;a href=&#34;https://annarchy.readthedocs.io&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://annarchy.readthedocs.io&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

@@ -5,9 +5,9 @@
     <link>https://julien-vitay.net/tag/computational-neuroscience/</link>
       <atom:link href="https://julien-vitay.net/tag/computational-neuroscience/index.xml" rel="self" type="application/rss+xml" />
     <description>computational neuroscience</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Julien Vitay 2021</copyright><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Julien Vitay 2022</copyright><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>computational neuroscience</title>
       <link>https://julien-vitay.net/tag/computational-neuroscience/</link>
     </image>
@@ -15,7 +15,7 @@
     <item>
       <title>ANNarchy</title>
       <link>https://julien-vitay.net/project/annarchy/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://julien-vitay.net/project/annarchy/</guid>
       <description>&lt;p&gt;Neuro-computational models are different from classical neural networks (deep learning) in many aspects:&lt;/p&gt;
 &lt;ul&gt;
@@ -27,12 +27,12 @@
 &lt;p&gt;The increasing size of such networks asks for efficient parallel simulations, using distributed systems (OpenMP, MPI) or GPUs (CUDA). However, computational neuroscientists cannot be expected to be also experts in parallel computing. There is a need for a general-purpose neuro-simulator, with an easy but flexible interface allowing to define a huge variety of models, but which is internally efficient and allows for fast parallel simulations on various hardwares.&lt;/p&gt;
 &lt;p&gt;Over many years, we have developed &lt;strong&gt;ANNarchy&lt;/strong&gt; (Artificial Neural Networks architect), a parallel simulator for distributed rate-coded or spiking neural networks. The definition of the models is made in Python, but the library generates optimized C++ code to actually run the simulation on parallel hardware, using either openMP or CUDA. The current stable version is 4.6 and is released under the GNU GPL v2 or later.&lt;/p&gt;
 &lt;p&gt;The code is available at:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://bitbucket.org/annarchy/annarchy&#34;&gt;https://bitbucket.org/annarchy/annarchy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bitbucket.org/annarchy/annarchy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bitbucket.org/annarchy/annarchy&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The documentation is available at:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://annarchy.readthedocs.org&#34;&gt;https://annarchy.readthedocs.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://annarchy.readthedocs.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://annarchy.readthedocs.org&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;core-principles&#34;&gt;Core principles&lt;/h3&gt;
 &lt;p&gt;ANNarchy separates the description of a neural network from its simulation. The description is declared in a Python script, offering high flexibility and readability of the code, and allowing to use the huge ecosystem of scientific libraries available with Python (Numpy, Scipy, Matplotlib&amp;hellip;). Using Python furthermore reduces the programming effort to a minimum, letting the modeller concentrate on network design and data analysis.&lt;/p&gt;
-&lt;p&gt;&lt;img style=&#34;width:60%; min-width:320px&#34; src=&#34;annarchy.svg&#34; /&gt;&lt;/p&gt;
+&lt;img style=&#34;width:60%; min-width:320px&#34; src=&#34;annarchy.svg&#34; /&gt;
 &lt;p&gt;A neural network is defined as a collection of interconnected populations of neurons. Each population comprises a set of similar artificial neurons (rate-coded or spiking point-neurons), whose activity is ruled by one or many ordinary differential equations. The activity of a neuron depends on the activity of other neurons through synapses, whose strength can evolve with time depending on pre- or post-synaptic activities (synaptic plasticity). Populations are interconnected with each other through projections, which contain synapses between two populations.&lt;/p&gt;
 &lt;p&gt;ANNarchy provides a set of classical neuron or synapse models, but also allows the definition of specific models. The ordinary differential equations (ODE) governing neural or synaptic dynamics have to be specified by the modeler. Contrary to other simulators (except Brian) which require to code these modules in a low-level language, ANNarchy provides a mathematical equation parser which can generate optimized C++ code depending on the chosen parallel framework. Bindings from C++ to Python are generated thanks to Cython (C-extensions to Python), which is a static compiler for Python. These bindings allow the Python script to access all data generated by the simulation (neuronal activity, connection weights) as if they were simple Python attributes. However, the simulation itself is independent from Python and its relatively low performance.&lt;/p&gt;
 &lt;h3 id=&#34;example-of-a-pulse-coupled-network-of-izhikevich-neurons&#34;&gt;Example of a pulse-coupled network of Izhikevich neurons&lt;/h3&gt;
@@ -89,18 +89,18 @@ ax = plt.subplot(3,1,3)
 ax.plot(fr)
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/annarchy/izhikevich.png&#34; /&gt;&lt;/p&gt;
+&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/annarchy/izhikevich.png&#34; /&gt;
 </description>
     </item>
     
     <item>
       <title>Basal Ganglia</title>
       <link>https://julien-vitay.net/project/basalganglia/</link>
-      <pubDate>Sun, 01 Nov 2020 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://julien-vitay.net/project/basalganglia/</guid>
       <description>&lt;p&gt;The Basal Ganglia (BG) are a set of nuclei located in the basal forebrain, receiving inputs mostly from the cerebral cortex (especially the frontal lobe) and projecting on various motor centers, as well as back to the cortex through the thalamus, forming a closed-loop.&lt;/p&gt;
 &lt;p&gt;The main input station is the striatum, which can be anatomically divided into three parts: the nucleus accumbens (NAcc), the caudate nucleus (CN) and the putamen (PUT). Striatal neurons are excited by cortical activity and inhibit in turn the tonically active neurons of the output nuclei of the BG: the substantia nigra pars reticulata (SNr) and the internal segment of the globus pallidus (GPi). These output structures further inhibit some motor centers and thalamic nuclei.&lt;/p&gt;
-&lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/basalganglia/basalganglia.png&#34; /&gt;&lt;/p&gt;
+&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/basalganglia/basalganglia.png&#34; /&gt;
 &lt;p&gt;This double inhibition allows to selectively open some recurrent loops between the thalamus and the cortex, increasing the signal-to-noise ratio in the cortex and triggering movements or cognitive functions.&lt;/p&gt;
 &lt;p&gt;Other nuclei in the BG, such as the subthalamic nucleus (STN) and the external part of the globus pallidus (GPe), create functionally different pathways to allow for a more complex role of BG in adapting behavior.&lt;/p&gt;
 &lt;p&gt;The main characteristic of the BG is its dense innervation by dopaminergic (DA) cells in the substantia nigra pars compacta (SNc) and ventral tegmental area (VTA), whose firing is related to reward delivery and prediction. DA can modulate the activation and learning of most cells in the BG, placing it as a core structure in reinforcement learning processes.&lt;/p&gt;
@@ -110,19 +110,19 @@ plt.show()
     <item>
       <title>Dopaminergic system</title>
       <link>https://julien-vitay.net/project/dopamine/</link>
-      <pubDate>Tue, 01 Sep 2020 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 01 Sep 2020 00:00:00 +0000</pubDate>
       <guid>https://julien-vitay.net/project/dopamine/</guid>
       <description>&lt;p&gt;The dopaminergic system is composed of the &lt;em&gt;ventral tegmental area&lt;/em&gt; (VTA) and the &lt;em&gt;substantia nigra pars compacta&lt;/em&gt; (SNc). The neurotransmitter &lt;strong&gt;dopamine&lt;/strong&gt; (DA) released by neurons in these two small areas exerts a strong influence on neural excitability and plasticity in many brain areas: mostly the basal ganglia (BG), but also the prefrontal cortex, the hippocampus or the amygdala.&lt;/p&gt;
 &lt;p&gt;A striking feature of VTA cells is their response during classical (or Pavlovian) conditioning, as observed by Schultz et al (1998).  Early on, VTA cells respond phasically (a burst) to unconditioned stimuli (US, or rewards in operant conditioning). Gradually during learning, the amplitude of this response decreases, replaced by a response to the conditioned stimuli (CS) which are predictive of reward delivery. Moreover, if a reward is predicted by the CS but omitted, VTA cells show a brief depression of activity (a dip) at the time where the US was expected. This pattern resembles the temporal difference (TD) error signal used in reinforcement learning, what generated  multitudes of models based on that analogy.&lt;/p&gt;
 &lt;p&gt;What remains unclear is how VTA cells access information about the US, the CS and more importantly the time elapsed since CS onset. The goal of this research project is to investigate the mechanisms by which VTA is able to exhibit these properties, by looking at the afferent system to VTA. VTa indeed receives information from many brain areas, either directly as the rostromedial tegmental area (RMTg), the pedunculopontine nucleus (PPTN) or the nucleus accumbens (NAcc), or indirectly as the amygdala, the lateral habenula (LHb), the ventral pallidum (VP) or the ventromedial prefrontal cortex (vmPFC).&lt;/p&gt;
-&lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/dopamine/dopamine.jpg&#34; /&gt;&lt;/p&gt;
+&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/dopamine/dopamine.jpg&#34; /&gt;
 </description>
     </item>
     
     <item>
       <title>Predictive Place-Cell Sequences for Goal-Finding Emerge from Goal Memory and the Cognitive Map: A Computational Model</title>
       <link>https://julien-vitay.net/publication/goenner2017/</link>
-      <pubDate>Thu, 12 Oct 2017 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 12 Oct 2017 00:00:00 +0000</pubDate>
       <guid>https://julien-vitay.net/publication/goenner2017/</guid>
       <description>
 
@@ -150,10 +150,10 @@ plt.show()
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/publication/goenner2017/model_hua752f27e9743bc39ddb864b399f3604d_201823_2000x2000_fit_lanczos_2.png&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/publication/goenner2017/model_hua752f27e9743bc39ddb864b399f3604d_201823_2000x2000_fit_lanczos_3.png&#34; &gt;
 
 
-  &lt;img data-src=&#34;https://julien-vitay.net/publication/goenner2017/model_hua752f27e9743bc39ddb864b399f3604d_201823_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;641&#34; height=&#34;667&#34;&gt;
+  &lt;img data-src=&#34;https://julien-vitay.net/publication/goenner2017/model_hua752f27e9743bc39ddb864b399f3604d_201823_2000x2000_fit_lanczos_3.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;641&#34; height=&#34;667&#34;&gt;
 &lt;/a&gt;
 
 

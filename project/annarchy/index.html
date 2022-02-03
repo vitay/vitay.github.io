@@ -252,8 +252,8 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png">
 
   <link rel="canonical" href="https://julien-vitay.net/project/annarchy/">
 
@@ -276,9 +276,9 @@
   <meta property="twitter:image" content="https://julien-vitay.net/project/annarchy/featured.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-12-01T00:00:00&#43;01:00">
+      <meta property="article:published_time" content="2020-12-01T00:00:00&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-12-01T00:00:00&#43;01:00">
+    <meta property="article:modified_time" content="2020-12-01T00:00:00&#43;00:00">
   
 
   
@@ -308,8 +308,8 @@
     "https://julien-vitay.net/project/annarchy/featured.png"
   ],
   
-  "datePublished": "2020-12-01T00:00:00+01:00",
-  "dateModified": "2020-12-01T00:00:00+01:00",
+  "datePublished": "2020-12-01T00:00:00Z",
+  "dateModified": "2020-12-01T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -321,7 +321,7 @@
     "name": "Julien Vitay",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+      "url": "https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
   "description": "ANNarchy (Artificial Neural Networks architect) is a general-purpose parallel neuro-simulator for rate-coded or spiking neural networks."
@@ -817,12 +817,12 @@
 <p>The increasing size of such networks asks for efficient parallel simulations, using distributed systems (OpenMP, MPI) or GPUs (CUDA). However, computational neuroscientists cannot be expected to be also experts in parallel computing. There is a need for a general-purpose neuro-simulator, with an easy but flexible interface allowing to define a huge variety of models, but which is internally efficient and allows for fast parallel simulations on various hardwares.</p>
 <p>Over many years, we have developed <strong>ANNarchy</strong> (Artificial Neural Networks architect), a parallel simulator for distributed rate-coded or spiking neural networks. The definition of the models is made in Python, but the library generates optimized C++ code to actually run the simulation on parallel hardware, using either openMP or CUDA. The current stable version is 4.6 and is released under the GNU GPL v2 or later.</p>
 <p>The code is available at:</p>
-<p><a href="https://bitbucket.org/annarchy/annarchy">https://bitbucket.org/annarchy/annarchy</a></p>
+<p><a href="https://bitbucket.org/annarchy/annarchy" target="_blank" rel="noopener">https://bitbucket.org/annarchy/annarchy</a></p>
 <p>The documentation is available at:</p>
-<p><a href="https://annarchy.readthedocs.org">https://annarchy.readthedocs.org</a></p>
+<p><a href="https://annarchy.readthedocs.org" target="_blank" rel="noopener">https://annarchy.readthedocs.org</a></p>
 <h3 id="core-principles">Core principles</h3>
 <p>ANNarchy separates the description of a neural network from its simulation. The description is declared in a Python script, offering high flexibility and readability of the code, and allowing to use the huge ecosystem of scientific libraries available with Python (Numpy, Scipy, Matplotlib&hellip;). Using Python furthermore reduces the programming effort to a minimum, letting the modeller concentrate on network design and data analysis.</p>
-<p><img style="width:60%; min-width:320px" src="annarchy.svg" /></p>
+<img style="width:60%; min-width:320px" src="annarchy.svg" />
 <p>A neural network is defined as a collection of interconnected populations of neurons. Each population comprises a set of similar artificial neurons (rate-coded or spiking point-neurons), whose activity is ruled by one or many ordinary differential equations. The activity of a neuron depends on the activity of other neurons through synapses, whose strength can evolve with time depending on pre- or post-synaptic activities (synaptic plasticity). Populations are interconnected with each other through projections, which contain synapses between two populations.</p>
 <p>ANNarchy provides a set of classical neuron or synapse models, but also allows the definition of specific models. The ordinary differential equations (ODE) governing neural or synaptic dynamics have to be specified by the modeler. Contrary to other simulators (except Brian) which require to code these modules in a low-level language, ANNarchy provides a mathematical equation parser which can generate optimized C++ code depending on the chosen parallel framework. Bindings from C++ to Python are generated thanks to Cython (C-extensions to Python), which is a static compiler for Python. These bindings allow the Python script to access all data generated by the simulation (neuronal activity, connection weights) as if they were simple Python attributes. However, the simulation itself is independent from Python and its relatively low performance.</p>
 <h3 id="example-of-a-pulse-coupled-network-of-izhikevich-neurons">Example of a pulse-coupled network of Izhikevich neurons</h3>
@@ -879,7 +879,7 @@ ax = plt.subplot(3,1,3)
 ax.plot(fr)
 plt.show()
 </code></pre>
-<p><img style="width:80%; min-width:320px" src="/img/annarchy/izhikevich.png" /></p>
+<img style="width:80%; min-width:320px" src="/img/annarchy/izhikevich.png" />
 
     </div>
 
@@ -1613,7 +1613,7 @@ plt.show()
   
 
   <p class="powered-by">
-    © Julien Vitay 2021
+    © Julien Vitay 2022
   </p>
 
   

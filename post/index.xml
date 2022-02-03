@@ -5,9 +5,9 @@
     <link>https://julien-vitay.net/post/</link>
       <atom:link href="https://julien-vitay.net/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Julien Vitay 2021</copyright><lastBuildDate>Wed, 08 May 2019 07:32:46 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Julien Vitay 2022</copyright><lastBuildDate>Wed, 08 May 2019 07:32:46 +0100</lastBuildDate>
     <image>
-      <url>https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
       <link>https://julien-vitay.net/post/</link>
     </image>
@@ -252,10 +252,10 @@ $$
 &lt;figure id=&#34;figure-revaluation-score-in-the-reward-red-and-transition-blue-revaluation-conditions-for-the-model-free-mf-model-based-mb-successor-representation-sr-and-human-data-as-reported-in-momennejad-et-al-2017&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/post/successor_representations/sr_results_hu65846b00af6b77ff966d080c8d312ec7_27961_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Revaluation score in the reward (red) and transition (blue) revaluation conditions for the model-free (MF), model-based (MB), successor representation (SR) and human data as reported in Momennejad et al. (2017).&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/post/successor_representations/sr_results_hu65846b00af6b77ff966d080c8d312ec7_27961_2000x2000_fit_lanczos_3.png&#34; data-caption=&#34;Revaluation score in the reward (red) and transition (blue) revaluation conditions for the model-free (MF), model-based (MB), successor representation (SR) and human data as reported in Momennejad et al. (2017).&#34;&gt;
 
 
-  &lt;img data-src=&#34;https://julien-vitay.net/post/successor_representations/sr_results_hu65846b00af6b77ff966d080c8d312ec7_27961_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1500&#34; height=&#34;750&#34;&gt;
+  &lt;img data-src=&#34;https://julien-vitay.net/post/successor_representations/sr_results_hu65846b00af6b77ff966d080c8d312ec7_27961_2000x2000_fit_lanczos_3.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1500&#34; height=&#34;750&#34;&gt;
 &lt;/a&gt;
 
 
@@ -305,10 +305,10 @@ $$
 &lt;figure id=&#34;figure-place-field-on-a-linear-track-with-an-obstacle-at-x1-using-a-euclidian-model-left-and-the-sr-hypothesis-right-adapted-from-fig-2-of-stachenfeld-et-al-2017&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/post/successor_representations/sr_track_hu1f2516095a6aa51f59ace368fe696c1a_31468_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Place field on a linear track with an obstacle at x=1, using a Euclidian model (left) and the SR hypothesis (right). Adapted from Fig. 2 of (Stachenfeld et al., 2017).&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/post/successor_representations/sr_track_hu1f2516095a6aa51f59ace368fe696c1a_31468_2000x2000_fit_lanczos_3.png&#34; data-caption=&#34;Place field on a linear track with an obstacle at x=1, using a Euclidian model (left) and the SR hypothesis (right). Adapted from Fig. 2 of (Stachenfeld et al., 2017).&#34;&gt;
 
 
-  &lt;img data-src=&#34;https://julien-vitay.net/post/successor_representations/sr_track_hu1f2516095a6aa51f59ace368fe696c1a_31468_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1180&#34; height=&#34;611&#34;&gt;
+  &lt;img data-src=&#34;https://julien-vitay.net/post/successor_representations/sr_track_hu1f2516095a6aa51f59ace368fe696c1a_31468_2000x2000_fit_lanczos_3.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1180&#34; height=&#34;611&#34;&gt;
 &lt;/a&gt;
 
 
@@ -333,31 +333,31 @@ $$
 &lt;li&gt;How is the value of a state / action computed based on the SR representation in the hippocampus? Do sharp wave ripples (SWR, also called forward/inverse replays) actually sample the SR matrix (a list of achievable states from the current one), what is then integrated elsewhere (ventral striatum?) to guide behavior?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;p&gt;Barreto, A., Dabney, W., Munos, R., Hunt, J. J., Schaul, T., van Hasselt, H., et al. (2016). Successor Features for Transfer in Reinforcement Learning. arXiv:1606.05312. Available at: &lt;a href=&#34;http://arxiv.org/abs/1606.05312&#34;&gt;http://arxiv.org/abs/1606.05312&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Barreto, A., Dabney, W., Munos, R., Hunt, J. J., Schaul, T., van Hasselt, H., et al. (2016). Successor Features for Transfer in Reinforcement Learning. arXiv:1606.05312. Available at: &lt;a href=&#34;http://arxiv.org/abs/1606.05312&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://arxiv.org/abs/1606.05312&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Corbit, L. H., and Balleine, B. W. (2011). The general and outcome-specific forms of Pavlovian-instrumental transfer are differentially mediated by the nucleus accumbens core and shell. The Journal of neuroscience 31, 11786–94. doi:10.1523/JNEUROSCI.2711-11.2011.&lt;/p&gt;
 &lt;p&gt;Dayan, P. (1993). Improving Generalization for Temporal Difference Learning: The Successor Representation. Neural Computation 5, 613–624. doi:10.1162/neco.1993.5.4.613.&lt;/p&gt;
 &lt;p&gt;Dickinson, A., and Balleine, B. (2002). The role of learning in the operation of motivational systems. In: Gallistel CR, editor. Steven’s handbook of experimental psychology: learning, motivation and emotion . 3rd ed.New York: John Wiley &amp;amp; Sons, 497–534.&lt;/p&gt;
 &lt;p&gt;Doll, B. B., Simon, D. A., and Daw, N. D. (2012). The ubiquity of model-based reinforcement learning. Current Opinion in Neurobiology 22, 1075–1081. doi:10.1016/j.conb.2012.08.003.&lt;/p&gt;
-&lt;p&gt;Ducarouge, A., and Sigaud, O. (2017). The Successor Representation as a model of behavioural flexibility. In Journées Francophones sur la Planification, la Décision et l’Apprentissage pour la conduite de systèmes (JFPDA 2017). Caen, France. Available at: &lt;a href=&#34;https://hal.archives-ouvertes.fr/hal-01576352&#34;&gt;https://hal.archives-ouvertes.fr/hal-01576352&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ducarouge, A., and Sigaud, O. (2017). The Successor Representation as a model of behavioural flexibility. In Journées Francophones sur la Planification, la Décision et l’Apprentissage pour la conduite de systèmes (JFPDA 2017). Caen, France. Available at: &lt;a href=&#34;https://hal.archives-ouvertes.fr/hal-01576352&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://hal.archives-ouvertes.fr/hal-01576352&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Gardner, M. P. H., Schoenbaum, G., and Gershman, S. J. (2018). Rethinking dopamine as generalized prediction error. Proceedings of the Royal Society B: Biological Sciences 285, 20181645. doi:10.1098/rspb.2018.1645.&lt;/p&gt;
 &lt;p&gt;Gershman, S.J., Moore, C.D:, Todd, M.T., Norman, K.A., and Sederberg, P.B. (2012). The successor representation and temporal context. Neural Computation, 24(6):1553–1568, 2012.&lt;/p&gt;
 &lt;p&gt;Gershman, S. J. (2018). The Successor Representation: Its Computational Logic and Neural Substrates. The Journal of neuroscience : the official journal of the Society for Neuroscience 38, 7193–7200. doi:10.1523/JNEUROSCI.0151-18.2018.&lt;/p&gt;
 &lt;p&gt;Hafting, T., Fyhn, M., Molden, S., Moser, M.-B., and Moser, E. I. (2005). Microstructure of a spatial map in the entorhinal cortex. Nature 436, 801. doi:10.1038/nature03721.&lt;/p&gt;
-&lt;p&gt;Kulkarni, T. D., Saeedi, A., Gautam, S., and Gershman, S. J. (2016). Deep Successor Reinforcement Learning. arXiv:1606.02396. Available at: &lt;a href=&#34;http://arxiv.org/abs/1606.02396&#34;&gt;http://arxiv.org/abs/1606.02396&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Kulkarni, T. D., Saeedi, A., Gautam, S., and Gershman, S. J. (2016). Deep Successor Reinforcement Learning. arXiv:1606.02396. Available at: &lt;a href=&#34;http://arxiv.org/abs/1606.02396&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://arxiv.org/abs/1606.02396&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Lee, S. W., Shimojo, S., and O&amp;rsquo;Doherty J. P. (2014). Neural computations underlying arbitration between model-based and model-free learning. Neuron, 81(3), 687–699. doi:10.1016/j.neuron.2013.11.028.&lt;/p&gt;
-&lt;p&gt;Ma, C., Wen, J., and Bengio, Y. (2018). Universal Successor Representations for Transfer Reinforcement Learning. arXiv:1804.03758. Available at: &lt;a href=&#34;http://arxiv.org/abs/1804.03758&#34;&gt;http://arxiv.org/abs/1804.03758&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Machado, M. C., Bellemare, M. G., and Bowling, M. (2018). Count-Based Exploration with the Successor Representation. arXiv:1807.11622. Available at: &lt;a href=&#34;http://arxiv.org/abs/1807.11622&#34;&gt;http://arxiv.org/abs/1807.11622&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Miller, K., Ludvig, E. A., Pezzulo, G., and Shenhav, A. (2018). Re-aligning models of habitual and goal-directed decision-making. In Goal-Directed Decision Making : Computations and Neural Circuits, eds. A. Bornstein, R. W. Morris, and A. Shenhav (Academic Press). Available at: &lt;a href=&#34;https://www.elsevier.com/books/goal-directed-decision-making/morris/978-0-12-812098-9&#34;&gt;https://www.elsevier.com/books/goal-directed-decision-making/morris/978-0-12-812098-9&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ma, C., Wen, J., and Bengio, Y. (2018). Universal Successor Representations for Transfer Reinforcement Learning. arXiv:1804.03758. Available at: &lt;a href=&#34;http://arxiv.org/abs/1804.03758&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://arxiv.org/abs/1804.03758&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Machado, M. C., Bellemare, M. G., and Bowling, M. (2018). Count-Based Exploration with the Successor Representation. arXiv:1807.11622. Available at: &lt;a href=&#34;http://arxiv.org/abs/1807.11622&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://arxiv.org/abs/1807.11622&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Miller, K., Ludvig, E. A., Pezzulo, G., and Shenhav, A. (2018). Re-aligning models of habitual and goal-directed decision-making. In Goal-Directed Decision Making : Computations and Neural Circuits, eds. A. Bornstein, R. W. Morris, and A. Shenhav (Academic Press). Available at: &lt;a href=&#34;https://www.elsevier.com/books/goal-directed-decision-making/morris/978-0-12-812098-9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.elsevier.com/books/goal-directed-decision-making/morris/978-0-12-812098-9&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Momennejad, I., Russek, E. M., Cheong, J. H., Botvinick, M. M., Daw, N. D., and Gershman, S. J. (2017). The successor representation in human reinforcement learning. Nature Human Behaviour 1, 680–692. doi:10.1038/s41562-017-0180-8.&lt;/p&gt;
 &lt;p&gt;Oemisch, M., Westendorff, S., Azimi, M., Hassani, S. A., Ardid, S., Tiesinga, P., et al. (2019). Feature-specific prediction errors and surprise across macaque fronto-striatal circuits. Nature Communications 10, 176. doi:10.1038/s41467-018-08184-9.&lt;/p&gt;
 &lt;p&gt;O&amp;rsquo;Keefe, J., and Nadel, L. (1978). The hippocampus as a cognitive map. Oxford : New York: Clarendon Press ; Oxford University Press.&lt;/p&gt;
 &lt;p&gt;Russek, E. M., Momennejad, I., Botvinick, M. M., Gershman, S. J., and Daw, N. D. (2017). Predictive representations can link model-based reinforcement learning to model-free mechanisms. PLoS Computational Biology, 13, e1005768. doi:10.1371/journal.pcbi.1005768&lt;/p&gt;
 &lt;p&gt;Schultz, W. (1998). Predictive reward signal of dopamine neurons. J Neurophysiol 80, 1–27.&lt;/p&gt;
 &lt;p&gt;Stachenfeld, K. L., Botvinick, M. M., and Gershman, S. J. (2017). The hippocampus as a predictive map. Nature Neuroscience 20, 1643–1653. doi:10.1038/nn.4650.&lt;/p&gt;
-&lt;p&gt;Sutton, R. S., and Barto, A. G. (2017). Reinforcement Learning: An Introduction. 2nd ed. Cambridge, MA: MIT Press. Available at: &lt;a href=&#34;http://incompleteideas.net/book/the-book-2nd.html&#34;&gt;http://incompleteideas.net/book/the-book-2nd.html&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sutton, R. S., and Barto, A. G. (2017). Reinforcement Learning: An Introduction. 2nd ed. Cambridge, MA: MIT Press. Available at: &lt;a href=&#34;http://incompleteideas.net/book/the-book-2nd.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://incompleteideas.net/book/the-book-2nd.html&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Vitay, J., and Hamker, F. H. (2014). Timing and expectation of reward: A neuro-computational model of the afferents to the ventral tegmental area. Frontiers in Neurorobotics 8. doi:10.3389/fnbot.2014.00004.&lt;/p&gt;
 &lt;p&gt;Watabe-Uchida, M., and Uchida, N. (2019). Multiple Dopamine Systems: Weal and Woe of Dopamine. Cold Spring Harb Symp Quant Biol, 037648. doi:10.1101/sqb.2018.83.037648.&lt;/p&gt;
-&lt;p&gt;Zhang, J., Springenberg, J. T., Boedecker, J., and Burgard, W. (2016). Deep Reinforcement Learning with Successor Features for Navigation across Similar Environments. arXiv:1612.05533. Available at: &lt;a href=&#34;http://arxiv.org/abs/1612.05533&#34;&gt;http://arxiv.org/abs/1612.05533&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Zhang, J., Springenberg, J. T., Boedecker, J., and Burgard, W. (2016). Deep Reinforcement Learning with Successor Features for Navigation across Similar Environments. arXiv:1612.05533. Available at: &lt;a href=&#34;http://arxiv.org/abs/1612.05533&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://arxiv.org/abs/1612.05533&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

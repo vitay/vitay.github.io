@@ -5,9 +5,9 @@
     <link>https://julien-vitay.net/tag/machine-learning/</link>
       <atom:link href="https://julien-vitay.net/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Machine Learning</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Julien Vitay 2021</copyright><lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0200</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Julien Vitay 2022</copyright><lastBuildDate>Tue, 20 Oct 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Machine Learning</title>
       <link>https://julien-vitay.net/tag/machine-learning/</link>
     </image>
@@ -15,48 +15,31 @@
     <item>
       <title>Deep Learning</title>
       <link>https://julien-vitay.net/project/deeplearning/</link>
-      <pubDate>Tue, 20 Oct 2020 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 20 Oct 2020 00:00:00 +0000</pubDate>
       <guid>https://julien-vitay.net/project/deeplearning/</guid>
-      <description>&lt;p&gt;The recent hype on &lt;strong&gt;deep learning&lt;/strong&gt; has revived the interest for artificial neural networks and their applications. Here are some projects done lately.&lt;/p&gt;
-&lt;h2 id=&#34;project-1--facial-emotion-recognition&#34;&gt;Project 1 : Facial emotion recognition&lt;/h2&gt;
-&lt;p&gt;Facial expression recognition is an important research field in computer vision. Although detecting facial features is an easy task for a human, computers still have a hard time doing it. Factors such as interpersonal variation (gender, skin color), intrapersonal variation (pose, expression) and different recording conditions (image resolution, lighting) add to the complexity of the problem. This is particularly relevant in the context of emotion recognition, where systems should be able to automatically recognize in which emotional state humans are.&lt;/p&gt;
-&lt;p&gt;On human faces, emotional expression heavily relies on the activation of individual facial muscles. A classical approach to describe facial expressions at the muscular level is the Facial Action Coding System (FACS) proposed by Ekman (1978). In this framework, movement of specific facial regions are described as Actions Units (AU), which basically describe deviations from a neutral expression. AUs are specific to facial regions (corner of the mouth or the eye, etc.). Although there are 69 AUs in the FACS theory, 28 of them are mostly useful for emotion recognition. We have focused on 12 of them: 1 (Inner Brow Raiser), 2 (Outer Brow Raiser), 4 (Brow Lowerer), 6 (Cheek Raiser), 7 (Lid Tightener), 10 (Upper Lip Raiser), 12 (Lip Corner Puller), 14 (Dimpler), 15 (Lip Corner Depressor), 17 (Chin Raiser), 23 (Lip Tightener), 24 (Lip Pressor).&lt;/p&gt;
-&lt;p&gt;There are different training sets generally available to the community containing various number of FACS-annotated images, with different numbers of annotated AUs: CCK+, MMI, UNBC-McMaster PAIN, DUSFA, BP4D, SEMAINE, etc. The 12 selected AUs correspond to the annotated AUs in BP4D, which is the most massive dataset. The main interest of these AUs is that they are mostly sufficient to predict the occurence of the 6 basic emotions using the EMFACS correspondance table:&lt;/p&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Emotion&lt;/th&gt;
-&lt;th&gt;Action Units&lt;/th&gt;
-&lt;/tr&gt;
-&lt;/thead&gt;
-&lt;tbody&gt;
-&lt;tr&gt;
-&lt;td&gt;Happiness&lt;/td&gt;
-&lt;td&gt;6, 12&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Sadness&lt;/td&gt;
-&lt;td&gt;1, 4, 15&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Surprise&lt;/td&gt;
-&lt;td&gt;1, 2, 5B, 26&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Fear&lt;/td&gt;
-&lt;td&gt;1, 2, 4, 5, 7, 20, 26&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Anger&lt;/td&gt;
-&lt;td&gt;4, 5, 7, 23&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr&gt;
-&lt;td&gt;Disgust&lt;/td&gt;
-&lt;td&gt;9, 15, 16&lt;/td&gt;
-&lt;/tr&gt;
-&lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;After investigating various architectures to automatically predict AU occurence on faces, we converged towards a neural network architecture inspired from VGG-16:&lt;/p&gt;
+      <description>&lt;p&gt;The recent hype on &lt;strong&gt;deep learning&lt;/strong&gt; has revived the interest for artificial neural networks and their applications. I am involved in the co-supervision of PhD students working on this topic, but do not do active research on it.&lt;/p&gt;
+&lt;!--
+Here are some projects done lately.
+
+## Project 1 : Facial emotion recognition
+
+Facial expression recognition is an important research field in computer vision. Although detecting facial features is an easy task for a human, computers still have a hard time doing it. Factors such as interpersonal variation (gender, skin color), intrapersonal variation (pose, expression) and different recording conditions (image resolution, lighting) add to the complexity of the problem. This is particularly relevant in the context of emotion recognition, where systems should be able to automatically recognize in which emotional state humans are.
+
+On human faces, emotional expression heavily relies on the activation of individual facial muscles. A classical approach to describe facial expressions at the muscular level is the Facial Action Coding System (FACS) proposed by Ekman (1978). In this framework, movement of specific facial regions are described as Actions Units (AU), which basically describe deviations from a neutral expression. AUs are specific to facial regions (corner of the mouth or the eye, etc.). Although there are 69 AUs in the FACS theory, 28 of them are mostly useful for emotion recognition. We have focused on 12 of them: 1 (Inner Brow Raiser), 2 (Outer Brow Raiser), 4 (Brow Lowerer), 6 (Cheek Raiser), 7 (Lid Tightener), 10 (Upper Lip Raiser), 12 (Lip Corner Puller), 14 (Dimpler), 15 (Lip Corner Depressor), 17 (Chin Raiser), 23 (Lip Tightener), 24 (Lip Pressor).
+
+There are different training sets generally available to the community containing various number of FACS-annotated images, with different numbers of annotated AUs: CCK+, MMI, UNBC-McMaster PAIN, DUSFA, BP4D, SEMAINE, etc. The 12 selected AUs correspond to the annotated AUs in BP4D, which is the most massive dataset. The main interest of these AUs is that they are mostly sufficient to predict the occurence of the 6 basic emotions using the EMFACS correspondance table:
+
+| Emotion   |  Action Units     |
+| --------  |  ---------------  |
+| Happiness |  6, 12            |
+| Sadness   |  1, 4, 15         |
+| Surprise  |  1, 2, 5B, 26     |
+| Fear      |  1, 2, 4, 5, 7, 20, 26 |
+| Anger     |  4, 5, 7, 23      |
+| Disgust   |  9, 15, 16        |
+
+After investigating various architectures to automatically predict AU occurence on faces, we converged towards a neural network architecture inspired from VGG-16:
+
 
 
 
@@ -83,10 +66,10 @@
 &lt;figure id=&#34;figure-convolutional-neural-network-for-facs-recognition&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/project/deeplearning/model_hufd6724ac2b696e61ce0911e529a47b91_57163_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Convolutional Neural Network for FACS recognition.&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/project/deeplearning/model_hufd6724ac2b696e61ce0911e529a47b91_57163_2000x2000_fit_lanczos_3.png&#34; data-caption=&#34;Convolutional Neural Network for FACS recognition.&#34;&gt;
 
 
-  &lt;img data-src=&#34;https://julien-vitay.net/project/deeplearning/model_hufd6724ac2b696e61ce0911e529a47b91_57163_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1350&#34; height=&#34;339&#34;&gt;
+  &lt;img data-src=&#34;https://julien-vitay.net/project/deeplearning/model_hufd6724ac2b696e61ce0911e529a47b91_57163_2000x2000_fit_lanczos_3.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1350&#34; height=&#34;339&#34;&gt;
 &lt;/a&gt;
 
 
@@ -99,8 +82,11 @@
 
 &lt;/figure&gt;
 
-&lt;p&gt;It consists of 4 convolutional blocks, each composed of 2 convolutional layers (kernel size 3x3, ReLU activation function) and a max-pooling layers (2x2). A dropout layer with p=0.2 is added after the max-pooling. After 4 such convolutional blocks with increasing numbers of features (32, 64, 126 and 256), the last tensor (6x6x256) is flattened into a vector of 9216 elements and projected on a fully connected layer of 500 neurons. The output layer has 12 neurons using the sigmoid activation function, each representing one of the 12 AUs present in the combined dataset. The network has a total of 5.786.192 trainable parameters (weights and biases), what makes it a middle-sized deep network that can fit into the available GPUs at the lab. The model was trained over 120 epochs using Stochastic Gradient Descent (SGD) on minibatches of 128 samples, with a learning rate of 0.01 and a Nesterov momentum of 0.9. The network has successfully learned the training data (final loss of 0.02) and has only very slightly overfitted. F1 scores for each AU on the test set are well over 0.9.&lt;/p&gt;
-&lt;p&gt;The video below shows the performance of the network in real conditions. The detected AUs are in the top-left corner, the recognized emotion in the bottom-left one.&lt;/p&gt;
+
+It consists of 4 convolutional blocks, each composed of 2 convolutional layers (kernel size 3x3, ReLU activation function) and a max-pooling layers (2x2). A dropout layer with p=0.2 is added after the max-pooling. After 4 such convolutional blocks with increasing numbers of features (32, 64, 126 and 256), the last tensor (6x6x256) is flattened into a vector of 9216 elements and projected on a fully connected layer of 500 neurons. The output layer has 12 neurons using the sigmoid activation function, each representing one of the 12 AUs present in the combined dataset. The network has a total of 5.786.192 trainable parameters (weights and biases), what makes it a middle-sized deep network that can fit into the available GPUs at the lab. The model was trained over 120 epochs using Stochastic Gradient Descent (SGD) on minibatches of 128 samples, with a learning rate of 0.01 and a Nesterov momentum of 0.9. The network has successfully learned the training data (final loss of 0.02) and has only very slightly overfitted. F1 scores for each AU on the test set are well over 0.9.
+
+The video below shows the performance of the network in real conditions. The detected AUs are in the top-left corner, the recognized emotion in the bottom-left one.
+
 
 
 
@@ -121,14 +107,21 @@
 &lt;video controls &gt;
   &lt;source src=&#34;demo.mp4&#34; type=&#34;video/mp4&#34;&gt;
 &lt;/video&gt;
-&lt;h2 id=&#34;project-2--scene-understanding&#34;&gt;Project 2 : Scene understanding&lt;/h2&gt;
-&lt;p&gt;Recurrent neural networks coupled with attentional mechanisms have the ability to sequentially focus of the relevant parts of a visual scene. Coupled with a language production network, scene understanding abilities can be improved by finding the spatial location of the important objects in a scene while describing it.&lt;/p&gt;
-&lt;p&gt;The idea of the work done by Saransh Vora during his Master thesis in 2018 at the professorship was to study and reimplement the Show, attend and tell model of (Xu et al 2015, arXiv:1502.03044). The attentional signal is used to locate the most important objects of the sentence in the image, and have a Nao point at them while pronouncing the sentence.&lt;/p&gt;
+
+
+## Project 2 : Scene understanding
+
+Recurrent neural networks coupled with attentional mechanisms have the ability to sequentially focus of the relevant parts of a visual scene. Coupled with a language production network, scene understanding abilities can be improved by finding the spatial location of the important objects in a scene while describing it.
+
+The idea of the work done by Saransh Vora during his Master thesis in 2018 at the professorship was to study and reimplement the Show, attend and tell model of (Xu et al 2015, arXiv:1502.03044). The attentional signal is used to locate the most important objects of the sentence in the image, and have a Nao point at them while pronouncing the sentence.
+
 
 &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
   &lt;iframe src=&#34;https://www.youtube.com/embed/dupgWkoA78c&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
 &lt;/div&gt;
 
+
+--&gt;
 </description>
     </item>
     
@@ -372,10 +365,10 @@ $$
 &lt;figure id=&#34;figure-revaluation-score-in-the-reward-red-and-transition-blue-revaluation-conditions-for-the-model-free-mf-model-based-mb-successor-representation-sr-and-human-data-as-reported-in-momennejad-et-al-2017&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/post/successor_representations/sr_results_hu65846b00af6b77ff966d080c8d312ec7_27961_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Revaluation score in the reward (red) and transition (blue) revaluation conditions for the model-free (MF), model-based (MB), successor representation (SR) and human data as reported in Momennejad et al. (2017).&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/post/successor_representations/sr_results_hu65846b00af6b77ff966d080c8d312ec7_27961_2000x2000_fit_lanczos_3.png&#34; data-caption=&#34;Revaluation score in the reward (red) and transition (blue) revaluation conditions for the model-free (MF), model-based (MB), successor representation (SR) and human data as reported in Momennejad et al. (2017).&#34;&gt;
 
 
-  &lt;img data-src=&#34;https://julien-vitay.net/post/successor_representations/sr_results_hu65846b00af6b77ff966d080c8d312ec7_27961_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1500&#34; height=&#34;750&#34;&gt;
+  &lt;img data-src=&#34;https://julien-vitay.net/post/successor_representations/sr_results_hu65846b00af6b77ff966d080c8d312ec7_27961_2000x2000_fit_lanczos_3.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1500&#34; height=&#34;750&#34;&gt;
 &lt;/a&gt;
 
 
@@ -425,10 +418,10 @@ $$
 &lt;figure id=&#34;figure-place-field-on-a-linear-track-with-an-obstacle-at-x1-using-a-euclidian-model-left-and-the-sr-hypothesis-right-adapted-from-fig-2-of-stachenfeld-et-al-2017&#34;&gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/post/successor_representations/sr_track_hu1f2516095a6aa51f59ace368fe696c1a_31468_2000x2000_fit_lanczos_2.png&#34; data-caption=&#34;Place field on a linear track with an obstacle at x=1, using a Euclidian model (left) and the SR hypothesis (right). Adapted from Fig. 2 of (Stachenfeld et al., 2017).&#34;&gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/post/successor_representations/sr_track_hu1f2516095a6aa51f59ace368fe696c1a_31468_2000x2000_fit_lanczos_3.png&#34; data-caption=&#34;Place field on a linear track with an obstacle at x=1, using a Euclidian model (left) and the SR hypothesis (right). Adapted from Fig. 2 of (Stachenfeld et al., 2017).&#34;&gt;
 
 
-  &lt;img data-src=&#34;https://julien-vitay.net/post/successor_representations/sr_track_hu1f2516095a6aa51f59ace368fe696c1a_31468_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1180&#34; height=&#34;611&#34;&gt;
+  &lt;img data-src=&#34;https://julien-vitay.net/post/successor_representations/sr_track_hu1f2516095a6aa51f59ace368fe696c1a_31468_2000x2000_fit_lanczos_3.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;1180&#34; height=&#34;611&#34;&gt;
 &lt;/a&gt;
 
 
@@ -453,31 +446,31 @@ $$
 &lt;li&gt;How is the value of a state / action computed based on the SR representation in the hippocampus? Do sharp wave ripples (SWR, also called forward/inverse replays) actually sample the SR matrix (a list of achievable states from the current one), what is then integrated elsewhere (ventral striatum?) to guide behavior?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id=&#34;references&#34;&gt;References&lt;/h2&gt;
-&lt;p&gt;Barreto, A., Dabney, W., Munos, R., Hunt, J. J., Schaul, T., van Hasselt, H., et al. (2016). Successor Features for Transfer in Reinforcement Learning. arXiv:1606.05312. Available at: &lt;a href=&#34;http://arxiv.org/abs/1606.05312&#34;&gt;http://arxiv.org/abs/1606.05312&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Barreto, A., Dabney, W., Munos, R., Hunt, J. J., Schaul, T., van Hasselt, H., et al. (2016). Successor Features for Transfer in Reinforcement Learning. arXiv:1606.05312. Available at: &lt;a href=&#34;http://arxiv.org/abs/1606.05312&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://arxiv.org/abs/1606.05312&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Corbit, L. H., and Balleine, B. W. (2011). The general and outcome-specific forms of Pavlovian-instrumental transfer are differentially mediated by the nucleus accumbens core and shell. The Journal of neuroscience 31, 11786–94. doi:10.1523/JNEUROSCI.2711-11.2011.&lt;/p&gt;
 &lt;p&gt;Dayan, P. (1993). Improving Generalization for Temporal Difference Learning: The Successor Representation. Neural Computation 5, 613–624. doi:10.1162/neco.1993.5.4.613.&lt;/p&gt;
 &lt;p&gt;Dickinson, A., and Balleine, B. (2002). The role of learning in the operation of motivational systems. In: Gallistel CR, editor. Steven’s handbook of experimental psychology: learning, motivation and emotion . 3rd ed.New York: John Wiley &amp;amp; Sons, 497–534.&lt;/p&gt;
 &lt;p&gt;Doll, B. B., Simon, D. A., and Daw, N. D. (2012). The ubiquity of model-based reinforcement learning. Current Opinion in Neurobiology 22, 1075–1081. doi:10.1016/j.conb.2012.08.003.&lt;/p&gt;
-&lt;p&gt;Ducarouge, A., and Sigaud, O. (2017). The Successor Representation as a model of behavioural flexibility. In Journées Francophones sur la Planification, la Décision et l’Apprentissage pour la conduite de systèmes (JFPDA 2017). Caen, France. Available at: &lt;a href=&#34;https://hal.archives-ouvertes.fr/hal-01576352&#34;&gt;https://hal.archives-ouvertes.fr/hal-01576352&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ducarouge, A., and Sigaud, O. (2017). The Successor Representation as a model of behavioural flexibility. In Journées Francophones sur la Planification, la Décision et l’Apprentissage pour la conduite de systèmes (JFPDA 2017). Caen, France. Available at: &lt;a href=&#34;https://hal.archives-ouvertes.fr/hal-01576352&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://hal.archives-ouvertes.fr/hal-01576352&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Gardner, M. P. H., Schoenbaum, G., and Gershman, S. J. (2018). Rethinking dopamine as generalized prediction error. Proceedings of the Royal Society B: Biological Sciences 285, 20181645. doi:10.1098/rspb.2018.1645.&lt;/p&gt;
 &lt;p&gt;Gershman, S.J., Moore, C.D:, Todd, M.T., Norman, K.A., and Sederberg, P.B. (2012). The successor representation and temporal context. Neural Computation, 24(6):1553–1568, 2012.&lt;/p&gt;
 &lt;p&gt;Gershman, S. J. (2018). The Successor Representation: Its Computational Logic and Neural Substrates. The Journal of neuroscience : the official journal of the Society for Neuroscience 38, 7193–7200. doi:10.1523/JNEUROSCI.0151-18.2018.&lt;/p&gt;
 &lt;p&gt;Hafting, T., Fyhn, M., Molden, S., Moser, M.-B., and Moser, E. I. (2005). Microstructure of a spatial map in the entorhinal cortex. Nature 436, 801. doi:10.1038/nature03721.&lt;/p&gt;
-&lt;p&gt;Kulkarni, T. D., Saeedi, A., Gautam, S., and Gershman, S. J. (2016). Deep Successor Reinforcement Learning. arXiv:1606.02396. Available at: &lt;a href=&#34;http://arxiv.org/abs/1606.02396&#34;&gt;http://arxiv.org/abs/1606.02396&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Kulkarni, T. D., Saeedi, A., Gautam, S., and Gershman, S. J. (2016). Deep Successor Reinforcement Learning. arXiv:1606.02396. Available at: &lt;a href=&#34;http://arxiv.org/abs/1606.02396&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://arxiv.org/abs/1606.02396&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Lee, S. W., Shimojo, S., and O&amp;rsquo;Doherty J. P. (2014). Neural computations underlying arbitration between model-based and model-free learning. Neuron, 81(3), 687–699. doi:10.1016/j.neuron.2013.11.028.&lt;/p&gt;
-&lt;p&gt;Ma, C., Wen, J., and Bengio, Y. (2018). Universal Successor Representations for Transfer Reinforcement Learning. arXiv:1804.03758. Available at: &lt;a href=&#34;http://arxiv.org/abs/1804.03758&#34;&gt;http://arxiv.org/abs/1804.03758&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Machado, M. C., Bellemare, M. G., and Bowling, M. (2018). Count-Based Exploration with the Successor Representation. arXiv:1807.11622. Available at: &lt;a href=&#34;http://arxiv.org/abs/1807.11622&#34;&gt;http://arxiv.org/abs/1807.11622&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;Miller, K., Ludvig, E. A., Pezzulo, G., and Shenhav, A. (2018). Re-aligning models of habitual and goal-directed decision-making. In Goal-Directed Decision Making : Computations and Neural Circuits, eds. A. Bornstein, R. W. Morris, and A. Shenhav (Academic Press). Available at: &lt;a href=&#34;https://www.elsevier.com/books/goal-directed-decision-making/morris/978-0-12-812098-9&#34;&gt;https://www.elsevier.com/books/goal-directed-decision-making/morris/978-0-12-812098-9&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ma, C., Wen, J., and Bengio, Y. (2018). Universal Successor Representations for Transfer Reinforcement Learning. arXiv:1804.03758. Available at: &lt;a href=&#34;http://arxiv.org/abs/1804.03758&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://arxiv.org/abs/1804.03758&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Machado, M. C., Bellemare, M. G., and Bowling, M. (2018). Count-Based Exploration with the Successor Representation. arXiv:1807.11622. Available at: &lt;a href=&#34;http://arxiv.org/abs/1807.11622&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://arxiv.org/abs/1807.11622&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Miller, K., Ludvig, E. A., Pezzulo, G., and Shenhav, A. (2018). Re-aligning models of habitual and goal-directed decision-making. In Goal-Directed Decision Making : Computations and Neural Circuits, eds. A. Bornstein, R. W. Morris, and A. Shenhav (Academic Press). Available at: &lt;a href=&#34;https://www.elsevier.com/books/goal-directed-decision-making/morris/978-0-12-812098-9&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://www.elsevier.com/books/goal-directed-decision-making/morris/978-0-12-812098-9&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Momennejad, I., Russek, E. M., Cheong, J. H., Botvinick, M. M., Daw, N. D., and Gershman, S. J. (2017). The successor representation in human reinforcement learning. Nature Human Behaviour 1, 680–692. doi:10.1038/s41562-017-0180-8.&lt;/p&gt;
 &lt;p&gt;Oemisch, M., Westendorff, S., Azimi, M., Hassani, S. A., Ardid, S., Tiesinga, P., et al. (2019). Feature-specific prediction errors and surprise across macaque fronto-striatal circuits. Nature Communications 10, 176. doi:10.1038/s41467-018-08184-9.&lt;/p&gt;
 &lt;p&gt;O&amp;rsquo;Keefe, J., and Nadel, L. (1978). The hippocampus as a cognitive map. Oxford : New York: Clarendon Press ; Oxford University Press.&lt;/p&gt;
 &lt;p&gt;Russek, E. M., Momennejad, I., Botvinick, M. M., Gershman, S. J., and Daw, N. D. (2017). Predictive representations can link model-based reinforcement learning to model-free mechanisms. PLoS Computational Biology, 13, e1005768. doi:10.1371/journal.pcbi.1005768&lt;/p&gt;
 &lt;p&gt;Schultz, W. (1998). Predictive reward signal of dopamine neurons. J Neurophysiol 80, 1–27.&lt;/p&gt;
 &lt;p&gt;Stachenfeld, K. L., Botvinick, M. M., and Gershman, S. J. (2017). The hippocampus as a predictive map. Nature Neuroscience 20, 1643–1653. doi:10.1038/nn.4650.&lt;/p&gt;
-&lt;p&gt;Sutton, R. S., and Barto, A. G. (2017). Reinforcement Learning: An Introduction. 2nd ed. Cambridge, MA: MIT Press. Available at: &lt;a href=&#34;http://incompleteideas.net/book/the-book-2nd.html&#34;&gt;http://incompleteideas.net/book/the-book-2nd.html&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Sutton, R. S., and Barto, A. G. (2017). Reinforcement Learning: An Introduction. 2nd ed. Cambridge, MA: MIT Press. Available at: &lt;a href=&#34;http://incompleteideas.net/book/the-book-2nd.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://incompleteideas.net/book/the-book-2nd.html&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Vitay, J., and Hamker, F. H. (2014). Timing and expectation of reward: A neuro-computational model of the afferents to the ventral tegmental area. Frontiers in Neurorobotics 8. doi:10.3389/fnbot.2014.00004.&lt;/p&gt;
 &lt;p&gt;Watabe-Uchida, M., and Uchida, N. (2019). Multiple Dopamine Systems: Weal and Woe of Dopamine. Cold Spring Harb Symp Quant Biol, 037648. doi:10.1101/sqb.2018.83.037648.&lt;/p&gt;
-&lt;p&gt;Zhang, J., Springenberg, J. T., Boedecker, J., and Burgard, W. (2016). Deep Reinforcement Learning with Successor Features for Navigation across Similar Environments. arXiv:1612.05533. Available at: &lt;a href=&#34;http://arxiv.org/abs/1612.05533&#34;&gt;http://arxiv.org/abs/1612.05533&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Zhang, J., Springenberg, J. T., Boedecker, J., and Burgard, W. (2016). Deep Reinforcement Learning with Successor Features for Navigation across Similar Environments. arXiv:1612.05533. Available at: &lt;a href=&#34;http://arxiv.org/abs/1612.05533&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://arxiv.org/abs/1612.05533&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

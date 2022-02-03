@@ -5,17 +5,25 @@
     <link>https://julien-vitay.net/publication-type/2/</link>
       <atom:link href="https://julien-vitay.net/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Julien Vitay 2021</copyright><lastBuildDate>Tue, 18 Sep 2018 00:00:00 +0200</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Julien Vitay 2022</copyright><lastBuildDate>Thu, 03 Feb 2022 14:57:52 +0100</lastBuildDate>
     <image>
-      <url>https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>2</title>
       <link>https://julien-vitay.net/publication-type/2/</link>
     </image>
     
     <item>
+      <title>Enhanced Habit Formation in Tourette Patients Explained by Shortcut Modulation in a Hierarchical Cortico-Basal Ganglia Model</title>
+      <link>https://julien-vitay.net/publication/scholl2022/</link>
+      <pubDate>Thu, 03 Feb 2022 14:57:52 +0100</pubDate>
+      <guid>https://julien-vitay.net/publication/scholl2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>On the role of cortex-basal ganglia interactions for category learning: A neuro-computational approach</title>
       <link>https://julien-vitay.net/publication/villagrasa2018/</link>
-      <pubDate>Tue, 18 Sep 2018 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
       <guid>https://julien-vitay.net/publication/villagrasa2018/</guid>
       <description>
 
@@ -43,10 +51,10 @@
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/publication/villagrasa2018/model_hu27b7eb85285c90ba4989189366f2107c_298376_2000x2000_fit_lanczos_2.png&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/publication/villagrasa2018/model_hu27b7eb85285c90ba4989189366f2107c_298376_2000x2000_fit_lanczos_3.png&#34; &gt;
 
 
-  &lt;img data-src=&#34;https://julien-vitay.net/publication/villagrasa2018/model_hu27b7eb85285c90ba4989189366f2107c_298376_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;998&#34; height=&#34;698&#34;&gt;
+  &lt;img data-src=&#34;https://julien-vitay.net/publication/villagrasa2018/model_hu27b7eb85285c90ba4989189366f2107c_298376_2000x2000_fit_lanczos_3.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;998&#34; height=&#34;698&#34;&gt;
 &lt;/a&gt;
 
 
@@ -59,7 +67,7 @@
     <item>
       <title>Sustainable computational science: the ReScience initiative</title>
       <link>https://julien-vitay.net/publication/rougier2017/</link>
-      <pubDate>Mon, 18 Dec 2017 00:00:00 +0100</pubDate>
+      <pubDate>Mon, 18 Dec 2017 00:00:00 +0000</pubDate>
       <guid>https://julien-vitay.net/publication/rougier2017/</guid>
       <description></description>
     </item>
@@ -67,7 +75,7 @@
     <item>
       <title>Predictive Place-Cell Sequences for Goal-Finding Emerge from Goal Memory and the Cognitive Map: A Computational Model</title>
       <link>https://julien-vitay.net/publication/goenner2017/</link>
-      <pubDate>Thu, 12 Oct 2017 00:00:00 +0200</pubDate>
+      <pubDate>Thu, 12 Oct 2017 00:00:00 +0000</pubDate>
       <guid>https://julien-vitay.net/publication/goenner2017/</guid>
       <description>
 
@@ -95,10 +103,10 @@
 &lt;figure &gt;
 
 
-  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/publication/goenner2017/model_hua752f27e9743bc39ddb864b399f3604d_201823_2000x2000_fit_lanczos_2.png&#34; &gt;
+  &lt;a data-fancybox=&#34;&#34; href=&#34;https://julien-vitay.net/publication/goenner2017/model_hua752f27e9743bc39ddb864b399f3604d_201823_2000x2000_fit_lanczos_3.png&#34; &gt;
 
 
-  &lt;img data-src=&#34;https://julien-vitay.net/publication/goenner2017/model_hua752f27e9743bc39ddb864b399f3604d_201823_2000x2000_fit_lanczos_2.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;641&#34; height=&#34;667&#34;&gt;
+  &lt;img data-src=&#34;https://julien-vitay.net/publication/goenner2017/model_hua752f27e9743bc39ddb864b399f3604d_201823_2000x2000_fit_lanczos_3.png&#34; class=&#34;lazyload&#34; alt=&#34;&#34; width=&#34;641&#34; height=&#34;667&#34;&gt;
 &lt;/a&gt;
 
 
@@ -111,7 +119,7 @@
     <item>
       <title>[Re] Robust timing and motor patterns by taming chaos in recurrent neural networks</title>
       <link>https://julien-vitay.net/publication/vitay2016/</link>
-      <pubDate>Fri, 07 Oct 2016 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 07 Oct 2016 00:00:00 +0000</pubDate>
       <guid>https://julien-vitay.net/publication/vitay2016/</guid>
       <description></description>
     </item>
@@ -119,7 +127,7 @@
     <item>
       <title>ANNarchy: a code generation approach to neural simulations on parallel hardware</title>
       <link>https://julien-vitay.net/publication/vitay2015/</link>
-      <pubDate>Fri, 31 Jul 2015 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 31 Jul 2015 00:00:00 +0000</pubDate>
       <guid>https://julien-vitay.net/publication/vitay2015/</guid>
       <description></description>
     </item>
@@ -127,7 +135,7 @@
     <item>
       <title>Timing and expectation of reward: a neuro-computational model of the afferents to the ventral tegmental area</title>
       <link>https://julien-vitay.net/publication/vitay2014/</link>
-      <pubDate>Fri, 31 Jan 2014 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 31 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://julien-vitay.net/publication/vitay2014/</guid>
       <description></description>
     </item>
@@ -135,7 +143,7 @@
     <item>
       <title>Dysfunctional and compensatory synaptic plasticity in Parkinson&#39;s disease</title>
       <link>https://julien-vitay.net/publication/schroll2014/</link>
-      <pubDate>Wed, 01 Jan 2014 00:00:00 +0100</pubDate>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://julien-vitay.net/publication/schroll2014/</guid>
       <description></description>
     </item>
@@ -143,7 +151,7 @@
     <item>
       <title>Comparison of GPU- and CPU-implementations of mean-firing rate neural networks on parallel hardware</title>
       <link>https://julien-vitay.net/publication/dinkelbach2012/</link>
-      <pubDate>Fri, 09 Nov 2012 00:00:00 +0100</pubDate>
+      <pubDate>Fri, 09 Nov 2012 00:00:00 +0000</pubDate>
       <guid>https://julien-vitay.net/publication/dinkelbach2012/</guid>
       <description></description>
     </item>
@@ -151,7 +159,7 @@
     <item>
       <title>Working memory and response selection: A computational account of interactions among cortico-basalganglio-thalamic loops</title>
       <link>https://julien-vitay.net/publication/schroll2012/</link>
-      <pubDate>Sun, 01 Jan 2012 00:00:00 +0100</pubDate>
+      <pubDate>Sun, 01 Jan 2012 00:00:00 +0000</pubDate>
       <guid>https://julien-vitay.net/publication/schroll2012/</guid>
       <description></description>
     </item>
@@ -159,7 +167,7 @@
     <item>
       <title>A Neuroscientific View on the Role of Emotions in Behaving Cognitive Agents</title>
       <link>https://julien-vitay.net/publication/vitay2011/</link>
-      <pubDate>Mon, 01 Aug 2011 00:00:00 +0200</pubDate>
+      <pubDate>Mon, 01 Aug 2011 00:00:00 +0000</pubDate>
       <guid>https://julien-vitay.net/publication/vitay2011/</guid>
       <description></description>
     </item>
@@ -167,7 +175,7 @@
     <item>
       <title>A computational model of basal ganglia and its role in memory retrieval in rewarded visual memory tasks</title>
       <link>https://julien-vitay.net/publication/vitay2010/</link>
-      <pubDate>Fri, 28 May 2010 00:00:00 +0200</pubDate>
+      <pubDate>Fri, 28 May 2010 00:00:00 +0000</pubDate>
       <guid>https://julien-vitay.net/publication/vitay2010/</guid>
       <description></description>
     </item>
@@ -175,7 +183,7 @@
     <item>
       <title>Biological Models of Reinforcement Learning</title>
       <link>https://julien-vitay.net/publication/vitay2009/</link>
-      <pubDate>Tue, 01 Sep 2009 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 01 Sep 2009 00:00:00 +0000</pubDate>
       <guid>https://julien-vitay.net/publication/vitay2009/</guid>
       <description></description>
     </item>
@@ -183,7 +191,7 @@
     <item>
       <title>Sustained Activities and Retrieval in a Computational Model of the Perirhinal Cortex</title>
       <link>https://julien-vitay.net/publication/vitay2008/</link>
-      <pubDate>Tue, 14 Oct 2008 00:00:00 +0200</pubDate>
+      <pubDate>Tue, 14 Oct 2008 00:00:00 +0000</pubDate>
       <guid>https://julien-vitay.net/publication/vitay2008/</guid>
       <description></description>
     </item>
@@ -191,7 +199,7 @@
     <item>
       <title>Emergence of attention within a neural population</title>
       <link>https://julien-vitay.net/publication/rougier2005/</link>
-      <pubDate>Wed, 01 Jun 2005 00:00:00 +0200</pubDate>
+      <pubDate>Wed, 01 Jun 2005 00:00:00 +0000</pubDate>
       <guid>https://julien-vitay.net/publication/rougier2005/</guid>
       <description></description>
     </item>

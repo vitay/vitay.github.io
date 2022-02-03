@@ -5,9 +5,9 @@
     <link>https://julien-vitay.net/tag/parallel-computing/</link>
       <atom:link href="https://julien-vitay.net/tag/parallel-computing/index.xml" rel="self" type="application/rss+xml" />
     <description>parallel computing</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Julien Vitay 2021</copyright><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Julien Vitay 2022</copyright><lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>parallel computing</title>
       <link>https://julien-vitay.net/tag/parallel-computing/</link>
     </image>
@@ -15,7 +15,7 @@
     <item>
       <title>ANNarchy</title>
       <link>https://julien-vitay.net/project/annarchy/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 +0100</pubDate>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
       <guid>https://julien-vitay.net/project/annarchy/</guid>
       <description>&lt;p&gt;Neuro-computational models are different from classical neural networks (deep learning) in many aspects:&lt;/p&gt;
 &lt;ul&gt;
@@ -27,12 +27,12 @@
 &lt;p&gt;The increasing size of such networks asks for efficient parallel simulations, using distributed systems (OpenMP, MPI) or GPUs (CUDA). However, computational neuroscientists cannot be expected to be also experts in parallel computing. There is a need for a general-purpose neuro-simulator, with an easy but flexible interface allowing to define a huge variety of models, but which is internally efficient and allows for fast parallel simulations on various hardwares.&lt;/p&gt;
 &lt;p&gt;Over many years, we have developed &lt;strong&gt;ANNarchy&lt;/strong&gt; (Artificial Neural Networks architect), a parallel simulator for distributed rate-coded or spiking neural networks. The definition of the models is made in Python, but the library generates optimized C++ code to actually run the simulation on parallel hardware, using either openMP or CUDA. The current stable version is 4.6 and is released under the GNU GPL v2 or later.&lt;/p&gt;
 &lt;p&gt;The code is available at:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://bitbucket.org/annarchy/annarchy&#34;&gt;https://bitbucket.org/annarchy/annarchy&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://bitbucket.org/annarchy/annarchy&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://bitbucket.org/annarchy/annarchy&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;The documentation is available at:&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://annarchy.readthedocs.org&#34;&gt;https://annarchy.readthedocs.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://annarchy.readthedocs.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://annarchy.readthedocs.org&lt;/a&gt;&lt;/p&gt;
 &lt;h3 id=&#34;core-principles&#34;&gt;Core principles&lt;/h3&gt;
 &lt;p&gt;ANNarchy separates the description of a neural network from its simulation. The description is declared in a Python script, offering high flexibility and readability of the code, and allowing to use the huge ecosystem of scientific libraries available with Python (Numpy, Scipy, Matplotlib&amp;hellip;). Using Python furthermore reduces the programming effort to a minimum, letting the modeller concentrate on network design and data analysis.&lt;/p&gt;
-&lt;p&gt;&lt;img style=&#34;width:60%; min-width:320px&#34; src=&#34;annarchy.svg&#34; /&gt;&lt;/p&gt;
+&lt;img style=&#34;width:60%; min-width:320px&#34; src=&#34;annarchy.svg&#34; /&gt;
 &lt;p&gt;A neural network is defined as a collection of interconnected populations of neurons. Each population comprises a set of similar artificial neurons (rate-coded or spiking point-neurons), whose activity is ruled by one or many ordinary differential equations. The activity of a neuron depends on the activity of other neurons through synapses, whose strength can evolve with time depending on pre- or post-synaptic activities (synaptic plasticity). Populations are interconnected with each other through projections, which contain synapses between two populations.&lt;/p&gt;
 &lt;p&gt;ANNarchy provides a set of classical neuron or synapse models, but also allows the definition of specific models. The ordinary differential equations (ODE) governing neural or synaptic dynamics have to be specified by the modeler. Contrary to other simulators (except Brian) which require to code these modules in a low-level language, ANNarchy provides a mathematical equation parser which can generate optimized C++ code depending on the chosen parallel framework. Bindings from C++ to Python are generated thanks to Cython (C-extensions to Python), which is a static compiler for Python. These bindings allow the Python script to access all data generated by the simulation (neuronal activity, connection weights) as if they were simple Python attributes. However, the simulation itself is independent from Python and its relatively low performance.&lt;/p&gt;
 &lt;h3 id=&#34;example-of-a-pulse-coupled-network-of-izhikevich-neurons&#34;&gt;Example of a pulse-coupled network of Izhikevich neurons&lt;/h3&gt;
@@ -89,7 +89,7 @@ ax = plt.subplot(3,1,3)
 ax.plot(fr)
 plt.show()
 &lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/annarchy/izhikevich.png&#34; /&gt;&lt;/p&gt;
+&lt;img style=&#34;width:80%; min-width:320px&#34; src=&#34;https://julien-vitay.net/img/annarchy/izhikevich.png&#34; /&gt;
 </description>
     </item>
     
