@@ -5,12 +5,20 @@
     <link>https://julien-vitay.net/author/javier-baladron/</link>
       <atom:link href="https://julien-vitay.net/author/javier-baladron/index.xml" rel="self" type="application/rss+xml" />
     <description>Javier Baladron</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Julien Vitay 2022</copyright><lastBuildDate>Thu, 03 Feb 2022 14:57:52 +0100</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Julien Vitay 2022</copyright><lastBuildDate>Tue, 22 Mar 2022 09:07:32 +0100</lastBuildDate>
     <image>
       <url>https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Javier Baladron</title>
       <link>https://julien-vitay.net/author/javier-baladron/</link>
     </image>
+    
+    <item>
+      <title>BOLD monitoring in the neural simulator ANNarchy</title>
+      <link>https://julien-vitay.net/publication/maith2022/</link>
+      <pubDate>Tue, 22 Mar 2022 09:07:32 +0100</pubDate>
+      <guid>https://julien-vitay.net/publication/maith2022/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Enhanced Habit Formation in Tourette Patients Explained by Shortcut Modulation in a Hierarchical Cortico-Basal Ganglia Model</title>
