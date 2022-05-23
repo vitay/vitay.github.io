@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Badr-Eddine Bouhlal | Julien Vitay</title>
+    <link>https://julien-vitay.net/author/badr-eddine-bouhlal/</link>
+      <atom:link href="https://julien-vitay.net/author/badr-eddine-bouhlal/index.xml" rel="self" type="application/rss+xml" />
+    <description>Badr-Eddine Bouhlal</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© Julien Vitay 2022</copyright><lastBuildDate>Mon, 23 May 2022 17:59:30 +0200</lastBuildDate>
+    <image>
+      <url>https://julien-vitay.net/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Badr-Eddine Bouhlal</title>
+      <link>https://julien-vitay.net/author/badr-eddine-bouhlal/</link>
+    </image>
+    
+    <item>
+      <title>Auto-selection of an optimal sparse matrix format in the neuro-simulator ANNarchy</title>
+      <link>https://julien-vitay.net/publication/dinkelbach2022/</link>
+      <pubDate>Mon, 23 May 2022 17:59:30 +0200</pubDate>
+      <guid>https://julien-vitay.net/publication/dinkelbach2022/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

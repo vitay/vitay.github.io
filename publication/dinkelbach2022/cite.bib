@@ -1,0 +1,14 @@
+
+@article{Dinkelbach2022,
+  title = {Auto-{{Selection}} of an {{Optimal Sparse Matrix Format}} in the {{Neuro-Simulator ANNarchy}}},
+  author = {Dinkelbach, Helge Ülo and Bouhlal, Badr-Eddine and Vitay, Julien and Hamker, Fred H.},
+  date = {2022},
+  journaltitle = {Frontiers in Neuroinformatics},
+  volume = {16},
+  issn = {1662-5196},
+  url = {https://www.frontiersin.org/article/10.3389/fninf.2022.877945},
+  urldate = {2022-05-23},
+  abstract = {Modern neuro-simulators provide efficient implementations of simulation kernels on various parallel hardware (multi-core CPUs, distributed CPUs, GPUs), thereby supporting the simulation of increasingly large and complex biologically realistic networks. However, the optimal configuration of the parallel hardware and computational kernels depends on the exact structure of the network to be simulated. For example, the computation time of rate-coded neural networks is generally limited by the available memory bandwidth, and consequently, the organization of the data in memory will strongly influence the performance for different connectivity matrices. We pinpoint the role of sparse matrix formats implemented in the neuro-simulator ANNarchy with respect to computation time. Rather than asking the user to identify the best data structures required for a given network and platform, such a decision could also be carried out by the neuro-simulator. However, it requires heuristics that need to be adapted over time for the available hardware. The present study investigates how machine learning methods can be used to identify appropriate implementations for a specific network. We employ an artificial neural network to develop a predictive model to help the developer select the optimal sparse matrix format. The model is first trained offline using a set of training examples on a particular hardware platform. The learned model can then predict the execution time of different matrix formats and decide on the best option for a specific network. Our experimental results show that using up to 3,000 examples of random network configurations (i.e., different population sizes as well as variable connectivity), our approach effectively selects the appropriate configuration, providing over 93\% accuracy in predicting the suitable format on three different NVIDIA devices.},
+}
+
+
