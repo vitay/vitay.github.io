@@ -1,0 +1,16 @@
+# Hippocampus
+
+## Anatomy
+
+The hippocampus is a key structure for episodic memory and spatial navigation. A fundamental step in hippocampus research was the discovery of **place cells**, which fire whenever an animal traverses a certain location known as the place field (O'Keefe and Nadel, 1978). At rest, place cells exhibit brief periods of fast oscillations termed sharp wave-ripples. During these events, place cell activity shows sequential patterns called forward replay and reverse replay: time-compressed, and sometimes time-reversed, reproductions of previously experienced sequences. Spatial experiences stored in the hippocampus can therefore be recalled at will during behavior.
+
+Our modeling work focuses on understanding how these replay patterns are learned and used for high-level cognitive processes such as decision-making and model-based reinforcement learning.
+
+![](../img/hippocampus.png)
+
+## Related publications
+
+Lorenz Gönner, Julien Vitay, and Fred H. Hamker (2017).\
+**Predictive Place-Cell Sequences for Goal-Finding Emerge from Goal Memory and the Cognitive Map: A Computational Model.**\
+*Frontiers in Computational Neuroscience 11:84*\
+[doi:10.3389/fncom.2017.00084](https://doi.org/10.3389/fncom.2017.00084)

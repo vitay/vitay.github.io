@@ -1,0 +1,38 @@
+{
+  "index.qmd": {
+    "index.html": "e0dcde7b"
+  },
+  "about.qmd": {
+    "about.html": "ba7b28b7"
+  },
+  "research.qmd": {
+    "research.html": "1d9c8c0a"
+  },
+  "research/annarchy.qmd": {
+    "annarchy.html": "229ce21c"
+  },
+  "publications.qmd": {
+    "publications.html": "52827365"
+  },
+  "research/bg.qmd": {
+    "bg.html": "73a6ffaa"
+  },
+  "research/basalganglia.qmd": {
+    "basalganglia.html": "5ed39fff"
+  },
+  "research/dopamine.qmd": {
+    "dopamine.html": "6dfe5f31"
+  },
+  "research/hippocampus.qmd": {
+    "hippocampus.html": "3bb1f346"
+  },
+  "research/reservoircomputing.qmd": {
+    "reservoircomputing.html": "c9431694"
+  },
+  "research/reinforcementlearning.qmd": {
+    "reinforcementlearning.html": "400dc26f"
+  },
+  "teaching.qmd": {
+    "teaching.html": "52051283"
+  }
+}

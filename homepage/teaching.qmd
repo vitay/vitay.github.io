@@ -1,0 +1,99 @@
+---
+title: Teaching
+---
+
+## Neurocomputing
+
+**Level:** Master.
+
+**Responsability:** lectures and exercises.
+
+**Course website:** <https://www.tu-chemnitz.de/informatik/KI/edu/neurocomputing>
+
+**Materials:** <https://julien-vitay.net/course-neurocomputing/>
+
+### Syllabus
+
+1. **Linear algorithms**
+    1. Optimization
+    2. Linear regression
+    3. Linear classification
+    4. Learning theory
+2. **Neural networks**
+    1. Multi-layer perceptron
+    2. Modern neural networks
+3. **Computer Vision**
+    1. Convolutional neural networks
+    2. Object detection
+    3. Semantic segmentation
+4. **Generative modeling**
+    1. Autoencoders
+    2. Restricted Boltzmann machines
+    3. Generative adversarial networks
+5. **Recurrent neural networks**
+    1. Recurrent neural networks, LSTM
+    2. Natural Language Processing
+    3. Attentional neural networks
+6. **Self-supervised learning**
+    1. Transformers
+    2. Contrastive learning
+
+## Deep Reinforcement Learning
+
+**Level:** Master.
+
+**Responsability:** lectures and exercises.
+
+**Course website:** <https://www.tu-chemnitz.de/informatik/KI/edu/deeplrl>
+
+**Materials:** <https://julien-vitay.net/course-deeprl/>
+
+
+### Syllabus
+
+1. **Tabular RL**
+    1. Bandits
+    2. Markov Decision Processes
+    3. Dynamic Programming
+    4. Monte Carlo control
+    5. Temporal Difference
+    6. Function approximation
+    7. Deep learning
+
+2. **Model-free RL**
+    1. Deep Q-network
+    2. Beyond DQN
+    3. Policy Gradient
+    4. A2C / A3C
+    5. DDPG
+    6. TRPO / PPO
+    7. SAC
+
+3. **Model-based RL**
+    1. Model-based RL
+    2. Learned models
+    3. AlphaGo
+    4. Successor representations
+
+## Introduction to AI
+
+**Level:** Bachelor.
+
+**Responsability:** exercises.
+
+**Course website:** <https://www.tu-chemnitz.de/informatik/KI/edu/ki>
+
+### Syllabus
+
+1. Blind search
+2. Heuristic search
+3. Game theory
+4. Constraint propagation
+5. Optimization
+6. Neural networks
+7. Support vector machines
+8. Probability theory
+9. Information theory
+10. Decision trees
+11. Estimators
+12. Reinforcement learning

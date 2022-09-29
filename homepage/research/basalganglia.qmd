@@ -1,0 +1,47 @@
+# Basal Ganglia
+
+## Anatomy
+
+The Basal Ganglia (BG) are a set of nuclei located in the basal forebrain, receiving inputs mostly from the cerebral cortex (especially the frontal lobe) and projecting on various motor centers, as well as back to the cortex through the thalamus, forming a closed-loop. 
+
+The main input station is the striatum, which can be anatomically divided into three parts: the nucleus accumbens (NAcc), the caudate nucleus (CN) and the putamen (PUT). Striatal neurons are excited by cortical activity and inhibit in turn the tonically active neurons of the output nuclei of the BG: the substantia nigra pars reticulata (SNr) and the internal segment of the globus pallidus (GPi). These output structures further inhibit some motor centers and thalamic nuclei. 
+
+![](../img/basalganglia.png)
+
+This double inhibition allows to selectively open some recurrent loops between the thalamus and the cortex, increasing the signal-to-noise ratio in the cortex and triggering movements or cognitive functions. 
+
+Other nuclei in the BG, such as the subthalamic nucleus (STN) and the external part of the globus pallidus (GPe), create functionally different pathways to allow for a more complex role of BG in adapting behavior. 
+
+The main characteristic of the BG is its dense innervation by dopaminergic (DA) cells in the substantia nigra pars compacta (SNc) and ventral tegmental area (VTA), whose firing is related to reward delivery and prediction. DA can modulate the activation and learning of most cells in the BG, placing it as a core structure in reinforcement learning processes. 
+
+## Related publications
+
+Carolin Scholl, Javier Baladron, Julien Vitay, and Fred H. Hamker (2022).\
+**Enhanced Habit Formation in Tourette Patients Explained by Shortcut Modulation in a Hierarchical Cortico-Basal Ganglia Model.**\
+*Brain Structure and Function 227, 1031-1050*\
+[doi:10.1007/s00429-021-02446-x](https:doi.org/10.1007/s00429-021-02446-x)
+
+Francesc Villagrasa, Javier Baladron, Julien Vitay, Henning Schroll, Evan G. Antzoulatos, Earl K. Miller, and Fred H. Hamker (2018).\
+**On the role of cortex-basal ganglia interactions for category learning: A neuro-computational approach.**\
+*Journal of Neuroscience 38(44) 9551-9562*\
+[doi:10.1523/JNEUROSCI.0874-18.2018](https:doi.org/10.1523/JNEUROSCI.0874-18.2018)
+
+Henning Schroll, Julien Vitay, and Fred H. Hamker (2014).\
+**Dysfunctional and compensatory synaptic plasticity in Parkinson's disease.**\
+*European Journal of Neuroscience, 39: 688-702*\
+[doi:10.1111/ejn.12434](https:doi.org/10.1111/ejn.12434)
+
+Henning Schroll, Julien Vitay, and Fred H. Hamker (2012).\
+**Working memory and response selection: A computational account of interactions among cortico-basalganglio-thalamic loops.**\
+*Neural Networks, 26*\
+[doi:10.1016/j.neunet.2011.10.008](https:doi.org/10.1016/j.neunet.2011.10.008)
+
+Julien Vitay and Fred H. Hamker (2012).\
+**Basal Ganglia learning.**\
+*In Encyclopedia of the Sciences of Learning. Seel, Norbert M. (Ed.).*\
+[doi:10.1007/978-1-4419-1428-6](https:doi.org/10.1007/978-1-4419-1428-6)
+
+Julien Vitay and Fred H. Hamker (2010). \
+**A computational model of basal ganglia and its role in memory retrieval in rewarded visual memory tasks.**\
+*Frontiers in Computational Neuroscience 4(13)*\
+[doi:10.3389/fncom.2010.00013](https:doi.org/10.3389/fncom.2010.00013)

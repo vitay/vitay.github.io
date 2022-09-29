@@ -1,0 +1,51 @@
+---
+title: "Dr. habil. Julien Vitay"
+
+toc: false
+---
+
+<br>
+
+Researcher and lecturer at the [Chemnitz University of Technology](http://www.tu-chemnitz.de/), in the lab of [Artificial Intelligence](http://www.tu-chemnitz.de/informatik/KI/), Department of Computer Science.
+
+
+::: {.columns}
+::: {.column width=60%}
+
+
+My research interests focus on:
+
+* **computational neuroscience**
+    * basal ganglia
+    * dopaminergic system
+    * hippocampus
+* **neuroinformatics**
+    * neuro-simulator ANNarchy
+* **machine learning**
+    * reservoir computing
+    * reinforcement learning
+    
+:::
+::: {.column width=40%}
+
+<br>
+
+![](img/trombine.jpg)
+
+:::
+:::
+
+
+
+
+
+
+## Contact
+
+<julien.vitay@informatik.tu-chemnitz.de>
+
+(+49) 371 531 39468
+
+Straße der Nationen 62, D-09107 Chemnitz
+
+Room 1/348

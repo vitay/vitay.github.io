@@ -1,0 +1,25 @@
+# Reservoir computing
+
+## Principle
+
+The field of **reservoir computing**, covering Echo-State Networks (ESN; Jaeger, 2000) and Liquid State Machines (Maas, 2001), studies the dynamical properties of recurrent neural networks. Depending on the strength of the recurrent connections, the reservoirs can exhibit either deterministic or chaotic trajectories following a stimulation.
+
+![](../img/rc.png)
+
+These trajectories can serve as a complex temporal basis to represent events. In their early formulation, reservoirs were fixed and read-out neurons used this basis to mimic specific target signals using supervised learning.
+
+In the recent years, methods have been developed to train the connections inside the reservoir too, either using supervised learning (e.g. Laje and Buonomano 2013) or reinforcement learning (Miconi, 2017). This unleashes the potential of reservoirs for both machine learning applications and computational neuroscience.
+
+We study the properties of reservoir computing at the neuroscientific level, with an emphasis on reinforcement learning, forward models in the cerebellum (Schmid et al, 2019) or interval timing. 
+
+## Related publications
+
+Katharina Schmid, Julien Vitay, and Fred H. Hamker (2019).\
+**Forward Models in the Cerebellum using Reservoirs and Perturbation Learning.**\
+*2019 Conference on Cognitive Computational Neuroscience, 13-16 September 2019, Berlin, Germany*\
+[doi:10.32470/CCN.2019.1139-0](https://doi.org/10.32470/CCN.2019.1139-0)
+
+Julien Vitay (2016).\
+**[Re] Robust timing and motor patterns by taming chaos in recurrent neural networks.**\
+*Rescience, 2(1)*\
+[doi:10.5281/zenodo.159545](https://doi.org/10.5281/zenodo.159545)

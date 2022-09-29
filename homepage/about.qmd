@@ -1,0 +1,85 @@
+---
+title: "Dr. habil. Julien Vitay"
+---
+
+Researcher / lecturer at the Chemnitz University of Technology, Department of Computer Science, Professorship for Artificial Intelligence.
+
+
+## Education
+
+::: {.d-flex .justify-content-between}
+::: {}
+**Chemnitz University of Technology**  
+Habilitation in Computer Science
+:::
+::: {.text-end}
+*Chemnitz, Germany* - 2017
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+**Université Henri Poincaré Nancy-I**  
+PhD in Computer Science
+:::
+::: {.text-end}
+*Nancy, France* - 2006
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+**École Supérieure d'Électricité (Supélec)**  
+Engineering degree in Signal Processing and Microelectronics
+:::
+::: {.text-end}
+*Rennes, France* - 2002
+:::
+:::
+
+::: {.d-flex .justify-content-between}
+::: {}
+**Université Rennes-I**  
+Master of Science in Microelectronics
+:::
+::: {.text-end}
+*Rennes, France* - 2002
+:::
+:::
+
+## Experience
+
+::: {.d-flex .justify-content-between}
+::: {}
+**Chemnitz University of Technology**  
+:::
+::: {.text-end}
+*March 2011 - present*
+:::
+:::
+*Researcher / lecturer*
+
+::: {.d-flex .justify-content-between}
+::: {}
+**University of Münster**  
+:::
+::: {.text-end}
+*August 2006 - February 2011*
+:::
+:::
+*Postdoc*
+
+- Supervisor: Fred Hamker
+
+
+::: {.d-flex .justify-content-between}
+::: {}
+**Inria Lorraine**  
+:::
+::: {.text-end}
+*October 2002 - June 2006*
+:::
+:::
+*PhD student*
+
+- Supervisor: Frédéric Alexandre and Nicolas Rougier

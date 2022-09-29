@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: ../docs
+
+website:
+  title: "Julien Vitay"
+  navbar:
+    background: dark
+    foreground: light
+    right:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: CV
+      - research.qmd
+      - publications.qmd
+      - teaching.qmd
+
+format:
+  html:
+    theme: [journal, styles.scss]
+    toc: true
+    html-math-method: katex
+
+
+
