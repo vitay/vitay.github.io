@@ -93,7 +93,7 @@ keep-md: true
 <ul class='list-group list-group-flush'><li class='list-group-item'>Katharina Schmid, Julien Vitay, and Fred H. Hamker (2019).<br><strong>Forward Models in the Cerebellum using Reservoirs and Perturbation Learning</strong>.<br> <em>2019 Conference on Cognitive Computational Neuroscience, 13-16 September 2019, Berlin, Germany</em><br> <a href="https://doi.org/10.32470/CCN.2019.1139-0">doi:10.32470/CCN.2019.1139-0</a><br><br><a class="btn btn-outline-dark btn-sm", href="https://ccneuro.org/2019/Papers/ViewPapers.asp?PaperNum=1139" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-journal" role='img' aria-label='URL'></i>
         URL
-    </a> <a class="btn btn-outline-dark btn-sm", href="https://ccneuro.org/2019/proceedings/0000619.pdf" target="_blank" rel="noopener noreferrer">
+    </a> <a class="btn btn-outline-dark btn-sm", href="Schmid2019.pdf" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='PDF'></i>
         PDF
     </a> <a class="btn btn-outline-dark btn-sm", href="pdf/Schmid2019-poster.pdf" target="_blank" rel="noopener noreferrer">
@@ -168,7 +168,7 @@ keep-md: true
 <ul class='list-group list-group-flush'><li class='list-group-item'>Julien Vitay (2016).<br><strong>[Re] Robust timing and motor patterns by taming chaos in recurrent neural networks</strong>.<br> <em>Rescience, 2(1)</em><br> <a href="https://doi.org/10.5281/zenodo.159545">doi:10.5281/zenodo.159545</a><br><br><a class="btn btn-outline-dark btn-sm", href="https://zenodo.org/record/159545" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-journal" role='img' aria-label='URL'></i>
         URL
-    </a> <a class="btn btn-outline-dark btn-sm", href="pdf/Vitay2016" target="_blank" rel="noopener noreferrer">
+    </a> <a class="btn btn-outline-dark btn-sm", href="pdf/Vitay2016.pdf" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='PDF'></i>
         PDF
     </a> <a class="btn btn-outline-dark btn-sm", href="https://github.com/ReScience-Archives/Vitay-2016" target="_blank" rel="noopener noreferrer">
@@ -321,6 +321,10 @@ keep-md: true
         <i class="bi bi-journal" role='img' aria-label='URL'></i>
         URL
     </a> <a class="btn btn-outline-dark btn-sm", href="pdf/Vitay2005.pdf" target="_blank" rel="noopener noreferrer">
+        <i class="bi bi-file-earmark-pdf" role='img' aria-label='PDF'></i>
+        PDF
+    </a></li>
+<li class='list-group-item'>Julien Vitay (2005).<br><strong>Towards Teaching a Robot to Count</strong>.<br> <em>Berthouze, L., Kaplan, F., Kozima, H., Yano, H., Konczak, J., Metta, G., Nadel, J., Sandini, G., Stojanov, G. and Balkenius, C. (Eds.).  Proceedings of the Fifth International Workshop on Epigenetic Robotics: Modeling Cognitive Development in Robotic Systems. Lund University Cognitive Studies, 123. ISBN 91-974741-4-2</em><br><br><a class="btn btn-outline-dark btn-sm", href="pdf/Vitay2005b.pdf" target="_blank" rel="noopener noreferrer">
         <i class="bi bi-file-earmark-pdf" role='img' aria-label='PDF'></i>
         PDF
     </a></li></ul>

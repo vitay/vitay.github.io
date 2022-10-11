@@ -139,7 +139,7 @@ Schmid2019:
   year: 2019
   doi: 10.32470/CCN.2019.1139-0
   url: https://ccneuro.org/2019/Papers/ViewPapers.asp?PaperNum=1139
-  pdf: https://ccneuro.org/2019/proceedings/0000619.pdf
+  pdf: Schmid2019.pdf
   poster: pdf/Schmid2019-poster.pdf
 
 
@@ -287,7 +287,7 @@ Vitay2016:
   journal: Rescience, 2(1)
   doi: 10.5281/zenodo.159545
   url: https://zenodo.org/record/159545
-  pdf: pdf/Vitay2016
+  pdf: pdf/Vitay2016.pdf
   github: https://github.com/ReScience-Archives/Vitay-2016
 
 Vitay2015:
@@ -459,4 +459,10 @@ Vitay2005:
   url: https://link.springer.com/chapter/10.1007/11521082_4
   pdf: pdf/Vitay2005.pdf
  
-
+Vitay2005b:
+  title: Towards Teaching a Robot to Count
+  authors:
+    - Julien Vitay
+  year: 2005
+  journal: "Berthouze, L., Kaplan, F., Kozima, H., Yano, H., Konczak, J., Metta, G., Nadel, J., Sandini, G., Stojanov, G. and Balkenius, C. (Eds.).  Proceedings of the Fifth International Workshop on Epigenetic Robotics: Modeling Cognitive Development in Robotic Systems. Lund University Cognitive Studies, 123. ISBN 91-974741-4-2"
+  pdf: pdf/Vitay2005b.pdf
