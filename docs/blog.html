@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Julien Vitay - Research</title>
+<title>Julien Vitay - Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -58,7 +60,52 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
 
 </head>
 
@@ -85,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./about.html">CV</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./research.html" aria-current="page">Research</a>
+    <a class="nav-link" href="./research.html">Research</a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./publications.html">Publications</a>
@@ -94,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./teaching.html">Teaching</a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html">Blog</a>
+    <a class="nav-link active" href="./blog.html" aria-current="page">Blog</a>
   </li>  
 </ul>
               <div id="quarto-search" class="" title="Search"></div>
@@ -107,34 +154,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#computational-neuroscience" id="toc-computational-neuroscience" class="nav-link active" data-scroll-target="#computational-neuroscience">Computational neuroscience</a>
-  <ul class="collapse">
-  <li><a href="#basal-ganglia" id="toc-basal-ganglia" class="nav-link" data-scroll-target="#basal-ganglia">Basal Ganglia</a></li>
-  <li><a href="#dopaminergic-system" id="toc-dopaminergic-system" class="nav-link" data-scroll-target="#dopaminergic-system">Dopaminergic system</a></li>
-  <li><a href="#hippocampus" id="toc-hippocampus" class="nav-link" data-scroll-target="#hippocampus">Hippocampus</a></li>
-  </ul></li>
-  <li><a href="#neurocomputing" id="toc-neurocomputing" class="nav-link" data-scroll-target="#neurocomputing">Neurocomputing</a>
-  <ul class="collapse">
-  <li><a href="#neurosimulator-annarchy" id="toc-neurosimulator-annarchy" class="nav-link" data-scroll-target="#neurosimulator-annarchy">Neurosimulator ANNarchy</a></li>
-  </ul></li>
-  <li><a href="#machine-learning" id="toc-machine-learning" class="nav-link" data-scroll-target="#machine-learning">Machine Learning</a>
-  <ul class="collapse">
-  <li><a href="#reservoir-computing" id="toc-reservoir-computing" class="nav-link" data-scroll-target="#reservoir-computing">Reservoir computing</a></li>
-  <li><a href="#reinforcement-learning" id="toc-reinforcement-learning" class="nav-link" data-scroll-target="#reinforcement-learning">Reinforcement learning</a></li>
-  </ul></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Research</h1>
+<h1 class="title">Blog</h1>
 </div>
 
 
@@ -148,85 +175,45 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="computational-neuroscience" class="level2">
-<h2 class="anchored" data-anchor-id="computational-neuroscience">Computational neuroscience</h2>
-<section id="basal-ganglia" class="level3">
-<h3 class="anchored" data-anchor-id="basal-ganglia">Basal Ganglia</h3>
-<div class="columns">
-<div class="column" style="width:70%;">
-<p><a href="./research/basalganglia.html">Description</a></p>
-<p>The Basal Ganglia (BG) are a set of nuclei located in the basal forebrain, receiving inputs mostly from the cerebral cortex and projecting to various motor centers, as well as back to the cortex through the thalamus, forming a closed-loop. It is involved in major functions such as reinforcement learning, habit formation, planning and motor control, but also in diseases such as Parkinson’s disease or Tourette syndrome.</p>
-</div><div class="column" style="width:30%;">
-<p><img src="img/basalganglia.png" class="img-fluid"></p>
-</div>
-</div>
-</section>
-<section id="dopaminergic-system" class="level3">
-<h3 class="anchored" data-anchor-id="dopaminergic-system">Dopaminergic system</h3>
-<div class="columns">
-<div class="column" style="width:70%;">
-<p><a href="./research/dopamine.html">Description</a></p>
-<p>The dopaminergic system is composed of the <em>ventral tegmental area</em> (VTA) and the <em>substantia nigra pars compacta</em> (SNc). The neurotransmitter <strong>dopamine</strong> (DA) released by neurons in these two small areas exerts a strong influence on neural excitability and plasticity in many brain areas: mostly the basal ganglia (BG), but also the prefrontal cortex, the hippocampus or the amygdala.</p>
-</div><div class="column" style="width:30%;">
-<p><img src="img/dopamine.jpg" class="img-fluid"></p>
-</div>
-</div>
-</section>
-<section id="hippocampus" class="level3">
-<h3 class="anchored" data-anchor-id="hippocampus">Hippocampus</h3>
-<div class="columns">
-<div class="column" style="width:70%;">
-<p><a href="./research/hippocampus.html">Description</a></p>
-<p>The hippocampus is a key structure for episodic memory and spatial navigation. A fundamental step in hippocampus research was the discovery of <strong>place cells</strong>, which fire whenever an animal traverses a certain location known as the place field (O’Keefe and Nadel, 1978). At rest, place cells exhibit brief periods of fast oscillations termed sharp wave-ripples. During these events, place cell activity shows sequential patterns called forward replay and reverse replay: time-compressed, and sometimes time-reversed, reproductions of previously experienced sequences. Spatial experiences stored in the hippocampus can therefore be recalled at will during behavior.</p>
-</div><div class="column" style="width:30%;">
-<p><img src="img/hippocampus.png" class="img-fluid"></p>
-</div>
-</div>
-</section>
-</section>
-<section id="neurocomputing" class="level2">
-<h2 class="anchored" data-anchor-id="neurocomputing">Neurocomputing</h2>
-<section id="neurosimulator-annarchy" class="level3">
-<h3 class="anchored" data-anchor-id="neurosimulator-annarchy">Neurosimulator ANNarchy</h3>
-<div class="columns">
-<div class="column" style="width:70%;">
-<p><a href="./research/annarchy.html">Description</a></p>
-<p>I develop with Helge Dinkelbach <strong>ANNarchy</strong> (Artificial Neural Networks architect), a parallel simulator for distributed rate-coded or spiking neural networks. The definition of the models is in Python, but the library generates optimized C++ code to actually run the simulation on parallel hardware, using either openMP or CUDA.</p>
-</div><div class="column" style="width:30%;">
-<p><img src="img/annarchy.svg" class="img-fluid"></p>
-</div>
-</div>
-</section>
-</section>
-<section id="machine-learning" class="level2">
-<h2 class="anchored" data-anchor-id="machine-learning">Machine Learning</h2>
-<section id="reservoir-computing" class="level3">
-<h3 class="anchored" data-anchor-id="reservoir-computing">Reservoir computing</h3>
-<div class="columns">
-<div class="column" style="width:70%;">
-<p><a href="./research/reservoircomputing.html">Description</a></p>
-<p>Reservoir computing studies the dynamical properties of recurrently connected populations of neurons. Their rich dynamics allow to represent and learn complex tasks currently out of reach of the classical machine learning methods, but also allow to better understand brain activities.</p>
-</div><div class="column" style="width:30%;">
-<p><img src="img/rc.png" class="img-fluid"></p>
-</div>
-</div>
-</section>
-<section id="reinforcement-learning" class="level3">
-<h3 class="anchored" data-anchor-id="reinforcement-learning">Reinforcement learning</h3>
-<div class="columns">
-<div class="column" style="width:70%;">
-<p><a href="./research/reinforcementlearning.html">Description</a></p>
-<p>Reinforcement Learning (RL) is a machine learning framework studying how to derive optimal policies from reward signals. Coupled with deep neural networks, it became the most promising approach to artificial intelligence.</p>
-</div><div class="column" style="width:30%;">
-<p><img src="img/reinforcement.png" class="img-fluid"></p>
-</div>
-</div>
 
 
-</section>
-</section>
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1557266400000" data-listing-file-modified-sort="1669750043714" data-listing-reading-time-sort="19.94">
+<div class="thumbnail">
+<p><a href="./post/successor_representations/index.html"> <img src="./post/successor_representations/featured.png" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="./post/successor_representations/index.html">
+<h3 class="no-anchor listing-title">
+Successor Representations
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>Successor representations (SR) attract a lot of attention these days, both in the neuroscientific and machine learning / deep RL communities. This post is intended to explain the main difference between SR and model-free / model-based RL algorithms and to point out its usefulness to understand goal-directed behavior.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="./post/successor_representations/index.html">
+<div class="listing-date">
+May 8, 2019
+</div>
+<div class="listing-author">
+Julien Vitay
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

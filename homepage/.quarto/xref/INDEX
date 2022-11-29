@@ -34,5 +34,14 @@
   },
   "teaching.qmd": {
     "teaching.html": "52051283"
+  },
+  "blog.qmd": {
+    "blog.html": "fd0eb178"
+  },
+  "posts/successor_representations/index.qmd": {
+    "index.html": "c4106a72"
+  },
+  "post/successor_representations/index.qmd": {
+    "index.html": "0e0badb4"
   }
 }

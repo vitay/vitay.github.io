@@ -2,6 +2,9 @@ project:
   type: website
   output-dir: ../docs
 
+
+csl: frontiers.csl
+
 website:
   title: "Julien Vitay"
   navbar:
@@ -15,6 +18,7 @@ website:
       - research.qmd
       - publications.qmd
       - teaching.qmd
+      - blog.qmd
 
 format:
   html:
