@@ -77,25 +77,25 @@
     "text": "Description\nThe Basal Ganglia (BG) are a set of nuclei located in the basal forebrain, receiving inputs mostly from the cerebral cortex and projecting to various motor centers, as well as back to the cortex through the thalamus, forming a closed-loop. It is involved in major functions such as reinforcement learning, habit formation, planning and motor control, but also in diseases such as Parkinson’s disease or Tourette syndrome.\n\n\n\n\n\n\n\n\n\nDescription\nThe dopaminergic system is composed of the ventral tegmental area (VTA) and the substantia nigra pars compacta (SNc). The neurotransmitter dopamine (DA) released by neurons in these two small areas exerts a strong influence on neural excitability and plasticity in many brain areas: mostly the basal ganglia (BG), but also the prefrontal cortex, the hippocampus or the amygdala.\n\n\n\n\n\n\n\n\n\nDescription\nThe hippocampus is a key structure for episodic memory and spatial navigation. A fundamental step in hippocampus research was the discovery of place cells, which fire whenever an animal traverses a certain location known as the place field (O’Keefe and Nadel, 1978). At rest, place cells exhibit brief periods of fast oscillations termed sharp wave-ripples. During these events, place cell activity shows sequential patterns called forward replay and reverse replay: time-compressed, and sometimes time-reversed, reproductions of previously experienced sequences. Spatial experiences stored in the hippocampus can therefore be recalled at will during behavior."
   },
   {
+    "objectID": "research.html#neuroinformatics",
+    "href": "research.html#neuroinformatics",
+    "title": "Research",
+    "section": "Neuroinformatics",
+    "text": "Neuroinformatics\n\nNeurosimulator ANNarchy\n\n\nDescription\nI develop with Helge Dinkelbach ANNarchy (Artificial Neural Networks architect), a parallel simulator for distributed rate-coded or spiking neural networks. The definition of the models is in Python, but the library generates optimized C++ code to actually run the simulation on parallel hardware, using either openMP or CUDA."
+  },
+  {
     "objectID": "research.html#neurocomputing",
     "href": "research.html#neurocomputing",
     "title": "Research",
     "section": "Neurocomputing",
-    "text": "Neurocomputing\n\nNeurosimulator ANNarchy\n\n\nDescription\nI develop with Helge Dinkelbach ANNarchy (Artificial Neural Networks architect), a parallel simulator for distributed rate-coded or spiking neural networks. The definition of the models is in Python, but the library generates optimized C++ code to actually run the simulation on parallel hardware, using either openMP or CUDA."
-  },
-  {
-    "objectID": "research.html#machine-learning",
-    "href": "research.html#machine-learning",
-    "title": "Research",
-    "section": "Machine Learning",
-    "text": "Machine Learning\n\nReservoir computing\n\n\nDescription\nReservoir computing studies the dynamical properties of recurrently connected populations of neurons. Their rich dynamics allow to represent and learn complex tasks currently out of reach of the classical machine learning methods, but also allow to better understand brain activities.\n\n\n\n\n\n\nReinforcement learning\n\n\nDescription\nReinforcement Learning (RL) is a machine learning framework studying how to derive optimal policies from reward signals. Coupled with deep neural networks, it became the most promising approach to artificial intelligence."
+    "text": "Neurocomputing\n\nReservoir computing\n\n\nDescription\nReservoir computing studies the dynamical properties of recurrently connected populations of neurons. Their rich dynamics allow to represent and learn complex tasks currently out of reach of the classical machine learning methods, but also allow to better understand brain activities.\n\n\n\n\n\n\nReinforcement learning\n\n\nDescription\nReinforcement Learning (RL) is a machine learning framework studying how to derive optimal policies from reward signals. Coupled with deep neural networks, it became the most promising approach to artificial intelligence."
   },
   {
     "objectID": "contact.html",
     "href": "contact.html",
     "title": "Contact",
     "section": "",
-    "text": "Email  julien.vitay@informatik.tu-chemnitz.de\nPhone  (+49) 371 531 39468\nAddress  Technische Universität Chemnitz  Straße der Nationen 62  D-09107 Chemnitz\nRoom  1/349"
+    "text": "Email  julien.vitay@informatik.tu-chemnitz.de\nPhone  (+49) 371 531 39468\nAddress  Technische Universität Chemnitz  Straße der Nationen 62  D-09107 Chemnitz\nRoom  1/348"
   },
   {
     "objectID": "post/successor_representations/index.html",
@@ -130,7 +130,7 @@
     "href": "index.html",
     "title": "Julien Vitay",
     "section": "",
-    "text": "Dr. habil. Julien Vitay\n\nResearcher / lecturer at the Chemnitz University of Technology.\nLab of Artificial Intelligence - Department of Computer Science.\n -  -  -  - \n\n\n\n\n\nComputational neuroscience\n\n\nbasal ganglia\ndopaminergic system\nhippocampus\n\n\n\nNeuroinformatics\n\n\nneuro-simulator ANNarchy\n\n\n\nMachine learning\n\n\nreservoir computing\nreinforcement learning"
+    "text": "Dr. habil. Julien Vitay\n\nResearcher / lecturer at the Chemnitz University of Technology.\nHamker lab of Artificial Intelligence - Department of Computer Science.\nResearch interests: computational neuroscience, neuroinformatics, neurocomputing\n\n -  -  -  -"
   },
   {
     "objectID": "publications.html",

@@ -10,10 +10,13 @@ toc: false
 **Dr. habil. Julien Vitay**
 :::
 
-Researcher / lecturer at the [Chemnitz University of Technology](http://www.tu-chemnitz.de/).
+Researcher / lecturer at the [**Chemnitz University of Technology**](http://www.tu-chemnitz.de/).
 
-Lab of [Artificial Intelligence](http://www.tu-chemnitz.de/informatik/KI/) - Department of Computer Science.
+Hamker lab of [**Artificial Intelligence**](http://www.tu-chemnitz.de/informatik/KI/) - Department of Computer Science.
 
+[**Research interests:**](research.qmd) computational neuroscience, neuroinformatics, neurocomputing
+
+<br>
 
 [ {{< fa solid envelope size=2xl >}} ](mailto:julien.vitay@informatik.tu-chemnitz.de) - 
 [ {{< fa brands github size=2xl >}} ](https://github.com/vitay) - 
@@ -25,40 +28,4 @@ Lab of [Artificial Intelligence](http://www.tu-chemnitz.de/informatik/KI/) - Dep
 
 
 ::::
-
-<br>
-
-::: {.columns}
-::: {.column width=33%}
-
-
-::: {.center}
-**Computational neuroscience**
-:::
-
-* [basal ganglia](research/basalganglia.qmd)
-* [dopaminergic system](research/dopamine.qmd)
-* [hippocampus](research/hippocampus.qmd)
-
-:::
-::: {.column width=33%}
-
-
-::: {.center}
-**Neuroinformatics**
-:::
-
-* [neuro-simulator ANNarchy](research/annarchy.qmd)
-
-:::
-::: {.column width=33%}
-
-::: {.center}
-**Machine learning**
-:::
-
-* [reservoir computing](research/reservoircomputing.qmd)
-* [reinforcement learning](research/reinforcementlearning.qmd)
-:::
-:::
 

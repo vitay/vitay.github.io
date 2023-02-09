@@ -8,7 +8,7 @@ csl: frontiers.csl
 website:
   title: "Julien Vitay"
   navbar:
-    background: dark
+    background: black
     foreground: light
     right:
       - href: index.qmd

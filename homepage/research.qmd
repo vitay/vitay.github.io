@@ -46,7 +46,7 @@ The hippocampus is a key structure for episodic memory and spatial navigation. A
 :::
 :::
 
-## Neurocomputing
+## Neuroinformatics
 
 ### Neurosimulator ANNarchy
 
@@ -62,7 +62,7 @@ I develop with Helge Dinkelbach **ANNarchy** (Artificial Neural Networks archite
 :::
 
 
-## Machine Learning
+## Neurocomputing
 
 ### Reservoir computing
 
