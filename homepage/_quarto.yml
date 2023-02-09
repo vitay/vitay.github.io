@@ -20,16 +20,17 @@ website:
       - teaching.qmd
       - blog.qmd
       - contact.qmd
-      
+
   page-footer: 
     border: false
     center: "Julien Vitay - Chemnitz University of Technology" 
 
 format:
   html:
-    theme: [journal, styles.scss]
+    theme: [sandstone, styles.scss]
     toc: true
     html-math-method: katex
+    email-obfuscation: none
 
 
 
