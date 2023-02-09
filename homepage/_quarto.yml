@@ -19,6 +19,11 @@ website:
       - publications.qmd
       - teaching.qmd
       - blog.qmd
+      - contact.qmd
+      
+  page-footer: 
+    border: false
+    center: "Julien Vitay - Chemnitz University of Technology" 
 
 format:
   html:

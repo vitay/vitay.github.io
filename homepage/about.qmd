@@ -1,5 +1,7 @@
 ---
 title: "Dr. habil. Julien Vitay"
+
+toc: false
 ---
 
 Researcher / lecturer at the Chemnitz University of Technology, Department of Computer Science, Professorship for Artificial Intelligence.

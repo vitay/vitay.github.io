@@ -1,51 +1,64 @@
 ---
-title: "Dr. habil. Julien Vitay"
-
+title: ""
 toc: false
 ---
 
+:::: {.center}
+![](img/trombine.jpg){width=40%}
+
+::: {.title-line}
+**Dr. habil. Julien Vitay**
+:::
+
+Researcher / lecturer at the [Chemnitz University of Technology](http://www.tu-chemnitz.de/).
+
+Lab of [Artificial Intelligence](http://www.tu-chemnitz.de/informatik/KI/) - Department of Computer Science.
+
+
+[ {{< fa solid envelope size=2xl >}} ](mailto:julien.vitay@informatik.tu-chemnitz.de) - 
+[ {{< fa brands github size=2xl >}} ](https://github.com/vitay) - 
+[ {{< fa brands orcid size=2xl >}} ](https://orcid.org/0000-0001-5229-2349) - 
+[ {{< fa solid graduation-cap size=2xl >}} ](https://scholar.google.com/citations?user=1t5zJncAAAAJ)
+ - 
+[ {{< fa brands researchgate size=2xl >}} ](https://www.researchgate.net/profile/Julien-Vitay)
+
+
+
+::::
+
 <br>
-
-Researcher and lecturer at the [Chemnitz University of Technology](http://www.tu-chemnitz.de/), in the lab of [Artificial Intelligence](http://www.tu-chemnitz.de/informatik/KI/), Department of Computer Science.
-
 
 ::: {.columns}
-::: {.column width=60%}
+::: {.column width=33%}
 
 
-My research interests focus on:
-
-* **computational neuroscience**
-    * basal ganglia
-    * dopaminergic system
-    * hippocampus
-* **neuroinformatics**
-    * neuro-simulator ANNarchy
-* **machine learning**
-    * reservoir computing
-    * reinforcement learning
-    
-:::
-::: {.column width=40%}
-
-<br>
-
-![](img/trombine.jpg)
-
-:::
+::: {.center}
+**Computational neuroscience**
 :::
 
+* [basal ganglia](research/basalganglia.qmd)
+* [dopaminergic system](research/dopamine.qmd)
+* [hippocampus](research/hippocampus.qmd)
+
+:::
+::: {.column width=33%}
 
 
+::: {.center}
+**Neuroinformatics**
+:::
 
+* [neuro-simulator ANNarchy](research/annarchy.qmd)
 
+:::
+::: {.column width=33%}
 
-## Contact
+::: {.center}
+**Machine learning**
+:::
 
-<julien.vitay@informatik.tu-chemnitz.de>
+* [reservoir computing](research/reservoircomputing.qmd)
+* [reinforcement learning](research/reinforcementlearning.qmd)
+:::
+:::
 
-(+49) 371 531 39468
-
-Straße der Nationen 62, D-09107 Chemnitz
-
-Room 1/348

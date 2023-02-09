@@ -1,5 +1,7 @@
 ---
 title: Teaching
+
+toc: false
 ---
 
 ## Neurocomputing

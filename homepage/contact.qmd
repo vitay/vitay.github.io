@@ -1,0 +1,29 @@
+---
+title: "Contact"
+---
+
+::: {.columns}
+::: {.column width=50%}
+
+**Email** <br>
+[julien.vitay@informatik.tu-chemnitz.de](mailto:julien.vitay@informatik.tu-chemnitz.de)
+
+**Phone** <br>
+(+49) 371 531 39468
+
+**Address** <br>
+Technische Universität Chemnitz <br>
+Straße der Nationen 62 <br>
+D-09107 Chemnitz
+
+**Room** <br>
+1/349
+
+:::
+::: {.column width=50%}
+
+<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=12.926978766918182%2C50.83830684981741%2C12.929424941539764%2C50.83967884379639&amp;layer=mapnik" style="border: 0px solid black"></iframe>
+
+
+:::
+:::
