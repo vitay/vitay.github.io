@@ -4,84 +4,75 @@ title: "Dr. habil. Julien Vitay"
 toc: false
 ---
 
-Researcher / lecturer at the Chemnitz University of Technology, Department of Computer Science, Professorship for Artificial Intelligence.
+Researcher / lecturer at the Chemnitz University of Technology.
 
 
 ## Education
 
-::: {.d-flex .justify-content-between}
-::: {}
-**Chemnitz University of Technology**  
-Habilitation in Computer Science
-:::
-::: {.text-end}
-*Chemnitz, Germany* - 2017
-:::
-:::
+{{< fa solid graduation-cap size=lg >}} **Chemnitz University of Technology**  - Germany
+<span style="float:right;">2017</span>
 
-::: {.d-flex .justify-content-between}
-::: {}
-**Université Henri Poincaré Nancy-I**  
-PhD in Computer Science
-:::
-::: {.text-end}
-*Nancy, France* - 2006
-:::
-:::
+$\rightarrow$ Habilitation in Computer Science.
 
-::: {.d-flex .justify-content-between}
-::: {}
-**École Supérieure d'Électricité (Supélec)**  
-Engineering degree in Signal Processing and Microelectronics
-:::
-::: {.text-end}
-*Rennes, France* - 2002
-:::
-:::
 
-::: {.d-flex .justify-content-between}
-::: {}
-**Université Rennes-I**  
-Master of Science in Microelectronics
-:::
-::: {.text-end}
-*Rennes, France* - 2002
-:::
-:::
+{{< fa solid graduation-cap size=lg >}} **Université Henri Poincaré Nancy-I** - France
+<span style="float:right;">2006</span>
+
+$\rightarrow$ PhD in Computer Science.
+
+
+
+{{< fa solid graduation-cap size=lg >}} **École Supérieure d'Électricité (Supélec)**  - France
+<span style="float:right;">2002</span>
+
+$\rightarrow$ Engineering degree in Signal Processing and Microelectronics.
+
+
+
+{{< fa solid graduation-cap size=lg >}} **Université Rennes-I** - France
+<span style="float:right;">2002</span>
+
+$\rightarrow$ Master of Science in Microelectronics.
+
 
 ## Experience
 
-::: {.d-flex .justify-content-between}
-::: {}
-**Chemnitz University of Technology**  
-:::
-::: {.text-end}
-*March 2011 - present*
-:::
-:::
-*Researcher / lecturer*
 
-::: {.d-flex .justify-content-between}
-::: {}
-**University of Münster**  
-:::
-::: {.text-end}
-*August 2006 - February 2011*
-:::
-:::
-*Postdoc*
+{{< fa solid person-chalkboard size=lg >}} **Chemnitz University of Technology** - Germany
+<span style="float:right;">2011 - now</span>
 
-- Supervisor: Fred Hamker
+$\rightarrow$ Researcher / lecturer in the faculty of Computer science.
+
+* Research: 
+    * Computational neuroscience: basal ganglia, dopamine, hippocampus.
+    * Neuroinformatics: neurosimulator [ANNarchy](https://github.com/ANNarchy/ANNarchy)
+    * Machine learning, reinforcement learning.
+* Teaching: 
+    * Neurocomputing / Machine Learning
+    * Deep Reinforcement Learning
+    * Computer Vision
+    * Introduction to AI.
+* Erasmus+ departmental coordinator.
 
 
-::: {.d-flex .justify-content-between}
-::: {}
-**Inria Lorraine**  
-:::
-::: {.text-end}
-*October 2002 - June 2006*
-:::
-:::
-*PhD student*
 
-- Supervisors: Frédéric Alexandre and Nicolas Rougier
+{{< fa solid microscope size=lg >}} **WWU University of Münster**  - Germany
+<span style="float:right;">2006 - 2011</span>
+
+$\rightarrow$ Postdoc in the Institute of Psychology, lab of Markus [Lappe](https://www.uni-muenster.de/PsyIFP/AELappe), supervisor Fred Hamker.
+
+* Research: 
+    * Computational neuroscience: basal ganglia.
+
+
+{{< fa solid school size=lg >}} **Inria Lorraine** - France
+<span style="float:right;">2002 - 2006</span>
+
+$\rightarrow$ PhD student in the Cortex team (LORIA Nancy), supervisors Frédéric Alexandre and Nicolas Rougier.
+
+* Research: 
+    * Computational neuroscience: basal ganglia, visual attention.
+    * Robotics.
+* Teaching (at the University of Nancy-I):
+    * Computer architecture, Java, AI. 
+

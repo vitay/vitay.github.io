@@ -144,21 +144,21 @@
     "href": "about.html",
     "title": "Dr. habil. Julien Vitay",
     "section": "",
-    "text": "Researcher / lecturer at the Chemnitz University of Technology, Department of Computer Science, Professorship for Artificial Intelligence."
+    "text": "Researcher / lecturer at the Chemnitz University of Technology."
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "Dr. habil. Julien Vitay",
     "section": "Education",
-    "text": "Education\n\n\nChemnitz University of Technology\nHabilitation in Computer Science\n\n\nChemnitz, Germany - 2017\n\n\n\n\nUniversité Henri Poincaré Nancy-I\nPhD in Computer Science\n\n\nNancy, France - 2006\n\n\n\n\nÉcole Supérieure d’Électricité (Supélec)\nEngineering degree in Signal Processing and Microelectronics\n\n\nRennes, France - 2002\n\n\n\n\nUniversité Rennes-I\nMaster of Science in Microelectronics\n\n\nRennes, France - 2002"
+    "text": "Education\n Chemnitz University of Technology - Germany 2017\n\\rightarrow Habilitation in Computer Science.\n Université Henri Poincaré Nancy-I - France 2006\n\\rightarrow PhD in Computer Science.\n École Supérieure d’Électricité (Supélec) - France 2002\n\\rightarrow Engineering degree in Signal Processing and Microelectronics.\n Université Rennes-I - France 2002\n\\rightarrow Master of Science in Microelectronics."
   },
   {
     "objectID": "about.html#experience",
     "href": "about.html#experience",
     "title": "Dr. habil. Julien Vitay",
     "section": "Experience",
-    "text": "Experience\n\n\nChemnitz University of Technology\n\n\nMarch 2011 - present\n\n\nResearcher / lecturer\n\n\nUniversity of Münster\n\n\nAugust 2006 - February 2011\n\n\nPostdoc\n\nSupervisor: Fred Hamker\n\n\n\nInria Lorraine\n\n\nOctober 2002 - June 2006\n\n\nPhD student\n\nSupervisors: Frédéric Alexandre and Nicolas Rougier"
+    "text": "Experience\n Chemnitz University of Technology - Germany 2011 - now\n\\rightarrow Researcher / lecturer in the faculty of Computer science.\n\nResearch:\n\nComputational neuroscience: basal ganglia, dopamine, hippocampus.\nNeuroinformatics: neurosimulator ANNarchy\nMachine learning, reinforcement learning.\n\nTeaching:\n\nNeurocomputing / Machine Learning\nDeep Reinforcement Learning\nComputer Vision\nIntroduction to AI.\n\nErasmus+ departmental coordinator.\n\n WWU University of Münster - Germany 2006 - 2011\n\\rightarrow Postdoc in the Institute of Psychology, lab of Markus Lappe, supervisor Fred Hamker.\n\nResearch:\n\nComputational neuroscience: basal ganglia.\n\n\n Inria Lorraine - France 2002 - 2006\n\\rightarrow PhD student in the Cortex team (LORIA Nancy), supervisors Frédéric Alexandre and Nicolas Rougier.\n\nResearch:\n\nComputational neuroscience: basal ganglia, visual attention.\nRobotics.\n\nTeaching (at the University of Nancy-I):\n\nComputer architecture, Java, AI."
   },
   {
     "objectID": "blog.html",

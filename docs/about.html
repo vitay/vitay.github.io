@@ -39,6 +39,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -59,6 +61,22 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
 
 </head>
 
@@ -137,80 +155,58 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>Researcher / lecturer at the Chemnitz University of Technology, Department of Computer Science, Professorship for Artificial Intelligence.</p>
+<p>Researcher / lecturer at the Chemnitz University of Technology.</p>
 <section id="education" class="level2">
 <h2 class="anchored" data-anchor-id="education">Education</h2>
-<div class="d-flex justify-content-between">
-<div>
-<p><strong>Chemnitz University of Technology</strong><br>
-Habilitation in Computer Science</p>
-</div>
-<div class="text-end">
-<p><em>Chemnitz, Germany</em> - 2017</p>
-</div>
-</div>
-<div class="d-flex justify-content-between">
-<div>
-<p><strong>Université Henri Poincaré Nancy-I</strong><br>
-PhD in Computer Science</p>
-</div>
-<div class="text-end">
-<p><em>Nancy, France</em> - 2006</p>
-</div>
-</div>
-<div class="d-flex justify-content-between">
-<div>
-<p><strong>École Supérieure d’Électricité (Supélec)</strong><br>
-Engineering degree in Signal Processing and Microelectronics</p>
-</div>
-<div class="text-end">
-<p><em>Rennes, France</em> - 2002</p>
-</div>
-</div>
-<div class="d-flex justify-content-between">
-<div>
-<p><strong>Université Rennes-I</strong><br>
-Master of Science in Microelectronics</p>
-</div>
-<div class="text-end">
-<p><em>Rennes, France</em> - 2002</p>
-</div>
-</div>
+<p><i class="fa-solid fa-graduation-cap fa-lg" aria-label="graduation-cap"></i> <strong>Chemnitz University of Technology</strong> - Germany <span style="float:right;">2017</span></p>
+<p><span class="math inline">\rightarrow</span> Habilitation in Computer Science.</p>
+<p><i class="fa-solid fa-graduation-cap fa-lg" aria-label="graduation-cap"></i> <strong>Université Henri Poincaré Nancy-I</strong> - France <span style="float:right;">2006</span></p>
+<p><span class="math inline">\rightarrow</span> PhD in Computer Science.</p>
+<p><i class="fa-solid fa-graduation-cap fa-lg" aria-label="graduation-cap"></i> <strong>École Supérieure d’Électricité (Supélec)</strong> - France <span style="float:right;">2002</span></p>
+<p><span class="math inline">\rightarrow</span> Engineering degree in Signal Processing and Microelectronics.</p>
+<p><i class="fa-solid fa-graduation-cap fa-lg" aria-label="graduation-cap"></i> <strong>Université Rennes-I</strong> - France <span style="float:right;">2002</span></p>
+<p><span class="math inline">\rightarrow</span> Master of Science in Microelectronics.</p>
 </section>
 <section id="experience" class="level2">
 <h2 class="anchored" data-anchor-id="experience">Experience</h2>
-<div class="d-flex justify-content-between">
-<div>
-<p><strong>Chemnitz University of Technology</strong></p>
-</div>
-<div class="text-end">
-<p><em>March 2011 - present</em></p>
-</div>
-</div>
-<p><em>Researcher / lecturer</em></p>
-<div class="d-flex justify-content-between">
-<div>
-<p><strong>University of Münster</strong></p>
-</div>
-<div class="text-end">
-<p><em>August 2006 - February 2011</em></p>
-</div>
-</div>
-<p><em>Postdoc</em></p>
+<p><i class="fa-solid fa-person-chalkboard fa-lg" aria-label="person-chalkboard"></i> <strong>Chemnitz University of Technology</strong> - Germany <span style="float:right;">2011 - now</span></p>
+<p><span class="math inline">\rightarrow</span> Researcher / lecturer in the faculty of Computer science.</p>
 <ul>
-<li>Supervisor: Fred Hamker</li>
+<li>Research:
+<ul>
+<li>Computational neuroscience: basal ganglia, dopamine, hippocampus.</li>
+<li>Neuroinformatics: neurosimulator <a href="https://github.com/ANNarchy/ANNarchy">ANNarchy</a></li>
+<li>Machine learning, reinforcement learning.</li>
+</ul></li>
+<li>Teaching:
+<ul>
+<li>Neurocomputing / Machine Learning</li>
+<li>Deep Reinforcement Learning</li>
+<li>Computer Vision</li>
+<li>Introduction to AI.</li>
+</ul></li>
+<li>Erasmus+ departmental coordinator.</li>
 </ul>
-<div class="d-flex justify-content-between">
-<div>
-<p><strong>Inria Lorraine</strong></p>
-</div>
-<div class="text-end">
-<p><em>October 2002 - June 2006</em></p>
-</div>
-</div>
-<p><em>PhD student</em></p>
+<p><i class="fa-solid fa-microscope fa-lg" aria-label="microscope"></i> <strong>WWU University of Münster</strong> - Germany <span style="float:right;">2006 - 2011</span></p>
+<p><span class="math inline">\rightarrow</span> Postdoc in the Institute of Psychology, lab of Markus <a href="https://www.uni-muenster.de/PsyIFP/AELappe">Lappe</a>, supervisor Fred Hamker.</p>
 <ul>
-<li>Supervisors: Frédéric Alexandre and Nicolas Rougier</li>
+<li>Research:
+<ul>
+<li>Computational neuroscience: basal ganglia.</li>
+</ul></li>
+</ul>
+<p><i class="fa-solid fa-school fa-lg" aria-label="school"></i> <strong>Inria Lorraine</strong> - France <span style="float:right;">2002 - 2006</span></p>
+<p><span class="math inline">\rightarrow</span> PhD student in the Cortex team (LORIA Nancy), supervisors Frédéric Alexandre and Nicolas Rougier.</p>
+<ul>
+<li>Research:
+<ul>
+<li>Computational neuroscience: basal ganglia, visual attention.</li>
+<li>Robotics.</li>
+</ul></li>
+<li>Teaching (at the University of Nancy-I):
+<ul>
+<li>Computer architecture, Java, AI.</li>
+</ul></li>
 </ul>
 
 
