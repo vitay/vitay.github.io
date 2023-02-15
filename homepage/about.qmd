@@ -9,27 +9,27 @@ Researcher / lecturer at the Chemnitz University of Technology.
 
 ## Education
 
-{{< fa solid graduation-cap size=lg >}} **Chemnitz University of Technology**  - Germany
+{{< fa solid graduation-cap size=lg >}} &nbsp; **Chemnitz University of Technology**  - Germany
 <span style="float:right;">2017</span>
 
 $\rightarrow$ Habilitation in Computer Science.
 
 
-{{< fa solid graduation-cap size=lg >}} **Université Henri Poincaré Nancy-I** - France
+{{< fa solid graduation-cap size=lg >}} &nbsp; **Université Henri Poincaré Nancy-I** - France
 <span style="float:right;">2006</span>
 
 $\rightarrow$ PhD in Computer Science.
 
 
 
-{{< fa solid graduation-cap size=lg >}} **École Supérieure d'Électricité (Supélec)**  - France
+{{< fa solid graduation-cap size=lg >}} &nbsp; **École Supérieure d'Électricité (Supélec)**  - France
 <span style="float:right;">2002</span>
 
 $\rightarrow$ Engineering degree in Signal Processing and Microelectronics.
 
 
 
-{{< fa solid graduation-cap size=lg >}} **Université Rennes-I** - France
+{{< fa solid graduation-cap size=lg >}} &nbsp; **Université Rennes-I** - France
 <span style="float:right;">2002</span>
 
 $\rightarrow$ Master of Science in Microelectronics.
@@ -38,7 +38,7 @@ $\rightarrow$ Master of Science in Microelectronics.
 ## Experience
 
 
-{{< fa solid person-chalkboard size=lg >}} **Chemnitz University of Technology** - Germany
+{{< fa solid person-chalkboard size=lg >}} &nbsp; **Chemnitz University of Technology** - Germany
 <span style="float:right;">2011 - now</span>
 
 $\rightarrow$ Researcher / lecturer in the faculty of Computer science.
@@ -54,9 +54,9 @@ $\rightarrow$ Researcher / lecturer in the faculty of Computer science.
     * Introduction to AI.
 * Erasmus+ departmental coordinator.
 
+---
 
-
-{{< fa solid microscope size=lg >}} **WWU University of Münster**  - Germany
+{{< fa solid microscope size=lg >}} &nbsp; **WWU University of Münster**  - Germany
 <span style="float:right;">2006 - 2011</span>
 
 $\rightarrow$ Postdoc in the Institute of Psychology, lab of Markus [Lappe](https://www.uni-muenster.de/PsyIFP/AELappe), supervisor Fred Hamker.
@@ -64,8 +64,9 @@ $\rightarrow$ Postdoc in the Institute of Psychology, lab of Markus [Lappe](http
 * Research: 
     * Computational neuroscience: basal ganglia.
 
+---
 
-{{< fa solid school size=lg >}} **Inria Lorraine** - France
+{{< fa solid school size=lg >}} &nbsp; **Inria Lorraine** - France
 <span style="float:right;">2002 - 2006</span>
 
 $\rightarrow$ PhD student in the Cortex team (LORIA Nancy), supervisors Frédéric Alexandre and Nicolas Rougier.
