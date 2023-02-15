@@ -11,39 +11,42 @@ import yaml
 from IPython.display import display, Markdown, HTML
 
 def readable_list(_s):
-  if len(_s) < 3:
-    return ' and '.join(map(str, _s))
-  *a, b = _s
-  return f"{', '.join(map(str, a))}, and {b}"
+    if len(_s) < 3:
+        return ' and '.join(map(str, _s))
+    *a, b = _s
+    return f"{', '.join(map(str, a))}, and {b}"
 
 def button(url, str, icon):
     icon_base = icon[:2]
-    return f"""<a class="btn btn-outline-dark btn-sm", href="{url}" target="_blank" rel="noopener noreferrer">
-        <i class="{icon_base} {icon}" role='img' aria-label='{str}'></i>
-        {str}
-    </a>"""
+    return f"""<a class="btn btn-outline-dark btn-sm" href="{url}" target="_blank" rel="noopener noreferrer"> <i class="{icon_base} {icon}" role='img' aria-label='{str}'></i>{str}</a>"""
 
 yaml_data = yaml.safe_load(open("papers.yaml"))
-pub_strs = {"pubs": {}}
+
+md_code = {}
+
 for _, data in yaml_data.items():
+
     # Basic info
     title_str = data["title"]
-    authors = data.get("authors", ["me"])
-    authors = [aut if aut != "me" else "<strong>Julien Vitay</strong>" for aut in authors]
-    author_str = readable_list(authors)
+    author_str = readable_list(data.get("authors"))
     year_str = data["year"]
     journal = data.get("journal")
     doi = data.get("doi")
+    url = data.get("url")
 
-    if year_str not in pub_strs["pubs"]:
-        pub_strs["pubs"][year_str] = []
+    # Create the year if not existing yet
+    if year_str not in md_code:
+        md_code[year_str] = []
 
-    # Build the html
-    pub_str = f'{author_str} ({year_str}).<br><strong>{title_str}</strong>.'
+    # Build the markdown
+    md_string = f"""
+{author_str} ({year_str}) <br>
+**{title_str}**  <br>
+"""
     if journal is not None:
-        pub_str += f"<br> <em>{journal}</em>"
+        md_string += f"{journal}  <br>\n"
     if doi is not None:
-        pub_str += f'<br> <a href="https://doi.org/{doi}">doi:{doi}</a>'
+        md_string += f'[doi:{doi}](https://doi.org/{doi}) <br>\n'
 
     # Buttons
     buttons = []
@@ -68,11 +71,9 @@ for _, data in yaml_data.items():
     if poster is not None:
         buttons.append(button(poster, "Poster", "bi-file-earmark-easel"))
 
-
-
     # Append
-    pub_strs["pubs"][year_str].append(
-        "<li class='list-group-item'>" + pub_str + "<br><br>" + " ".join(buttons) + "</li>"
+    md_code[year_str].append(
+        md_string + "\n\n" + "\n".join(buttons) + "\n\n---\n\n"
     )
 ```
 
@@ -81,10 +82,10 @@ for _, data in yaml_data.items():
 #| label: "published-year"
 #| id: "published-year"
 #| output: asis
-for year in sorted(pub_strs["pubs"].keys(), reverse=True):
-    display(Markdown(f"### {year}" + "{#" + f"published-{year}" + "}"))
-    display(HTML(
-        "<ul class='list-group list-group-flush'>" + '\n'.join(pub_strs["pubs"][year]) + "</ul>"
+for year in sorted(md_code.keys(), reverse=True):
+    display(Markdown(f"### {year}" + " {#" + f"published-{year}" + "}"))
+    display(Markdown(
+        '\n'.join(md_code[year])
     ))
 ```
 

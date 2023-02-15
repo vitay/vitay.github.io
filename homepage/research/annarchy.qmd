@@ -1,8 +1,8 @@
 ---
-title: ANNarchy
----
+title: ANNarchy (Artificial Neural Networks architect)
 
-## ANNarchy (Artificial Neural Networks architect)
+toc: false
+---
 
 Neuro-computational models are different from classical neural networks (deep learning) in many aspects:
 
@@ -94,7 +94,7 @@ plt.show()
 ![](../img/izhikevich.png)
 
 
-## Related publications
+### Related publications
 
 Oliver Maith, Helge Ülo Dinkelbach, Javier Baladron, Julien Vitay, and Fred H. Hamker (2022).\
 **BOLD monitoring in the neural simulator ANNarchy.**\

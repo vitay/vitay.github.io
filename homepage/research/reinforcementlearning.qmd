@@ -1,6 +1,9 @@
-# Reinforcement learning
+---
+title: Reinforcement learning
 
-## Principle
+toc: false
+---
+
 
 Deep reinforcement learning (deep RL) is the integration of deep learning methods, classically used in supervised or unsupervised learning contexts, with reinforcement learning (RL), a well-studied adaptive control method used in problems with delayed and partial feedback.
 
@@ -10,7 +13,7 @@ Course on deep RL taught at the TU Chemnitz:
 
 <https://julien-vitay.net/course-deeprl>
 
-## Related publications
+### Related publications
 
 Winfried Lötzsch, Julien Vitay, and Fred H. Hamker (2017).\
 **Training a deep policy gradient-based neural network with asynchronous learners on a simulated robotic problem.**\

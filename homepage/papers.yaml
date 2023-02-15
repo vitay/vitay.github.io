@@ -6,7 +6,7 @@ Scholl2022:
     - Julien Vitay
     - Fred H. Hamker
   year: 2022
-  journal: "Brain Structure and Function 227, 1031-1050"
+  journal: "*Brain Structure and Function* 227, 1031-1050"
   preprint: https://www.biorxiv.org/content/10.1101/2021.02.08.430235v3
   url: https://link.springer.com/article/10.1007/s00429-021-02446-x
   pdf: https://link.springer.com/content/pdf/10.1007/s00429-021-02446-x.pdf
@@ -22,7 +22,7 @@ Maith2022:
     - Fred H. Hamker
   year: 2022
   doi: 10.3389/fninf.2022.790966
-  journal: "Frontiers in Neuroinformatics 16:790966"
+  journal: "*Frontiers in Neuroinformatics* 16:790966"
   url: https://www.frontiersin.org/articles/10.3389/fninf.2022.790966/full
   pdf: https://www.frontiersin.org/articles/10.3389/fninf.2022.790966/pdf
   github: https://github.com/hamkerlab/Maith2021_ANNarchyBOLDmonitor
@@ -34,7 +34,7 @@ Dinkelbach2022:
     - Badr-Eddine Bouhlal
     - Julien Vitay
     - Fred H. Hamker
-  journal: Frontiers in Neuroinformatics 16:877945
+  journal: "*Frontiers in Neuroinformatics* 16:877945"
   year: 2022
   doi: 10.3389/fninf.2022.877945
   pdf: https://www.frontiersin.org/articles/10.3389/fninf.2022.877945/pdf
@@ -47,7 +47,7 @@ Farahani2022:
     - Aida Farahani
     - Julien Vitay
     - Fred H. Hamker
-  journal: "In: Bergmann, R., Malburg, L., Rodermund, S.C., Timm, I.J. (eds) KI 2022: Advances in Artificial Intelligence. KI 2022. Lecture Notes in Computer Science(), vol 13404. Springer, Cham"
+  journal: "In: Bergmann, R., Malburg, L., Rodermund, S.C., Timm, I.J. (eds). *KI 2022: Advances in Artificial Intelligence*. Lecture Notes in Computer Science, vol 13404. Springer, Cham"
   year: 2022 
   doi: 10.1007/978-3-031-15791-2_9
   url: https://link.springer.com/chapter/10.1007/978-3-031-15791-2_9
@@ -62,7 +62,7 @@ Kuske2022:
     - Florian Röhrbein
     - Julien Vitay
     - Fred H. Hamker
-  journal: "In: E. Ferstl, L. Konieczny, & R. Stülpnagel  (Eds.), Proceedings of KogWiss2022, the 15th Biannual Conference of the German Society for Cognitive Science (pp. 115-116)"
+  journal: "In: E. Ferstl, L. Konieczny, & R. Stülpnagel  (eds.). *Proceedings of KogWiss2022, the 15th Biannual Conference of the German Society for Cognitive Science* (pp. 115-116)"
   year: 2022
   doi: 10.6094/UNIFR/229611
   url: https://freidok.uni-freiburg.de/data/229611
@@ -78,10 +78,11 @@ Mummadi2021:
     - Julien Vitay
     - Volker Fischer
     - Jan Hendrik Metzen
-  journal: International Conference on Learning Representations (ICLR)
+  journal: "*In: International Conference on Learning Representations (ICLR)*"
   year: 2021
   url: https://arxiv.org/abs/2104.09789
   pdf: https://arxiv.org/pdf/2104.09789.pdf
+
 
 Farahani2021:
   title: Geometric Deep Learning and solutions for the industry
@@ -90,7 +91,7 @@ Farahani2021:
     - Julien Vitay
     - Fred H. Hamker
   year: 2021
-  journal: "Workshop 3D-NordOst 2021. Tagungsband 23. Anwendungsbezogener Workshop zur Erfassung, Modellierung, Verarbeitung und Auswertung von 3D-Daten, Berlin, 02./03.12.2021: 105-113. ISBN: 978-3-942709-27-9"
+  journal: "*Workshop 3D-NordOst 2021.* Tagungsband 23. Anwendungsbezogener Workshop zur Erfassung, Modellierung, Verarbeitung und Auswertung von 3D-Daten, Berlin, 02./03.12.2021: 105-113. ISBN: 978-3-942709-27-9"
 
 Atoofi2021:
   title: "Geometric Deep Learning: Graph Neural Networks, Challenges, and Breakthroughs"
@@ -99,7 +100,7 @@ Atoofi2021:
     - Julien Vitay
     - Fred H. Hamker
   year: 2021
-  journal: "Workshop 3D-NordOst 2021. Tagungsband 23. Anwendungsbezogener Workshop zur Erfassung, Modellierung, Verarbeitung und Auswertung von 3D-Daten, Berlin, 02./03.12.2021:115-124. ISBN: 978-3-942709-27-9"
+  journal: "*Workshop 3D-NordOst 2021.* Tagungsband 23. Anwendungsbezogener Workshop zur Erfassung, Modellierung, Verarbeitung und Auswertung von 3D-Daten, Berlin, 02./03.12.2021:115-124. ISBN: 978-3-942709-27-9"
 
 
 Schroeder2020:
@@ -109,7 +110,7 @@ Schroeder2020:
     - Mirko Mählisch
     - Julien Vitay
     - Fred H. Hamker
-  journal: 2020 Fourth IEEE International Conference on Robotic Computing (IRC)
+  journal: "*In: 2020 Fourth IEEE International Conference on Robotic Computing (IRC)*"
   year: 2020
   doi: 10.1109/IRC.2020.00066
   url: https://ieeexplore.ieee.org/document/9287883
@@ -123,7 +124,7 @@ Schroeder2019:
     - Julien Vitay
     - Fred H. Hamker
   year: 2020
-  journal: "In: Arai, K., Kapoor, S. (eds) Advances in Computer Vision. CVC 2019. Advances in Intelligent Systems and Computing, vol 944. Springer, Cham"
+  journal: "In: Arai, K., Kapoor, S. (eds) Advances in Computer Vision. CVC 2019. *Advances in Intelligent Systems and Computing*, vol 944. Springer, Cham"
   doi: 10.1007/978-3-030-17798-0_12
   url: https://link.springer.com/chapter/10.1007/978-3-030-17798-0_12
   pdf: https://link.springer.com/content/pdf/10.1007/978-3-030-17798-0.pdf
@@ -135,7 +136,7 @@ Schmid2019:
     - Katharina Schmid
     - Julien Vitay
     - Fred H. Hamker
-  journal: 2019 Conference on Cognitive Computational Neuroscience, 13-16 September 2019, Berlin, Germany
+  journal: "*In: 2019 Conference on Cognitive Computational Neuroscience*, 13-16 September 2019, Berlin, Germany"
   year: 2019
   doi: 10.32470/CCN.2019.1139-0
   url: https://ccneuro.org/2019/Papers/ViewPapers.asp?PaperNum=1139
@@ -149,7 +150,7 @@ Dinkelbach2019:
     - Helge Ülo Dinkelbach
     - Julien Vitay
     - Fred H. Hamker
-  journal: 2019 Conference on Cognitive Computational Neuroscience, 13-16 September 2019, Berlin, Germany
+  journal: "*In: 2019 Conference on Cognitive Computational Neuroscience*, 13-16 September 2019, Berlin, Germany"
   year: 2019
   doi: 10.32470/CCN.2019.1109-0
   url: https://ccneuro.org/2019/Papers/ViewPapers.asp?PaperNum=1109
@@ -163,7 +164,7 @@ Forch2019:
     - Julien Vitay
     - Fred H. Hamker
   year: 2019
-  journal: "In Proceedings of Workshop Localize IT, Chemnitz Linux-Tage, Chemnitz (Germany)."
+  journal: "In Proceedings of *Workshop Localize IT*, Chemnitz Linux-Tage, Chemnitz (Germany)."
   pdf: pdf/Forch2019.pdf
 
 Villagrasa2018:
@@ -177,7 +178,7 @@ Villagrasa2018:
     - Earl K. Miller
     - Fred H. Hamker
   year: 2018
-  journal: "Journal of Neuroscience 38(44) 9551-9562"
+  journal: "*Journal of Neuroscience* 38(44) 9551-9562"
   doi: 10.1523/JNEUROSCI.0874-18.2018
   url: "https://www.jneurosci.org/content/38/44/9551"
   pdf: pdf/Villagrasa2018.pdf
@@ -190,7 +191,7 @@ Schroder2018:
     - Julien Vitay
     - Fred H. Hamker
   year: 2018
-  journal: In Proceedings of 12. Workshop Fahrerassistenzsysteme und automatisiertes Fahren FAS 2018, 26-28.09.2018, Walting im Altmühltal (Germany). pp138-146. Darmstadt:Uni-DAS e.V.
+  journal: "*In Proceedings of 12. Workshop Fahrerassistenzsysteme und automatisiertes Fahren* FAS 2018, 26-28.09.2018, Walting im Altmühltal (Germany). pp138-146. Darmstadt:Uni-DAS e.V."
   pdf: "https://www.uni-das.de/images/pdf/veroeffentlichungen/2018/14_Fusion%20of%20Camera%20and%20Lidar%20Data%20for%20Object%20Detection%20using%20Neural%20Networks.pdf"
 
 Vitay2017:
@@ -208,7 +209,7 @@ Goenner2017:
     - Julien Vitay
     - Fred H. Hamker
   year: 2017
-  journal: "Frontiers in Computational Neuroscience 11:84"
+  journal: "*Frontiers in Computational Neuroscience* 11:84"
   doi: 10.3389/fncom.2017.00084
   url: https://www.frontiersin.org/articles/10.3389/fncom.2017.00084/full
   pdf: https://www.frontiersin.org/articles/10.3389/fncom.2017.00084/pdf
@@ -262,7 +263,7 @@ Rougier2017:
     - Roman Yurchak
     - Tiziano Zito
   year: 2017
-  journal: PeerJ Computer Science 3:e142
+  journal: "*PeerJ Computer Science* 3:e142"
   doi: 10.7717/peerj-cs.142
   url: https://peerj.com/articles/cs-142/
   pdf: pdf/Rougier2017.pdf
@@ -274,7 +275,7 @@ Loetzsch2017:
     - Julien Vitay
     - Fred H. Hamker
   year: 2017
-  journal: "In: Eibl, M. & Gaedke, M. (Eds.), INFORMATIK 2017. Gesellschaft für Informatik, Bonn. (S. 2143-2154)"
+  journal: "In: Eibl, M. & Gaedke, M. (eds.), *INFORMATIK 2017.* Gesellschaft für Informatik, Bonn. (S. 2143-2154)"
   doi: 10.18420/in2017_214
   url: https://dl.gi.de/handle/20.500.12116/3986
   pdf: pdf/Loetzsch2017.pdf
@@ -284,7 +285,7 @@ Vitay2016:
   authors:
     - Julien Vitay
   year: 2016
-  journal: Rescience, 2(1)
+  journal: "*Rescience*, 2(1)"
   doi: 10.5281/zenodo.159545
   url: https://zenodo.org/record/159545
   pdf: pdf/Vitay2016.pdf
@@ -297,7 +298,7 @@ Vitay2015:
     - Helge Ülo Dinkelbach
     - Fred H. Hamker
   year: 2015 
-  journal: Frontiers in Neuroinformatics 9:19
+  journal: "*Frontiers in Neuroinformatics* 9:19"
   doi: 10.3389/fninf.2015.00019
   url: https://www.frontiersin.org/articles/10.3389/fninf.2015.00019/full
   pdf: https://www.frontiersin.org/articles/10.3389/fninf.2015.00019/pdf
@@ -309,7 +310,7 @@ Vitay2014:
     - Julien Vitay
     - Fred H. Hamker
   year: 2014
-  journal: Frontiers in Neurorobotics. 8:4
+  journal: "*Frontiers in Neurorobotics* 8:4"
   doi: 10.3389/fnbot.2014.00004
   url: https://www.frontiersin.org/articles/10.3389/fnbot.2014.00004/full
   pdf: https://www.frontiersin.org/articles/10.3389/fnbot.2014.00004/pdf
@@ -322,7 +323,7 @@ Schroll2014:
     - Julien Vitay
     - Fred H. Hamker
   year: 2014
-  journal: "European Journal of Neuroscience, 39: 688-702"
+  journal: "*European Journal of Neuroscience*, 39: 688-702"
   doi: 10.1111/ejn.12434
   url: https://onlinelibrary.wiley.com/doi/10.1111/ejn.12434
   pdf: pdf/Schroll2014.pdf
@@ -334,7 +335,7 @@ Dinkelbach2012:
     - Julien Vitay
     - Fred H. Hamker
   year: 2012
-  journal: "Network: Computation in Neural Systems 23(4)"
+  journal: "*Network: Computation in Neural Systems* 23(4)"
   doi: 10.3109/0954898X.2012.739292
   url: https://www.tandfonline.com/doi/abs/10.3109/0954898X.2012.739292?journalCode=inet20
   pdf: pdf/Dinkelbach2012.pdf
@@ -346,7 +347,7 @@ Schroll2012:
     - Julien Vitay
     - Fred H. Hamker
   year: 2012
-  journal: Neural Networks, 26
+  journal: "*Neural Networks*, 26"
   doi: 10.1016/j.neunet.2011.10.008
   url: https://www.sciencedirect.com/science/article/abs/pii/S089360801100270X
   pdf: pdf/Schroll2012.pdf
@@ -357,7 +358,7 @@ Vitay2012:
     - Julien Vitay
     - Fred H. Hamker
   year: 2012
-  journal: In Encyclopedia of the Sciences of Learning. Seel, Norbert M. (Ed.).
+  journal: "*In Encyclopedia of the Sciences of Learning*. Seel, Norbert M. (Ed.)."
   url: https://link.springer.com/referencework/10.1007/978-1-4419-1428-6
   doi: 10.1007/978-1-4419-1428-6
 
@@ -367,7 +368,7 @@ Vitay2011:
     - Julien Vitay
     - Fred H. Hamker
   year: 2011
-  journal: Künstliche Intelligenz 25(3)
+  journal: "*Künstliche Intelligenz* 25(3)"
   doi: 10.1007/s13218-011-0106-y
   pdf: pdf/Vitay2011.pdf
 
@@ -377,7 +378,7 @@ Vitay2010:
     - Julien Vitay
     - Fred H. Hamker
   year: 2010
-  journal: Frontiers in Computational Neuroscience 4(13)
+  journal: "*Frontiers in Computational Neuroscience* 4(13)"
   doi: 10.3389/fncom.2010.00013
   url: https://www.frontiersin.org/articles/10.3389/fncom.2010.00013/full
   pdf: pdf/Vitay2010.pdf
@@ -391,7 +392,7 @@ Vitay2009:
     - Henning Schroll
     - Fred H. Hamker
   year: 2009
-  journal: Künstliche Intelligenz 23(3)
+  journal: "*Künstliche Intelligenz* 23(3)"
   pdf: pdf/Vitay2009.pdf
   
 Vitay2008:
@@ -400,7 +401,7 @@ Vitay2008:
     - Julien Vitay
     - Fred H. Hamker
   year: 2008
-  journal: Journal of Cognitive Neuroscience 20(11)
+  journal: "*Journal of Cognitive Neuroscience* 20(11)"
   doi: 10.1162/jocn.2008.20147
   url: https://direct.mit.edu/jocn/article-abstract/20/11/1993/4603/Sustained-Activities-and-Retrieval-in-a
   pdf: pdf/Vitay2008.pdf
@@ -411,7 +412,7 @@ Vitay2007:
     - Julien Vitay
     - Fred H. Hamker
   year: 2007
-  journal: "In: Paletta, L., Rome, E. (eds) Attention in Cognitive Systems. Theories and Systems from an Interdisciplinary Viewpoint. WAPCV 2007. Lecture Notes in Computer Science(), vol 4840. Springer, Berlin, Heidelberg"
+  journal: "In: Paletta, L., Rome, E. (eds) Attention in Cognitive Systems. *Theories and Systems from an Interdisciplinary Viewpoint*. WAPCV 2007. Lecture Notes in Computer Science(), vol 4840. Springer, Berlin, Heidelberg"
   doi: 10.1007/978-3-540-77343-6_23
   url: https://link.springer.com/chapter/10.1007/978-3-540-77343-6_23
   pdf: pdf/Vitay2007.pdf
@@ -421,7 +422,7 @@ Vitay2006:
   authors:
     - Julien Vitay
   year: 2006
-  journal: PhD thesis (Université Henri-Poincaré Nancy-I)
+  journal: "PhD thesis (Université Henri-Poincaré Nancy-I)"
   pdf: pdf/Vitay2006.pdf
 
 Fix2006:
@@ -431,7 +432,7 @@ Fix2006:
     - Julien Vitay
     - Nicolas P. Rougier
   year: 2006
-  journal: "In: Butz, M.V., Sigaud, O., Pezzulo, G., Baldassarre, G. (eds) Anticipatory Behavior in Adaptive Learning Systems. ABiALS 2006. Lecture Notes in Computer Science(), vol 4520. Springer, Berlin, Heidelberg" 
+  journal: "In: Butz, M.V., Sigaud, O., Pezzulo, G., Baldassarre, G. (eds). *Anticipatory Behavior in Adaptive Learning Systems.* ABiALS 2006. Lecture Notes in Computer Science(), vol 4520. Springer, Berlin, Heidelberg" 
   doi: 10.1007/978-3-540-74262-3_10
   url: https://link.springer.com/chapter/10.1007/978-3-540-74262-3_10
   pdf: pdf/Fix2006.pdf
@@ -442,7 +443,7 @@ Rougier2005:
     - Nicolas P. Rougier
     - Julien Vitay
   year: 2005
-  journal: Neural Networks 19(5)
+  journal: "*Neural Networks* 19(5)"
   url: https://www.sciencedirect.com/science/article/abs/pii/S089360800500081X
   doi: 10.1016/j.neunet.2005.04.004
   pdf: pdf/Rougier2005.pdf
@@ -454,7 +455,7 @@ Vitay2005:
     - Nicolas P. Rougier
     - Frédéric Alexandre
   year: 2005
-  journal: "In: Wermter, S., Palm, G., Elshaw, M. (eds) Biomimetic Neural Learning for Intelligent Robots. Lecture Notes in Computer Science(), vol 3575. Springer, Berlin, Heidelberg"
+  journal: "In: Wermter, S., Palm, G., Elshaw, M. (eds). *Biomimetic Neural Learning for Intelligent Robots*. Lecture Notes in Computer Science(), vol 3575. Springer, Berlin, Heidelberg"
   doi: 10.1007/11521082_4
   url: https://link.springer.com/chapter/10.1007/11521082_4
   pdf: pdf/Vitay2005.pdf
@@ -464,5 +465,5 @@ Vitay2005b:
   authors:
     - Julien Vitay
   year: 2005
-  journal: "Berthouze, L., Kaplan, F., Kozima, H., Yano, H., Konczak, J., Metta, G., Nadel, J., Sandini, G., Stojanov, G. and Balkenius, C. (Eds.).  Proceedings of the Fifth International Workshop on Epigenetic Robotics: Modeling Cognitive Development in Robotic Systems. Lund University Cognitive Studies, 123. ISBN 91-974741-4-2"
+  journal: "In: Berthouze, L., Kaplan, F., Kozima, H., Yano, H., Konczak, J., Metta, G., Nadel, J., Sandini, G., Stojanov, G. and Balkenius, C. (Eds.).  *Proceedings of the Fifth International Workshop on Epigenetic Robotics: Modeling Cognitive Development in Robotic Systems*. Lund University Cognitive Studies, 123. ISBN 91-974741-4-2"
   pdf: pdf/Vitay2005b.pdf

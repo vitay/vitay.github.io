@@ -6,11 +6,11 @@ toc: false
 
 ## Computational neuroscience
 
-### Basal Ganglia
+### [Basal Ganglia](research/basalganglia.qmd)
 
 ::: {.columns}
 ::: {.column width=70%}
-[Description](research/basalganglia.qmd)
+
 
 The Basal Ganglia (BG) are a set of nuclei located in the basal forebrain, receiving inputs mostly from the cerebral cortex and projecting to various motor centers, as well as back to the cortex through the thalamus, forming a closed-loop. It is involved in major functions such as reinforcement learning, habit formation, planning and motor control, but also in diseases such as Parkinson's disease or Tourette syndrome.
 ::: 
@@ -20,11 +20,10 @@ The Basal Ganglia (BG) are a set of nuclei located in the basal forebrain, recei
 :::
 
 
-### Dopaminergic system
+### [Dopaminergic system](research/dopamine.qmd)
 
 ::: {.columns}
 ::: {.column width=70%}
-[Description](research/dopamine.qmd)
 
 The dopaminergic system is composed of the *ventral tegmental area* (VTA) and the *substantia nigra pars compacta* (SNc). The neurotransmitter **dopamine** (DA) released by neurons in these two small areas exerts a strong influence on neural excitability and plasticity in many brain areas: mostly the basal ganglia (BG), but also the prefrontal cortex, the hippocampus or the amygdala.
 ::: 
@@ -33,11 +32,11 @@ The dopaminergic system is composed of the *ventral tegmental area* (VTA) and th
 :::
 :::
 
-### Hippocampus
+### [Hippocampus](research/hippocampus.qmd)
 
 ::: {.columns}
 ::: {.column width=70%}
-[Description](research/hippocampus.qmd)
+
 
 The hippocampus is a key structure for episodic memory and spatial navigation. A fundamental step in hippocampus research was the discovery of **place cells**, which fire whenever an animal traverses a certain location known as the place field (O'Keefe and Nadel, 1978). At rest, place cells exhibit brief periods of fast oscillations termed sharp wave-ripples. During these events, place cell activity shows sequential patterns called forward replay and reverse replay: time-compressed, and sometimes time-reversed, reproductions of previously experienced sequences. Spatial experiences stored in the hippocampus can therefore be recalled at will during behavior.
 ::: 
@@ -48,11 +47,11 @@ The hippocampus is a key structure for episodic memory and spatial navigation. A
 
 ## Neuroinformatics
 
-### Neurosimulator ANNarchy
+### [Neurosimulator ANNarchy](research/annarchy.qmd)
 
 ::: {.columns}
 ::: {.column width=70%}
-[Description](research/annarchy.qmd)
+
 
 I develop with Helge Dinkelbach **ANNarchy** (Artificial Neural Networks architect), a parallel simulator for distributed rate-coded or spiking neural networks. The definition of the models is in Python, but the library generates optimized C++ code to actually run the simulation on parallel hardware, using either openMP or CUDA.
 ::: 
@@ -64,11 +63,11 @@ I develop with Helge Dinkelbach **ANNarchy** (Artificial Neural Networks archite
 
 ## Neurocomputing
 
-### Reservoir computing
+### [Reservoir computing](research/reservoircomputing.qmd)
 
 ::: {.columns}
 ::: {.column width=70%}
-[Description](research/reservoircomputing.qmd)
+
 
 Reservoir computing studies the dynamical properties of recurrently connected populations of neurons. Their rich dynamics allow to represent and learn complex tasks currently out of reach of the classical machine learning methods, but also allow to better understand brain activities.
 ::: 
@@ -77,11 +76,11 @@ Reservoir computing studies the dynamical properties of recurrently connected po
 :::
 :::
 
-### Reinforcement learning
+### [Reinforcement learning](research/reinforcementlearning.qmd)
 
 ::: {.columns}
 ::: {.column width=70%}
-[Description](research/reinforcementlearning.qmd)
+
 
 Reinforcement Learning (RL) is a machine learning framework studying how to derive optimal policies from reward signals. Coupled with deep neural networks, it became the most promising approach to artificial intelligence.
 ::: 

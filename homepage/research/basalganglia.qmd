@@ -1,6 +1,8 @@
-# Basal Ganglia
+---
+title: Basal Ganglia
 
-## Anatomy
+toc: false
+---
 
 The Basal Ganglia (BG) are a set of nuclei located in the basal forebrain, receiving inputs mostly from the cerebral cortex (especially the frontal lobe) and projecting on various motor centers, as well as back to the cortex through the thalamus, forming a closed-loop. 
 
@@ -14,7 +16,7 @@ Other nuclei in the BG, such as the subthalamic nucleus (STN) and the external p
 
 The main characteristic of the BG is its dense innervation by dopaminergic (DA) cells in the substantia nigra pars compacta (SNc) and ventral tegmental area (VTA), whose firing is related to reward delivery and prediction. DA can modulate the activation and learning of most cells in the BG, placing it as a core structure in reinforcement learning processes. 
 
-## Related publications
+### Related publications
 
 Carolin Scholl, Javier Baladron, Julien Vitay, and Fred H. Hamker (2022).\
 **Enhanced Habit Formation in Tourette Patients Explained by Shortcut Modulation in a Hierarchical Cortico-Basal Ganglia Model.**\

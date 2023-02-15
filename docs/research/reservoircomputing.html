@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Julien Vitay – reservoircomputing</title>
+<title>Julien Vitay - Reservoir computing</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -62,7 +62,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -116,36 +116,34 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#reservoir-computing" id="toc-reservoir-computing" class="nav-link active" data-scroll-target="#reservoir-computing">Reservoir computing</a>
-  <ul class="collapse">
-  <li><a href="#principle" id="toc-principle" class="nav-link" data-scroll-target="#principle">Principle</a></li>
-  <li><a href="#related-publications" id="toc-related-publications" class="nav-link" data-scroll-target="#related-publications">Related publications</a></li>
-  </ul></li>
-  </ul>
-</nav>
-    </div>
+    
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Reservoir computing</h1>
+</div>
 
 
-<section id="reservoir-computing" class="level1">
-<h1>Reservoir computing</h1>
-<section id="principle" class="level2">
-<h2 class="anchored" data-anchor-id="principle">Principle</h2>
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
 <p>The field of <strong>reservoir computing</strong>, covering Echo-State Networks (ESN; Jaeger, 2000) and Liquid State Machines (Maas, 2001), studies the dynamical properties of recurrent neural networks. Depending on the strength of the recurrent connections, the reservoirs can exhibit either deterministic or chaotic trajectories following a stimulation.</p>
 <p><img src="../img/rc.png" class="img-fluid"></p>
 <p>These trajectories can serve as a complex temporal basis to represent events. In their early formulation, reservoirs were fixed and read-out neurons used this basis to mimic specific target signals using supervised learning.</p>
 <p>In the recent years, methods have been developed to train the connections inside the reservoir too, either using supervised learning (e.g.&nbsp;Laje and Buonomano 2013) or reinforcement learning (Miconi, 2017). This unleashes the potential of reservoirs for both machine learning applications and computational neuroscience.</p>
 <p>We study the properties of reservoir computing at the neuroscientific level, with an emphasis on reinforcement learning, forward models in the cerebellum (Schmid et al, 2019) or interval timing.</p>
-</section>
-<section id="related-publications" class="level2">
-<h2 class="anchored" data-anchor-id="related-publications">Related publications</h2>
+<section id="related-publications" class="level3">
+<h3 class="anchored" data-anchor-id="related-publications">Related publications</h3>
 <p>Katharina Schmid, Julien Vitay, and Fred H. Hamker (2019).<br>
 <strong>Forward Models in the Cerebellum using Reservoirs and Perturbation Learning.</strong><br>
 <em>2019 Conference on Cognitive Computational Neuroscience, 13-16 September 2019, Berlin, Germany</em><br>
@@ -156,7 +154,6 @@ ul.task-list li input[type="checkbox"] {
 <a href="https://doi.org/10.5281/zenodo.159545">doi:10.5281/zenodo.159545</a></p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

@@ -1,6 +1,8 @@
-# Dopaminergic system
+---
+title: Dopaminergic system
 
-## Anatomy
+toc: false
+---
 
 The dopaminergic system is composed of the *ventral tegmental area* (VTA) and the *substantia nigra pars compacta* (SNc). The neurotransmitter **dopamine** (DA) released by neurons in these two small areas exerts a strong influence on neural excitability and plasticity in many brain areas: mostly the basal ganglia (BG), but also the prefrontal cortex, the hippocampus or the amygdala.
 
@@ -11,7 +13,7 @@ A striking feature of VTA cells is their response during classical (or Pavlovian
 
 What remains unclear is how VTA cells access information about the US, the CS and more importantly the time elapsed since CS onset. The goal of this research project is to investigate the mechanisms by which VTA is able to exhibit these properties, by looking at the afferent system to VTA. VTa indeed receives information from many brain areas, either directly as the rostromedial tegmental area (RMTg), the pedunculopontine nucleus (PPTN) or the nucleus accumbens (NAcc), or indirectly as the amygdala, the lateral habenula (LHb), the ventral pallidum (VP) or the ventromedial prefrontal cortex (vmPFC).
 
-## Related publications
+### Related publications
 
 Julien Vitay (2017).\
 **On the role of dopamine in motivated behavior: a neuro-computational approach.**\

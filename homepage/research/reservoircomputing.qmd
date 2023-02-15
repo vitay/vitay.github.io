@@ -1,6 +1,9 @@
-# Reservoir computing
+---
+title: Reservoir computing
 
-## Principle
+toc: false
+---
+
 
 The field of **reservoir computing**, covering Echo-State Networks (ESN; Jaeger, 2000) and Liquid State Machines (Maas, 2001), studies the dynamical properties of recurrent neural networks. Depending on the strength of the recurrent connections, the reservoirs can exhibit either deterministic or chaotic trajectories following a stimulation.
 
@@ -12,7 +15,7 @@ In the recent years, methods have been developed to train the connections inside
 
 We study the properties of reservoir computing at the neuroscientific level, with an emphasis on reinforcement learning, forward models in the cerebellum (Schmid et al, 2019) or interval timing. 
 
-## Related publications
+### Related publications
 
 Katharina Schmid, Julien Vitay, and Fred H. Hamker (2019).\
 **Forward Models in the Cerebellum using Reservoirs and Perturbation Learning.**\
