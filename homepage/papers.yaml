@@ -62,7 +62,7 @@ Kuske2022:
     - Florian Röhrbein
     - Julien Vitay
     - Fred H. Hamker
-  journal: "In: E. Ferstl, L. Konieczny, & R. Stülpnagel  (eds.). *Proceedings of KogWiss2022, the 15th Biannual Conference of the German Society for Cognitive Science* (pp. 115-116)"
+  journal: "In: E. Ferstl, L. Konieczny, & R. Stülpnagel  (eds). *Proceedings of KogWiss2022, the 15th Biannual Conference of the German Society for Cognitive Science* (pp. 115-116)"
   year: 2022
   doi: 10.6094/UNIFR/229611
   url: https://freidok.uni-freiburg.de/data/229611
@@ -124,7 +124,7 @@ Schroeder2019:
     - Julien Vitay
     - Fred H. Hamker
   year: 2020
-  journal: "In: Arai, K., Kapoor, S. (eds) Advances in Computer Vision. CVC 2019. *Advances in Intelligent Systems and Computing*, vol 944. Springer, Cham"
+  journal: "In: Arai, K., Kapoor, S. (eds). Advances in Computer Vision. CVC 2019. *Advances in Intelligent Systems and Computing*, vol 944. Springer, Cham"
   doi: 10.1007/978-3-030-17798-0_12
   url: https://link.springer.com/chapter/10.1007/978-3-030-17798-0_12
   pdf: https://link.springer.com/content/pdf/10.1007/978-3-030-17798-0.pdf
@@ -191,7 +191,7 @@ Schroder2018:
     - Julien Vitay
     - Fred H. Hamker
   year: 2018
-  journal: "*In Proceedings of 12. Workshop Fahrerassistenzsysteme und automatisiertes Fahren* FAS 2018, 26-28.09.2018, Walting im Altmühltal (Germany). pp138-146. Darmstadt:Uni-DAS e.V."
+  journal: "*In Proceedings of 12. Workshop Fahrerassistenzsysteme und automatisiertes Fahren* FAS 2018, 26-28.09.2018, Walting im Altmühltal (Germany). 138-146. Darmstadt:Uni-DAS e.V."
   pdf: "https://www.uni-das.de/images/pdf/veroeffentlichungen/2018/14_Fusion%20of%20Camera%20and%20Lidar%20Data%20for%20Object%20Detection%20using%20Neural%20Networks.pdf"
 
 Vitay2017:
@@ -275,7 +275,7 @@ Loetzsch2017:
     - Julien Vitay
     - Fred H. Hamker
   year: 2017
-  journal: "In: Eibl, M. & Gaedke, M. (eds.), *INFORMATIK 2017.* Gesellschaft für Informatik, Bonn. (S. 2143-2154)"
+  journal: "In: Eibl, M. and Gaedke, M. (eds). *INFORMATIK 2017.* Gesellschaft für Informatik, Bonn. 2143-2154"
   doi: 10.18420/in2017_214
   url: https://dl.gi.de/handle/20.500.12116/3986
   pdf: pdf/Loetzsch2017.pdf
@@ -358,7 +358,7 @@ Vitay2012:
     - Julien Vitay
     - Fred H. Hamker
   year: 2012
-  journal: "*In Encyclopedia of the Sciences of Learning*. Seel, Norbert M. (Ed.)."
+  journal: "*In Encyclopedia of the Sciences of Learning*. Seel, Norbert M. (ed)."
   url: https://link.springer.com/referencework/10.1007/978-1-4419-1428-6
   doi: 10.1007/978-1-4419-1428-6
 
@@ -412,7 +412,7 @@ Vitay2007:
     - Julien Vitay
     - Fred H. Hamker
   year: 2007
-  journal: "In: Paletta, L., Rome, E. (eds) Attention in Cognitive Systems. *Theories and Systems from an Interdisciplinary Viewpoint*. WAPCV 2007. Lecture Notes in Computer Science(), vol 4840. Springer, Berlin, Heidelberg"
+  journal: "In: Paletta, L., Rome, E. (eds). *Attention in Cognitive Systems. Theories and Systems from an Interdisciplinary Viewpoint*. WAPCV 2007. Lecture Notes in Computer Science(), vol 4840. Springer, Berlin, Heidelberg"
   doi: 10.1007/978-3-540-77343-6_23
   url: https://link.springer.com/chapter/10.1007/978-3-540-77343-6_23
   pdf: pdf/Vitay2007.pdf
@@ -465,5 +465,5 @@ Vitay2005b:
   authors:
     - Julien Vitay
   year: 2005
-  journal: "In: Berthouze, L., Kaplan, F., Kozima, H., Yano, H., Konczak, J., Metta, G., Nadel, J., Sandini, G., Stojanov, G. and Balkenius, C. (Eds.).  *Proceedings of the Fifth International Workshop on Epigenetic Robotics: Modeling Cognitive Development in Robotic Systems*. Lund University Cognitive Studies, 123. ISBN 91-974741-4-2"
+  journal: "In: Berthouze, L., Kaplan, F., Kozima, H., Yano, H., Konczak, J., Metta, G., Nadel, J., Sandini, G., Stojanov, G. and Balkenius, C. (eds).  *Proceedings of the Fifth International Workshop on Epigenetic Robotics: Modeling Cognitive Development in Robotic Systems*. Lund University Cognitive Studies, 123. ISBN 91-974741-4-2"
   pdf: pdf/Vitay2005b.pdf

@@ -18,13 +18,9 @@ def readable_list(_s):
 
 def button(url, str, icon):
     icon_base = icon[:2]
-    return f"""<a class="btn btn-outline-dark btn-sm" href="{url}" target="_blank" rel="noopener noreferrer"> <i class="{icon_base} {icon}" role='img' aria-label='{str}'></i>{str}</a>"""
+    return f"""<a class="btn btn-outline-dark btn-sm" href="{url}" target="_blank" rel="noopener noreferrer"> <i class="{icon_base} {icon}" role='img' aria-label='{str}'></i> {str}</a>"""
 
-yaml_data = yaml.safe_load(open("papers.yaml"))
-
-md_code = {}
-
-for _, data in yaml_data.items():
+def format_citation(data):
 
     # Basic info
     title_str = data["title"]
@@ -33,10 +29,6 @@ for _, data in yaml_data.items():
     journal = data.get("journal")
     doi = data.get("doi")
     url = data.get("url")
-
-    # Create the year if not existing yet
-    if year_str not in md_code:
-        md_code[year_str] = []
 
     # Build the markdown
     md_string = f"""
@@ -72,20 +64,38 @@ for _, data in yaml_data.items():
         buttons.append(button(poster, "Poster", "bi-file-earmark-easel"))
 
     # Append
-    md_code[year_str].append(
-        md_string + "\n\n" + "\n".join(buttons) + "\n\n---\n\n"
-    )
+    return md_string + "\n\n" + "\n".join(buttons) + "\n\n---\n\n"
+
+
+# Read the yaml file
+yaml_data = yaml.safe_load(open("papers.yaml"))
+
+# Process the descriptions as they come
+md_code = {}
+for _, data in yaml_data.items():
+
+    # Format the citation
+    md = format_citation(data)
+
+    # Create the year if not existing yet
+    year_str = data["year"]
+    if year_str not in md_code:
+        md_code[year_str] = []
+
+    # Group by year
+    md_code[year_str].append(md)
+
 ```
 
 
 ```{python}
 #| label: "published-year"
 #| id: "published-year"
-#| output: asis
+#| output: asis 
 for year in sorted(md_code.keys(), reverse=True):
+    # Organize per year
     display(Markdown(f"### {year}" + " {#" + f"published-{year}" + "}"))
-    display(Markdown(
-        '\n'.join(md_code[year])
-    ))
+    # Show the markdown
+    display(Markdown('\n'.join(md_code[year])))
 ```
 
