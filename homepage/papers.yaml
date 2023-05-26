@@ -1,4 +1,5 @@
 Baladron2023:
+  type: journal
   title: "The contribution of the basal ganglia and cerebellum to motor learning: A neuro-computational approach"
   authors:
     - Javier Baladron
@@ -13,6 +14,7 @@ Baladron2023:
   github: https://github.com/hamkerlab/Baladron2023-MotorLearning-BG-Cereb.
 
 Scholl2022:
+  type: journal
   title: "Enhanced Habit Formation in Tourette Patients Explained by Shortcut Modulation in a Hierarchical Cortico-Basal Ganglia Model"
   authors:
     - Carolin Scholl
@@ -27,6 +29,7 @@ Scholl2022:
   doi: 10.1007/s00429-021-02446-x
 
 Maith2022:
+  type: journal
   title: "BOLD monitoring in the neural simulator ANNarchy"
   authors: 
     - Oliver Maith
@@ -42,6 +45,7 @@ Maith2022:
   github: https://github.com/hamkerlab/Maith2021_ANNarchyBOLDmonitor
 
 Dinkelbach2022:
+  type: journal
   title: "Auto-selection of an optimal sparse matrix format in the neuro-simulator ANNarchy"
   authors:
     - Helge Ülo Dinkelbach
@@ -56,6 +60,7 @@ Dinkelbach2022:
   github: https://github.com/hamkerlab/Dinkelbach2022_ANNarchyAutoTuning
 
 Farahani2022:
+  type: proceedings
   title: Deep Neural Networks for Geometric Shape Deformation
   authors:
     - Aida Farahani
@@ -69,6 +74,7 @@ Farahani2022:
 
 
 Kuske2022:
+  type: proceedings
   title: "Demands and potentials of different levels of neuro-cognitive models für human spatial cognition"
   authors:
     - Nicolas Kuske
@@ -84,6 +90,7 @@ Kuske2022:
 
 
 Mummadi2021:
+  type: proceedings
   title: "Does enhanced shape bias improve neural network robustness to common corruptions?"
   authors:
     - Chaithanya Kumar Mummadi
@@ -99,6 +106,7 @@ Mummadi2021:
 
 
 Farahani2021:
+  type: proceedings
   title: Geometric Deep Learning and solutions for the industry
   authors:
     - Aida Farahani
@@ -108,6 +116,7 @@ Farahani2021:
   journal: "*Workshop 3D-NordOst 2021.* Tagungsband 23. Anwendungsbezogener Workshop zur Erfassung, Modellierung, Verarbeitung und Auswertung von 3D-Daten, Berlin, 02./03.12.2021: 105-113. ISBN: 978-3-942709-27-9"
 
 Atoofi2021:
+  type: proceedings
   title: "Geometric Deep Learning: Graph Neural Networks, Challenges, and Breakthroughs"
   authors:
     - Payam Atoofi
@@ -118,6 +127,7 @@ Atoofi2021:
 
 
 Schroeder2020:
+  type: proceedings
   title: "Monocular 3D Object Detection Using Feature Map Transformation: Towards Learning Perspective-Invariant Scene Representations"
   authors:
     - Enrico Schröder
@@ -130,6 +140,7 @@ Schroeder2020:
   url: https://ieeexplore.ieee.org/document/9287883
 
 Schroeder2019:
+  type: proceedings
   title: "Feature Map Transformation for Multi-sensor Fusion in Object Detection Networks for Autonomous Driving"
   authors: 
     - Enrico Schröder
@@ -145,6 +156,7 @@ Schroeder2019:
 
 
 Schmid2019:
+  type: proceedings
   title: "Forward Models in the Cerebellum using Reservoirs and Perturbation Learning"
   authors:
     - Katharina Schmid
@@ -159,6 +171,7 @@ Schmid2019:
 
 
 Dinkelbach2019:
+  type: proceedings
   title: "Scalable simulation of rate-coded and spiking neural networks on shared memory systems"
   authors:
     - Helge Ülo Dinkelbach
@@ -172,6 +185,7 @@ Dinkelbach2019:
   poster: pdf/Dinkelbach2019-poster.pdf
 
 Forch2019:
+  type: proceedings
   title: Recurrent Spatial Attention for Facial Emotion Recognition
   authors:
     - Valentin Forch
@@ -182,6 +196,7 @@ Forch2019:
   pdf: pdf/Forch2019.pdf
 
 Villagrasa2018:
+  type: journal
   title: "On the role of cortex-basal ganglia interactions for category learning: A neuro-computational approach"
   authors:
     - Francesc Villagrasa
@@ -198,6 +213,7 @@ Villagrasa2018:
   pdf: pdf/Villagrasa2018.pdf
 
 Schroder2018:
+  type: proceedings
   title: Fusion of Camera and Lidar Data for Object Detection using Neural Networks
   authors: 
     - Enrico Schröder
@@ -209,6 +225,7 @@ Schroder2018:
   pdf: "https://www.uni-das.de/images/pdf/veroeffentlichungen/2018/14_Fusion%20of%20Camera%20and%20Lidar%20Data%20for%20Object%20Detection%20using%20Neural%20Networks.pdf"
 
 Vitay2017:
+  type: thesis
   title: "On the role of dopamine in motivated behavior: a neuro-computational approach."
   authors:
     - Julien Vitay
@@ -217,6 +234,7 @@ Vitay2017:
   pdf: pdf/Vitay2017.pdf
 
 Goenner2017:
+  type: journal
   title: "Predictive Place-Cell Sequences for Goal-Finding Emerge from Goal Memory and the Cognitive Map: A Computational Model"
   authors:
     - Lorenz Gönner
@@ -229,6 +247,7 @@ Goenner2017:
   pdf: https://www.frontiersin.org/articles/10.3389/fncom.2017.00084/pdf
 
 Rougier2017:
+  type: journal
   title: "Sustainable computational science: the ReScience initiative"
   authors:
     - Nicolas P. Rougier
@@ -283,6 +302,7 @@ Rougier2017:
   pdf: pdf/Rougier2017.pdf
 
 Loetzsch2017:
+  type: proceedings
   title: Training a deep policy gradient-based neural network with asynchronous learners on a simulated robotic problem
   authors:
     - Winfried Lötzsch
@@ -295,6 +315,7 @@ Loetzsch2017:
   pdf: pdf/Loetzsch2017.pdf
 
 Vitay2016:
+  type: journal
   title: "[Re] Robust timing and motor patterns by taming chaos in recurrent neural networks"
   authors:
     - Julien Vitay
@@ -306,6 +327,7 @@ Vitay2016:
   github: https://github.com/ReScience-Archives/Vitay-2016
 
 Vitay2015:
+  type: journal
   title: "ANNarchy: a code generation approach to neural simulations on parallel hardware"
   authors:
     - Julien Vitay
@@ -319,6 +341,7 @@ Vitay2015:
   github: https://github.com/ANNarchy/ANNarchy
 
 Vitay2014:
+  type: journal
   title: "Timing and expectation of reward: a neuro-computational model of the afferents to the ventral tegmental area"
   authors:
     - Julien Vitay
@@ -331,6 +354,7 @@ Vitay2014:
   github: https://github.com/vitay/bg-timing
 
 Schroll2014:
+  type: journal
   title: "Dysfunctional and compensatory synaptic plasticity in Parkinson's disease"
   authors:
     - Henning Schroll
@@ -343,6 +367,7 @@ Schroll2014:
   pdf: pdf/Schroll2014.pdf
 
 Dinkelbach2012:
+  type: journal
   title: "Comparison of GPU- and CPU-implementations of mean-firing rate neural networks on parallel hardware"
   authors:
     - Helge Ü. Dinkelbach
@@ -355,6 +380,7 @@ Dinkelbach2012:
   pdf: pdf/Dinkelbach2012.pdf
 
 Schroll2012:
+  type: journal
   title: "Working memory and response selection: A computational account of interactions among cortico-basalganglio-thalamic loops"
   authors:
     - Henning Schroll
@@ -367,6 +393,7 @@ Schroll2012:
   pdf: pdf/Schroll2012.pdf
 
 Vitay2012:
+  type: bookchapter
   title: Basal Ganglia learning
   authors:
     - Julien Vitay
@@ -377,6 +404,7 @@ Vitay2012:
   doi: 10.1007/978-1-4419-1428-6
 
 Vitay2011:
+  type: journal
   title: A Neuroscientific View on the Role of Emotions in Behaving Cognitive Agents
   authors:
     - Julien Vitay
@@ -387,6 +415,7 @@ Vitay2011:
   pdf: pdf/Vitay2011.pdf
 
 Vitay2010:
+  type: journal
   title: A computational model of basal ganglia and its role in memory retrieval in rewarded visual memory tasks
   authors:
     - Julien Vitay
@@ -398,6 +427,7 @@ Vitay2010:
   pdf: pdf/Vitay2010.pdf
 
 Vitay2009:
+  type: journal
   title: "Biological Models of Reinforcement Learning"
   authors:
     - Julien Vitay
@@ -410,6 +440,7 @@ Vitay2009:
   pdf: pdf/Vitay2009.pdf
   
 Vitay2008:
+  type: journal
   title: Sustained Activities and Retrieval in a Computational Model of the Perirhinal Cortex
   authors:
     - Julien Vitay
@@ -421,6 +452,7 @@ Vitay2008:
   pdf: pdf/Vitay2008.pdf
 
 Vitay2007:
+  type: bookchapter
   title: On the role of dopamine in cognitive vision
   authors:
     - Julien Vitay
@@ -432,6 +464,7 @@ Vitay2007:
   pdf: pdf/Vitay2007.pdf
 
 Vitay2006:
+  type: thesis
   title: Emergence of sensorimotor functions on a numerical distributed neural substrate
   authors:
     - Julien Vitay
@@ -440,6 +473,7 @@ Vitay2006:
   pdf: pdf/Vitay2006.pdf
 
 Fix2006:
+  type: proceedings
   title: A Distributed Computational Model of Spatial Memory Anticipation During a Visual Search Task
   authors:
     - Jérémy Fix
@@ -452,6 +486,7 @@ Fix2006:
   pdf: pdf/Fix2006.pdf
  
 Rougier2005:
+  type: journal
   title: Emergence of attention within a neural population
   authors:
     - Nicolas P. Rougier
@@ -463,6 +498,7 @@ Rougier2005:
   pdf: pdf/Rougier2005.pdf
  
 Vitay2005:
+  type: bookchapter
   title: A distributed model of spatial visual attention
   authors:
     - Julien Vitay
@@ -475,6 +511,7 @@ Vitay2005:
   pdf: pdf/Vitay2005.pdf
  
 Vitay2005b:
+  type: proceedings
   title: Towards Teaching a Robot to Count
   authors:
     - Julien Vitay

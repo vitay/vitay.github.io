@@ -70,20 +70,39 @@ def format_citation(data):
 # Read the yaml file
 yaml_data = yaml.safe_load(open("papers.yaml"))
 
+def add_item(list_pubs, data, code):
+    year_str = data["year"]
+    if year_str not in list_pubs:
+        list_pubs[year_str] = []
+    list_pubs[year_str].append(code)
+
+
+# Containers
+all_types = {}
+journals = {}
+proceedings = {}
+bookchapters = {}
+theses = {}
+
 # Process the descriptions as they come
-md_code = {}
 for _, data in yaml_data.items():
 
     # Format the citation
-    md = format_citation(data)
+    code = format_citation(data)
 
-    # Create the year if not existing yet
-    year_str = data["year"]
-    if year_str not in md_code:
-        md_code[year_str] = []
+    # Add the the main list
+    add_item(all_types, data, code)
 
-    # Group by year
-    md_code[year_str].append(md)
+    if data.get("type") == 'journal':
+        add_item(journals, data, code)
+    elif data.get("type") == 'proceedings':
+        add_item(proceedings, data, code)
+    elif data.get("type") == 'bookchapter':
+        add_item(bookchapters, data, code)
+    elif data.get("type") == 'thesis':
+        add_item(theses, data, code)
+
+
 
 ```
 
@@ -92,10 +111,58 @@ for _, data in yaml_data.items():
 #| label: "published-year"
 #| id: "published-year"
 #| output: asis 
-for year in sorted(md_code.keys(), reverse=True):
-    # Organize per year
-    display(Markdown(f"### {year}" + " {#" + f"published-{year}" + "}"))
-    # Show the markdown
-    display(Markdown('\n'.join(md_code[year])))
+
+def generate_markown(publications):
+
+    for year in sorted(publications.keys(), reverse=True):
+        # Organize per year
+        display(Markdown(f"### {year}"))
+        # Show the markdown
+        display(Markdown('\n'.join(publications[year])))
+
+# All
+display(Markdown("""
+::: {.panel-tabset}
+## All
+
+"""))
+generate_markown(all_types)
+
+# Journals
+display(Markdown("""
+
+## Journals
+
+"""))
+generate_markown(journals)
+
+# Proceedings
+display(Markdown("""
+
+## Conference proceedings
+
+"""))
+generate_markown(proceedings)
+
+# Book chapters
+display(Markdown("""
+
+## Book chapters
+
+"""))
+generate_markown(bookchapters)
+
+# Theses
+display(Markdown("""
+
+## Theses
+
+"""))
+
+generate_markown(theses)
+
+display(Markdown("""
+:::
+"""))
 ```
 
