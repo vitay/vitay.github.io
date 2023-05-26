@@ -1,3 +1,17 @@
+Baladron2023:
+  title: "The contribution of the basal ganglia and cerebellum to motor learning: A neuro-computational approach"
+  authors:
+    - Javier Baladron
+    - Julien Vitay
+    - Torsten Fietzek
+    - Fred H. Hamker
+  year: 2023
+  journal: "*PLoS Comput Biol* 19(4): e1011024"
+  url: https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011024
+  pdf: https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1011024&type=printable
+  doi: 10.1371/journal.pcbi.1011024
+  github: https://github.com/hamkerlab/Baladron2023-MotorLearning-BG-Cereb.
+
 Scholl2022:
   title: "Enhanced Habit Formation in Tourette Patients Explained by Shortcut Modulation in a Hierarchical Cortico-Basal Ganglia Model"
   authors:

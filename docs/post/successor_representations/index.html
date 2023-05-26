@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.313">
+<meta name="generator" content="quarto-1.3.353">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -19,14 +19,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -40,8 +41,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -110,41 +110,43 @@ div.csl-indent {
     <span class="navbar-title">Julien Vitay</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../index.html">
+    <a class="nav-link" href="../../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../about.html">
+    <a class="nav-link" href="../../about.html" rel="" target="">
  <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../research.html">
+    <a class="nav-link" href="../../research.html" rel="" target="">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../publications.html">
+    <a class="nav-link" href="../../publications.html" rel="" target="">
  <span class="menu-text">Publications</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../teaching.html">
+    <a class="nav-link" href="../../teaching.html" rel="" target="">
  <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../blog.html">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../contact.html">
+    <a class="nav-link" href="../../contact.html" rel="" target="">
  <span class="menu-text">Contact</span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -158,24 +160,24 @@ div.csl-indent {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation"><span class="toc-section-number">1</span>  Motivation</a>
+  <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation"><span class="header-section-number">1</span> Motivation</a>
   <ul class="collapse">
-  <li><a href="#model-free-vs.-model-based-rl" id="toc-model-free-vs.-model-based-rl" class="nav-link" data-scroll-target="#model-free-vs.-model-based-rl"><span class="toc-section-number">1.1</span>  Model-free vs.&nbsp;model-based RL</a></li>
-  <li><a href="#goal-directed-behavior-vs.-habits" id="toc-goal-directed-behavior-vs.-habits" class="nav-link" data-scroll-target="#goal-directed-behavior-vs.-habits"><span class="toc-section-number">1.2</span>  Goal-directed behavior vs.&nbsp;habits</a></li>
+  <li><a href="#model-free-vs.-model-based-rl" id="toc-model-free-vs.-model-based-rl" class="nav-link" data-scroll-target="#model-free-vs.-model-based-rl"><span class="header-section-number">1.1</span> Model-free vs.&nbsp;model-based RL</a></li>
+  <li><a href="#goal-directed-behavior-vs.-habits" id="toc-goal-directed-behavior-vs.-habits" class="nav-link" data-scroll-target="#goal-directed-behavior-vs.-habits"><span class="header-section-number">1.2</span> Goal-directed behavior vs.&nbsp;habits</a></li>
   </ul></li>
-  <li><a href="#successor-representations-in-reinforcement-learning" id="toc-successor-representations-in-reinforcement-learning" class="nav-link" data-scroll-target="#successor-representations-in-reinforcement-learning"><span class="toc-section-number">2</span>  Successor representations in reinforcement learning</a>
+  <li><a href="#successor-representations-in-reinforcement-learning" id="toc-successor-representations-in-reinforcement-learning" class="nav-link" data-scroll-target="#successor-representations-in-reinforcement-learning"><span class="header-section-number">2</span> Successor representations in reinforcement learning</a>
   <ul class="collapse">
-  <li><a href="#main-idea" id="toc-main-idea" class="nav-link" data-scroll-target="#main-idea"><span class="toc-section-number">2.1</span>  Main idea</a></li>
-  <li><a href="#linear-function-approximation" id="toc-linear-function-approximation" class="nav-link" data-scroll-target="#linear-function-approximation"><span class="toc-section-number">2.2</span>  Linear function approximation</a></li>
-  <li><a href="#successor-representations-of-actions" id="toc-successor-representations-of-actions" class="nav-link" data-scroll-target="#successor-representations-of-actions"><span class="toc-section-number">2.3</span>  Successor representations of actions</a></li>
+  <li><a href="#main-idea" id="toc-main-idea" class="nav-link" data-scroll-target="#main-idea"><span class="header-section-number">2.1</span> Main idea</a></li>
+  <li><a href="#linear-function-approximation" id="toc-linear-function-approximation" class="nav-link" data-scroll-target="#linear-function-approximation"><span class="header-section-number">2.2</span> Linear function approximation</a></li>
+  <li><a href="#successor-representations-of-actions" id="toc-successor-representations-of-actions" class="nav-link" data-scroll-target="#successor-representations-of-actions"><span class="header-section-number">2.3</span> Successor representations of actions</a></li>
   </ul></li>
-  <li><a href="#successor-representations-in-neuroscience" id="toc-successor-representations-in-neuroscience" class="nav-link" data-scroll-target="#successor-representations-in-neuroscience"><span class="toc-section-number">3</span>  Successor representations in neuroscience</a>
+  <li><a href="#successor-representations-in-neuroscience" id="toc-successor-representations-in-neuroscience" class="nav-link" data-scroll-target="#successor-representations-in-neuroscience"><span class="header-section-number">3</span> Successor representations in neuroscience</a>
   <ul class="collapse">
-  <li><a href="#human-goal-directed-behavior" id="toc-human-goal-directed-behavior" class="nav-link" data-scroll-target="#human-goal-directed-behavior"><span class="toc-section-number">3.1</span>  Human goal-directed behavior</a></li>
-  <li><a href="#neural-substrates-of-successor-representations" id="toc-neural-substrates-of-successor-representations" class="nav-link" data-scroll-target="#neural-substrates-of-successor-representations"><span class="toc-section-number">3.2</span>  Neural substrates of successor representations</a></li>
+  <li><a href="#human-goal-directed-behavior" id="toc-human-goal-directed-behavior" class="nav-link" data-scroll-target="#human-goal-directed-behavior"><span class="header-section-number">3.1</span> Human goal-directed behavior</a></li>
+  <li><a href="#neural-substrates-of-successor-representations" id="toc-neural-substrates-of-successor-representations" class="nav-link" data-scroll-target="#neural-substrates-of-successor-representations"><span class="header-section-number">3.2</span> Neural substrates of successor representations</a></li>
   </ul></li>
-  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion"><span class="toc-section-number">4</span>  Discussion</a></li>
-  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="toc-section-number">5</span>  References</a></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion"><span class="header-section-number">4</span> Discussion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">5</span> References</a></li>
   </ul>
 </nav>
     </div>
@@ -345,7 +347,7 @@ div.csl-indent {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="sr_momennejad.svg" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Two-steps sequential learning task of <span class="citation" data-cites="Momennejad2017">Momennejad et al. (<a href="#ref-Momennejad2017" role="doc-biblioref">2017</a>)</span>.</figcaption><p></p>
+<figcaption class="figure-caption">Two-steps sequential learning task of <span class="citation" data-cites="Momennejad2017">Momennejad et al. (<a href="#ref-Momennejad2017" role="doc-biblioref">2017</a>)</span>.</figcaption>
 </figure>
 </div>
 <p>In the reward revaluation task, the transitions <span class="math inline">3 \rightarrow 5</span> and <span class="math inline">4 \rightarrow 6</span> are experienced again in the re-learning phase, but this time with reversed rewards (1 and 10 dollars respectively). In the transition revaluation task, the transitions <span class="math inline">3 \rightarrow 6</span> and <span class="math inline">4 \rightarrow 5</span> are now experienced, but the states <span class="math inline">5</span> and <span class="math inline">6</span> still receive the same amount of reward. The preference for <span class="math inline">1</span> or <span class="math inline">2</span> is again tested at the end of the re-learning phase (<span class="math inline">2</span> should now be preferred in both tasks) and a revaluation score is computed (how much the subject changes his preference between the two phases).</p>
@@ -359,7 +361,7 @@ div.csl-indent {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="sr_results.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Revaluation score in the reward (red) and transition (blue) revaluation conditions for the model-free (MF), model-based (MB), successor representation (SR) and human data as reported in <span class="citation" data-cites="Momennejad2017">Momennejad et al. (<a href="#ref-Momennejad2017" role="doc-biblioref">2017</a>)</span>.</figcaption><p></p>
+<figcaption class="figure-caption">Revaluation score in the reward (red) and transition (blue) revaluation conditions for the model-free (MF), model-based (MB), successor representation (SR) and human data as reported in <span class="citation" data-cites="Momennejad2017">Momennejad et al. (<a href="#ref-Momennejad2017" role="doc-biblioref">2017</a>)</span>.</figcaption>
 </figure>
 </div>
 <p>Human participants show a revaluation behavior in the two conditions (reward and transition) somehow in between the model-based and successor representation algorithms. The difference between the reward and transition conditions is statistically significant, so unlike MB, but not as dramatic as for SR. The authors propose a hybrid SR-MB model, linearly combining the outputs of the MB and SR algorithms, and fit it to the human data to obtain a satisfying match. A second task requiring the model to actually take actions confirms this observation.</p>
@@ -381,7 +383,7 @@ div.csl-indent {
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="sr_track.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption">Place field on a linear track with an obstacle at x=1, using a Euclidian model (left) and the SR hypothesis (right). Adapted from Fig. 2 of <span class="citation" data-cites="Stachenfeld2017">Stachenfeld et al. (<a href="#ref-Stachenfeld2017" role="doc-biblioref">2017</a>)</span>.</figcaption><p></p>
+<figcaption class="figure-caption">Place field on a linear track with an obstacle at x=1, using a Euclidian model (left) and the SR hypothesis (right). Adapted from Fig. 2 of <span class="citation" data-cites="Stachenfeld2017">Stachenfeld et al. (<a href="#ref-Stachenfeld2017" role="doc-biblioref">2017</a>)</span>.</figcaption>
 </figure>
 </div>
 <p>Fig. 3 illustrates this prediction: if a rat is placed on a linear track with an obstacle, the place cell whose RF is centered on the obstacle would react identically on both sides of the obstacle using a Euclidian model, while it would only respond on the side it has explored using the SR. When the rat is put on the other side, the SRs would initially be 0 for that cell (but would grow with more exploration).</p>
@@ -407,80 +409,80 @@ div.csl-indent {
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">5 References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
-<div id="ref-Barreto2016" class="csl-entry" role="doc-biblioentry">
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">5 References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-Barreto2016" class="csl-entry" role="listitem">
 Barreto, A., Dabney, W., Munos, R., Hunt, J. J., Schaul, T., van Hasselt, H., et al. (2016). Successor <span>Features</span> for <span>Transfer</span> in <span>Reinforcement Learning</span>. <em>arXiv:1606.05312 [cs]</em>. Available at: <a href="https://arxiv.org/abs/1606.05312">https://arxiv.org/abs/1606.05312</a>.
 </div>
-<div id="ref-Corbit2011" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Corbit2011" class="csl-entry" role="listitem">
 Corbit, L. H., and Balleine, B. W. (2011). The general and outcome-specific forms of <span class="nocase">Pavlovian-instrumental</span> transfer are differentially mediated by the nucleus accumbens core and shell. <em>The Journal of neuroscience : the official journal of the Society for Neuroscience</em> 31, 11786–94. doi:<a href="https://doi.org/10.1523/JNEUROSCI.2711-11.2011">10.1523/JNEUROSCI.2711-11.2011</a>.
 </div>
-<div id="ref-Dayan1993" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Dayan1993" class="csl-entry" role="listitem">
 Dayan, P. (1993). Improving <span>Generalization</span> for <span>Temporal Difference Learning</span>: <span>The Successor Representation</span>. <em>Neural Computation</em> 5, 613–624. doi:<a href="https://doi.org/10.1162/neco.1993.5.4.613">10.1162/neco.1993.5.4.613</a>.
 </div>
-<div id="ref-Dickinson2002" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Dickinson2002" class="csl-entry" role="listitem">
 Dickinson, A., and Balleine, B. (2002). <span>“The role of learning in the operation of motivational systems,”</span> in <em>Steven’s handbook of experimental psychology: <span>Learning</span>, motivation, and emotion, <span>Vol</span>. 3, 3rd ed</em> (<span>Hoboken, NJ, US</span>: <span>John Wiley &amp; Sons Inc</span>), 497–533.
 </div>
-<div id="ref-Doll2012" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Doll2012" class="csl-entry" role="listitem">
 Doll, B. B., Simon, D. A., and Daw, N. D. (2012). The ubiquity of model-based reinforcement learning. <em>Current Opinion in Neurobiology</em> 22, 1075–1081. doi:<a href="https://doi.org/10.1016/j.conb.2012.08.003">10.1016/j.conb.2012.08.003</a>.
 </div>
-<div id="ref-Ducarouge2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ducarouge2017" class="csl-entry" role="listitem">
 Ducarouge, A., and Sigaud, O. (2017). The <span>Successor Representation</span> as a model of behavioural flexibility. in <em>Journées <span>Francophones</span> sur la <span>Planification</span>, la <span>Décision</span> et l’<span>Apprentissage</span> pour la conduite de systèmes (<span>JFPDA</span> 2017)</em> Actes des <span>Journées Francophones</span> sur la <span>Planification</span>, la <span>Décision</span> et l’<span>Apprentissage</span> pour la conduite de systèmes (<span>JFPDA</span> 2017). (<span>Caen, France</span>).
 </div>
-<div id="ref-Gardner2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Gardner2018" class="csl-entry" role="listitem">
 Gardner, M. P. H., Schoenbaum, G., and Gershman, S. J. (2018). Rethinking dopamine as generalized prediction error. <em>Proceedings of the Royal Society B: Biological Sciences</em> 285, 20181645. doi:<a href="https://doi.org/10.1098/rspb.2018.1645">10.1098/rspb.2018.1645</a>.
 </div>
-<div id="ref-Gershman2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Gershman2018" class="csl-entry" role="listitem">
 Gershman, S. J. (2018). The <span>Successor Representation</span>: <span>Its Computational Logic</span> and <span>Neural Substrates</span>. <em>The Journal of neuroscience : the official journal of the Society for Neuroscience</em> 38, 7193–7200. doi:<a href="https://doi.org/10.1523/JNEUROSCI.0151-18.2018">10.1523/JNEUROSCI.0151-18.2018</a>.
 </div>
-<div id="ref-Gershman2012" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Gershman2012" class="csl-entry" role="listitem">
 Gershman, S. J., Moore, C. D., Todd, M. T., Norman, K. A., and Sederberg, P. B. (2012). The <span>Successor Representation</span> and <span>Temporal Context</span>. <em>Neural Computation</em> 24, 1553–1568. doi:<a href="https://doi.org/10.1162/NECO_a_00282">10.1162/NECO_a_00282</a>.
 </div>
-<div id="ref-Hafting2005" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Hafting2005" class="csl-entry" role="listitem">
 Hafting, T., Fyhn, M., Molden, S., Moser, M.-B., and Moser, E. I. (2005). Microstructure of a spatial map in the entorhinal cortex. <em>Nature</em> 436, 801. doi:<a href="https://doi.org/10.1038/nature03721">10.1038/nature03721</a>.
 </div>
-<div id="ref-Kulkarni2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Kulkarni2016" class="csl-entry" role="listitem">
 Kulkarni, T. D., Saeedi, A., Gautam, S., and Gershman, S. J. (2016). Deep <span>Successor Reinforcement Learning</span>. <em>arXiv:1606.02396 [cs, stat]</em>. Available at: <a href="https://arxiv.org/abs/1606.02396">https://arxiv.org/abs/1606.02396</a>.
 </div>
-<div id="ref-Lee2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Lee2014" class="csl-entry" role="listitem">
 Lee, S. W., Shimojo, S., and O’Doherty, J. P. (2014). Neural <span>Computations Underlying Arbitration</span> between <span>Model-Based</span> and <span class="nocase">Model-free Learning</span>. <em>Neuron</em> 81, 687–699. doi:<a href="https://doi.org/10.1016/j.neuron.2013.11.028">10.1016/j.neuron.2013.11.028</a>.
 </div>
-<div id="ref-Ma2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Ma2018" class="csl-entry" role="listitem">
 Ma, C., Wen, J., and Bengio, Y. (2018). Universal <span>Successor Representations</span> for <span>Transfer Reinforcement Learning</span>. <em>arXiv:1804.03758 [cs, stat]</em>. Available at: <a href="https://arxiv.org/abs/1804.03758">https://arxiv.org/abs/1804.03758</a>.
 </div>
-<div id="ref-Machado2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Machado2018" class="csl-entry" role="listitem">
 Machado, M. C., Bellemare, M. G., and Bowling, M. (2018). Count-<span>Based Exploration</span> with the <span>Successor Representation</span>. <em>arXiv:1807.11622 [cs, stat]</em>. Available at: <a href="https://arxiv.org/abs/1807.11622">https://arxiv.org/abs/1807.11622</a>.
 </div>
-<div id="ref-Miller2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Miller2018" class="csl-entry" role="listitem">
 Miller, K., Ludvig, E. A., Pezzulo, G., and Shenhav, A. (2018). <span>“Re-aligning models of habitual and goal-directed decision-making,”</span> in <em>Goal-<span>Directed Decision Making</span> : <span>Computations</span> and <span>Neural Circuits</span></em>, eds. A. Bornstein, R. W. Morris, and A. Shenhav (<span>Academic Press</span>).
 </div>
-<div id="ref-Momennejad2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Momennejad2017" class="csl-entry" role="listitem">
 Momennejad, I., Russek, E. M., Cheong, J. H., Botvinick, M. M., Daw, N. D., and Gershman, S. J. (2017). The successor representation in human reinforcement learning. <em>Nature Human Behaviour</em> 1, 680–692. doi:<a href="https://doi.org/10.1038/s41562-017-0180-8">10.1038/s41562-017-0180-8</a>.
 </div>
-<div id="ref-OKeefe1978" class="csl-entry" role="doc-biblioentry">
+<div id="ref-OKeefe1978" class="csl-entry" role="listitem">
 O’Keefe, J., and Nadel, L. (1978). <em>The hippocampus as a cognitive map</em>. <span>Oxford : New York</span>: <span>Clarendon Press ; Oxford University Press</span>.
 </div>
-<div id="ref-Oemisch2019" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Oemisch2019" class="csl-entry" role="listitem">
 Oemisch, M., Westendorff, S., Azimi, M., Hassani, S. A., Ardid, S., Tiesinga, P., et al. (2019). Feature-specific prediction errors and surprise across macaque fronto-striatal circuits. <em>Nature Communications</em> 10, 176. doi:<a href="https://doi.org/10.1038/s41467-018-08184-9">10.1038/s41467-018-08184-9</a>.
 </div>
-<div id="ref-Russek2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Russek2017" class="csl-entry" role="listitem">
 Russek, E. M., Momennejad, I., Botvinick, M. M., Gershman, S. J., and Daw, N. D. (2017). Predictive representations can link model-based reinforcement learning to model-free mechanisms. <em>PLOS Computational Biology</em> 13, e1005768. doi:<a href="https://doi.org/10.1371/journal.pcbi.1005768">10.1371/journal.pcbi.1005768</a>.
 </div>
-<div id="ref-Schultz1998" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Schultz1998" class="csl-entry" role="listitem">
 Schultz, W. (1998). Predictive reward signal of dopamine neurons. <em>J Neurophysiol</em> 80, 1–27.
 </div>
-<div id="ref-Stachenfeld2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Stachenfeld2017" class="csl-entry" role="listitem">
 Stachenfeld, K. L., Botvinick, M. M., and Gershman, S. J. (2017). The hippocampus as a predictive map. <em>Nature Neuroscience</em> 20, 1643–1653. doi:<a href="https://doi.org/10.1038/nn.4650">10.1038/nn.4650</a>.
 </div>
-<div id="ref-Sutton2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Sutton2017" class="csl-entry" role="listitem">
 Sutton, R. S., and Barto, A. G. (2017). <em>Reinforcement <span>Learning</span>: <span>An Introduction</span></em>. Second. <span>Cambridge, MA</span>: <span>MIT Press</span>.
 </div>
-<div id="ref-Vitay2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Vitay2014" class="csl-entry" role="listitem">
 Vitay, J., and Hamker, F. H. (2014). Timing and expectation of reward: <span>A</span> neuro-computational model of the afferents to the ventral tegmental area. <em>Frontiers in Neurorobotics</em> 8. doi:<a href="https://doi.org/10.3389/fnbot.2014.00004">10.3389/fnbot.2014.00004</a>.
 </div>
-<div id="ref-Watabe-Uchida2019" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Watabe-Uchida2019" class="csl-entry" role="listitem">
 Watabe-Uchida, M., and Uchida, N. (2019). Multiple <span>Dopamine Systems</span>: <span>Weal</span> and <span>Woe</span> of <span>Dopamine</span>. <em>Cold Spring Harbor Symposia on Quantitative Biology</em>, 037648. doi:<a href="https://doi.org/10.1101/sqb.2018.83.037648">10.1101/sqb.2018.83.037648</a>.
 </div>
-<div id="ref-Zhang2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Zhang2016" class="csl-entry" role="listitem">
 Zhang, J., Springenberg, J. T., Boedecker, J., and Burgard, W. (2016). Deep <span>Reinforcement Learning</span> with <span>Successor Features</span> for <span>Navigation</span> across <span>Similar Environments</span>. <em>arXiv:1612.05533 [cs]</em>. Available at: <a href="https://arxiv.org/abs/1612.05533">https://arxiv.org/abs/1612.05533</a>.
 </div>
 </div></section></div></main> <!-- /main -->
@@ -511,9 +513,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -578,6 +594,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -620,7 +722,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-      <div class="nav-footer-center">Julien Vitay - Chemnitz University of Technology</div>
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">Julien Vitay - Chemnitz University of Technology</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
   </div>
 </footer>
 

@@ -8,6 +8,21 @@ keep-md: true
 
 
 
+### 2023 {#published-2023}
+
+Javier Baladron, Julien Vitay, Torsten Fietzek, and Fred H. Hamker (2023) <br>
+**The contribution of the basal ganglia and cerebellum to motor learning: A neuro-computational approach**  <br>
+*PLoS Comput Biol* 19(4): e1011024  <br>
+[doi:10.1371/journal.pcbi.1011024](https://doi.org/10.1371/journal.pcbi.1011024) <br>
+
+
+<a class="btn btn-outline-dark btn-sm" href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011024" target="_blank" rel="noopener noreferrer"> <i class="bi bi-journal" role='img' aria-label='URL'></i> URL</a>
+<a class="btn btn-outline-dark btn-sm" href="https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1011024&type=printable" target="_blank" rel="noopener noreferrer"> <i class="bi bi-file-earmark-pdf" role='img' aria-label='PDF'></i> PDF</a>
+<a class="btn btn-outline-dark btn-sm" href="https://github.com/hamkerlab/Baladron2023-MotorLearning-BG-Cereb." target="_blank" rel="noopener noreferrer"> <i class="bi bi-github" role='img' aria-label='Code'></i> Code</a>
+
+---
+
+
 ### 2022 {#published-2022}
 
 Carolin Scholl, Javier Baladron, Julien Vitay, and Fred H. Hamker (2022) <br>
