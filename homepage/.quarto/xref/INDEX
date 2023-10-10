@@ -40,5 +40,11 @@
   },
   "blog.qmd": {
     "blog.html": "36ad12c2"
+  },
+  "datenschutz.qmd": {
+    "datenschutz.html": "76b4636e"
+  },
+  "impressum.qmd": {
+    "impressum.html": "2849e4bc"
   }
 }

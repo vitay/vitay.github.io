@@ -3,7 +3,7 @@ title: ""
 toc: false
 ---
 
-:::: {.center}
+:::: {.center style="padding-top: 3em;"}
 ![](img/trombine.jpg){width=40%}
 
 ::: {.title-line}

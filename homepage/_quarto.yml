@@ -21,6 +21,9 @@ website:
   page-footer: 
     border: false
     center: "Julien Vitay - Chemnitz University of Technology" 
+    right: |
+      [Datenschutz |](/datenschutz.qmd)
+      [Impressum](/impressum.qmd)
 
 format:
   html:
