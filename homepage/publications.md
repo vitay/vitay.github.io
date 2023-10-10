@@ -1,5 +1,5 @@
 ---
-title: Publications
+title: "Publications"
 echo: false
 section-divs: false
 keep-md: true
@@ -23,7 +23,7 @@ Javier Baladron, Julien Vitay, Torsten Fietzek, and Fred H. Hamker (2023) <br>
 
 <a class="btn btn-outline-dark btn-sm" href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011024" target="_blank" rel="noopener noreferrer"> <i class="bi bi-journal" role='img' aria-label='URL'></i> URL</a>
 <a class="btn btn-outline-dark btn-sm" href="https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1011024&type=printable" target="_blank" rel="noopener noreferrer"> <i class="bi bi-file-earmark-pdf" role='img' aria-label='PDF'></i> PDF</a>
-<a class="btn btn-outline-dark btn-sm" href="https://github.com/hamkerlab/Baladron2023-MotorLearning-BG-Cereb." target="_blank" rel="noopener noreferrer"> <i class="bi bi-github" role='img' aria-label='Code'></i> Code</a>
+<a class="btn btn-outline-dark btn-sm" href="https://github.com/hamkerlab/Baladron2023-MotorLearning-BG-Cereb" target="_blank" rel="noopener noreferrer"> <i class="bi bi-github" role='img' aria-label='Code'></i> Code</a>
 
 ---
 
@@ -516,7 +516,7 @@ Javier Baladron, Julien Vitay, Torsten Fietzek, and Fred H. Hamker (2023) <br>
 
 <a class="btn btn-outline-dark btn-sm" href="https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011024" target="_blank" rel="noopener noreferrer"> <i class="bi bi-journal" role='img' aria-label='URL'></i> URL</a>
 <a class="btn btn-outline-dark btn-sm" href="https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1011024&type=printable" target="_blank" rel="noopener noreferrer"> <i class="bi bi-file-earmark-pdf" role='img' aria-label='PDF'></i> PDF</a>
-<a class="btn btn-outline-dark btn-sm" href="https://github.com/hamkerlab/Baladron2023-MotorLearning-BG-Cereb." target="_blank" rel="noopener noreferrer"> <i class="bi bi-github" role='img' aria-label='Code'></i> Code</a>
+<a class="btn btn-outline-dark btn-sm" href="https://github.com/hamkerlab/Baladron2023-MotorLearning-BG-Cereb" target="_blank" rel="noopener noreferrer"> <i class="bi bi-github" role='img' aria-label='Code'></i> Code</a>
 
 ---
 

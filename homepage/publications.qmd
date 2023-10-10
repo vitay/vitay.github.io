@@ -1,7 +1,6 @@
 ---
 title: "Publications"
 echo: false
-jupyter: python3
 section-divs: false
 keep-md: true
 ---
