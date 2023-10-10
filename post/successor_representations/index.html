@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Julien Vitay">
+<meta name="dcterms.date" content="2019-05-08">
+
+<title>Julien Vitay - Successor Representations</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script><script src="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.js"></script>
+  <script>document.addEventListener("DOMContentLoaded", function () {
+ var mathElements = document.getElementsByClassName("math");
+ var macros = [];
+ for (var i = 0; i < mathElements.length; i++) {
+  var texText = mathElements[i].firstChild;
+  if (mathElements[i].tagName == "SPAN") {
+   katex.render(texText.data, mathElements[i], {
+    displayMode: mathElements[i].classList.contains('display'),
+    throwOnError: false,
+    macros: macros,
+    fleqn: false
+   });
+}}});
+  </script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.1/dist/katex.min.css">
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Julien Vitay</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html" rel="" target="">
+ <span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../research.html" rel="" target="">
+ <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../publications.html" rel="" target="">
+ <span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../teaching.html" rel="" target="">
+ <span class="menu-text">Teaching</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../contact.html" rel="" target="">
+ <span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#motivation" id="toc-motivation" class="nav-link active" data-scroll-target="#motivation"><span class="header-section-number">1</span> Motivation</a>
+  <ul class="collapse">
+  <li><a href="#model-free-vs.-model-based-rl" id="toc-model-free-vs.-model-based-rl" class="nav-link" data-scroll-target="#model-free-vs.-model-based-rl"><span class="header-section-number">1.1</span> Model-free vs.&nbsp;model-based RL</a></li>
+  <li><a href="#goal-directed-behavior-vs.-habits" id="toc-goal-directed-behavior-vs.-habits" class="nav-link" data-scroll-target="#goal-directed-behavior-vs.-habits"><span class="header-section-number">1.2</span> Goal-directed behavior vs.&nbsp;habits</a></li>
+  </ul></li>
+  <li><a href="#successor-representations-in-reinforcement-learning" id="toc-successor-representations-in-reinforcement-learning" class="nav-link" data-scroll-target="#successor-representations-in-reinforcement-learning"><span class="header-section-number">2</span> Successor representations in reinforcement learning</a>
+  <ul class="collapse">
+  <li><a href="#main-idea" id="toc-main-idea" class="nav-link" data-scroll-target="#main-idea"><span class="header-section-number">2.1</span> Main idea</a></li>
+  <li><a href="#linear-function-approximation" id="toc-linear-function-approximation" class="nav-link" data-scroll-target="#linear-function-approximation"><span class="header-section-number">2.2</span> Linear function approximation</a></li>
+  <li><a href="#successor-representations-of-actions" id="toc-successor-representations-of-actions" class="nav-link" data-scroll-target="#successor-representations-of-actions"><span class="header-section-number">2.3</span> Successor representations of actions</a></li>
+  </ul></li>
+  <li><a href="#successor-representations-in-neuroscience" id="toc-successor-representations-in-neuroscience" class="nav-link" data-scroll-target="#successor-representations-in-neuroscience"><span class="header-section-number">3</span> Successor representations in neuroscience</a>
+  <ul class="collapse">
+  <li><a href="#human-goal-directed-behavior" id="toc-human-goal-directed-behavior" class="nav-link" data-scroll-target="#human-goal-directed-behavior"><span class="header-section-number">3.1</span> Human goal-directed behavior</a></li>
+  <li><a href="#neural-substrates-of-successor-representations" id="toc-neural-substrates-of-successor-representations" class="nav-link" data-scroll-target="#neural-substrates-of-successor-representations"><span class="header-section-number">3.2</span> Neural substrates of successor representations</a></li>
+  </ul></li>
+  <li><a href="#discussion" id="toc-discussion" class="nav-link" data-scroll-target="#discussion"><span class="header-section-number">4</span> Discussion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references"><span class="header-section-number">5</span> References</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Successor Representations</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Julien Vitay </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">May 8, 2019</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+<div>
+  <div class="abstract">
+    <div class="abstract-title">Abstract</div>
+    Successor representations (SR) attract a lot of attention these days, both in the neuroscientific and machine learning / deep RL communities. This post is intended to explain the main difference between SR and model-free / model-based RL algorithms and to point out its usefulness to understand goal-directed behavior.
+  </div>
+</div>
+
+</header>
+
+<section id="motivation" class="level2" data-number="1">
+<h2 data-number="1" class="anchored" data-anchor-id="motivation"><span class="header-section-number">1</span> Motivation</h2>
+<section id="model-free-vs.-model-based-rl" class="level3" data-number="1.1">
+<h3 data-number="1.1" class="anchored" data-anchor-id="model-free-vs.-model-based-rl"><span class="header-section-number">1.1</span> Model-free vs.&nbsp;model-based RL</h3>
+<p>There are two main families of <strong>reinforcement learning</strong> <span class="citation" data-cites="Sutton2017">(RL, <a href="#ref-Sutton2017" role="doc-biblioref">Sutton and Barto, 2017</a>)</span> algorithms:</p>
+<ul>
+<li><strong>Model-free</strong> (MF) methods estimate the value of a state <span class="math inline">V^\pi(s)</span> or of a state-action pair <span class="math inline">Q^\pi(s, a)</span> by sampling trajectories and averaging the obtained returns (Monte-Carlo control), or by estimating the Bellman equations (Temporal difference - TD):</li>
+</ul>
+<p><span class="math display">V^\pi(s) = \mathbb{E}_{\pi} [\sum_{k=0} \gamma^k \, r_{t+k+1}  | s_t = s] = \mathbb{E}_{\pi} [r_{t+1} + \gamma \, V^\pi(s_{t+1})  | s_t = s]</span></p>
+<p><span class="math display">Q^\pi(s, a) = \mathbb{E}_{\pi} [\sum_{k=0} \gamma^k \, r_{t+k+1}  | s_t = s, a_t = a] = \mathbb{E}_{\pi} [r_{t+1} + \gamma \, Q^\pi(s_{t+1}, a_{t+1})  | s_t = s, a_t = a]</span></p>
+<ul>
+<li><strong>Model-based</strong> (MB) methods use (or learn) a model of the environment - transition probabilities <span class="math inline">p(s_{t+1} | s_t, a_t)</span> and reward probabilities <span class="math inline">r(s_t, a_t, s_{t+1})</span> - and use it to plan trajectories maximizing the theoretical return, either through some form of forward planning (search tree) or using dynamic programming (solving the Bellman equations directly).</li>
+</ul>
+<p><span class="math display">\pi^* = \text{argmax}_{\pi} \; p(s_0) \, \sum_{t=0}^\infty \gamma^t \, p(s_{t+1} | s_t, a_t) \, \pi(s_t, a_t) \, r(s_t, a_t, s_{t+1})</span></p>
+<p><span class="math display">V^*(s) = \max_a \sum_{s'} p(s' | s, a) \, (r(s_t, a, s')+ \gamma \, V^*(s'))</span></p>
+<p>The main advantage of model-free methods is their speed: they <em>cache</em> the future of the system into value functions. When having to take a decision at time <span class="math inline">t</span>, we only need to look at the action with the highest Q-value in the state <span class="math inline">s_t</span> and take it. If the Q-values are optimal, this is the optimal policy. Oppositely, model-based algorithms have to plan sequentially in the state-action space, which can be very long if the problem has a long temporal horizon.</p>
+<p>The main drawback of MF methods is their <em>inflexibility</em> when the reward distribution changes. When the reward associated with a transition changes (the source of reward has vanished, its nature has changed, the rules of the game have changed, etc), each action leading to that transition has to be experienced multiple times before the corresponding values reflect that change. This is due to the use of the <strong>temporal difference</strong> (TD) algorithm, where the <strong>reward prediction error</strong> (RPE) is used to update values:</p>
+<p><span class="math display">\delta_t = r_{t+1} + \gamma \, V^\pi(s_{t+1}) - V^\pi(s_t)</span></p>
+<p><span class="math display">\Delta V^\pi(s_t) = \alpha \, \delta_t</span></p>
+<p>When the reward associated to a transition changes drastically, only the last state (or action) is updated after that experience (unless we use eligibility traces). Only multiple repetitions of the same trajectory would allow changing the initial decisions. This is opposite to MB methods, where a change in the reward distribution would very quickly influence the planning of the optimal trajectory. In MB, the reward probabilities can be estimated with:</p>
+<p><span class="math display">
+    \Delta r(s_t, a_t, s_{t+1}) = \alpha \, (r_{t+1} - r(s_t, a_t, s_{t+1}))
+</span></p>
+<p>with <span class="math inline">r_{t+1}</span> being the reward obtained during one sampled transition. The transition probabilities can also be learned from experience using:</p>
+<p><span class="math display">
+    \Delta p(s' | s_t, a_t) = \alpha \, (\mathbb{I}(s_{t+1} = s') - p(s' | s_t, a_t))
+</span></p>
+<p>where <span class="math inline">\mathbb{I}(b)</span> is 1 when <span class="math inline">b</span> is true, 0 otherwise. Depending on the learning rate, changes in the environment dynamics can be very quickly learned by MB methods, as updates do not depend on other estimates (there is no bootstrapping contrary to TD).</p>
+</section>
+<section id="goal-directed-behavior-vs.-habits" class="level3" data-number="1.2">
+<h3 data-number="1.2" class="anchored" data-anchor-id="goal-directed-behavior-vs.-habits"><span class="header-section-number">1.2</span> Goal-directed behavior vs.&nbsp;habits</h3>
+<p>The model-free RPE has become a very influential model of dopaminergic (DA) activation in the ventral tegmental area (VTA) and substantia nigra pars compacta (SNc). At the beginning of classical Pavlovian conditioning, DA cells react phasically to unconditioned stimuli (US, rewards). After enough conditioning trials, DA cells only react to conditioned stimuli (CS), i.e.&nbsp;stimuli which predict the delivery of a reward. Moreover, if the reward is omitted, DA cells exhibit a pause in firing. This pattern of activation corresponds to the RPE: DA cells respond to unexpected reward events, either positively when more reward than expected is received, or negatively when less reward is delivered. The simplicity of this model has made RPE a successful model of DA activity (but see <span class="citation" data-cites="Vitay2014">Vitay and Hamker (<a href="#ref-Vitay2014" role="doc-biblioref">2014</a>)</span> for a more detailed model).</p>
+<p>A similar but not identical functional dichotomy as MF/MB opposes deliberative <strong>goal-directed</strong> behavior and inflexible stimulus-response associations called <strong>habits</strong> <span class="citation" data-cites="Dickinson2002">(<a href="#ref-Dickinson2002" role="doc-biblioref">Dickinson and Balleine, 2002</a>)</span>. Goal-directed behavior is sensitive to reward devaluation: if an outcome was previously rewarding but ceases to be (for example, a poisonous product is injected into some food reward, even outside the conditioning phase), goal-directed behavior would quickly learn to avoid that outcome, while habitual behavior will continue to seek for it. Over-training can transform goal-directed behavior into habits <span class="citation" data-cites="Corbit2011">(<a href="#ref-Corbit2011" role="doc-biblioref">Corbit and Balleine, 2011</a>)</span>. Habits are usually considered as a model-free learning behavior, while goal-directed behavior implies the use of a world model. The <strong>dual system theory</strong> discusses the arbitration mechanisms necessary to coordinate these two learning frameworks <span class="citation" data-cites="Lee2014">(<a href="#ref-Lee2014" role="doc-biblioref">Lee et al., 2014</a>)</span>.</p>
+<p>Both forms of behavior are thought to happen concurrently in the brain, with model-based / goal-directed behavior classically assigned to the prefrontal cortex and the hippocampus and model-free / habitual behavior mapped to the ventral basal ganglia and the dopaminergic system. However, recent results and theories suggest that these two functional systems are largely overlapping and that even dopamine firing might reflect model-based processes <span class="citation" data-cites="Doll2012 Miller2018">(<a href="#ref-Doll2012" role="doc-biblioref">Doll et al., 2012</a>; <a href="#ref-Miller2018" role="doc-biblioref">Miller et al., 2018</a>)</span>. It is yet to be understood how these two extreme mechanisms of the RL spectrum might coexist in the brain and be coordinated: successor representations might provide us with additional useful insights into the functioning of the brain.</p>
+</section>
+</section>
+<section id="successor-representations-in-reinforcement-learning" class="level2" data-number="2">
+<h2 data-number="2" class="anchored" data-anchor-id="successor-representations-in-reinforcement-learning"><span class="header-section-number">2</span> Successor representations in reinforcement learning</h2>
+<section id="main-idea" class="level3" data-number="2.1">
+<h3 data-number="2.1" class="anchored" data-anchor-id="main-idea"><span class="header-section-number">2.1</span> Main idea</h3>
+<p>The original formulation of <strong>successor representations</strong> (SR) is actually not recent <span class="citation" data-cites="Dayan1993">(<a href="#ref-Dayan1993" role="doc-biblioref">Dayan, 1993</a>)</span>, but it is subject to a revival since a couple of years with the work of Samuel J. Gershman and colleagues <span class="citation" data-cites="Gershman2012 Gershman2018 Momennejad2017 Stachenfeld2017 Gardner2018">(<a href="#ref-Gardner2018" role="doc-biblioref">Gardner et al., 2018</a>; <a href="#ref-Gershman2012" role="doc-biblioref">Gershman et al., 2012</a>; <a href="#ref-Gershman2018" role="doc-biblioref">Gershman, 2018</a>; <a href="#ref-Momennejad2017" role="doc-biblioref">Momennejad et al., 2017</a>; <a href="#ref-Stachenfeld2017" role="doc-biblioref">Stachenfeld et al., 2017</a>)</span>.</p>
+<p>The SR algorithm learns two quantities:</p>
+<ol type="1">
+<li>The expected immediate reward received after each state:</li>
+</ol>
+<p><span class="math display">
+    r(s) = \mathbb{E}_{\pi} [r_{t+1} | s_t = s]
+</span></p>
+<ol start="2" type="1">
+<li>The expected discounted future state occupancy (the <strong>SR</strong> itself):</li>
+</ol>
+<p><span class="math display">
+    M(s, s') = \mathbb{E}_{\pi} [\sum_{k=0}^\infty \gamma^k \, \mathbb{I}(s_{t+k+1} = s') | s_t = s]
+</span></p>
+<p>I omit here the dependency of <span class="math inline">r</span> and <span class="math inline">M</span> on the policy itself in the notation, but it is of course implicitly there.</p>
+<p>The SR represents the fact that a state <span class="math inline">s'</span> can be reached after <span class="math inline">s</span>, with a value decreasing with the temporal gap between the two states: states occurring in rapid succession will have a high SR, very distant states will have a low SR. If <span class="math inline">s'</span> happens consistently before <span class="math inline">s</span>, the SR should be 0 (causality principle). This is in principle similar to model-based RL, but without an explicit representation of the transition structure: it only represents how states are temporally correlated, not which action leads to which state.</p>
+<p>The value of a state <span class="math inline">s</span> is then defined by:</p>
+<p><span class="math display">
+    V^\pi(s) = \sum_{s'} M(s, s') \, r(s')
+</span></p>
+<p>The value of a state <span class="math inline">s</span> depends on which states <span class="math inline">s'</span> can be visited after it (following the current policy, implicitly), how far in the future they will happen (discount factor in <span class="math inline">M(s, s')</span>) and how much reward can be obtained immediately in those states (<span class="math inline">r(s')</span>). Note that it is merely a rewriting of the definition of the value of a state, with rewards explicitly separated from state visitation and time replaced by succession probabilities:</p>
+<p><span class="math display">V^\pi(s_t) = \mathbb{E}_{\pi} [\sum_{k=0} \gamma^k \, r_{t+k+1}] = \mathbb{E}_{\pi} [\sum_{k=0} r(s_{t+k+1}) \times (\gamma^k \, \mathbb{I}(s_{t+k+1}))]</span></p>
+<p>The SR also obeys a recursive relationship similar to the Bellman equation, as it is based on a discounted sum:</p>
+<p><span class="math display">
+    M(s_t, s') = \mathbb{I}(s_t = s') + \gamma \, M(s_{t+1}, s')
+</span></p>
+<p>The discounted probability of arriving in <span class="math inline">s'</span> after being in <span class="math inline">s_t</span> is one if we are already in <span class="math inline">s'</span>, and gamma times the discounted probability of arriving in <span class="math inline">s'</span> after being in the next state <span class="math inline">s_{t+1}</span> otherwise.</p>
+<p>This recursive relationship implies that we are going to be able to estimate the SR <span class="math inline">M(s, s')</span> using a <strong>sensory prediction error</strong> (SPE) similar to the TD RPE <span class="citation" data-cites="Gershman2012">(<a href="#ref-Gershman2012" role="doc-biblioref">Gershman et al., 2012</a>)</span>:</p>
+<p><span class="math display">
+    \delta^\text{SR}_t = \mathbb{I}(s_t = s') + \gamma \, M(s_{t+1}, s') - M(s_t, s')
+</span></p>
+<p><span class="math display">
+    \Delta M(s_t, s') = \alpha \, \delta^\text{SR}_t
+</span></p>
+<p>The SPE states that the expected occupancy for states that are visited more frequently than expected (positive sensory prediction error) should be increased, while the expected occupancy for states that are visited less frequently than expected (negative sensory prediction error) should be decreased. In short: is arriving in this new state surprising? It should be noted that the SPE is defined over all possible successor states <span class="math inline">s'</span>, so the SPE is actually a vector.</p>
+<p>We can already observe that SR is a trade-off between MF and MB methods. A change in the reward distribution can be quickly tracked by SR algorithms, as the immediate reward <span class="math inline">r(s)</span> can be updated with:</p>
+<p><span class="math display">
+    \Delta r(s) = \alpha \, (r_{t+1} - r(s))
+</span></p>
+<p>However, the SR <span class="math inline">M(s, s')</span> uses other estimates for its update (bootstrapping), so changes in the transition structure may take more time to propagate to all state-state discounted occupancies <span class="citation" data-cites="Gershman2018">(<a href="#ref-Gershman2018" role="doc-biblioref">Gershman, 2018</a>)</span>.</p>
+</section>
+<section id="linear-function-approximation" class="level3" data-number="2.2">
+<h3 data-number="2.2" class="anchored" data-anchor-id="linear-function-approximation"><span class="header-section-number">2.2</span> Linear function approximation</h3>
+<p>Before looking at the biological plausibility of this algorithm, we need to deal with the <strong>curse of dimensionality</strong>. The SR <span class="math inline">M(s, s')</span> is a matrix associating each state of the system to all other states (size <span class="math inline">|\mathcal{S}| \times |\mathcal{S}|</span>). This is of course impracticable for most problems and we need to rely on function approximation. The simplest solution is to represent each state <span class="math inline">s</span> by a set of <span class="math inline">d</span> features <span class="math inline">[f_i(s)]_{i=1}^d</span>. Each feature can for example be the presence of an object in the scene, some encoding of the position of the agent in the world, etc. The SR for a state <span class="math inline">s</span> only needs to predict the expected discounted probability that a feature <span class="math inline">f_j</span> will be observed in the future, not the complete state representation. This should ensure generalization across states, as only the presence of relevant features is needed. The SR can be linearly approximated by:</p>
+<p><span class="math display">
+    M_j(s) = \sum_{i=1}^d w_{i, j} \, f_i(s)
+</span></p>
+<p>The expected discounted probability of observing the feature <span class="math inline">f_j</span> in the future is defined as a weighted sum of the features of the state <span class="math inline">s</span>. The value of a state is now defined as:</p>
+<p><span class="math display">
+    V^\pi(s) = \sum_{j=1}^d M_j(s) \, r(f_j) = \sum_{j=1}^d r(f_j) \, \sum_{i=1}^d w_{i, j} \, f_i(s)
+</span></p>
+<p>where <span class="math inline">r(f_j)</span> is the expected immediate reward when observing the feature <span class="math inline">f_j</span>, what can be easily tracked as before. Computing the value of a state based on the SR now involves a double sum over a <span class="math inline">d \times d</span> matrix, <span class="math inline">d</span> being the number of features, what should generally be much more tractable than over the total number of states squared.</p>
+<p>As we use linear approximation, the learning rule for the weights <span class="math inline">w_{i, j}</span> becomes linearly dependent on the SPE:</p>
+<p><span class="math display">
+    \delta^\text{SR}_t(f_j) = f_j(s_t) + \gamma \, M_j(s_{t+1}) - M_j(s)
+</span></p>
+<p><span class="math display">
+    \Delta w_{i, j} = \alpha \, \delta^\text{SR}_t(f_j) \, f_i(s_t)
+</span></p>
+<p>The SPE tells us how surprising is each feature <span class="math inline">f_j</span> when being in the state <span class="math inline">s_t</span>. This explains the term <strong>sensory prediction error</strong>: we are now not learning based on how surprising rewards are anymore, but on how surprising the sensory features of the outcome are. Did I expect that door to open at some point? Should this event happen soon? What kind of outcome is likely to happen? As the SPE is now a vector for all sensory features, we see why successor representation have a great potential: instead of a single scalar RPE dealing only with reward magnitudes, we now can learn from very diverse representations describing the various relevant dimensions of the task. It can then deal with different rewards: food and monetary rewards are treated the same by RPEs, while we can distinguish them with SPEs.</p>
+<p>The main potential problem is of course to extract the relevant features for the task, either by hand-engineering them or through learning (one could work in the latent space of a variational autoencoder, for example). Feature-based state representations still have to be Markovian for SR to work. It is also possible to use non-linear function approximators such as deep networks <span class="citation" data-cites="Kulkarni2016 Barreto2016 Zhang2016 Ma2018">Machado et al. (<a href="#ref-Machado2018" role="doc-biblioref">2018</a>)</span>, but this is out of the scope of this post.</p>
+</section>
+<section id="successor-representations-of-actions" class="level3" data-number="2.3">
+<h3 data-number="2.3" class="anchored" data-anchor-id="successor-representations-of-actions"><span class="header-section-number">2.3</span> Successor representations of actions</h3>
+<p>The previous sections focused on the successor representation of states to obtain the value function <span class="math inline">V^\pi(s)</span>. The same idea can be applied to state-action pairs and their <span class="math inline">Q^\pi(s, a)</span> values. The Q-value of a state action pair can be defined as:</p>
+<p><span class="math display">
+    Q^\pi(s, a) = \sum_{s', a'} M(s, a, s', a') \, r(s', a')
+</span></p>
+<p>where <span class="math inline">r(s', a')</span> is the expected immediate reward obtained after <span class="math inline">(s', a')</span> and <span class="math inline">M(s, a, s', a')</span> is the SR between the pairs <span class="math inline">(s, a)</span> and <span class="math inline">(s', a')</span> as in <span class="citation" data-cites="Momennejad2017">Momennejad et al. (<a href="#ref-Momennejad2017" role="doc-biblioref">2017</a>)</span>. <span class="citation" data-cites="Ducarouge2017">Ducarouge and Sigaud (<a href="#ref-Ducarouge2017" role="doc-biblioref">2017</a>)</span> use a SR representation between a state-action pair <span class="math inline">(s, a)</span> and a successor state <span class="math inline">s'</span>:</p>
+<p><span class="math display">
+    Q^\pi(s, a) = \sum_{s'} M(s, a, s') \, r(s')
+</span></p>
+<p>In both cases, the SR can be learned using a sensory prediction error, such as:</p>
+<p><span class="math display">
+    \delta^\text{SR}_{s_t, a_t} = \mathbb{I}(s_t = s') + \gamma \, M(s_{t+1}, a_{t+1}, s') - M(s_t, a_t, s')
+</span></p>
+<p>Note that eligibility traces can be used in SR learning as easily as in TD methods.</p>
+</section>
+</section>
+<section id="successor-representations-in-neuroscience" class="level2" data-number="3">
+<h2 data-number="3" class="anchored" data-anchor-id="successor-representations-in-neuroscience"><span class="header-section-number">3</span> Successor representations in neuroscience</h2>
+<section id="human-goal-directed-behavior" class="level3" data-number="3.1">
+<h3 data-number="3.1" class="anchored" data-anchor-id="human-goal-directed-behavior"><span class="header-section-number">3.1</span> Human goal-directed behavior</h3>
+<p>So great, we now have a third form of reinforcement learning. Could it be the missing theory to explain human reinforcement learning and the dichotomy goal-directed behavior / habits?</p>
+<p><span class="citation" data-cites="Momennejad2017">Momennejad et al. (<a href="#ref-Momennejad2017" role="doc-biblioref">2017</a>)</span> designed a two-steps sequential learning task with reward and transition revaluations. In the first learning phase, the subjects are presented with sequences of images (the states) and obtain different rewards (Fig. 1). The sequence <span class="math inline">1 \rightarrow 3 \rightarrow 5</span> is rewarded with 10 dollars while the sequence <span class="math inline">2 \rightarrow 4 \rightarrow 6</span> is rewarded with 1 dollar only. Successful learning is tested by asking the participant whether he/she prefers the states 1 or 2 (the answer is obviously 1).</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="sr_momennejad.svg" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Two-steps sequential learning task of <span class="citation" data-cites="Momennejad2017">Momennejad et al. (<a href="#ref-Momennejad2017" role="doc-biblioref">2017</a>)</span>.</figcaption>
+</figure>
+</div>
+<p>In the reward revaluation task, the transitions <span class="math inline">3 \rightarrow 5</span> and <span class="math inline">4 \rightarrow 6</span> are experienced again in the re-learning phase, but this time with reversed rewards (1 and 10 dollars respectively). In the transition revaluation task, the transitions <span class="math inline">3 \rightarrow 6</span> and <span class="math inline">4 \rightarrow 5</span> are now experienced, but the states <span class="math inline">5</span> and <span class="math inline">6</span> still receive the same amount of reward. The preference for <span class="math inline">1</span> or <span class="math inline">2</span> is again tested at the end of the re-learning phase (<span class="math inline">2</span> should now be preferred in both tasks) and a revaluation score is computed (how much the subject changes his preference between the two phases).</p>
+<p>What would the different ML methods predict?</p>
+<ul>
+<li><p>Model-free methods would not change their preference in both conditions. The value of the <span class="math inline">3 \rightarrow 5</span> and <span class="math inline">4 \rightarrow 6</span> transitions (reward revaluation) or <span class="math inline">3 \rightarrow 6</span> and <span class="math inline">4 \rightarrow 5</span> (transition revaluation) would change during the re-learning phase, but the transitions <span class="math inline">1 \rightarrow 3</span> and <span class="math inline">2 \rightarrow 4</span> are never experienced again, so the value of the states <span class="math inline">1</span> and <span class="math inline">2</span> can only stay the same, even with eligibility traces.</p></li>
+<li><p>Model-based methods would change their preference in both conditions. The reward and transition probabilities would both be re-learned completely to reflect the change, so the new value of <span class="math inline">1</span> and <span class="math inline">2</span> can be computed correctly using dynamic programming.</p></li>
+<li><p>Successor representation methods would adapt to the reward revaluation (<span class="math inline">r(s)</span> will quickly fit the new reward distribution for the states <span class="math inline">5</span> and <span class="math inline">6</span>), but not to the transition revaluation: <span class="math inline">6</span> is never a successor state of <span class="math inline">1</span> in the re-learning phase, so the SR matrix will not be updated for the states <span class="math inline">1</span> and <span class="math inline">2</span>.</p></li>
+</ul>
+<p>We have three different mechanisms with testable predictions on these two tasks: the human experiments should tell us which method is the best model of human RL. Well… Not really.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="sr_results.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Revaluation score in the reward (red) and transition (blue) revaluation conditions for the model-free (MF), model-based (MB), successor representation (SR) and human data as reported in <span class="citation" data-cites="Momennejad2017">Momennejad et al. (<a href="#ref-Momennejad2017" role="doc-biblioref">2017</a>)</span>.</figcaption>
+</figure>
+</div>
+<p>Human participants show a revaluation behavior in the two conditions (reward and transition) somehow in between the model-based and successor representation algorithms. The difference between the reward and transition conditions is statistically significant, so unlike MB, but not as dramatic as for SR. The authors propose a hybrid SR-MB model, linearly combining the outputs of the MB and SR algorithms, and fit it to the human data to obtain a satisfying match. A second task requiring the model to actually take actions confirms this observation.</p>
+<p>It is hard to conclude anything definitive from this model and the somehow artificial fit to the data. Reward revaluation was the typical test to distinguish between MB and MF processes, or between goal-directed behavior and habits. This paper suggests that transition revaluation (and policy revaluation, investigated in the second experiment) might allow distinguishing between MB and SR mechanisms, supporting the existence of SR mechanisms in the brain. How MB and SR might interact in the brain and whether there is an arbitration mechanism between the two is still an open issue. <span class="citation" data-cites="Russek2017">Russek et al. (<a href="#ref-Russek2017" role="doc-biblioref">2017</a>)</span> has a very interesting discussion on the link between MF and MB processes in the brain, based on different versions of the SR.</p>
+</section>
+<section id="neural-substrates-of-successor-representations" class="level3" data-number="3.2">
+<h3 data-number="3.2" class="anchored" data-anchor-id="neural-substrates-of-successor-representations"><span class="header-section-number">3.2</span> Neural substrates of successor representations</h3>
+<p>In addition to describing human behavior at the functional level, the SR might also allow to better understand the computations made by the areas involved in goal-directed behavior, in particular the prefrontal cortex, the basal ganglia, the dopaminergic system, and the hippocampus. The key idea of Gershman and colleagues is that the SR <span class="math inline">M(s, s')</span> might be encoded in the place cells of the hippocampus <span class="citation" data-cites="Stachenfeld2017">(<a href="#ref-Stachenfeld2017" role="doc-biblioref">Stachenfeld et al., 2017</a>)</span>, which are known to be critical for reward-based navigation. The sensory prediction error (SPE <span class="math inline">\delta^\text{SR}_t</span>) might be encoded in the activation of the dopaminergic cells in VTA (or in a fronto-striatal network), driving learning of the SR in the hippocampus <span class="citation" data-cites="Gardner2018">(<a href="#ref-Gardner2018" role="doc-biblioref">Gardner et al., 2018</a>)</span>, while the value of a state <span class="math inline">V^\pi(s) = \sum_{s'} M(s, s') \, r(s')</span> could be computed either in the prefrontal cortex (ventromedial or orbitofrontal) or in the ventral striatum (nucleus accumbens in rats), ultimately allowing action selection in the dorsal BG.</p>
+<section id="dopamine-as-a-spe" class="level4" data-number="3.2.1">
+<h4 data-number="3.2.1" class="anchored" data-anchor-id="dopamine-as-a-spe"><span class="header-section-number">3.2.1</span> Dopamine as a SPE</h4>
+<p>The most striking prediction of the SR hypothesis is that the SPE is a vector of prediction errors, with one element per state (in the original formulation) or per reward feature (using linear function approximation, section 2.2). This contrasts with the classical RPE formulation, where dopaminergic activation is a single scalar signal driving reinforcement learning in the BG and prefrontal cortex <span class="citation" data-cites="Schultz1998">(<a href="#ref-Schultz1998" role="doc-biblioref">Schultz, 1998</a>)</span>. Although this would certainly be an advantage in terms of functionality and flexible learning, it remains to be shown whether VTA actually encodes such a feature-specific signal.</p>
+<p>Neurons in VTA have a rather uniform response to rewards or reward-predicting cues, encoding mostly the value of the outcome regardless its sensory features, except for those projecting to the tail of the striatum which mostly respond to threats and punishments <span class="citation" data-cites="Watabe-Uchida2019">(<a href="#ref-Watabe-Uchida2019" role="doc-biblioref">Watabe-Uchida and Uchida, 2019</a>)</span>. The current state of knowledge seems to rule out VTA as a direct source of SPE signals.</p>
+<p>Interestingly, <span class="citation" data-cites="Oemisch2019">Oemisch et al. (<a href="#ref-Oemisch2019" role="doc-biblioref">2019</a>)</span> showed that feature-specific prediction errors signals (analogous to the SPE with linear approximation) are detected in the fronto-striatal network including the anterior cingulate area (ACC), dorsolateral prefrontal cortex (dlPFC), dorsal striatum and ventral striatum (VS) / nucleus accumbens (NAcc). These SPE-like signals appear shortly after non-specific RPE signals, first in ACC and then in the rest of the network. This suggests that SPE would actually be the result of a more complex calculation than proposed in the SR hypothesis, involving a network of interconnected areas. A detailed neuro-computational model of this network still has to be proposed.</p>
+</section>
+<section id="hippocampus-as-a-predictive-map" class="level4" data-number="3.2.2">
+<h4 data-number="3.2.2" class="anchored" data-anchor-id="hippocampus-as-a-predictive-map"><span class="header-section-number">3.2.2</span> Hippocampus as a predictive map</h4>
+<p>Another interesting prediction of the SR hypothesis is that the hippocampus might be the site where the SR matrix is represented <span class="citation" data-cites="Stachenfeld2017">(<a href="#ref-Stachenfeld2017" role="doc-biblioref">Stachenfeld et al., 2017</a>)</span>. In navigation tasks, the so-called <strong>place cells</strong> in the hippocampus exhibit roughly circular receptive fields centered on different locations in the environment <span class="citation" data-cites="OKeefe1978">(<a href="#ref-OKeefe1978" role="doc-biblioref">O’Keefe and Nadel, 1978</a>)</span>. Altogether, place cells are thought to provide a sparse code of the animal’s location. Strikingly, place fields change with the environment: moving the animal from a circular to a rectangular environment, or introducing barriers, modifies the distribution of place fields. Additionally, <strong>grid cells</strong> in the entorhinal cortex (reciprocally connected to the hippocampus) show a hexagonal grid pattern of receptive fields, i.e.&nbsp;a single grid cell responds for several positions of the animal inside the environment <span class="citation" data-cites="Hafting2005">(<a href="#ref-Hafting2005" role="doc-biblioref">Hafting et al., 2005</a>)</span>. Grid cells’ receptive fields also depend on the environment and have been shown to depend on place cells, not the other way around. The mechanism behind the flexibility of place and grid fields is still to be understood.</p>
+<p><span class="citation" data-cites="Stachenfeld2017">Stachenfeld et al. (<a href="#ref-Stachenfeld2017" role="doc-biblioref">2017</a>)</span> propose that place cells actually encode the SR <span class="math inline">M(s, s')</span> between the current location <span class="math inline">s</span> and their preferred location <span class="math inline">s'</span>, rather than simply an Euclidian distance between <span class="math inline">s</span> and <span class="math inline">s'</span> as classically used in hippocampal models. Because of the discount rate in the SR and its dependency on the animal’s policy, place fields are then roughly circular (exponentially decreasing) in an open environment, where the animal can theoretically reach any neighboring location from its current position. When constraints are added to the environment, such as walls and barriers, certain transitions are not possible anymore, which will modify the shape of the place fields. This fits with experimental observations, contrary to most models of place field formation using Gaussian receptive fields around fixed locations. Additionally, the SR hypothesis is in agreement with the observation that rewarded locations are represented by a higher number of place cells, as the animal spends more time around them.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="sr_track.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Place field on a linear track with an obstacle at x=1, using a Euclidian model (left) and the SR hypothesis (right). Adapted from Fig. 2 of <span class="citation" data-cites="Stachenfeld2017">Stachenfeld et al. (<a href="#ref-Stachenfeld2017" role="doc-biblioref">2017</a>)</span>.</figcaption>
+</figure>
+</div>
+<p>Fig. 3 illustrates this prediction: if a rat is placed on a linear track with an obstacle, the place cell whose RF is centered on the obstacle would react identically on both sides of the obstacle using a Euclidian model, while it would only respond on the side it has explored using the SR. When the rat is put on the other side, the SRs would initially be 0 for that cell (but would grow with more exploration).</p>
+<p><span class="citation" data-cites="Stachenfeld2017">Stachenfeld et al. (<a href="#ref-Stachenfeld2017" role="doc-biblioref">2017</a>)</span> also propose a mechanism for grid cell formation in the entorhinal cortex. Grid cells are understood as a low-dimensional eigendecomposition of the SR place cells (dimensionality reduction, as in principal component analysis). This allows to explain why grid cells change in different environments (circular, rectangular or triangular), as experimentally observed. They also propose a mechanism for sub-goal formation using grid cells, but using the normalized min-cut algorithm, so quite far from being biologically realistic.</p>
+</section>
+</section>
+</section>
+<section id="discussion" class="level2" data-number="4">
+<h2 data-number="4" class="anchored" data-anchor-id="discussion"><span class="header-section-number">4</span> Discussion</h2>
+<p>Successor representations are an interesting trade-off between model-free and model-based RL algorithms, explicitly separating state transitions from reward estimation. It allows reacting quickly to distal reward changes without the computational burden of completely model-based planning. Deep RL variants of SR <span class="citation" data-cites="Kulkarni2016">(<a href="#ref-Kulkarni2016" role="doc-biblioref">Kulkarni et al., 2016</a>)</span> obtain satisfying results on classical RL tasks such as Atari games and simulated robots, but are still outperformed by modern model-free algorithms. Similar to human behavior, hybrid architectures using both SR and MF methods might be able to combine the optimality of MF methods with the flexibility of the SR.</p>
+<p>At the neuroscientific level, the SR hypothesis raises a lot of interesting questions, especially regarding the interplay between the prefrontal cortex, the hippocampus, and the basal ganglia during goal-directed behavior. Here are just a few aspects that need to be investigated both experimentally and theoretically:</p>
+<ul>
+<li>What is the relationship between the RPE and the SPE? Does VTA compute the SPE (still to be proven) and send it directly to the hippocampus through dopaminergic projections? Or does the RPE VTA somehow “train” ACC and PFC to compute the SPE, what is then sent to the hippocampus to update the SR representation? How?</li>
+<li>How does the hippocampus learn from SPE signals? The SR hypothesis still has to be linked with evidence on plasticity in the hippocampus.</li>
+<li>If dopamine does not carry the SPE, what is the role of the dopaminergic innervation of the hippocampus? The SR representation is in principle independent from rewards (except that animals may spend more time around reward location).</li>
+<li>How is the value of a state / action computed based on the SR representation in the hippocampus? Do sharp wave ripples (SWR, also called forward/inverse replays) actually sample the SR matrix (a list of achievable states from the current one), what is then integrated elsewhere (ventral striatum?) to guide behavior?</li>
+</ul>
+</section>
+<section id="references" class="level2" data-number="5">
+
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">5 References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-Barreto2016" class="csl-entry" role="listitem">
+Barreto, A., Dabney, W., Munos, R., Hunt, J. J., Schaul, T., van Hasselt, H., et al. (2016). Successor <span>Features</span> for <span>Transfer</span> in <span>Reinforcement Learning</span>. <em>arXiv:1606.05312 [cs]</em>. Available at: <a href="https://arxiv.org/abs/1606.05312">https://arxiv.org/abs/1606.05312</a>.
+</div>
+<div id="ref-Corbit2011" class="csl-entry" role="listitem">
+Corbit, L. H., and Balleine, B. W. (2011). The general and outcome-specific forms of <span class="nocase">Pavlovian-instrumental</span> transfer are differentially mediated by the nucleus accumbens core and shell. <em>The Journal of neuroscience : the official journal of the Society for Neuroscience</em> 31, 11786–94. doi:<a href="https://doi.org/10.1523/JNEUROSCI.2711-11.2011">10.1523/JNEUROSCI.2711-11.2011</a>.
+</div>
+<div id="ref-Dayan1993" class="csl-entry" role="listitem">
+Dayan, P. (1993). Improving <span>Generalization</span> for <span>Temporal Difference Learning</span>: <span>The Successor Representation</span>. <em>Neural Computation</em> 5, 613–624. doi:<a href="https://doi.org/10.1162/neco.1993.5.4.613">10.1162/neco.1993.5.4.613</a>.
+</div>
+<div id="ref-Dickinson2002" class="csl-entry" role="listitem">
+Dickinson, A., and Balleine, B. (2002). <span>“The role of learning in the operation of motivational systems,”</span> in <em>Steven’s handbook of experimental psychology: <span>Learning</span>, motivation, and emotion, <span>Vol</span>. 3, 3rd ed</em> (<span>Hoboken, NJ, US</span>: <span>John Wiley &amp; Sons Inc</span>), 497–533.
+</div>
+<div id="ref-Doll2012" class="csl-entry" role="listitem">
+Doll, B. B., Simon, D. A., and Daw, N. D. (2012). The ubiquity of model-based reinforcement learning. <em>Current Opinion in Neurobiology</em> 22, 1075–1081. doi:<a href="https://doi.org/10.1016/j.conb.2012.08.003">10.1016/j.conb.2012.08.003</a>.
+</div>
+<div id="ref-Ducarouge2017" class="csl-entry" role="listitem">
+Ducarouge, A., and Sigaud, O. (2017). The <span>Successor Representation</span> as a model of behavioural flexibility. in <em>Journées <span>Francophones</span> sur la <span>Planification</span>, la <span>Décision</span> et l’<span>Apprentissage</span> pour la conduite de systèmes (<span>JFPDA</span> 2017)</em> Actes des <span>Journées Francophones</span> sur la <span>Planification</span>, la <span>Décision</span> et l’<span>Apprentissage</span> pour la conduite de systèmes (<span>JFPDA</span> 2017). (<span>Caen, France</span>).
+</div>
+<div id="ref-Gardner2018" class="csl-entry" role="listitem">
+Gardner, M. P. H., Schoenbaum, G., and Gershman, S. J. (2018). Rethinking dopamine as generalized prediction error. <em>Proceedings of the Royal Society B: Biological Sciences</em> 285, 20181645. doi:<a href="https://doi.org/10.1098/rspb.2018.1645">10.1098/rspb.2018.1645</a>.
+</div>
+<div id="ref-Gershman2018" class="csl-entry" role="listitem">
+Gershman, S. J. (2018). The <span>Successor Representation</span>: <span>Its Computational Logic</span> and <span>Neural Substrates</span>. <em>The Journal of neuroscience : the official journal of the Society for Neuroscience</em> 38, 7193–7200. doi:<a href="https://doi.org/10.1523/JNEUROSCI.0151-18.2018">10.1523/JNEUROSCI.0151-18.2018</a>.
+</div>
+<div id="ref-Gershman2012" class="csl-entry" role="listitem">
+Gershman, S. J., Moore, C. D., Todd, M. T., Norman, K. A., and Sederberg, P. B. (2012). The <span>Successor Representation</span> and <span>Temporal Context</span>. <em>Neural Computation</em> 24, 1553–1568. doi:<a href="https://doi.org/10.1162/NECO_a_00282">10.1162/NECO_a_00282</a>.
+</div>
+<div id="ref-Hafting2005" class="csl-entry" role="listitem">
+Hafting, T., Fyhn, M., Molden, S., Moser, M.-B., and Moser, E. I. (2005). Microstructure of a spatial map in the entorhinal cortex. <em>Nature</em> 436, 801. doi:<a href="https://doi.org/10.1038/nature03721">10.1038/nature03721</a>.
+</div>
+<div id="ref-Kulkarni2016" class="csl-entry" role="listitem">
+Kulkarni, T. D., Saeedi, A., Gautam, S., and Gershman, S. J. (2016). Deep <span>Successor Reinforcement Learning</span>. <em>arXiv:1606.02396 [cs, stat]</em>. Available at: <a href="https://arxiv.org/abs/1606.02396">https://arxiv.org/abs/1606.02396</a>.
+</div>
+<div id="ref-Lee2014" class="csl-entry" role="listitem">
+Lee, S. W., Shimojo, S., and O’Doherty, J. P. (2014). Neural <span>Computations Underlying Arbitration</span> between <span>Model-Based</span> and <span class="nocase">Model-free Learning</span>. <em>Neuron</em> 81, 687–699. doi:<a href="https://doi.org/10.1016/j.neuron.2013.11.028">10.1016/j.neuron.2013.11.028</a>.
+</div>
+<div id="ref-Ma2018" class="csl-entry" role="listitem">
+Ma, C., Wen, J., and Bengio, Y. (2018). Universal <span>Successor Representations</span> for <span>Transfer Reinforcement Learning</span>. <em>arXiv:1804.03758 [cs, stat]</em>. Available at: <a href="https://arxiv.org/abs/1804.03758">https://arxiv.org/abs/1804.03758</a>.
+</div>
+<div id="ref-Machado2018" class="csl-entry" role="listitem">
+Machado, M. C., Bellemare, M. G., and Bowling, M. (2018). Count-<span>Based Exploration</span> with the <span>Successor Representation</span>. <em>arXiv:1807.11622 [cs, stat]</em>. Available at: <a href="https://arxiv.org/abs/1807.11622">https://arxiv.org/abs/1807.11622</a>.
+</div>
+<div id="ref-Miller2018" class="csl-entry" role="listitem">
+Miller, K., Ludvig, E. A., Pezzulo, G., and Shenhav, A. (2018). <span>“Re-aligning models of habitual and goal-directed decision-making,”</span> in <em>Goal-<span>Directed Decision Making</span> : <span>Computations</span> and <span>Neural Circuits</span></em>, eds. A. Bornstein, R. W. Morris, and A. Shenhav (<span>Academic Press</span>).
+</div>
+<div id="ref-Momennejad2017" class="csl-entry" role="listitem">
+Momennejad, I., Russek, E. M., Cheong, J. H., Botvinick, M. M., Daw, N. D., and Gershman, S. J. (2017). The successor representation in human reinforcement learning. <em>Nature Human Behaviour</em> 1, 680–692. doi:<a href="https://doi.org/10.1038/s41562-017-0180-8">10.1038/s41562-017-0180-8</a>.
+</div>
+<div id="ref-OKeefe1978" class="csl-entry" role="listitem">
+O’Keefe, J., and Nadel, L. (1978). <em>The hippocampus as a cognitive map</em>. <span>Oxford : New York</span>: <span>Clarendon Press ; Oxford University Press</span>.
+</div>
+<div id="ref-Oemisch2019" class="csl-entry" role="listitem">
+Oemisch, M., Westendorff, S., Azimi, M., Hassani, S. A., Ardid, S., Tiesinga, P., et al. (2019). Feature-specific prediction errors and surprise across macaque fronto-striatal circuits. <em>Nature Communications</em> 10, 176. doi:<a href="https://doi.org/10.1038/s41467-018-08184-9">10.1038/s41467-018-08184-9</a>.
+</div>
+<div id="ref-Russek2017" class="csl-entry" role="listitem">
+Russek, E. M., Momennejad, I., Botvinick, M. M., Gershman, S. J., and Daw, N. D. (2017). Predictive representations can link model-based reinforcement learning to model-free mechanisms. <em>PLOS Computational Biology</em> 13, e1005768. doi:<a href="https://doi.org/10.1371/journal.pcbi.1005768">10.1371/journal.pcbi.1005768</a>.
+</div>
+<div id="ref-Schultz1998" class="csl-entry" role="listitem">
+Schultz, W. (1998). Predictive reward signal of dopamine neurons. <em>J Neurophysiol</em> 80, 1–27.
+</div>
+<div id="ref-Stachenfeld2017" class="csl-entry" role="listitem">
+Stachenfeld, K. L., Botvinick, M. M., and Gershman, S. J. (2017). The hippocampus as a predictive map. <em>Nature Neuroscience</em> 20, 1643–1653. doi:<a href="https://doi.org/10.1038/nn.4650">10.1038/nn.4650</a>.
+</div>
+<div id="ref-Sutton2017" class="csl-entry" role="listitem">
+Sutton, R. S., and Barto, A. G. (2017). <em>Reinforcement <span>Learning</span>: <span>An Introduction</span></em>. Second. <span>Cambridge, MA</span>: <span>MIT Press</span>.
+</div>
+<div id="ref-Vitay2014" class="csl-entry" role="listitem">
+Vitay, J., and Hamker, F. H. (2014). Timing and expectation of reward: <span>A</span> neuro-computational model of the afferents to the ventral tegmental area. <em>Frontiers in Neurorobotics</em> 8. doi:<a href="https://doi.org/10.3389/fnbot.2014.00004">10.3389/fnbot.2014.00004</a>.
+</div>
+<div id="ref-Watabe-Uchida2019" class="csl-entry" role="listitem">
+Watabe-Uchida, M., and Uchida, N. (2019). Multiple <span>Dopamine Systems</span>: <span>Weal</span> and <span>Woe</span> of <span>Dopamine</span>. <em>Cold Spring Harbor Symposia on Quantitative Biology</em>, 037648. doi:<a href="https://doi.org/10.1101/sqb.2018.83.037648">10.1101/sqb.2018.83.037648</a>.
+</div>
+<div id="ref-Zhang2016" class="csl-entry" role="listitem">
+Zhang, J., Springenberg, J. T., Boedecker, J., and Burgard, W. (2016). Deep <span>Reinforcement Learning</span> with <span>Successor Features</span> for <span>Navigation</span> across <span>Similar Environments</span>. <em>arXiv:1612.05533 [cs]</em>. Available at: <a href="https://arxiv.org/abs/1612.05533">https://arxiv.org/abs/1612.05533</a>.
+</div>
+</div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">Julien Vitay - Chemnitz University of Technology</div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>
