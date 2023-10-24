@@ -1,3 +1,16 @@
+Larisch2023:
+  type: journal
+  title: "Detecting Anomalies in System Logs With a Compact Convolutional Transformer"
+  authors:
+    - René Larisch
+    - Julien Vitay
+    - Fred H. Hamker
+  year: 2023
+  journal: "*IEEE Access 11*, 113464-113479"
+  doi: 10.1109/ACCESS.2023.3323252
+  url: https://ieeexplore.ieee.org/document/10285328
+  pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10285328
+
 Baladron2023:
   type: journal
   title: "The contribution of the basal ganglia and cerebellum to motor learning: A neuro-computational approach"

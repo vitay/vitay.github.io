@@ -15,6 +15,19 @@ keep-md: true
 
 ### 2023
 
+René Larisch, Julien Vitay, and Fred H. Hamker (2023) <br>
+**Detecting Anomalies in System Logs With a Compact Convolutional Transformer**  <br>
+*IEEE Access 11*, 113464-113479  <br>
+[doi:10.1109/ACCESS.2023.3323252](https://doi.org/10.1109/ACCESS.2023.3323252) <br>
+
+
+<a class="btn btn-outline-dark btn-sm" href="https://ieeexplore.ieee.org/document/10285328" target="_blank" rel="noopener noreferrer"> <i class="bi bi-journal" role='img' aria-label='URL'></i> URL</a>
+<a class="btn btn-outline-dark btn-sm" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10285328" target="_blank" rel="noopener noreferrer"> <i class="bi bi-file-earmark-pdf" role='img' aria-label='PDF'></i> PDF</a>
+
+---
+
+
+
 Javier Baladron, Julien Vitay, Torsten Fietzek, and Fred H. Hamker (2023) <br>
 **The contribution of the basal ganglia and cerebellum to motor learning: A neuro-computational approach**  <br>
 *PLoS Comput Biol* 19(4): e1011024  <br>
@@ -507,6 +520,19 @@ In: Berthouze, L., Kaplan, F., Kozima, H., Yano, H., Konczak, J., Metta, G., Nad
 
 
 ### 2023
+
+René Larisch, Julien Vitay, and Fred H. Hamker (2023) <br>
+**Detecting Anomalies in System Logs With a Compact Convolutional Transformer**  <br>
+*IEEE Access 11*, 113464-113479  <br>
+[doi:10.1109/ACCESS.2023.3323252](https://doi.org/10.1109/ACCESS.2023.3323252) <br>
+
+
+<a class="btn btn-outline-dark btn-sm" href="https://ieeexplore.ieee.org/document/10285328" target="_blank" rel="noopener noreferrer"> <i class="bi bi-journal" role='img' aria-label='URL'></i> URL</a>
+<a class="btn btn-outline-dark btn-sm" href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10285328" target="_blank" rel="noopener noreferrer"> <i class="bi bi-file-earmark-pdf" role='img' aria-label='PDF'></i> PDF</a>
+
+---
+
+
 
 Javier Baladron, Julien Vitay, Torsten Fietzek, and Fred H. Hamker (2023) <br>
 **The contribution of the basal ganglia and cerebellum to motor learning: A neuro-computational approach**  <br>
