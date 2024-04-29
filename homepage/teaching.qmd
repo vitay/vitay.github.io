@@ -4,54 +4,30 @@ title: Teaching
 toc: false
 ---
 
-## Neurocomputing
-
-**Level:** Master.
-
-**Responsability:** lectures and exercises.
-
-**Course website:** <https://www.tu-chemnitz.de/informatik/KI/edu/neurocomputing>
-
-**Materials:** <https://julien-vitay.net/course-neurocomputing/>
-
-### Syllabus
-
-1. **Linear algorithms**
-    1. Optimization
-    2. Linear regression
-    3. Linear classification
-    4. Learning theory
-2. **Neural networks**
-    1. Multi-layer perceptron
-    2. Modern neural networks
-3. **Computer Vision**
-    1. Convolutional neural networks
-    2. Object detection
-    3. Semantic segmentation
-4. **Generative modeling**
-    1. Autoencoders
-    2. Restricted Boltzmann machines
-    3. Generative adversarial networks
-5. **Recurrent neural networks**
-    1. Recurrent neural networks, LSTM
-    2. Natural Language Processing
-    3. Attentional neural networks
-6. **Self-supervised learning**
-    1. Transformers
-    2. Contrastive learning
 
 ## Deep Reinforcement Learning
 
-**Level:** Master.
+::: {.columns}
+::: {.column width=70%}
 
-**Responsability:** lectures and exercises.
+**Level:** 
 
-**Course website:** <https://www.tu-chemnitz.de/informatik/KI/edu/deeplrl>
+Master
 
-**Materials:** <https://julien-vitay.net/course-deeprl/>
+**Responsability:** 
 
+Lectures and exercises
 
-### Syllabus
+**Course website:** 
+
+<https://www.tu-chemnitz.de/informatik/KI/edu/deeprl>
+
+**Materials:** 
+
+<https://julien-vitay.net/course-deeprl/>
+
+:::
+::: {.column width=30%}
 
 1. **Tabular RL**
     1. Bandits
@@ -77,15 +53,29 @@ toc: false
     3. AlphaGo
     4. Successor representations
 
+:::
+:::
+
 ## Introduction to AI
 
-**Level:** Bachelor.
 
-**Responsability:** exercises.
+::: {.columns}
+::: {.column width=70%}
 
-**Course website:** <https://www.tu-chemnitz.de/informatik/KI/edu/ki>
+**Level:** 
 
-### Syllabus
+Bachelor
+
+**Responsability:** 
+
+Exercises
+
+**Course website:** 
+
+<https://www.tu-chemnitz.de/informatik/KI/edu/ki>
+
+:::
+::: {.column width=30%}
 
 1. Blind search
 2. Heuristic search
@@ -99,3 +89,83 @@ toc: false
 10. Decision trees
 11. Estimators
 12. Reinforcement learning
+
+:::
+:::
+
+## Proseminar AI
+
+
+::: {.columns}
+::: {.column width=70%}
+
+**Level:** 
+
+Bachelor
+
+**Responsability:** 
+
+Module
+
+**Course website:** 
+
+<https://www.tu-chemnitz.de/informatik/KI/edu/prosem>
+
+:::
+::: {.column width=30%}
+
+
+:::
+:::
+
+## Neurocomputing (formerly)
+
+
+::: {.columns}
+::: {.column width=70%}
+
+**Level:** 
+
+Master
+
+**Responsability:** 
+
+None since 2023
+
+**Course website:** 
+
+<https://www.tu-chemnitz.de/informatik/KI/edu/neurocomputing>
+
+**Materials:** 
+
+<https://julien-vitay.net/course-neurocomputing/>
+
+:::
+::: {.column width=30%}
+
+1. **Linear algorithms**
+    1. Optimization
+    2. Linear regression
+    3. Linear classification
+    4. Learning theory
+2. **Neural networks**
+    1. Multi-layer perceptron
+    2. Modern neural networks
+3. **Computer Vision**
+    1. Convolutional neural networks
+    2. Object detection
+    3. Semantic segmentation
+4. **Generative modeling**
+    1. Autoencoders
+    2. Restricted Boltzmann machines
+    3. Generative adversarial networks
+5. **Recurrent neural networks**
+    1. Recurrent neural networks, LSTM
+    2. Natural Language Processing
+    3. Attentional neural networks
+6. **Self-supervised learning**
+    1. Transformers
+    2. Contrastive learning
+
+:::
+:::
