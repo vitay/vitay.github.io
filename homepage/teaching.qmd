@@ -1,7 +1,7 @@
 ---
 title: Teaching
 
-toc: false
+toc: true
 ---
 
 
@@ -18,6 +18,10 @@ Master
 
 Lectures and exercises
 
+**Semester:** 
+
+Winter
+
 **Course website:** 
 
 <https://www.tu-chemnitz.de/informatik/KI/edu/deeprl>
@@ -29,29 +33,17 @@ Lectures and exercises
 :::
 ::: {.column width=30%}
 
-1. **Tabular RL**
-    1. Bandits
-    2. Markov Decision Processes
-    3. Dynamic Programming
-    4. Monte Carlo control
-    5. Temporal Difference
-    6. Function approximation
-    7. Deep learning
-
-2. **Model-free RL**
-    1. Deep Q-network
-    2. Beyond DQN
-    3. Policy Gradient
-    4. A2C / A3C
-    5. DDPG
-    6. TRPO / PPO
-    7. SAC
-
-3. **Model-based RL**
-    1. Model-based RL
-    2. Learned models
-    3. AlphaGo
-    4. Successor representations
+1. Markov Decision Processes
+2. Dynamic Programming, Monte Carlo control, Temporal Difference
+3. Deep Q-network
+4. Policy Gradient
+5. A2C / A3C
+6. DDPG
+7. TRPO / PPO
+8. SAC
+9. Model-based RL
+10. Learned World models
+11. AlphaGo
 
 :::
 :::
@@ -69,6 +61,11 @@ Bachelor
 **Responsability:** 
 
 Exercises
+
+**Semester:** 
+
+Summer
+
 
 **Course website:** 
 
@@ -107,6 +104,10 @@ Bachelor
 
 Module
 
+**Semester:** 
+
+Summer
+
 **Course website:** 
 
 <https://www.tu-chemnitz.de/informatik/KI/edu/prosem>
@@ -132,6 +133,10 @@ Master
 
 None since 2023
 
+**Semester:** 
+
+Winter
+
 **Course website:** 
 
 <https://www.tu-chemnitz.de/informatik/KI/edu/neurocomputing>
@@ -143,29 +148,17 @@ None since 2023
 :::
 ::: {.column width=30%}
 
-1. **Linear algorithms**
-    1. Optimization
-    2. Linear regression
-    3. Linear classification
-    4. Learning theory
-2. **Neural networks**
-    1. Multi-layer perceptron
-    2. Modern neural networks
-3. **Computer Vision**
-    1. Convolutional neural networks
-    2. Object detection
-    3. Semantic segmentation
-4. **Generative modeling**
-    1. Autoencoders
-    2. Restricted Boltzmann machines
-    3. Generative adversarial networks
-5. **Recurrent neural networks**
-    1. Recurrent neural networks, LSTM
-    2. Natural Language Processing
-    3. Attentional neural networks
-6. **Self-supervised learning**
-    1. Transformers
-    2. Contrastive learning
+1. Optimization
+2. Linear regression / classification
+1. Multi-layer perceptron
+1. Convolutional neural networks
+2. Object detection, semantic segmentation
+1. Autoencoders
+3. Generative adversarial networks
+1. RNN, LSTM
+3. Attentional neural networks
+1. Transformers
+2. Contrastive learning
 
 :::
 :::
