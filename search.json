@@ -4,7 +4,7 @@
     "href": "blog.html",
     "title": "Blog",
     "section": "",
-    "text": "Successor Representations\n\n\n\n\n\nSuccessor representations (SR) attract a lot of attention these days, both in the neuroscientific and machine learning / deep RL communities. This post is intended to explain the main difference between SR and model-free / model-based RL algorithms and to point out its usefulness to understand goal-directed behavior.\n\n\n\n\n\n\nMay 8, 2019\n\n\nJulien Vitay\n\n\n\n\n\n\nNo matching items"
+    "text": "Successor Representations\n\n\n\n\n\nSuccessor representations (SR) attract a lot of attention these days, both in the neuroscientific and machine learning / deep RL communities. This post is intended to explain the main difference between SR and model-free / model-based RL algorithms and to point out its usefulness to understand goal-directed behavior.\n\n\n\n\n\nMay 8, 2019\n\n\nJulien Vitay\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -158,28 +158,35 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Level: Master.\nResponsability: lectures and exercises.\nCourse website: https://www.tu-chemnitz.de/informatik/KI/edu/neurocomputing\nMaterials: https://julien-vitay.net/course-neurocomputing/\n\n\n\nLinear algorithms\n\nOptimization\nLinear regression\nLinear classification\nLearning theory\n\nNeural networks\n\nMulti-layer perceptron\nModern neural networks\n\nComputer Vision\n\nConvolutional neural networks\nObject detection\nSemantic segmentation\n\nGenerative modeling\n\nAutoencoders\nRestricted Boltzmann machines\nGenerative adversarial networks\n\nRecurrent neural networks\n\nRecurrent neural networks, LSTM\nNatural Language Processing\nAttentional neural networks\n\nSelf-supervised learning\n\nTransformers\nContrastive learning"
-  },
-  {
-    "objectID": "teaching.html#neurocomputing",
-    "href": "teaching.html#neurocomputing",
-    "title": "Teaching",
-    "section": "",
-    "text": "Level: Master.\nResponsability: lectures and exercises.\nCourse website: https://www.tu-chemnitz.de/informatik/KI/edu/neurocomputing\nMaterials: https://julien-vitay.net/course-neurocomputing/\n\n\n\nLinear algorithms\n\nOptimization\nLinear regression\nLinear classification\nLearning theory\n\nNeural networks\n\nMulti-layer perceptron\nModern neural networks\n\nComputer Vision\n\nConvolutional neural networks\nObject detection\nSemantic segmentation\n\nGenerative modeling\n\nAutoencoders\nRestricted Boltzmann machines\nGenerative adversarial networks\n\nRecurrent neural networks\n\nRecurrent neural networks, LSTM\nNatural Language Processing\nAttentional neural networks\n\nSelf-supervised learning\n\nTransformers\nContrastive learning"
+    "text": "Level:\nMaster\nResponsability:\nLectures and exercises\nCourse website:\nhttps://www.tu-chemnitz.de/informatik/KI/edu/deeprl\nMaterials:\nhttps://julien-vitay.net/course-deeprl/\n\n\nTabular RL\n\nBandits\nMarkov Decision Processes\nDynamic Programming\nMonte Carlo control\nTemporal Difference\nFunction approximation\nDeep learning\n\nModel-free RL\n\nDeep Q-network\nBeyond DQN\nPolicy Gradient\nA2C / A3C\nDDPG\nTRPO / PPO\nSAC\n\nModel-based RL\n\nModel-based RL\nLearned models\nAlphaGo\nSuccessor representations"
   },
   {
     "objectID": "teaching.html#deep-reinforcement-learning",
     "href": "teaching.html#deep-reinforcement-learning",
     "title": "Teaching",
-    "section": "Deep Reinforcement Learning",
-    "text": "Deep Reinforcement Learning\nLevel: Master.\nResponsability: lectures and exercises.\nCourse website: https://www.tu-chemnitz.de/informatik/KI/edu/deeplrl\nMaterials: https://julien-vitay.net/course-deeprl/\n\nSyllabus\n\nTabular RL\n\nBandits\nMarkov Decision Processes\nDynamic Programming\nMonte Carlo control\nTemporal Difference\nFunction approximation\nDeep learning\n\nModel-free RL\n\nDeep Q-network\nBeyond DQN\nPolicy Gradient\nA2C / A3C\nDDPG\nTRPO / PPO\nSAC\n\nModel-based RL\n\nModel-based RL\nLearned models\nAlphaGo\nSuccessor representations"
+    "section": "",
+    "text": "Level:\nMaster\nResponsability:\nLectures and exercises\nCourse website:\nhttps://www.tu-chemnitz.de/informatik/KI/edu/deeprl\nMaterials:\nhttps://julien-vitay.net/course-deeprl/\n\n\nTabular RL\n\nBandits\nMarkov Decision Processes\nDynamic Programming\nMonte Carlo control\nTemporal Difference\nFunction approximation\nDeep learning\n\nModel-free RL\n\nDeep Q-network\nBeyond DQN\nPolicy Gradient\nA2C / A3C\nDDPG\nTRPO / PPO\nSAC\n\nModel-based RL\n\nModel-based RL\nLearned models\nAlphaGo\nSuccessor representations"
   },
   {
     "objectID": "teaching.html#introduction-to-ai",
     "href": "teaching.html#introduction-to-ai",
     "title": "Teaching",
     "section": "Introduction to AI",
-    "text": "Introduction to AI\nLevel: Bachelor.\nResponsability: exercises.\nCourse website: https://www.tu-chemnitz.de/informatik/KI/edu/ki\n\nSyllabus\n\nBlind search\nHeuristic search\nGame theory\nConstraint propagation\nOptimization\nNeural networks\nSupport vector machines\nProbability theory\nInformation theory\nDecision trees\nEstimators\nReinforcement learning"
+    "text": "Introduction to AI\n\n\nLevel:\nBachelor\nResponsability:\nExercises\nCourse website:\nhttps://www.tu-chemnitz.de/informatik/KI/edu/ki\n\n\nBlind search\nHeuristic search\nGame theory\nConstraint propagation\nOptimization\nNeural networks\nSupport vector machines\nProbability theory\nInformation theory\nDecision trees\nEstimators\nReinforcement learning"
+  },
+  {
+    "objectID": "teaching.html#proseminar-ai",
+    "href": "teaching.html#proseminar-ai",
+    "title": "Teaching",
+    "section": "Proseminar AI",
+    "text": "Proseminar AI\n\n\nLevel:\nBachelor\nResponsability:\nModule\nCourse website:\nhttps://www.tu-chemnitz.de/informatik/KI/edu/prosem"
+  },
+  {
+    "objectID": "teaching.html#neurocomputing-formerly",
+    "href": "teaching.html#neurocomputing-formerly",
+    "title": "Teaching",
+    "section": "Neurocomputing (formerly)",
+    "text": "Neurocomputing (formerly)\n\n\nLevel:\nMaster\nResponsability:\nNone since 2023\nCourse website:\nhttps://www.tu-chemnitz.de/informatik/KI/edu/neurocomputing\nMaterials:\nhttps://julien-vitay.net/course-neurocomputing/\n\n\nLinear algorithms\n\nOptimization\nLinear regression\nLinear classification\nLearning theory\n\nNeural networks\n\nMulti-layer perceptron\nModern neural networks\n\nComputer Vision\n\nConvolutional neural networks\nObject detection\nSemantic segmentation\n\nGenerative modeling\n\nAutoencoders\nRestricted Boltzmann machines\nGenerative adversarial networks\n\nRecurrent neural networks\n\nRecurrent neural networks, LSTM\nNatural Language Processing\nAttentional neural networks\n\nSelf-supervised learning\n\nTransformers\nContrastive learning"
   },
   {
     "objectID": "contact.html",
