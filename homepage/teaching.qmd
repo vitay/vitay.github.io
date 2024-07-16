@@ -26,9 +26,6 @@ Winter
 
 <https://www.tu-chemnitz.de/informatik/KI/edu/deeprl>
 
-**Materials:** 
-
-<https://julien-vitay.net/course-deeprl/>
 
 :::
 ::: {.column width=30%}
@@ -141,9 +138,6 @@ Winter
 
 <https://www.tu-chemnitz.de/informatik/KI/edu/neurocomputing>
 
-**Materials:** 
-
-<https://julien-vitay.net/course-neurocomputing/>
 
 :::
 ::: {.column width=30%}
