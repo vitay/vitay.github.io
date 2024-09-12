@@ -61,7 +61,7 @@ I develop with Helge Dinkelbach **ANNarchy** (Artificial Neural Networks archite
 :::
 
 
-## Neurocomputing
+## Artificial Intelligence
 
 ### [Reservoir computing](research/reservoircomputing.qmd)
 

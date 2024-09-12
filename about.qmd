@@ -4,7 +4,7 @@ title: "Dr. habil. Julien Vitay"
 toc: false
 ---
 
-Researcher / lecturer at the Chemnitz University of Technology.
+Researcher / lecturer in Artificial Intelligence and Computational Neuroscience.
 
 
 ## Education
