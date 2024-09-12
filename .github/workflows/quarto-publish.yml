@@ -35,8 +35,9 @@ jobs:
           python-version: '3.x' # Version range or exact version of a Python version to use, using SemVer's version range syntax
       
       - name: Python dependencies
-        run: pip install jupyter 
-        run: pip install pyyaml
+        run: 
+          pip install jupyter 
+          pip install pyyaml
 
       # NOTE: If Publishing to GitHub Pages, set the permissions correctly (see top of this yaml)
       - name: Publish to GitHub Pages (and render) 
