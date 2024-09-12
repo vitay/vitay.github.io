@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "Dr. habil. Julien Vitay",
     "section": "",
-    "text": "Researcher / lecturer at the Chemnitz University of Technology."
+    "text": "Researcher / lecturer in Artificial Intelligence and Computational Neuroscience."
   },
   {
     "objectID": "about.html#education",
@@ -112,11 +112,11 @@
     "text": "Neuroinformatics\n\nNeurosimulator ANNarchy\n\n\nI develop with Helge Dinkelbach ANNarchy (Artificial Neural Networks architect), a parallel simulator for distributed rate-coded or spiking neural networks. The definition of the models is in Python, but the library generates optimized C++ code to actually run the simulation on parallel hardware, using either openMP or CUDA."
   },
   {
-    "objectID": "research.html#neurocomputing",
-    "href": "research.html#neurocomputing",
+    "objectID": "research.html#artificial-intelligence",
+    "href": "research.html#artificial-intelligence",
     "title": "Research",
-    "section": "Neurocomputing",
-    "text": "Neurocomputing\n\nReservoir computing\n\n\nReservoir computing studies the dynamical properties of recurrently connected populations of neurons. Their rich dynamics allow to represent and learn complex tasks currently out of reach of the classical machine learning methods, but also allow to better understand brain activities.\n\n\n\n\n\n\nReinforcement learning\n\n\nReinforcement Learning (RL) is a machine learning framework studying how to derive optimal policies from reward signals. Coupled with deep neural networks, it became the most promising approach to artificial intelligence."
+    "section": "Artificial Intelligence",
+    "text": "Artificial Intelligence\n\nReservoir computing\n\n\nReservoir computing studies the dynamical properties of recurrently connected populations of neurons. Their rich dynamics allow to represent and learn complex tasks currently out of reach of the classical machine learning methods, but also allow to better understand brain activities.\n\n\n\n\n\n\nReinforcement learning\n\n\nReinforcement Learning (RL) is a machine learning framework studying how to derive optimal policies from reward signals. Coupled with deep neural networks, it became the most promising approach to artificial intelligence."
   },
   {
     "objectID": "research/annarchy.html",
@@ -228,7 +228,7 @@
     "href": "index.html",
     "title": "Julien Vitay",
     "section": "",
-    "text": "Dr. habil. Julien Vitay\n\nResearcher / lecturer at the Chemnitz University of Technology.\nHamker lab of Artificial Intelligence - Department of Computer Science.\nResearch interests: computational neuroscience, neuroinformatics, neurocomputing\n\n -  -  -  -"
+    "text": "Dr. habil. Julien Vitay\n\nResearcher / lecturer at the Chemnitz University of Technology.\nHamker lab of Artificial Intelligence - Department of Computer Science.\nResearch interests: computational neuroscience, neuroinformatics, artificial intelligence, reinforcement learning\n\n -  -  -  -"
   },
   {
     "objectID": "contact.html",
