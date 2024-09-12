@@ -3,7 +3,7 @@ I am Julien Vitay, researcher in Artificial Intelligence and Computational Neuro
 ## Neuro-simulator ANNarchy
 
 * [ANNarchy](https://github.com/ANNarchy/ANNarchy) : official repo for ANNarchy.
-* [Documentation](https://github.com/ANNarchy/ANNarchy.gihub.io) : documentation for ANNarchy.
+* [Documentation](https://github.com/ANNarchy/ANNarchy.github.io) : documentation for ANNarchy.
 
 ## Artificial Intelligence
 
