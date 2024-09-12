@@ -20,19 +20,19 @@ website:
 
   page-footer: 
     border: false
-    center: "Julien Vitay - Chemnitz University of Technology" 
+    center: "Julien Vitay" 
     right: |
       [Datenschutz |](/datenschutz.qmd)
       [Impressum](/impressum.qmd)
 
 format:
   html:
-    theme: [sandstone, styles.scss]
+    theme: [sandstone, assets/styles.scss]
     toc: true
     html-math-method: katex
     email-obfuscation: none
 
-csl: frontiers.csl
+csl: assets/frontiers.csl
 resources:
   - CNAME
 
