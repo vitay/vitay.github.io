@@ -2,9 +2,19 @@
 title: "Dr. habil. Julien Vitay"
 
 toc: false
+
+
+resources: 
+    - cv/cv-julienvitay-en.typ
+    - cv/cv-julienvitay-en.pdf
+    - cv/cv-julienvitay-fr.typ
+    - cv/cv-julienvitay-fr.pdf
 ---
 
-Researcher / lecturer in Artificial Intelligence and Computational Neuroscience.
+Researcher / lecturer in Artificial Intelligence and Computational Neuroscience. 
+
+[![](https://img.shields.io/badge/English_CV-0C322C.svg?style=for-the-badge&logoColor=white)](cv/cv-julienvitay-en.pdf) - [![](https://img.shields.io/badge/French_CV-%2364B345.svg?style=for-the-badge&logoColor=white)](cv/cv-julienvitay-fr.pdf)
+
 
 
 ## Education
@@ -79,9 +89,9 @@ $\rightarrow$ PhD student in the Cortex team (LORIA Nancy), supervisors Frédér
 
 ## Skills
 
-{{< fa solid code size=lg >}} &nbsp; Programming languages: Python, C++, C, Julia
+{{< fa solid code size=lg >}} &nbsp; Programming languages: **Python**, **C++**, C, Java, Matlab, Julia
 
-{{< fa brands phoenix-framework size=lg >}} &nbsp; Machine learning frameworks: tensorflow, pytorch, scikit-learn
+{{< fa brands phoenix-framework size=lg >}} &nbsp; Machine learning frameworks: pytorch, tensorflow, scikit-learn, XGBoost, rllib, tianshou, mlflow
 
 {{< fa solid network-wired size=lg >}} &nbsp; Parallel computing: OpenMP, MPI, CUDA
 

@@ -16,7 +16,6 @@ website:
       - publications.qmd
       - teaching.qmd
       - blog.qmd
-      - contact.qmd
 
   page-footer: 
     border: false

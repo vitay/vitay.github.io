@@ -1,8 +1,82 @@
 ---
 title: Research
 
-toc: false
+toc: true
 ---
+
+## Neuroinformatics
+
+### [Neurosimulator ANNarchy](research/annarchy.qmd)
+
+::: {.columns}
+::: {.column width=70%}
+
+
+I develop with Helge Dinkelbach **ANNarchy** (Artificial Neural Networks architect), a parallel simulator for distributed rate-coded or spiking neural networks. The definition of the models is in Python, but the library generates optimized C++ code to actually run the simulation on parallel hardware, using either openMP or CUDA.
+::: 
+::: {.column width=30%}
+![](img/annarchy.svg)
+:::
+:::
+
+
+## Artificial Intelligence
+
+### [Reservoir computing](research/reservoircomputing.qmd)
+
+::: {.columns}
+::: {.column width=70%}
+
+
+Reservoir computing studies the dynamical properties of recurrently connected populations of neurons. Their rich dynamics allow to represent and learn complex tasks currently out of reach of the classical machine learning methods, but also allow to better understand brain activities.
+::: 
+::: {.column width=30%}
+![](img/rc.png)
+:::
+:::
+
+### [Deep reinforcement learning](research/reinforcementlearning.qmd)
+
+::: {.columns}
+::: {.column width=70%}
+
+
+Reinforcement Learning (RL) is a machine learning framework studying how to derive optimal policies from reward signals. Coupled with deep neural networks, it became the most promising approach to general artificial intelligence.
+
+::: 
+::: {.column width=30%}
+![](img/ERM.png)
+:::
+:::
+
+### [Geometric deep learning](research/geometricdeeplearning.qmd)
+
+::: {.columns}
+::: {.column width=70%}
+
+While deep learning approaches have been very successful with structured Euclidian data (image, sound, text), it is still very difficult to use them with non-Euclidian data such as graphs or 3D meshes. Within the ML@Karoprod project, we developed novel techniques allowing to leverage the speed and representational power of deep networks to accelerate the prediction of parameterized FEM simulations.
+
+::: 
+::: {.column width=30%}
+![](img/mesh-karoprod.png)
+:::
+:::
+
+
+
+### [Cyber-security and anomaly detection](research/cybersecurity.qmd)
+
+::: {.columns}
+::: {.column width=70%}
+
+Computer systems must be protected against cyber attacks from inside and outside. To guarantee faultless processing, the  system must be monitored to detect problems and anomalous system behavior early enough. Anomaly detection methods can be applied to detect such events in a self-supervised manner. In the WAIKIKI project, we used a special kind of Tranformer, the Compact Convolutional Transformer (CCT), on project-specific log data in order to learn the distribution of valid log tokens and detect anomalies.
+
+::: 
+::: {.column width=30%}
+![](img/cct-base.jpg)
+:::
+:::
+
 
 ## Computational neuroscience
 
@@ -42,49 +116,5 @@ The hippocampus is a key structure for episodic memory and spatial navigation. A
 ::: 
 ::: {.column width=30%}
 ![](img/hippocampus.png)
-:::
-:::
-
-## Neuroinformatics
-
-### [Neurosimulator ANNarchy](research/annarchy.qmd)
-
-::: {.columns}
-::: {.column width=70%}
-
-
-I develop with Helge Dinkelbach **ANNarchy** (Artificial Neural Networks architect), a parallel simulator for distributed rate-coded or spiking neural networks. The definition of the models is in Python, but the library generates optimized C++ code to actually run the simulation on parallel hardware, using either openMP or CUDA.
-::: 
-::: {.column width=30%}
-![](img/annarchy.svg)
-:::
-:::
-
-
-## Artificial Intelligence
-
-### [Reservoir computing](research/reservoircomputing.qmd)
-
-::: {.columns}
-::: {.column width=70%}
-
-
-Reservoir computing studies the dynamical properties of recurrently connected populations of neurons. Their rich dynamics allow to represent and learn complex tasks currently out of reach of the classical machine learning methods, but also allow to better understand brain activities.
-::: 
-::: {.column width=30%}
-![](img/rc.png)
-:::
-:::
-
-### [Reinforcement learning](research/reinforcementlearning.qmd)
-
-::: {.columns}
-::: {.column width=70%}
-
-
-Reinforcement Learning (RL) is a machine learning framework studying how to derive optimal policies from reward signals. Coupled with deep neural networks, it became the most promising approach to artificial intelligence.
-::: 
-::: {.column width=30%}
-![](img/reinforcement.png)
 :::
 :::

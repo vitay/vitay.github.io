@@ -1,0 +1,27 @@
+# Geometric deep learning
+
+## ML@Karoprod 2018-2022
+
+The BMBF project ML@Karoprod (with the Fraunhofer IWU Dresden and Scale GmbH) aimed at investigating how to train deep neural networks on realistic finite element methods (FEM) simulations, for deep drawing and joining operations. By changing a set of process parameters such as "sheet thickness", "drawing depth", "hold-down force", "draw gap", and "insertion position", our partners were able to create a dataset containing 879 deep drawing FEM simulations. The resulting meshes with over 20,000 nodes could be compared to a reference mesh to measure deviation.
+
+![](../img/mesh-karoprod.png)
+
+By using implicit approaches as in NERF, we do not have to rely on just a few hundred simulated experiments in order to feed the neural network (which will most likely lead to overfitting), but thousands of measurements per experiment, representing thickness, thinning, plastic strain, etc., at individual locations. As opposed to using the non-Euclidean structure of the input space and performing expensive operations such as convolutions on the entire input mesh, this approach ensures efficient regularization of the NN by using individual positions as training patterns and proved to be very robust for modeling FEM simulations of different sizes and topologies.
+
+
+![](../img/karoprod-prediction.png)
+
+The proposed model is capable of processing large meshes and predicting the deviation and thickness of the resulting mesh based on the input parameters. The results indicate that this method can be effectively combined with existing FEM methods. As a result, engineers will be able to refine FEM simulations faster and tune the most appropriate process parameters more easily. Furthermore, the model can be generalized to unseen data to a certain extent; for example, it could be used to generate simulation results for an unseen initial sheet thickness value.
+
+{{< video ../img/params_slider.mp4 >}}
+
+The code is available at:
+
+<https://github.com/hamkerlab/ML-Karoprod-MeshPredictor>
+
+### Related publications
+
+Aida Farahani, Julien Vitay, and Fred H. Hamker (2022)\
+**Deep Neural Networks for Geometric Shape Deformation**\
+Bergmann, R., Malburg, L., Rodermund, S.C., Timm, I.J. (eds) *KI 2022: Advances in Artificial Intelligence. Lecture Notes in Computer Science, vol 13404. Springer, Cham.* \
+[doi:10.1007/978-3-031-15791-2_9](https:doi.org/10.1007/978-3-031-15791-2_9)

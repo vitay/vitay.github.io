@@ -1,0 +1,20 @@
+# Cyber-security and anomaly detection
+
+## WAIKIKI 2019-2023
+
+The aim of the WAIKIKI ("Wissensbasierte Anomalieerkennung mittels Kuenstlicher Intelligenz in Kritischen Infrastrukturen") project was to detect cyber-security-related anomalies in critical infrastructure. To realize this, we cooperated with researchers from the professorship of IT security (Prof. Dr. Andriy Panchenko) at the Brandenburgisch Technischen Universitaet Cottbus-Senftenberg and four partners from the industry.
+
+We studied how different deep-learning methods can be used to monitor relevant computer systems. Due to the variety of data and information (e.g. sensor data in a tabular format, network traffic in byte format, or log data containing words and numbers), different methods from autoencoders to transformers must be considered and evaluated. Due to the fact that in computer systems a high amount of data can be created in a short amount of time, most datasets did not provide labels. As a consequence, mainly self-supervised and unsupervised methods are the focus of our research.
+
+The detection is realized by the parallel monitoring and analyzing of network traffic and log data. For the latter, we use a compact convolutional transformer (CCT) (proposed by Hassani et al. (2021)) to detect anomalies in log data. It has been shown that transformers are able to encode the context in which a word appears. Due to this, we assume the analysis of log lines is a natural language task.
+
+![](../img/cct.png){width=50% fig-align="center"}
+
+The CCT allows the process of multiple consecutive log lines at once and provides more contextual information to learn the correct system status. If a wrong log notice is detected, which does not fits in the actual context (for example a wrong process number or an error), this can be detected by the network.
+
+### Related publications
+
+René Larisch, Julien Vitay, and Fred H. Hamker (2023)\
+**Detecting Anomalies in System Logs With a Compact Convolutional Transformer**\
+*IEEE Access 11, 113464-113479*\
+[doi:10.1109/ACCESS.2023.3323252](https://doi.org/10.1109/ACCESS.2023.3323252)
