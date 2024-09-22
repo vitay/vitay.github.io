@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -111,10 +111,6 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">Contact</span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -126,7 +122,31 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#neuroinformatics" id="toc-neuroinformatics" class="nav-link active" data-scroll-target="#neuroinformatics">Neuroinformatics</a>
+  <ul class="collapse">
+  <li><a href="#neurosimulator-annarchy" id="toc-neurosimulator-annarchy" class="nav-link" data-scroll-target="#neurosimulator-annarchy">Neurosimulator ANNarchy</a></li>
+  </ul></li>
+  <li><a href="#artificial-intelligence" id="toc-artificial-intelligence" class="nav-link" data-scroll-target="#artificial-intelligence">Artificial Intelligence</a>
+  <ul class="collapse">
+  <li><a href="#reservoir-computing" id="toc-reservoir-computing" class="nav-link" data-scroll-target="#reservoir-computing">Reservoir computing</a></li>
+  <li><a href="#deep-reinforcement-learning" id="toc-deep-reinforcement-learning" class="nav-link" data-scroll-target="#deep-reinforcement-learning">Deep reinforcement learning</a></li>
+  <li><a href="#geometric-deep-learning" id="toc-geometric-deep-learning" class="nav-link" data-scroll-target="#geometric-deep-learning">Geometric deep learning</a></li>
+  <li><a href="#cyber-security-and-anomaly-detection" id="toc-cyber-security-and-anomaly-detection" class="nav-link" data-scroll-target="#cyber-security-and-anomaly-detection">Cyber-security and anomaly detection</a></li>
+  </ul></li>
+  <li><a href="#computational-neuroscience" id="toc-computational-neuroscience" class="nav-link" data-scroll-target="#computational-neuroscience">Computational neuroscience</a>
+  <ul class="collapse">
+  <li><a href="#basal-ganglia" id="toc-basal-ganglia" class="nav-link" data-scroll-target="#basal-ganglia">Basal Ganglia</a></li>
+  <li><a href="#dopaminergic-system" id="toc-dopaminergic-system" class="nav-link" data-scroll-target="#dopaminergic-system">Dopaminergic system</a></li>
+  <li><a href="#hippocampus" id="toc-hippocampus" class="nav-link" data-scroll-target="#hippocampus">Hippocampus</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -149,6 +169,62 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="neuroinformatics" class="level2">
+<h2 class="anchored" data-anchor-id="neuroinformatics">Neuroinformatics</h2>
+<section id="neurosimulator-annarchy" class="level3">
+<h3 class="anchored" data-anchor-id="neurosimulator-annarchy"><a href="./research/annarchy.html">Neurosimulator ANNarchy</a></h3>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>I develop with Helge Dinkelbach <strong>ANNarchy</strong> (Artificial Neural Networks architect), a parallel simulator for distributed rate-coded or spiking neural networks. The definition of the models is in Python, but the library generates optimized C++ code to actually run the simulation on parallel hardware, using either openMP or CUDA.</p>
+</div><div class="column" style="width:30%;">
+<p><img src="img/annarchy.svg" class="img-fluid"></p>
+</div>
+</div>
+</section>
+</section>
+<section id="artificial-intelligence" class="level2">
+<h2 class="anchored" data-anchor-id="artificial-intelligence">Artificial Intelligence</h2>
+<section id="reservoir-computing" class="level3">
+<h3 class="anchored" data-anchor-id="reservoir-computing"><a href="./research/reservoircomputing.html">Reservoir computing</a></h3>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>Reservoir computing studies the dynamical properties of recurrently connected populations of neurons. Their rich dynamics allow to represent and learn complex tasks currently out of reach of the classical machine learning methods, but also allow to better understand brain activities.</p>
+</div><div class="column" style="width:30%;">
+<p><img src="img/rc.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="deep-reinforcement-learning" class="level3">
+<h3 class="anchored" data-anchor-id="deep-reinforcement-learning"><a href="./research/reinforcementlearning.html">Deep reinforcement learning</a></h3>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>Reinforcement Learning (RL) is a machine learning framework studying how to derive optimal policies from reward signals. Coupled with deep neural networks, it became the most promising approach to general artificial intelligence.</p>
+</div><div class="column" style="width:30%;">
+<p><img src="img/ERM.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="geometric-deep-learning" class="level3">
+<h3 class="anchored" data-anchor-id="geometric-deep-learning"><a href="./research/geometricdeeplearning.html">Geometric deep learning</a></h3>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>While deep learning approaches have been very successful with structured Euclidian data (image, sound, text), it is still very difficult to use them with non-Euclidian data such as graphs or 3D meshes. Within the ML@Karoprod project, we developed novel techniques allowing to leverage the speed and representational power of deep networks to accelerate the prediction of parameterized FEM simulations.</p>
+</div><div class="column" style="width:30%;">
+<p><img src="img/mesh-karoprod.png" class="img-fluid"></p>
+</div>
+</div>
+</section>
+<section id="cyber-security-and-anomaly-detection" class="level3">
+<h3 class="anchored" data-anchor-id="cyber-security-and-anomaly-detection"><a href="./research/cybersecurity.html">Cyber-security and anomaly detection</a></h3>
+<div class="columns">
+<div class="column" style="width:70%;">
+<p>Computer systems must be protected against cyber attacks from inside and outside. To guarantee faultless processing, the system must be monitored to detect problems and anomalous system behavior early enough. Anomaly detection methods can be applied to detect such events in a self-supervised manner. In the WAIKIKI project, we used a special kind of Tranformer, the Compact Convolutional Transformer (CCT), on project-specific log data in order to learn the distribution of valid log tokens and detect anomalies.</p>
+</div><div class="column" style="width:30%;">
+<p><img src="img/cct-base.jpg" class="img-fluid"></p>
+</div>
+</div>
+</section>
+</section>
 <section id="computational-neuroscience" class="level2">
 <h2 class="anchored" data-anchor-id="computational-neuroscience">Computational neuroscience</h2>
 <section id="basal-ganglia" class="level3">
@@ -178,42 +254,6 @@ ul.task-list li input[type="checkbox"] {
 <p>The hippocampus is a key structure for episodic memory and spatial navigation. A fundamental step in hippocampus research was the discovery of <strong>place cells</strong>, which fire whenever an animal traverses a certain location known as the place field (O’Keefe and Nadel, 1978). At rest, place cells exhibit brief periods of fast oscillations termed sharp wave-ripples. During these events, place cell activity shows sequential patterns called forward replay and reverse replay: time-compressed, and sometimes time-reversed, reproductions of previously experienced sequences. Spatial experiences stored in the hippocampus can therefore be recalled at will during behavior.</p>
 </div><div class="column" style="width:30%;">
 <p><img src="img/hippocampus.png" class="img-fluid"></p>
-</div>
-</div>
-</section>
-</section>
-<section id="neuroinformatics" class="level2">
-<h2 class="anchored" data-anchor-id="neuroinformatics">Neuroinformatics</h2>
-<section id="neurosimulator-annarchy" class="level3">
-<h3 class="anchored" data-anchor-id="neurosimulator-annarchy"><a href="./research/annarchy.html">Neurosimulator ANNarchy</a></h3>
-<div class="columns">
-<div class="column" style="width:70%;">
-<p>I develop with Helge Dinkelbach <strong>ANNarchy</strong> (Artificial Neural Networks architect), a parallel simulator for distributed rate-coded or spiking neural networks. The definition of the models is in Python, but the library generates optimized C++ code to actually run the simulation on parallel hardware, using either openMP or CUDA.</p>
-</div><div class="column" style="width:30%;">
-<p><img src="img/annarchy.svg" class="img-fluid"></p>
-</div>
-</div>
-</section>
-</section>
-<section id="artificial-intelligence" class="level2">
-<h2 class="anchored" data-anchor-id="artificial-intelligence">Artificial Intelligence</h2>
-<section id="reservoir-computing" class="level3">
-<h3 class="anchored" data-anchor-id="reservoir-computing"><a href="./research/reservoircomputing.html">Reservoir computing</a></h3>
-<div class="columns">
-<div class="column" style="width:70%;">
-<p>Reservoir computing studies the dynamical properties of recurrently connected populations of neurons. Their rich dynamics allow to represent and learn complex tasks currently out of reach of the classical machine learning methods, but also allow to better understand brain activities.</p>
-</div><div class="column" style="width:30%;">
-<p><img src="img/rc.png" class="img-fluid"></p>
-</div>
-</div>
-</section>
-<section id="reinforcement-learning" class="level3">
-<h3 class="anchored" data-anchor-id="reinforcement-learning"><a href="./research/reinforcementlearning.html">Reinforcement learning</a></h3>
-<div class="columns">
-<div class="column" style="width:70%;">
-<p>Reinforcement Learning (RL) is a machine learning framework studying how to derive optimal policies from reward signals. Coupled with deep neural networks, it became the most promising approach to artificial intelligence.</p>
-</div><div class="column" style="width:30%;">
-<p><img src="img/reinforcement.png" class="img-fluid"></p>
 </div>
 </div>
 

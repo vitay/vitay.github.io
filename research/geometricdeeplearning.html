@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Basal Ganglia – Julien Vitay</title>
+<title>geometricdeeplearning – Julien Vitay</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,6 +39,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/videojs/video.min.js"></script>
+<link href="../site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -122,63 +124,49 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#geometric-deep-learning" id="toc-geometric-deep-learning" class="nav-link active" data-scroll-target="#geometric-deep-learning">Geometric deep learning</a>
+  <ul class="collapse">
+  <li><a href="#mlkaroprod-2018-2022" id="toc-mlkaroprod-2018-2022" class="nav-link" data-scroll-target="#mlkaroprod-2018-2022">ML@Karoprod 2018-2022</a>
+  <ul class="collapse">
+  <li><a href="#related-publications" id="toc-related-publications" class="nav-link" data-scroll-target="#related-publications">Related publications</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Basal Ganglia</h1>
-</div>
 
 
 
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>The Basal Ganglia (BG) are a set of nuclei located in the basal forebrain, receiving inputs mostly from the cerebral cortex (especially the frontal lobe) and projecting on various motor centers, as well as back to the cortex through the thalamus, forming a closed-loop.</p>
-<p>The main input station is the striatum, which can be anatomically divided into three parts: the nucleus accumbens (NAcc), the caudate nucleus (CN) and the putamen (PUT). Striatal neurons are excited by cortical activity and inhibit in turn the tonically active neurons of the output nuclei of the BG: the substantia nigra pars reticulata (SNr) and the internal segment of the globus pallidus (GPi). These output structures further inhibit some motor centers and thalamic nuclei.</p>
-<p><img src="../img/basalganglia.png" class="img-fluid"></p>
-<p>This double inhibition allows to selectively open some recurrent loops between the thalamus and the cortex, increasing the signal-to-noise ratio in the cortex and triggering movements or cognitive functions.</p>
-<p>Other nuclei in the BG, such as the subthalamic nucleus (STN) and the external part of the globus pallidus (GPe), create functionally different pathways to allow for a more complex role of BG in adapting behavior.</p>
-<p>The main characteristic of the BG is its dense innervation by dopaminergic (DA) cells in the substantia nigra pars compacta (SNc) and ventral tegmental area (VTA), whose firing is related to reward delivery and prediction. DA can modulate the activation and learning of most cells in the BG, placing it as a core structure in reinforcement learning processes.</p>
+<section id="geometric-deep-learning" class="level1">
+<h1>Geometric deep learning</h1>
+<section id="mlkaroprod-2018-2022" class="level2">
+<h2 class="anchored" data-anchor-id="mlkaroprod-2018-2022">ML@Karoprod 2018-2022</h2>
+<p>The BMBF project ML@Karoprod (with the Fraunhofer IWU Dresden and Scale GmbH) aimed at investigating how to train deep neural networks on realistic finite element methods (FEM) simulations, for deep drawing and joining operations. By changing a set of process parameters such as “sheet thickness”, “drawing depth”, “hold-down force”, “draw gap”, and “insertion position”, our partners were able to create a dataset containing 879 deep drawing FEM simulations. The resulting meshes with over 20,000 nodes could be compared to a reference mesh to measure deviation.</p>
+<p><img src="../img/mesh-karoprod.png" class="img-fluid"></p>
+<p>By using implicit approaches as in NERF, we do not have to rely on just a few hundred simulated experiments in order to feed the neural network (which will most likely lead to overfitting), but thousands of measurements per experiment, representing thickness, thinning, plastic strain, etc., at individual locations. As opposed to using the non-Euclidean structure of the input space and performing expensive operations such as convolutions on the entire input mesh, this approach ensures efficient regularization of the NN by using individual positions as training patterns and proved to be very robust for modeling FEM simulations of different sizes and topologies.</p>
+<p><img src="../img/karoprod-prediction.png" class="img-fluid"></p>
+<p>The proposed model is capable of processing large meshes and predicting the deviation and thickness of the resulting mesh based on the input parameters. The results indicate that this method can be effectively combined with existing FEM methods. As a result, engineers will be able to refine FEM simulations faster and tune the most appropriate process parameters more easily. Furthermore, the model can be generalized to unseen data to a certain extent; for example, it could be used to generate simulation results for an unseen initial sheet thickness value.</p>
+<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="../img/params_slider.mp4"></video></div>
+<p>The code is available at:</p>
+<p><a href="https://github.com/hamkerlab/ML-Karoprod-MeshPredictor" class="uri">https://github.com/hamkerlab/ML-Karoprod-MeshPredictor</a></p>
 <section id="related-publications" class="level3">
 <h3 class="anchored" data-anchor-id="related-publications">Related publications</h3>
-<p>Carolin Scholl, Javier Baladron, Julien Vitay, and Fred H. Hamker (2022).<br>
-<strong>Enhanced Habit Formation in Tourette Patients Explained by Shortcut Modulation in a Hierarchical Cortico-Basal Ganglia Model.</strong><br>
-<em>Brain Structure and Function 227, 1031-1050</em><br>
-<a href="https:doi.org/10.1007/s00429-021-02446-x">doi:10.1007/s00429-021-02446-x</a></p>
-<p>Francesc Villagrasa, Javier Baladron, Julien Vitay, Henning Schroll, Evan G. Antzoulatos, Earl K. Miller, and Fred H. Hamker (2018).<br>
-<strong>On the role of cortex-basal ganglia interactions for category learning: A neuro-computational approach.</strong><br>
-<em>Journal of Neuroscience 38(44) 9551-9562</em><br>
-<a href="https:doi.org/10.1523/JNEUROSCI.0874-18.2018">doi:10.1523/JNEUROSCI.0874-18.2018</a></p>
-<p>Henning Schroll, Julien Vitay, and Fred H. Hamker (2014).<br>
-<strong>Dysfunctional and compensatory synaptic plasticity in Parkinson’s disease.</strong><br>
-<em>European Journal of Neuroscience, 39: 688-702</em><br>
-<a href="https:doi.org/10.1111/ejn.12434">doi:10.1111/ejn.12434</a></p>
-<p>Henning Schroll, Julien Vitay, and Fred H. Hamker (2012).<br>
-<strong>Working memory and response selection: A computational account of interactions among cortico-basalganglio-thalamic loops.</strong><br>
-<em>Neural Networks, 26</em><br>
-<a href="https:doi.org/10.1016/j.neunet.2011.10.008">doi:10.1016/j.neunet.2011.10.008</a></p>
-<p>Julien Vitay and Fred H. Hamker (2012).<br>
-<strong>Basal Ganglia learning.</strong><br>
-<em>In Encyclopedia of the Sciences of Learning. Seel, Norbert M. (Ed.).</em><br>
-<a href="https:doi.org/10.1007/978-1-4419-1428-6">doi:10.1007/978-1-4419-1428-6</a></p>
-<p>Julien Vitay and Fred H. Hamker (2010).<br>
-<strong>A computational model of basal ganglia and its role in memory retrieval in rewarded visual memory tasks.</strong><br>
-<em>Frontiers in Computational Neuroscience 4(13)</em><br>
-<a href="https:doi.org/10.3389/fncom.2010.00013">doi:10.3389/fncom.2010.00013</a></p>
+<p>Aida Farahani, Julien Vitay, and Fred H. Hamker (2022)<br>
+<strong>Deep Neural Networks for Geometric Shape Deformation</strong><br>
+Bergmann, R., Malburg, L., Rodermund, S.C., Timm, I.J. (eds) <em>KI 2022: Advances in Artificial Intelligence. Lecture Notes in Computer Science, vol 13404. Springer, Cham.</em><br>
+<a href="https:doi.org/10.1007/978-3-031-15791-2_9">doi:10.1007/978-3-031-15791-2_9</a></p>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -616,6 +604,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>videojs(video_shortcode_videojs_video1);</script>
 
 
 

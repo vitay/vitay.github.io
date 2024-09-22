@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Basal Ganglia – Julien Vitay</title>
+<title>cybersecurity – Julien Vitay</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -70,7 +70,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -122,63 +122,50 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#cyber-security-and-anomaly-detection" id="toc-cyber-security-and-anomaly-detection" class="nav-link active" data-scroll-target="#cyber-security-and-anomaly-detection">Cyber-security and anomaly detection</a>
+  <ul class="collapse">
+  <li><a href="#waikiki-2019-2023" id="toc-waikiki-2019-2023" class="nav-link" data-scroll-target="#waikiki-2019-2023">WAIKIKI 2019-2023</a>
+  <ul class="collapse">
+  <li><a href="#related-publications" id="toc-related-publications" class="nav-link" data-scroll-target="#related-publications">Related publications</a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Basal Ganglia</h1>
+
+
+
+<section id="cyber-security-and-anomaly-detection" class="level1">
+<h1>Cyber-security and anomaly detection</h1>
+<section id="waikiki-2019-2023" class="level2">
+<h2 class="anchored" data-anchor-id="waikiki-2019-2023">WAIKIKI 2019-2023</h2>
+<p>The aim of the WAIKIKI (“Wissensbasierte Anomalieerkennung mittels Kuenstlicher Intelligenz in Kritischen Infrastrukturen”) project was to detect cyber-security-related anomalies in critical infrastructure. To realize this, we cooperated with researchers from the professorship of IT security (Prof.&nbsp;Dr.&nbsp;Andriy Panchenko) at the Brandenburgisch Technischen Universitaet Cottbus-Senftenberg and four partners from the industry.</p>
+<p>We studied how different deep-learning methods can be used to monitor relevant computer systems. Due to the variety of data and information (e.g.&nbsp;sensor data in a tabular format, network traffic in byte format, or log data containing words and numbers), different methods from autoencoders to transformers must be considered and evaluated. Due to the fact that in computer systems a high amount of data can be created in a short amount of time, most datasets did not provide labels. As a consequence, mainly self-supervised and unsupervised methods are the focus of our research.</p>
+<p>The detection is realized by the parallel monitoring and analyzing of network traffic and log data. For the latter, we use a compact convolutional transformer (CCT) (proposed by Hassani et al.&nbsp;(2021)) to detect anomalies in log data. It has been shown that transformers are able to encode the context in which a word appears. Due to this, we assume the analysis of log lines is a natural language task.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../img/cct.png" class="img-fluid quarto-figure quarto-figure-center figure-img" style="width:50.0%"></p>
+</figure>
 </div>
-
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<p>The Basal Ganglia (BG) are a set of nuclei located in the basal forebrain, receiving inputs mostly from the cerebral cortex (especially the frontal lobe) and projecting on various motor centers, as well as back to the cortex through the thalamus, forming a closed-loop.</p>
-<p>The main input station is the striatum, which can be anatomically divided into three parts: the nucleus accumbens (NAcc), the caudate nucleus (CN) and the putamen (PUT). Striatal neurons are excited by cortical activity and inhibit in turn the tonically active neurons of the output nuclei of the BG: the substantia nigra pars reticulata (SNr) and the internal segment of the globus pallidus (GPi). These output structures further inhibit some motor centers and thalamic nuclei.</p>
-<p><img src="../img/basalganglia.png" class="img-fluid"></p>
-<p>This double inhibition allows to selectively open some recurrent loops between the thalamus and the cortex, increasing the signal-to-noise ratio in the cortex and triggering movements or cognitive functions.</p>
-<p>Other nuclei in the BG, such as the subthalamic nucleus (STN) and the external part of the globus pallidus (GPe), create functionally different pathways to allow for a more complex role of BG in adapting behavior.</p>
-<p>The main characteristic of the BG is its dense innervation by dopaminergic (DA) cells in the substantia nigra pars compacta (SNc) and ventral tegmental area (VTA), whose firing is related to reward delivery and prediction. DA can modulate the activation and learning of most cells in the BG, placing it as a core structure in reinforcement learning processes.</p>
+<p>The CCT allows the process of multiple consecutive log lines at once and provides more contextual information to learn the correct system status. If a wrong log notice is detected, which does not fits in the actual context (for example a wrong process number or an error), this can be detected by the network.</p>
 <section id="related-publications" class="level3">
 <h3 class="anchored" data-anchor-id="related-publications">Related publications</h3>
-<p>Carolin Scholl, Javier Baladron, Julien Vitay, and Fred H. Hamker (2022).<br>
-<strong>Enhanced Habit Formation in Tourette Patients Explained by Shortcut Modulation in a Hierarchical Cortico-Basal Ganglia Model.</strong><br>
-<em>Brain Structure and Function 227, 1031-1050</em><br>
-<a href="https:doi.org/10.1007/s00429-021-02446-x">doi:10.1007/s00429-021-02446-x</a></p>
-<p>Francesc Villagrasa, Javier Baladron, Julien Vitay, Henning Schroll, Evan G. Antzoulatos, Earl K. Miller, and Fred H. Hamker (2018).<br>
-<strong>On the role of cortex-basal ganglia interactions for category learning: A neuro-computational approach.</strong><br>
-<em>Journal of Neuroscience 38(44) 9551-9562</em><br>
-<a href="https:doi.org/10.1523/JNEUROSCI.0874-18.2018">doi:10.1523/JNEUROSCI.0874-18.2018</a></p>
-<p>Henning Schroll, Julien Vitay, and Fred H. Hamker (2014).<br>
-<strong>Dysfunctional and compensatory synaptic plasticity in Parkinson’s disease.</strong><br>
-<em>European Journal of Neuroscience, 39: 688-702</em><br>
-<a href="https:doi.org/10.1111/ejn.12434">doi:10.1111/ejn.12434</a></p>
-<p>Henning Schroll, Julien Vitay, and Fred H. Hamker (2012).<br>
-<strong>Working memory and response selection: A computational account of interactions among cortico-basalganglio-thalamic loops.</strong><br>
-<em>Neural Networks, 26</em><br>
-<a href="https:doi.org/10.1016/j.neunet.2011.10.008">doi:10.1016/j.neunet.2011.10.008</a></p>
-<p>Julien Vitay and Fred H. Hamker (2012).<br>
-<strong>Basal Ganglia learning.</strong><br>
-<em>In Encyclopedia of the Sciences of Learning. Seel, Norbert M. (Ed.).</em><br>
-<a href="https:doi.org/10.1007/978-1-4419-1428-6">doi:10.1007/978-1-4419-1428-6</a></p>
-<p>Julien Vitay and Fred H. Hamker (2010).<br>
-<strong>A computational model of basal ganglia and its role in memory retrieval in rewarded visual memory tasks.</strong><br>
-<em>Frontiers in Computational Neuroscience 4(13)</em><br>
-<a href="https:doi.org/10.3389/fncom.2010.00013">doi:10.3389/fncom.2010.00013</a></p>
+<p>René Larisch, Julien Vitay, and Fred H. Hamker (2023)<br>
+<strong>Detecting Anomalies in System Logs With a Compact Convolutional Transformer</strong><br>
+<em>IEEE Access 11, 113464-113479</em><br>
+<a href="https://doi.org/10.1109/ACCESS.2023.3323252">doi:10.1109/ACCESS.2023.3323252</a></p>
 
 
+</section>
+</section>
 </section>
 
 </main> <!-- /main -->
