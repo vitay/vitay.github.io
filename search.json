@@ -60,14 +60,14 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Level:\nMaster\nResponsability:\nLectures and exercises\nSemester:\nWinter\nCourse website:\nhttps://www.tu-chemnitz.de/informatik/KI/edu/deeprl\n\n\nMarkov Decision Processes\nDynamic Programming, Monte Carlo control, Temporal Difference\nDeep Q-network\nPolicy Gradient\nA2C / A3C\nDDPG\nTRPO / PPO\nSAC\nModel-based RL\nLearned World models\nAlphaGo"
+    "text": "Level:\nMaster\nResponsability:\nLectures and exercises\nSemester:\nWinter\nCourse website:\nhttps://www.tu-chemnitz.de/informatik/KI/edu/deeprl\nCourse materials:\nhttps://julien-vitay.net/course-deeprl\n\n\nMarkov Decision Processes\nDynamic Programming, Monte Carlo control, Temporal Difference\nDeep Q-networks\nPolicy Gradient\nA2C / A3C\nDDPG\nTRPO / PPO\nSAC\nModel-based RL\nLearned World models\nAlphaGo"
   },
   {
     "objectID": "teaching.html#deep-reinforcement-learning",
     "href": "teaching.html#deep-reinforcement-learning",
     "title": "Teaching",
     "section": "",
-    "text": "Level:\nMaster\nResponsability:\nLectures and exercises\nSemester:\nWinter\nCourse website:\nhttps://www.tu-chemnitz.de/informatik/KI/edu/deeprl\n\n\nMarkov Decision Processes\nDynamic Programming, Monte Carlo control, Temporal Difference\nDeep Q-network\nPolicy Gradient\nA2C / A3C\nDDPG\nTRPO / PPO\nSAC\nModel-based RL\nLearned World models\nAlphaGo"
+    "text": "Level:\nMaster\nResponsability:\nLectures and exercises\nSemester:\nWinter\nCourse website:\nhttps://www.tu-chemnitz.de/informatik/KI/edu/deeprl\nCourse materials:\nhttps://julien-vitay.net/course-deeprl\n\n\nMarkov Decision Processes\nDynamic Programming, Monte Carlo control, Temporal Difference\nDeep Q-networks\nPolicy Gradient\nA2C / A3C\nDDPG\nTRPO / PPO\nSAC\nModel-based RL\nLearned World models\nAlphaGo"
   },
   {
     "objectID": "teaching.html#introduction-to-ai",
@@ -130,7 +130,7 @@
     "href": "research/reinforcementlearning.html",
     "title": "Deep reinforcement learning",
     "section": "",
-    "text": "Deep reinforcement learning (deep RL) is the integration of deep learning methods, classically used in supervised or unsupervised learning contexts, with reinforcement learning (RL), a well-studied adaptive control method used in problems with delayed and partial feedback.\n\n\n\n\n\nA free textbook on deep reinforcement learning is available here:\nhttps://julien-vitay.net/deeprl/\n\nRelated publications\nWinfried Lötzsch, Julien Vitay, and Fred H. Hamker (2017).\nTraining a deep policy gradient-based neural network with asynchronous learners on a simulated robotic problem.\nIn: Eibl, M. & Gaedke, M. (Eds.), INFORMATIK 2017. Gesellschaft für Informatik, Bonn. (S. 2143-2154)\ndoi:10.18420/in2017_214"
+    "text": "Deep reinforcement learning (deep RL) is the integration of deep learning methods, classically used in supervised or unsupervised learning contexts, with reinforcement learning (RL), a well-studied adaptive control method used in problems with delayed and partial feedback.\n\n\n\n\n\nSee the complete course on deep reinforcement learning here:\nhttps://julien-vitay.net/course-deeprl/\nA free textbook on deep reinforcement learning is available here:\nhttps://julien-vitay.net/deeprl/\n\nRelated publications\nWinfried Lötzsch, Julien Vitay, and Fred H. Hamker (2017).\nTraining a deep policy gradient-based neural network with asynchronous learners on a simulated robotic problem.\nIn: Eibl, M. & Gaedke, M. (Eds.), INFORMATIK 2017. Gesellschaft für Informatik, Bonn. (S. 2143-2154)\ndoi:10.18420/in2017_214"
   },
   {
     "objectID": "research/dopamine.html",
