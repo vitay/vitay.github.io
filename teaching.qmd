@@ -26,13 +26,17 @@ Winter
 
 <https://www.tu-chemnitz.de/informatik/KI/edu/deeprl>
 
+**Course materials:** 
+
+<https://julien-vitay.net/course-deeprl>
+
 
 :::
 ::: {.column width=30%}
 
 1. Markov Decision Processes
 2. Dynamic Programming, Monte Carlo control, Temporal Difference
-3. Deep Q-network
+3. Deep Q-networks
 4. Policy Gradient
 5. A2C / A3C
 6. DDPG

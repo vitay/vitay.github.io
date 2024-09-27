@@ -9,6 +9,11 @@ Deep reinforcement learning (deep RL) is the integration of deep learning method
 
 ![](../img/ERM.png){width=60% fig-align="center"}
 
+See the complete **course** on deep reinforcement learning here:
+
+<https://julien-vitay.net/course-deeprl/>
+
+
 A **free textbook** on deep reinforcement learning is available here:
 
 <https://julien-vitay.net/deeprl/>
