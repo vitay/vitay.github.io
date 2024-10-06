@@ -36,7 +36,7 @@ Artificial Intelligence - Computational Neuroscience - Neuroinformatics - Reinfo
 Technische Universität Chemnitz
 Fakultät für Informatik 
 Professur Künstliche Intelligenz 
-Straße der Nationen 62 | R. 1/348 (neu: A12.348) 
+Straße der Nationen 62 | Room 1/348 
 D-09111 Chemnitz, Germany
 Tel: +49 371 531-39468
 ```
