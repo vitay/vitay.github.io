@@ -14,7 +14,7 @@
     //orcid: "0000-0001-5229-2349",
     birth: "11.12.1979",
     linkedin: "julien-vitay-9287b6b9",
-    address: "Blümnerstraße 15. 04229 Leipzig, Allemagne",
+    address: "Blümnerstraße 15. 04229 Leipzig, Germany",
     positions: (
       "Researcher in Artificial Intelligence",
       "Data Scientist",
@@ -37,7 +37,7 @@
 )
 
 #resume-entry(
-  title: "Université Henri Poincaré Nancy-I",
+  title: "University Henri Poincaré Nancy-I",
   location: "Nancy, France",
   date: "June 2006",
   description: "Ph.D - Computer Science",
@@ -137,7 +137,7 @@
   "Programming",
   (strong("Python"), strong("C++"), "C", "Java", "Matlab", "Julia"),
 )
-#resume-skill-item("Languages", (strong("Français"), "Anglais", "Allemand"))
+#resume-skill-item("Languages", (strong("French"), "English", "German"))
 #resume-skill-item(
   "Machine Learning",
   ("pytorch", "tensorflow", "scikit-learn", "XGBoost", "rllib", "tianshou", "mlflow"),
