@@ -13,31 +13,3 @@ $popover-bg: #6A8A26;
     font-size: 170%;
     font-weight: bold;
 }
-
-.container {
-    height: 10vh;
-    margin: 1rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-  }
-  .cell {
-    color: white;
-    font-size: 1.0rem;
-    text-align: center;
-    padding: 0.5rem;
-  }
-  .cell-1 {
-    background: #6A8A26;
-  }
-  .cell-2 {
-    color: black;
-    background: whitesmoke;
-  }
-  .cell-3 {
-    color: black;
-    background: whitesmoke;
-  }
-  .cell-4 {
-    background: #6A8A26;
-  }

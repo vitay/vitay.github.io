@@ -15,16 +15,13 @@ Researcher at the [**Chemnitz University of Technology**](http://www.tu-chemnitz
 Hamker lab of [**Artificial Intelligence**](http://www.tu-chemnitz.de/informatik/KI/), Department of Computer Science.
 :::
 
+---
 
-<br>
-<div class="container">
-  <div class="cell cell-1">Artificial Intelligence</div>
-  <div class="cell cell-2">Computational Neuroscience</div>
-  <div class="cell cell-3">Neuroinformatics</div>
-  <div class="cell cell-4">Reinforcement Learning</div>
-</div>
-<br>
+:::{.center}
+Artificial Intelligence - Computational Neuroscience - Neuroinformatics - Reinforcement Learning
+:::
 
+---
 
 :::{.center}
 [ {{< fa solid envelope size=2xl >}} ](mailto:julien.vitay@informatik.tu-chemnitz.de) - 
