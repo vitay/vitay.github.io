@@ -54,9 +54,10 @@ $\rightarrow$ Université Rennes-I, France.
 $\rightarrow$ Researcher / lecturer in the faculty of Computer science, AI lab of [Fred Hamker](https://www.tu-chemnitz.de/informatik/KI).
 
 * Research: 
+    * Neuroinformatics: neurosimulator [ANNarchy](https://github.com/ANNarchy/ANNarchy).
+    * Deep reinforcement learning.
+    * Reservoir computing.
     * Computational neuroscience: basal ganglia, dopamine, hippocampus.
-    * Neuroinformatics: neurosimulator [ANNarchy](https://github.com/ANNarchy/ANNarchy)
-    * Machine learning, reinforcement learning.
 * Teaching: 
     * Neurocomputing / Machine Learning
     * Deep Reinforcement Learning
