@@ -60,35 +60,42 @@
     "href": "teaching.html",
     "title": "Teaching",
     "section": "",
-    "text": "Level:\nMaster\nResponsability:\nLectures and exercises\nSemester:\nWinter\nCourse website:\nhttps://www.tu-chemnitz.de/informatik/KI/edu/deeprl\nCourse materials:\nhttps://julien-vitay.net/course-deeprl\n\n\nMarkov Decision Processes\nDynamic Programming, Monte Carlo control, Temporal Difference\nDeep Q-networks\nPolicy Gradient\nA2C / A3C\nDDPG\nTRPO / PPO\nSAC\nModel-based RL\nLearned World models\nAlphaGo"
+    "text": "Level: Master\nResponsability: Creation, lectures and exercises\nCourse materials: https://julien-vitay.net/course-deeprl"
   },
   {
     "objectID": "teaching.html#deep-reinforcement-learning",
     "href": "teaching.html#deep-reinforcement-learning",
     "title": "Teaching",
     "section": "",
-    "text": "Level:\nMaster\nResponsability:\nLectures and exercises\nSemester:\nWinter\nCourse website:\nhttps://www.tu-chemnitz.de/informatik/KI/edu/deeprl\nCourse materials:\nhttps://julien-vitay.net/course-deeprl\n\n\nMarkov Decision Processes\nDynamic Programming, Monte Carlo control, Temporal Difference\nDeep Q-networks\nPolicy Gradient\nA2C / A3C\nDDPG\nTRPO / PPO\nSAC\nModel-based RL\nLearned World models\nAlphaGo"
+    "text": "Level: Master\nResponsability: Creation, lectures and exercises\nCourse materials: https://julien-vitay.net/course-deeprl"
   },
   {
     "objectID": "teaching.html#introduction-to-ai",
     "href": "teaching.html#introduction-to-ai",
     "title": "Teaching",
     "section": "Introduction to AI",
-    "text": "Introduction to AI\n\n\nLevel:\nBachelor\nResponsability:\nExercises\nSemester:\nSummer\nCourse website:\nhttps://www.tu-chemnitz.de/informatik/KI/edu/ki\n\n\nBlind search\nHeuristic search\nGame theory\nConstraint propagation\nOptimization\nNeural networks\nSupport vector machines\nProbability theory\nInformation theory\nDecision trees\nEstimators\nReinforcement learning"
+    "text": "Introduction to AI\nLevel: Bachelor\nResponsability: Exercises"
   },
   {
     "objectID": "teaching.html#proseminar-ai",
     "href": "teaching.html#proseminar-ai",
     "title": "Teaching",
     "section": "Proseminar AI",
-    "text": "Proseminar AI\n\n\nLevel:\nBachelor\nResponsability:\nModule\nSemester:\nSummer\nCourse website:\nhttps://www.tu-chemnitz.de/informatik/KI/edu/prosem"
+    "text": "Proseminar AI\nLevel: Bachelor\nResponsability: Module\nSemester: Summer"
   },
   {
-    "objectID": "teaching.html#neurocomputing-formerly",
-    "href": "teaching.html#neurocomputing-formerly",
+    "objectID": "teaching.html#neurocomputing-machine-learning",
+    "href": "teaching.html#neurocomputing-machine-learning",
     "title": "Teaching",
-    "section": "Neurocomputing (formerly)",
-    "text": "Neurocomputing (formerly)\n\n\nLevel:\nMaster\nResponsability:\nNone since 2023\nSemester:\nWinter\nCourse website:\nhttps://www.tu-chemnitz.de/informatik/KI/edu/neurocomputing\n\n\nOptimization\nLinear regression / classification\nMulti-layer perceptron\nConvolutional neural networks\nObject detection, semantic segmentation\nAutoencoders\nGenerative adversarial networks\nRNN, LSTM\nAttentional neural networks\nTransformers\nContrastive learning"
+    "section": "Neurocomputing / Machine Learning",
+    "text": "Neurocomputing / Machine Learning\nLevel: Master\nResponsability: Creation, lectures and exercises (until 2023)\nCourse materials: https://julien-vitay.net/course-neurocomputing"
+  },
+  {
+    "objectID": "teaching.html#computer-vision",
+    "href": "teaching.html#computer-vision",
+    "title": "Teaching",
+    "section": "Computer Vision",
+    "text": "Computer Vision\nLevel: Master\nResponsability: Creation, lectures and exercises (until 2019)"
   },
   {
     "objectID": "research.html",
@@ -151,7 +158,7 @@
     "href": "index.html",
     "title": "Julien Vitay",
     "section": "",
-    "text": "Dr. habil. Julien Vitay\n\nResearcher / lecturer at the Chemnitz University of Technology.\nHamker lab of Artificial Intelligence - Department of Computer Science.\nResearch interests: computational neuroscience, neuroinformatics, artificial intelligence, deep reinforcement learning, machine learning\n\n -  -  -  -"
+    "text": "Dr. habil. Julien Vitay\n\nResearcher / lecturer at the Chemnitz University of Technology.\nHamker lab of Artificial Intelligence - Department of Computer Science.\nResearch interests: artificial intelligence, computational neuroscience, neuroinformatics, deep reinforcement learning\n\n -  -  -  - \nTechnische Universität Chemnitz\nFakultät für Informatik \nProfessur Künstliche Intelligenz \nStraße der Nationen 62 | R. 1/348 (neu: A12.348) \nD-09111 Chemnitz, Germany\nTel: +49 371 531-39468"
   },
   {
     "objectID": "datenschutz.html",
