@@ -7,156 +7,47 @@ toc: true
 
 ## Deep Reinforcement Learning
 
-::: {.columns}
-::: {.column width=70%}
 
-**Level:** 
+**Level:**  Master
 
-Master
+**Responsability:**  Creation, lectures and exercises
 
-**Responsability:** 
-
-Lectures and exercises
-
-**Semester:** 
-
-Winter
-
-**Course website:** 
-
-<https://www.tu-chemnitz.de/informatik/KI/edu/deeprl>
-
-**Course materials:** 
-
-<https://julien-vitay.net/course-deeprl>
+**Course materials:**  <https://julien-vitay.net/course-deeprl>
 
 
-:::
-::: {.column width=30%}
-
-1. Markov Decision Processes
-2. Dynamic Programming, Monte Carlo control, Temporal Difference
-3. Deep Q-networks
-4. Policy Gradient
-5. A2C / A3C
-6. DDPG
-7. TRPO / PPO
-8. SAC
-9. Model-based RL
-10. Learned World models
-11. AlphaGo
-
-:::
-:::
 
 ## Introduction to AI
 
+**Level:**  Bachelor
 
-::: {.columns}
-::: {.column width=70%}
+**Responsability:**  Exercises
 
-**Level:** 
-
-Bachelor
-
-**Responsability:** 
-
-Exercises
-
-**Semester:** 
-
-Summer
-
-
-**Course website:** 
-
-<https://www.tu-chemnitz.de/informatik/KI/edu/ki>
-
-:::
-::: {.column width=30%}
-
-1. Blind search
-2. Heuristic search
-3. Game theory
-4. Constraint propagation
-5. Optimization
-6. Neural networks
-7. Support vector machines
-8. Probability theory
-9. Information theory
-10. Decision trees
-11. Estimators
-12. Reinforcement learning
-
-:::
-:::
 
 ## Proseminar AI
 
+**Level:**  Bachelor
 
-::: {.columns}
-::: {.column width=70%}
+**Responsability:** Module
 
-**Level:** 
-
-Bachelor
-
-**Responsability:** 
-
-Module
-
-**Semester:** 
-
-Summer
-
-**Course website:** 
-
-<https://www.tu-chemnitz.de/informatik/KI/edu/prosem>
-
-:::
-::: {.column width=30%}
+**Semester:**  Summer
 
 
-:::
-:::
-
-## Neurocomputing (formerly)
+## Neurocomputing / Machine Learning
 
 
-::: {.columns}
-::: {.column width=70%}
+**Level:**  Master
 
-**Level:** 
+**Responsability:**  Creation, lectures and exercises (until 2023)
 
-Master
-
-**Responsability:** 
-
-None since 2023
-
-**Semester:** 
-
-Winter
-
-**Course website:** 
-
-<https://www.tu-chemnitz.de/informatik/KI/edu/neurocomputing>
+**Course materials:**  <https://julien-vitay.net/course-neurocomputing>
 
 
-:::
-::: {.column width=30%}
+## Computer Vision
 
-1. Optimization
-2. Linear regression / classification
-1. Multi-layer perceptron
-1. Convolutional neural networks
-2. Object detection, semantic segmentation
-1. Autoencoders
-3. Generative adversarial networks
-1. RNN, LSTM
-3. Attentional neural networks
-1. Transformers
-2. Contrastive learning
+**Level:**  Master
 
-:::
-:::
+**Responsability:**  Creation, lectures and exercises (until 2019)
+
+
+
+
