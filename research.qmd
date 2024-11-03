@@ -15,7 +15,7 @@ toc: true
 I develop with Helge Dinkelbach **ANNarchy** (Artificial Neural Networks architect), a parallel simulator for distributed rate-coded or spiking neural networks. The definition of the models is in Python, but the library generates optimized C++ code to actually run the simulation on parallel hardware, using either openMP or CUDA.
 ::: 
 ::: {.column width=30%}
-![](img/annarchy.svg)
+![](img/annarchy-color.png)
 :::
 :::
 

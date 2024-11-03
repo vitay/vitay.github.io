@@ -27,7 +27,7 @@ The documentation is available at:
 
 ANNarchy separates the description of a neural network from its simulation. The description is declared in a Python script, offering high flexibility and readability of the code, and allowing to use the huge ecosystem of scientific libraries available with Python (Numpy, Scipy, Matplotlib...). Using Python furthermore reduces the programming effort to a minimum, letting the modeller concentrate on network design and data analysis.
 
-![](../img/annarchy.svg)
+![](../img/annarchy-color.png)
 
 A neural network is defined as a collection of interconnected populations of neurons. Each population comprises a set of similar artificial neurons (rate-coded or spiking point-neurons), whose activity is ruled by one or many ordinary differential equations. The activity of a neuron depends on the activity of other neurons through synapses, whose strength can evolve with time depending on pre- or post-synaptic activities (synaptic plasticity). Populations are interconnected with each other through projections, which contain synapses between two populations.
 

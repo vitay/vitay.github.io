@@ -1,0 +1,75 @@
+#:schema https://raw.githubusercontent.com/mintyfrankie/brilliant-CV/main/metadata.toml.schema.json
+
+# Set the output language
+# INFO: value must matches folder suffix; i.e "zh" -> "./modules_zh"
+language = "en"
+
+[layout]
+    # Optional values: skyblue, red, nephritis, concrete, darknight
+    # You can also use a custom color by hex code i.e. "#1E90FF"
+    awesome_color = "#50671d"
+
+    # Skips are for controlling the spacing between sections and entries
+    before_section_skip = "0pt"
+    before_entry_skip = "0pt"
+    before_entry_description_skip = "0pt"
+
+    after_section_skip = "0pt"
+    after_entry_skip = "0pt"
+
+
+    [layout.fonts]
+        regular_fonts = ["Roboto"]
+        header_font = "Roboto"
+
+    [layout.header]
+        # Optional values: left, center, right
+        header_align = "left"
+
+        # Decide if you want to display profile photo or not
+        display_profile_photo = false
+
+    [layout.entry]
+        # Decide if you want to put your company in bold or your position in bold
+        display_entry_society_first = true
+
+        # Decide if you want to display organisation logo or not
+        display_logo = false
+
+[inject]
+    # Decide if you want to inject AI prompt or not
+    inject_ai_prompt = false
+
+    # Decide if you want to inject keywords or not
+    inject_keywords = false
+    injected_keywords_list = ["Data Analyst", "GCP", "Python", "SQL", "Tableau"]
+
+[personal]
+    first_name = "Dr. Julien"
+    last_name = "Vitay"
+
+    # The order of this section will affect how the entries are displayed
+    # The custom value is for any additional information you want to add, name it as custom-1, custom-2, etc.
+    [personal.info]
+        extraInfo = "Born on 11.12.1979, Saint-Nazaire, France."
+        email = "julien.vitay@gmail.com"
+        homepage = "https://julien-vitay.net"
+        github = "vitay"
+        phone = "+49 1573 2244 832"
+        linkedin = "julien-vitay-9287b6b9"
+        # gitlab = "mintyfrankie"
+        orcid = "0000-0001-5229-2349"
+        # researchgate = "John-Doe"
+
+# add a new section if you want to include the language of your choice
+# i.e. [[lang.ru]]
+# each section must contains the following fields
+[lang.en]
+    header_quote = "Researcher in Artificial Intelligence - Machine Learning Engineer - Python Programmer"
+    cv_footer = "Curriculum vitae"
+    letter_footer = "Cover letter"
+
+[lang.fr]
+    header_quote = "Chercheur en Intelligence Artificielle - Ingénieur Machine Learning - Programmeur Python"
+    cv_footer = "Curriculum vitae"
+    letter_footer = "Lettre de motivation"

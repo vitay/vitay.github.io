@@ -25,10 +25,10 @@ Artificial Intelligence - Computational Neuroscience - Neuroinformatics - Reinfo
 
 :::{.center}
 [ {{< fa solid envelope size=2xl >}} ](mailto:julien.vitay@informatik.tu-chemnitz.de) - 
+[ {{< fa brands linkedin size=2xl >}} ](https://www.linkedin.com/in/julien-vitay-9287b6b9) - 
 [ {{< fa brands github size=2xl >}} ](https://github.com/vitay) - 
 [ {{< fa brands orcid size=2xl >}} ](https://orcid.org/0000-0001-5229-2349) - 
-[ {{< fa solid graduation-cap size=2xl >}} ](https://scholar.google.com/citations?user=1t5zJncAAAAJ)
- - 
+[ {{< fa solid graduation-cap size=2xl >}} ](https://scholar.google.com/citations?user=1t5zJncAAAAJ) - 
 [ {{< fa brands researchgate size=2xl >}} ](https://www.researchgate.net/profile/Julien-Vitay)
 
 

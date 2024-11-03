@@ -101,116 +101,128 @@ $\rightarrow$ PhD student in the Cortex team (LORIA Nancy), supervisors Frédér
 ::: {.callout-note collapse="true" icon="false"}
 ## EU CAVAA <span style="float:right;">2022 - 2026</span>
 
-$\rightarrow$ Counterfactual Assessment and Valuation for Awareness Architecture.
+**Title:** Counterfactual Assessment and Valuation for Awareness Architecture.
 
-*Partners:* Radboud University, TU Chemnitz, CERTH, Sorbonne Université, Eodyne Systems, Univeryity of Sheffield, Robotnik Automation, University of Oxford, Uppsala University, tp21 GmbH.
+**Partners:** Radboud University, TU Chemnitz, CERTH, Sorbonne Université, Eodyne Systems, University of Sheffield, Robotnik Automation, University of Oxford, Uppsala University, tp21 GmbH.
 
-*Role:* Research.
+**Role:** Research.
 :::
 
 
 ::: {.callout-note collapse="true" icon="false"}
 ## BMBF Smart AirSense (01IS22026A) <span style="float:right;">2022 - 2024</span>
 
-$\rightarrow$ Erforschung von KI Methoden zur Entwicklung eines interaktiven Gesundheitsassistenten auf Basis von Human in the Loop Machine Learning.
+**Title:** Erforschung von KI Methoden zur Entwicklung eines interaktiven Gesundheitsassistenten auf Basis von Human in the Loop Machine Learning.
 
-*Partners:* Corant GmbH, TU Chemnitz.
+→ *Research on AI methods for the development of an interactive health assistant based on human-in-the-loop machine learning.*
 
-*Role:* Design, co-supervision of Aida Farahani and Payam Atoofi.
+**Partners:** Corant GmbH, TU Chemnitz.
+
+**Role:** Design, co-supervision of Aida Farahani and Payam Atoofi.
 :::
 
 ::: {.callout-note collapse="true" icon="false"}
 ## BMBF WAIKIKI (16KIS1199) <span style="float:right;">2020 - 2023</span>
 
-$\rightarrow$ Wissensbasierte Anomalieerkennung mittels Künstlicher Intelligenz in Kritischen Infrastrukturen.
+**Title:** Wissensbasierte Anomalieerkennung mittels Künstlicher Intelligenz in Kritischen Infrastrukturen.
 
-*Partners:* TU Cottbus, TU Chemnitz, LEAG, RWE AG, STEAG GmbH, ASCORI GmbH, migosens GmbH, ZEDAS GmbH.
+→ *Knowledge-based anomaly detection using artificial intelligence in critical infrastructures.*
 
-*Role:* Design, co-supervision of René Larisch.
+**Partners:** TU Cottbus, TU Chemnitz, LEAG, RWE AG, STEAG GmbH, ASCORI GmbH, migosens GmbH, ZEDAS GmbH.
+
+**Role:** Design, co-supervision of René Larisch.
 :::
 
 ::: {.callout-note collapse="true" icon="false"}
 ## BMBF ML@Karoprod (01IS18055C) <span style="float:right;">2018 - 2021</span>
 
-$\rightarrow$ Maschinelles Lernen zur Prognose von Prozessparametern und Bauteilqualität in der automobilen Karosserieproduktion.
+**Title:** Maschinelles Lernen zur Prognose von Prozessparametern und Bauteilqualität in der automobilen Karosserieproduktion.
 
-*Partners:* Fraunhofer IWU Dresden, Scale GmbH, TU Chemnitz.
+→ *Machine learning for the prediction of process parameters and component quality in automotive body production.*
 
-*Role:* Design, research, co-supervision of Aida Farahani and Payam Atoofi.
+**Partners:** Fraunhofer IWU Dresden, Scale GmbH, TU Chemnitz.
+
+**Role:** Design, research, co-supervision of Aida Farahani and Payam Atoofi.
 :::
 
 
 ::: {.callout-note collapse="true" icon="false"}
 ## DFG grant (HA2630/9-1) <span style="float:right;">2016 - 2019</span>
 
-$\rightarrow$ Auto-tuning for neural simulations on different parallel hardware.
+**Title:** Auto-tuning for neural simulations on different parallel hardware.
 
-*Partners:* TU Chemnitz (Hamker).
+**Partners:** TU Chemnitz (Hamker).
 
-*Role:* Design, co-supervision of Helge Dinkelbach.
+**Role:** Design, co-supervision of Helge Dinkelbach.
 :::
 
 
 ::: {.callout-note collapse="true" icon="false"}
 ## ESF project Helplessness  <span style="float:right;">2016 - 2019</span>
 
-$\rightarrow$ Sozial agierende, kognitive Systeme zur Feststellung von Hilfsbedürftigkeit.
+**Title:** Sozial agierende, kognitive Systeme zur Feststellung von Hilfsbedürftigkeit. 
 
-*Partners:* TU Chemnitz.
+→ *Social, active and cognitive systems for the detection of helplessness*
 
-*Role:* Principal Investigator
+**Partners:** TU Chemnitz.
+
+**Role:** Principal Investigator
 :::
 
 
 ::: {.callout-note collapse="true" icon="false"}
 ## BMBF Macelot (16SV7260) <span style="float:right;">2015 - 2018</span>
 
-$\rightarrow$ StayCentered - Methodenbasis eines Assistenzsystems für Centerlotsen - MACeLot.
+**Title:** StayCentered - Methodenbasis eines Assistenzsystems für Centerlotsen - MACeLot.
 
-*Partners:* TU Chemnitz.
+→ *Method base of an assistance system for center pilots* 
 
-*Role:* Research.
+**Partners:** TU Chemnitz.
+
+**Role:** Research.
 :::
 
 ::: {.callout-note collapse="true" icon="false"}
 ## DFG graduate school Crossworlds (GRK 1780) <span style="float:right;">2012 - 2016</span>
 
-$\rightarrow$ CrossWorlds: Kopplung virtueller und realer sozialer Welten
+**Title:** CrossWorlds: Kopplung virtueller und realer sozialer Welten
 
-*Partners:* TU Chemnitz.
+→ *CrossWorlds: Coupling virtual and real social worlds.*
 
-*Role:* Principal investigator.
+**Partners:** TU Chemnitz.
+
+**Role:** Principal investigator.
 :::
 
 ::: {.callout-note collapse="true" icon="false"}
 ## DFG grant (HA2630/4-2) <span style="float:right;">2011 - 2014</span>
 
-$\rightarrow$ The cognitive control of visual perception and action selection.
+**Title:** The cognitive control of visual perception and action selection.
 
-*Partners:* TU Chemnitz (Hamker).
+**Partners:** TU Chemnitz (Hamker).
 
-*Role:* Research.
+**Role:** Research.
 :::
 
 
 ::: {.callout-note collapse="true" icon="false"}
 ## DFG grant (HA2630/4-1) <span style="float:right;">2006 - 2009</span>
 
-$\rightarrow$ A systems approach to modeling the cognitive guidance of attention and object/category recognition.
+**Title:** A systems approach to modeling the cognitive guidance of attention and object/category recognition.
 
-*Partners:* TU Chemnitz (Hamker).
+**Partners:** TU Chemnitz (Hamker).
 
-*Role:* Research (employed).
+**Role:** Research (employed).
 :::
 
 
 ::: {.callout-note collapse="true" icon="false"}
 ## EU Mirrorbot <span style="float:right;">2002 - 2005</span>
 
-$\rightarrow$ Biomimetic Multimodal Learning in a Mirror Neuron-based Robot.
+**Title:** Biomimetic Multimodal Learning in a Mirror Neuron-based Robot.
 
-*Partners:* Sunderland, Inria, Parma, Cambridge, Ulm.
+**Partners:** Sunderland, Inria, Parma, Cambridge, Ulm.
 
-*Role:* Research (employed).
+**Role:** Research (employed).
 :::
 

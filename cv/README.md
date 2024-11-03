@@ -3,5 +3,5 @@
 Command:
 
 ```bash
-typst compile resume.typ
+typst compile cv.typ
 ```
