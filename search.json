@@ -46,40 +46,40 @@
     "href": "index.html",
     "title": "Julien Vitay",
     "section": "",
-    "text": "Dr. habil. Julien Vitay\n\n\nResearcher at the Chemnitz University of Technology.\nHamker lab of Artificial Intelligence, Department of Computer Science.\n\n\n\nArtificial Intelligence - Computational Neuroscience - Neuroinformatics - Reinforcement Learning\n\n\n\n -  -  -  -  - \nTechnische Universität Chemnitz\nFakultät für Informatik \nProfessur Künstliche Intelligenz \nStraße der Nationen 62 | Room 1/348 \nD-09111 Chemnitz, Germany\nTel: +49 371 531-39468"
+    "text": "Dr. Julien Vitay\n\n\nResearcher at the Chemnitz University of Technology.\nHamker lab of Artificial Intelligence, Department of Computer Science.\n\n\n\nArtificial Intelligence - Computational Neuroscience - Neuroinformatics - Reinforcement Learning\n\n\n\n -  -  -  -  - \nTechnische Universität Chemnitz\nFakultät für Informatik \nProfessur Künstliche Intelligenz \nStraße der Nationen 62 | Room 1/348 \nD-09111 Chemnitz, Germany\nTel: +49 371 531-39468"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Dr. habil. Julien Vitay",
+    "title": "Dr. Julien Vitay",
     "section": "",
     "text": "Researcher / lecturer in Artificial Intelligence."
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
-    "title": "Dr. habil. Julien Vitay",
+    "title": "Dr. Julien Vitay",
     "section": "Education",
     "text": "Education\n   Habilitation in Computer Science 2017\n\\rightarrow Chemnitz University of Technology, Germany.\n   Ph.D. in Computer Science 2006\n\\rightarrow Université Henri Poincaré Nancy-I, France.\n   Engineering degree in Signal Processing and Microelectronics 2002\n\\rightarrow École Supérieure d’Électricité (Supélec), Rennes, France.\n   Master of Science in Microelectronics 2002\n\\rightarrow Université Rennes-I, France."
   },
   {
     "objectID": "about.html#experience",
     "href": "about.html#experience",
-    "title": "Dr. habil. Julien Vitay",
+    "title": "Dr. Julien Vitay",
     "section": "Experience",
     "text": "Experience\n   Chemnitz University of Technology - Germany 2011 - now\n\\rightarrow Researcher / lecturer in the faculty of Computer science, AI lab of Fred Hamker.\n\nResearch:\n\nNeuroinformatics: neurosimulator ANNarchy.\nDeep reinforcement learning.\nReservoir computing.\nComputational neuroscience: basal ganglia, dopamine, hippocampus.\n\nTeaching:\n\nNeurocomputing / Machine Learning\nDeep Reinforcement Learning\nComputer Vision\nIntroduction to AI.\n\nErasmus+ departmental coordinator.\n\n\n   WWU University of Münster - Germany 2006 - 2011\n\\rightarrow Postdoc in the Institute of Psychology, lab of Markus Lappe, supervisor Fred Hamker.\n\nResearch:\n\nComputational neuroscience: basal ganglia.\n\n\n\n   Inria Lorraine - France 2002 - 2006\n\\rightarrow PhD student in the Cortex team (LORIA Nancy), supervisors Frédéric Alexandre and Nicolas Rougier (now in Mnemosyne).\n\nResearch:\n\nComputational neuroscience: basal ganglia, visual attention.\nRobotics.\n\nTeaching (at the University of Nancy-I):\n\nComputer architecture, Java, AI."
   },
   {
     "objectID": "about.html#skills",
     "href": "about.html#skills",
-    "title": "Dr. habil. Julien Vitay",
+    "title": "Dr. Julien Vitay",
     "section": "Skills",
     "text": "Skills\n   Programming languages: Python, C++, C, Java, Matlab, Julia\n   Machine learning frameworks: pytorch, tensorflow, scikit-learn, XGBoost, rllib, tianshou, mlflow\n   Parallel computing: OpenMP, MPI, CUDA"
   },
   {
     "objectID": "about.html#third-party-projects",
     "href": "about.html#third-party-projects",
-    "title": "Dr. habil. Julien Vitay",
+    "title": "Dr. Julien Vitay",
     "section": "Third-party projects",
     "text": "Third-party projects\n\n\n\n\n\n\nEU CAVAA 2022 - 2026\n\n\n\n\n\nTitle: Counterfactual Assessment and Valuation for Awareness Architecture.\nPartners: Radboud University, TU Chemnitz, CERTH, Sorbonne Université, Eodyne Systems, University of Sheffield, Robotnik Automation, University of Oxford, Uppsala University, tp21 GmbH.\nRole: Research.\n\n\n\n\n\n\n\n\n\nBMBF Smart AirSense (01IS22026A) 2022 - 2024\n\n\n\n\n\nTitle: Erforschung von KI Methoden zur Entwicklung eines interaktiven Gesundheitsassistenten auf Basis von Human in the Loop Machine Learning.\n→ Research on AI methods for the development of an interactive health assistant based on human-in-the-loop machine learning.\nPartners: Corant GmbH, TU Chemnitz.\nRole: Design, co-supervision of Aida Farahani and Payam Atoofi.\n\n\n\n\n\n\n\n\n\nBMBF WAIKIKI (16KIS1199) 2020 - 2023\n\n\n\n\n\nTitle: Wissensbasierte Anomalieerkennung mittels Künstlicher Intelligenz in Kritischen Infrastrukturen.\n→ Knowledge-based anomaly detection using artificial intelligence in critical infrastructures.\nPartners: TU Cottbus, TU Chemnitz, LEAG, RWE AG, STEAG GmbH, ASCORI GmbH, migosens GmbH, ZEDAS GmbH.\nRole: Design, co-supervision of René Larisch.\n\n\n\n\n\n\n\n\n\nBMBF ML@Karoprod (01IS18055C) 2018 - 2021\n\n\n\n\n\nTitle: Maschinelles Lernen zur Prognose von Prozessparametern und Bauteilqualität in der automobilen Karosserieproduktion.\n→ Machine learning for the prediction of process parameters and component quality in automotive body production.\nPartners: Fraunhofer IWU Dresden, Scale GmbH, TU Chemnitz.\nRole: Design, research, co-supervision of Aida Farahani and Payam Atoofi.\n\n\n\n\n\n\n\n\n\nDFG grant (HA2630/9-1) 2016 - 2019\n\n\n\n\n\nTitle: Auto-tuning for neural simulations on different parallel hardware.\nPartners: TU Chemnitz (Hamker).\nRole: Design, co-supervision of Helge Dinkelbach.\n\n\n\n\n\n\n\n\n\nESF project Helplessness 2016 - 2019\n\n\n\n\n\nTitle: Sozial agierende, kognitive Systeme zur Feststellung von Hilfsbedürftigkeit.\n→ Social, active and cognitive systems for the detection of helplessness\nPartners: TU Chemnitz.\nRole: Principal Investigator\n\n\n\n\n\n\n\n\n\nBMBF Macelot (16SV7260) 2015 - 2018\n\n\n\n\n\nTitle: StayCentered - Methodenbasis eines Assistenzsystems für Centerlotsen - MACeLot.\n→ Method base of an assistance system for center pilots\nPartners: TU Chemnitz.\nRole: Research.\n\n\n\n\n\n\n\n\n\nDFG graduate school Crossworlds (GRK 1780) 2012 - 2016\n\n\n\n\n\nTitle: CrossWorlds: Kopplung virtueller und realer sozialer Welten\n→ CrossWorlds: Coupling virtual and real social worlds.\nPartners: TU Chemnitz.\nRole: Principal investigator.\n\n\n\n\n\n\n\n\n\nDFG grant (HA2630/4-2) 2011 - 2014\n\n\n\n\n\nTitle: The cognitive control of visual perception and action selection.\nPartners: TU Chemnitz (Hamker).\nRole: Research.\n\n\n\n\n\n\n\n\n\nDFG grant (HA2630/4-1) 2006 - 2009\n\n\n\n\n\nTitle: A systems approach to modeling the cognitive guidance of attention and object/category recognition.\nPartners: TU Chemnitz (Hamker).\nRole: Research (employed).\n\n\n\n\n\n\n\n\n\nEU Mirrorbot 2002 - 2005\n\n\n\n\n\nTitle: Biomimetic Multimodal Learning in a Mirror Neuron-based Robot.\nPartners: Sunderland, Inria, Parma, Cambridge, Ulm.\nRole: Research (employed)."
   },
