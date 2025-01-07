@@ -11,10 +11,11 @@ resources:
     - cv/cv-julienvitay-fr.pdf
 ---
 
-Researcher / lecturer in Artificial Intelligence and Computational Neuroscience. 
+Researcher / lecturer in Artificial Intelligence. 
 
+<!--
 [![](https://img.shields.io/badge/English_CV-0C322C.svg?style=for-the-badge&logoColor=white)](cv/cv-julienvitay-en.pdf) - [![](https://img.shields.io/badge/French_CV-%2364B345.svg?style=for-the-badge&logoColor=white)](cv/cv-julienvitay-fr.pdf)
-
+-->
 
 
 ## Education
