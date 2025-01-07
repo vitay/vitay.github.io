@@ -6,7 +6,7 @@ toc: false
 ![](img/trombine.jpg){width=40% fig-align="center"}
 
 ::: {.center .title-line}
-**Dr. habil. Julien Vitay**
+**Dr. Julien Vitay**
 :::
 
 :::{.center}
