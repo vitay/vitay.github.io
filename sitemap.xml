@@ -1,75 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://julien-vitay.net/research/reinforcementlearning.html</loc>
-    <lastmod>2025-01-07T12:51:55.988Z</lastmod>
-  </url>
-  <url>
-    <loc>https://julien-vitay.net/research/reservoircomputing.html</loc>
-    <lastmod>2025-01-07T12:51:55.988Z</lastmod>
-  </url>
-  <url>
-    <loc>https://julien-vitay.net/research/cybersecurity.html</loc>
-    <lastmod>2025-01-07T12:51:55.988Z</lastmod>
-  </url>
-  <url>
-    <loc>https://julien-vitay.net/research/dopamine.html</loc>
-    <lastmod>2025-01-07T12:51:55.988Z</lastmod>
-  </url>
-  <url>
-    <loc>https://julien-vitay.net/research/hippocampus.html</loc>
-    <lastmod>2025-01-07T12:51:55.988Z</lastmod>
-  </url>
-  <url>
-    <loc>https://julien-vitay.net/index.html</loc>
-    <lastmod>2025-01-07T12:51:55.718Z</lastmod>
+    <loc>https://julien-vitay.net/blog.html</loc>
+    <lastmod>2023-10-10T08:43:02.350Z</lastmod>
   </url>
   <url>
     <loc>https://julien-vitay.net/about.html</loc>
-    <lastmod>2025-01-07T12:51:55.696Z</lastmod>
+    <lastmod>2025-04-16T15:28:04.954Z</lastmod>
   </url>
   <url>
-    <loc>https://julien-vitay.net/publications.html</loc>
-    <lastmod>2025-01-07T12:51:55.987Z</lastmod>
-  </url>
-  <url>
-    <loc>https://julien-vitay.net/blog.html</loc>
-    <lastmod>2025-01-07T12:51:55.696Z</lastmod>
-  </url>
-  <url>
-    <loc>https://julien-vitay.net/impressum.html</loc>
-    <lastmod>2025-01-07T12:51:55.718Z</lastmod>
-  </url>
-  <url>
-    <loc>https://julien-vitay.net/datenschutz.html</loc>
-    <lastmod>2025-01-07T12:51:55.698Z</lastmod>
-  </url>
-  <url>
-    <loc>https://julien-vitay.net/research.html</loc>
-    <lastmod>2025-01-07T12:51:55.987Z</lastmod>
+    <loc>https://julien-vitay.net/index.html</loc>
+    <lastmod>2025-04-16T15:23:01.746Z</lastmod>
   </url>
   <url>
     <loc>https://julien-vitay.net/post/successor_representations/index.html</loc>
-    <lastmod>2025-01-07T12:51:55.987Z</lastmod>
+    <lastmod>2023-10-10T08:43:02.549Z</lastmod>
   </url>
   <url>
     <loc>https://julien-vitay.net/teaching.html</loc>
-    <lastmod>2025-01-07T12:51:55.988Z</lastmod>
+    <lastmod>2025-04-16T15:24:29.259Z</lastmod>
+  </url>
+  <url>
+    <loc>https://julien-vitay.net/research/dopamine.html</loc>
+    <lastmod>2023-10-10T08:43:02.549Z</lastmod>
   </url>
   <url>
     <loc>https://julien-vitay.net/research/deeplearning.html</loc>
-    <lastmod>2025-01-07T12:51:55.988Z</lastmod>
-  </url>
-  <url>
-    <loc>https://julien-vitay.net/research/geometricdeeplearning.html</loc>
-    <lastmod>2025-01-07T12:51:55.988Z</lastmod>
-  </url>
-  <url>
-    <loc>https://julien-vitay.net/research/annarchy.html</loc>
-    <lastmod>2025-01-07T12:51:55.987Z</lastmod>
+    <lastmod>2024-09-22T18:54:13.990Z</lastmod>
   </url>
   <url>
     <loc>https://julien-vitay.net/research/basalganglia.html</loc>
-    <lastmod>2025-01-07T12:51:55.988Z</lastmod>
+    <lastmod>2023-10-10T08:43:02.549Z</lastmod>
+  </url>
+  <url>
+    <loc>https://julien-vitay.net/research/geometricdeeplearning.html</loc>
+    <lastmod>2024-09-22T19:07:02.210Z</lastmod>
+  </url>
+  <url>
+    <loc>https://julien-vitay.net/research/annarchy.html</loc>
+    <lastmod>2024-11-03T12:45:24.450Z</lastmod>
+  </url>
+  <url>
+    <loc>https://julien-vitay.net/research/cybersecurity.html</loc>
+    <lastmod>2024-09-22T19:49:39.940Z</lastmod>
+  </url>
+  <url>
+    <loc>https://julien-vitay.net/research/reservoircomputing.html</loc>
+    <lastmod>2023-10-10T08:43:02.549Z</lastmod>
+  </url>
+  <url>
+    <loc>https://julien-vitay.net/research/reinforcementlearning.html</loc>
+    <lastmod>2024-11-03T12:43:35.840Z</lastmod>
+  </url>
+  <url>
+    <loc>https://julien-vitay.net/research/hippocampus.html</loc>
+    <lastmod>2023-10-10T08:43:02.549Z</lastmod>
+  </url>
+  <url>
+    <loc>https://julien-vitay.net/research.html</loc>
+    <lastmod>2024-11-03T12:45:36.970Z</lastmod>
+  </url>
+  <url>
+    <loc>https://julien-vitay.net/datenschutz.html</loc>
+    <lastmod>2023-10-10T08:51:40.590Z</lastmod>
+  </url>
+  <url>
+    <loc>https://julien-vitay.net/publications.html</loc>
+    <lastmod>2024-04-29T14:09:44.899Z</lastmod>
+  </url>
+  <url>
+    <loc>https://julien-vitay.net/impressum.html</loc>
+    <lastmod>2023-10-10T08:50:38.490Z</lastmod>
   </url>
 </urlset>
