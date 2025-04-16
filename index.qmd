@@ -10,21 +10,19 @@ toc: false
 :::
 
 :::{.center}
-Researcher at the [**Chemnitz University of Technology**](http://www.tu-chemnitz.de/).
-
-Hamker lab of [**Artificial Intelligence**](http://www.tu-chemnitz.de/informatik/KI/), Department of Computer Science.
+AI Researcher / lead Data Scientist at [eOdyn](https://www.eodyn.com/) in Plouzané / Brest.
 :::
 
 ---
 
 :::{.center}
-Artificial Intelligence - Computational Neuroscience - Neuroinformatics - Reinforcement Learning
+Artificial Intelligence - Oceanography
 :::
 
 ---
 
 :::{.center}
-[ {{< fa solid envelope size=2xl >}} ](mailto:julien.vitay@informatik.tu-chemnitz.de) - 
+[ {{< fa solid envelope size=2xl >}} ](mailto:julien.vitay@eodyn.com) - 
 [ {{< fa brands linkedin size=2xl >}} ](https://www.linkedin.com/in/julien-vitay-9287b6b9) - 
 [ {{< fa brands github size=2xl >}} ](https://github.com/vitay) - 
 [ {{< fa brands orcid size=2xl >}} ](https://orcid.org/0000-0001-5229-2349) - 
@@ -33,11 +31,10 @@ Artificial Intelligence - Computational Neuroscience - Neuroinformatics - Reinfo
 
 
 ```
-Technische Universität Chemnitz
-Fakultät für Informatik 
-Professur Künstliche Intelligenz 
-Straße der Nationen 62 | Room 1/348 
-D-09111 Chemnitz, Germany
-Tel: +49 371 531-39468
+eOdyn SaS
+Technopole Brest Iroise 
+115, rue Claude Chappe 
+F-29280 Plouzané
+France
 ```
 :::

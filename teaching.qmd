@@ -5,6 +5,15 @@ toc: true
 ---
 
 
+## Neurocomputing / Machine Learning
+
+
+**Level:**  Master
+
+**Responsability:**  Creation, lectures and exercises (until 2023)
+
+**Course materials:**  <https://julien-vitay.net/course-neurocomputing>
+
 ## Deep Reinforcement Learning
 
 
@@ -15,6 +24,12 @@ toc: true
 **Course materials:**  <https://julien-vitay.net/course-deeprl>
 
 
+## Computer Vision
+
+**Level:**  Master
+
+**Responsability:**  Creation, lectures and exercises (until 2019)
+
 
 ## Introduction to AI
 
@@ -23,30 +38,6 @@ toc: true
 **Responsability:**  Exercises
 
 
-## Proseminar AI
-
-**Level:**  Bachelor
-
-**Responsability:** Module
-
-**Semester:**  Summer
-
-
-## Neurocomputing / Machine Learning
-
-
-**Level:**  Master
-
-**Responsability:**  Creation, lectures and exercises (until 2023)
-
-**Course materials:**  <https://julien-vitay.net/course-neurocomputing>
-
-
-## Computer Vision
-
-**Level:**  Master
-
-**Responsability:**  Creation, lectures and exercises (until 2019)
 
 
 

@@ -20,9 +20,6 @@ website:
   page-footer: 
     border: false
     center: "Julien Vitay" 
-    right: |
-      [Datenschutz |](/datenschutz.qmd)
-      [Impressum](/impressum.qmd)
 
 format:
   html:
