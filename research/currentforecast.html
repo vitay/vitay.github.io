@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>deeplearning – Julien Vitay</title>
+<title>currentforecast – Julien Vitay</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -131,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#deep-learning" id="toc-deep-learning" class="nav-link active" data-scroll-target="#deep-learning">Deep learning</a></li>
+  <li><a href="#oceanic-currents-forecasting-with-conditional-diffusion-models" id="toc-oceanic-currents-forecasting-with-conditional-diffusion-models" class="nav-link active" data-scroll-target="#oceanic-currents-forecasting-with-conditional-diffusion-models">Oceanic currents forecasting with Conditional Diffusion Models</a></li>
   </ul>
 </nav>
     </div>
@@ -141,8 +141,11 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="deep-learning" class="level1">
-<h1>Deep learning</h1>
+<section id="oceanic-currents-forecasting-with-conditional-diffusion-models" class="level1">
+<h1>Oceanic currents forecasting with Conditional Diffusion Models</h1>
+<p>Accurate prediction of ocean surface currents is critical for oil spill response and maritime safety operations. Traditional oceanographic models often lack the spatial and temporal resolution needed for real-time emergency decision-making. We developed a conditional diffusion model approach that forecasts high-resolution ocean current maps by leveraging historical current data and wind forecasts. The model learns to predict the next day’s current patterns based on the previous two days of observations and forecasted wind conditions.</p>
+<p><img src="../img/forecasting_model.png" class="img-fluid"></p>
+<p>Our preliminary results demonstrate that the model achieves remarkably accurate one-day forecasts with mean absolute errors of only 2 cm/s, even in highly dynamic regions like the Agulhas Current. When applied autoregressively over 10-day horizons, the model maintains stability with errors gradually increasing to 10 cm/s. Beyond accuracy, the generative nature of diffusion models enables uncertainty quantification—a crucial capability for operational applications where understanding prediction confidence guides critical decision-making. The model’s rapid inference speed (seconds versus hours for traditional physical models) opens possibilities for real-time forecasting and emergency response scenario planning.</p>
 
 
 </section>
