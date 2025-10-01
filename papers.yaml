@@ -1,3 +1,18 @@
+Assarzadeh2025:
+  type: journal
+  title: "Discomfort detection during automated driving using temporal transformers"
+  authors:
+    - Maha Assarzadeh
+    - Franziska Hartwich
+    - Julien Vitay
+    - Franziska Bocklisch
+    - Fred H. Hamker
+  year: 2025
+  journal: "*Frontiers in Computer Science* 7:1639505"
+  doi: 10.3389/fcomp.2025.1639505
+  url: https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1639505/full
+  pdf: https://www.frontiersin.org/journals/computer-science/articles/10.3389/fcomp.2025.1639505/pdf
+
 Larisch2023:
   type: journal
   title: "Detecting Anomalies in System Logs With a Compact Convolutional Transformer"

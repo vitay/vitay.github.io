@@ -1,0 +1,8 @@
+# Oceanic currents forecasting with Conditional Diffusion Models
+
+Accurate prediction of ocean surface currents is critical for oil spill response and maritime safety operations. Traditional oceanographic models often lack the spatial and temporal resolution needed for real-time emergency decision-making. We developed a conditional diffusion model approach that forecasts high-resolution ocean current maps by leveraging historical current data and wind forecasts. The model learns to predict the next day's current patterns based on the previous two days of observations and forecasted wind conditions.
+
+![](../img/forecasting_model.png)
+
+
+Our preliminary results demonstrate that the model achieves remarkably accurate one-day forecasts with mean absolute errors of only 2 cm/s, even in highly dynamic regions like the Agulhas Current. When applied autoregressively over 10-day horizons, the model maintains stability with errors gradually increasing to 10 cm/s. Beyond accuracy, the generative nature of diffusion models enables uncertainty quantification—a crucial capability for operational applications where understanding prediction confidence guides critical decision-making. The model's rapid inference speed (seconds versus hours for traditional physical models) opens possibilities for real-time forecasting and emergency response scenario planning.

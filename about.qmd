@@ -55,6 +55,7 @@ $\rightarrow$ Université Rennes-I, France.
 $\rightarrow$ AI researcher and lead Data Scientist at [eOdyn](https://www.eodyn.com/) in Plouzané / Brest.
 
 * Prediction of oceanic currents based on AIS data.
+* Data assimilation using generative models.
 * Anomaly detection in AIS signals.
 
 ---

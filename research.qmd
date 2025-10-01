@@ -4,18 +4,21 @@ title: Research
 toc: true
 ---
 
-## Neuroinformatics
 
-### [Neurosimulator ANNarchy](research/annarchy.qmd)
+
+## Computational oceanography
+
+### [Oceanic currents forecast](research/currentforecast.qmd)
 
 ::: {.columns}
 ::: {.column width=70%}
 
+Conditional diffusion models can forecast high-resolution ocean surface currents using historical current data and wind forecasts. The model maintains stability over 10-day autoregressive forecasts and provides uncertainty quantification for operational decision-making in applications like oil spill response.
 
-I develop with Helge Dinkelbach **ANNarchy** (Artificial Neural Networks architect), a parallel simulator for distributed rate-coded or spiking neural networks. The definition of the models is in Python, but the library generates optimized C++ code to actually run the simulation on parallel hardware, using either openMP or CUDA.
+
 ::: 
 ::: {.column width=30%}
-![](img/annarchy-color.png)
+![](img/forecasting_model.png)
 :::
 :::
 
@@ -29,6 +32,7 @@ I develop with Helge Dinkelbach **ANNarchy** (Artificial Neural Networks archite
 
 
 Reservoir computing studies the dynamical properties of recurrently connected populations of neurons. Their rich dynamics allow to represent and learn complex tasks currently out of reach of the classical machine learning methods, but also allow to better understand brain activities.
+
 ::: 
 ::: {.column width=30%}
 ![](img/rc.png)
@@ -77,6 +81,21 @@ Computer systems must be protected against cyber attacks from inside and outside
 :::
 :::
 
+
+## Neuroinformatics
+
+### [Neurosimulator ANNarchy](research/annarchy.qmd)
+
+::: {.columns}
+::: {.column width=70%}
+
+
+I developed with Helge Dinkelbach **ANNarchy** (Artificial Neural Networks architect), a parallel simulator for distributed rate-coded or spiking neural networks. The definition of the models is in Python, but the library generates optimized C++ code to actually run the simulation on parallel hardware, using either openMP or CUDA.
+::: 
+::: {.column width=30%}
+![](img/annarchy-color.png)
+:::
+:::
 
 ## Computational neuroscience
 
